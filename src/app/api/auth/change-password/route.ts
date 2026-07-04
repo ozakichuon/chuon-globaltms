@@ -59,8 +59,9 @@ export async function POST(req: NextRequest) {
 
   try {
     fs.writeFileSync(CREDS_PATH, JSON.stringify(creds, null, 2), "utf-8");
-  } catch {
-    return NextResponse.json({ error: "パスワードを保存できません（Vercel環境では非対応）" }, { status: 500 });
+  } catch (e: any) {
+    console.error("writeFileSync error:", CREDS_PATH, e?.message);
+    return NextResponse.json({ error: `保存失敗: ${e?.message ?? "unknown"} (path: ${CREDS_PATH})` }, { status: 500 });
   }
 
   return NextResponse.json({ ok: true });
