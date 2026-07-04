@@ -25,38 +25,29 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
 
   const hasVisaBadge = e.current_visa_status && e.current_visa_status !== "japanese";
 
+  const nameFontClass =
+    e.display_name.length > 22 ? "text-[11px]" :
+    e.display_name.length > 16 ? "text-xs" :
+    e.display_name.length > 12 ? "text-sm" : "text-base";
+
+  const furigana = [e.last_name_native, e.first_name_native].filter(Boolean).join(" ");
+  const furiganaFontClass =
+    furigana.length > 16 ? "text-[10px]" : "text-xs";
+
   return (
     <Link
       href={`/employees/${e.id}`}
       className="group relative bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md hover:border-brand-200 transition-all p-5"
     >
-      {hasVisaBadge && alertLv !== "safe" && alertLv !== "none" && (
-        <div className="absolute top-3 right-3 flex items-center gap-1 z-10">
-          {e.residence_card_procedure && (
-            <span className="badge bg-blue-50 text-blue-700 border border-blue-200 shadow-sm text-[10px]">
-              {e.residence_card_procedure}
-            </span>
-          )}
-          <span
-            className={`badge ${alertColor(alertLv)} shadow-sm`}
-            title="在留期限"
-          >
-            {alertLv === "expired"
-              ? "期限切れ"
-              : `あと${e.visa_days_until_expiry}日`}
-          </span>
-        </div>
-      )}
-
       <div className="flex items-center gap-4">
         <Avatar employee={e} size={88} />
-        <div className="flex-1 min-w-0">
-          <div className="font-bold text-base leading-tight group-hover:text-brand-700 transition-colors truncate">
+        <div className="flex-1 min-w-0 overflow-hidden">
+          <div className={`font-bold leading-tight group-hover:text-brand-700 transition-colors whitespace-nowrap ${nameFontClass}`}>
             {e.display_name}
           </div>
-          {e.last_name_native && (
-            <div className="text-xs text-slate-500 mt-0.5 truncate">
-              {e.last_name_native} {e.first_name_native}
+          {furigana && (
+            <div className={`text-slate-500 mt-0.5 whitespace-nowrap ${furiganaFontClass}`}>
+              {furigana}
             </div>
           )}
           <div className="text-xs text-slate-400 font-mono mt-1">
@@ -70,7 +61,7 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
         </div>
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-1.5">
+      <div className="mt-4 flex flex-wrap gap-1.5 items-center">
         <Badge className={careerLevelBadge(e.career_level)}>
           Lv{e.career_level} {e.career_level_name_ja}
         </Badge>
@@ -81,6 +72,20 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
           <Badge className="bg-slate-100 text-slate-700 border border-slate-200">
             {e.jlpt_level}
           </Badge>
+        )}
+        {hasVisaBadge && (
+          <div className="flex items-center gap-1 ml-auto">
+            {e.residence_card_procedure && alertLv !== "safe" && alertLv !== "none" && (
+              <span className="badge bg-blue-50 text-blue-700 border border-blue-200 text-[10px]">
+                {e.residence_card_procedure}
+              </span>
+            )}
+            <span className={`badge ${alertColor(alertLv)}`} title="在留期限">
+              {alertLv === "expired"
+                ? "期限切れ"
+                : `あと${e.visa_days_until_expiry ?? "—"}日`}
+            </span>
+          </div>
         )}
       </div>
 
