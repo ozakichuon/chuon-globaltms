@@ -225,7 +225,7 @@ export function getAllEmployeesAsSummary(): EmployeeSummary[] {
       career_level_name_id: cname.id,
       organization_name: workplaceToOrg(e.workplace),
       visa_type_jp: e.visa_type_jp ?? null,
-      current_visa_status: mapVisaStatus(e.visa_status),
+      current_visa_status: mapVisaStatus(e.visa_status ?? "other"),
       visa_expires_at: expiresAt,
       visa_days_until_expiry: days,
       residence_card_procedure: (e as any).residence_card_procedure ?? null,
@@ -251,10 +251,10 @@ export function getAllVisaAlerts(): VisaAlert[] {
         nationality: (["JP", "ID", "VN", "PH"].includes(NAT_JP[e.nationality] ?? e.nationality)
           ? (NAT_JP[e.nationality] ?? e.nationality)
           : "OTHER") as Nationality,
-        employment_type: (e.visa_status.startsWith("technical_intern")
+        employment_type: ((e.visa_status ?? "").startsWith("technical_intern")
           ? "technical_intern"
           : "specified_skill") as EmploymentType,
-        visa_status: mapVisaStatus(e.visa_status),
+        visa_status: mapVisaStatus(e.visa_status ?? "other"),
         residence_card_no: e.residence_card_no,
         expires_at: e.residence_card_expires_at!,
         next_renewable_from: null,
