@@ -74,8 +74,8 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
           </Badge>
         )}
         {hasVisaBadge && (
-          <div className="flex items-center gap-1 ml-auto">
-            {e.residence_card_procedure && alertLv !== "safe" && alertLv !== "none" && (
+          <div className="flex flex-col items-end gap-1 ml-auto">
+            {e.residence_card_procedure && (
               <span className="badge bg-blue-50 text-blue-700 border border-blue-200 text-[10px]">
                 {e.residence_card_procedure}
               </span>

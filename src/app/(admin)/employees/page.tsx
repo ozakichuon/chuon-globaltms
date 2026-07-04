@@ -71,6 +71,14 @@ export default async function EmployeesPage({
     return true;
   });
 
+  // 在留カード残日数の昇順（null = 日本人等は末尾）
+  filtered.sort((a, b) => {
+    if (a.visa_days_until_expiry === null && b.visa_days_until_expiry === null) return 0;
+    if (a.visa_days_until_expiry === null) return 1;
+    if (b.visa_days_until_expiry === null) return -1;
+    return a.visa_days_until_expiry - b.visa_days_until_expiry;
+  });
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between gap-4 flex-wrap">
