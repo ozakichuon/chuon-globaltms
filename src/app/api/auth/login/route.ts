@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sha256, createSessionToken, COOKIE_NAME } from "@/lib/auth";
-import credentialsJson from "@/lib/data/credentials.json";
+import { getCredentials } from "@/lib/credentials-store";
 
 export async function POST(req: NextRequest) {
   const { id, password } = await req.json();
@@ -8,7 +8,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "IDとパスワードを入力してください" }, { status: 400 });
   }
 
-  const user = (credentialsJson.users as any[]).find((u) => u.id === id);
+  const creds = await getCredentials();
+  const user = creds.users.find((u) => u.id === id);
   if (!user) {
     return NextResponse.json({ error: "IDまたはパスワードが違います" }, { status: 401 });
   }

@@ -1,17 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sha256, getSessionUserId } from "@/lib/auth";
-import fs from "fs";
-import path from "path";
-
-const CREDS_PATH = path.join(process.cwd(), "src/lib/data/credentials.json");
+import { getCredentials, saveCredentials } from "@/lib/credentials-store";
 
 export async function GET() {
   const userId = await getSessionUserId();
   if (userId !== "admin") {
     return NextResponse.json({ error: "権限がありません" }, { status: 403 });
   }
-  const creds = JSON.parse(fs.readFileSync(CREDS_PATH, "utf-8"));
-  const users = (creds.users as any[]).map(({ id, must_change }) => ({ id, must_change: must_change ?? false }));
+  const creds = await getCredentials();
+  const users = creds.users.map(({ id, must_change }) => ({ id, must_change: must_change ?? false }));
   return NextResponse.json({ users });
 }
 
@@ -23,23 +20,16 @@ export async function POST(req: NextRequest) {
 
   const { current_password, new_password, target_id } = await req.json();
 
-  // 管理者が別ユーザーのパスワードを変更する場合は current_password 不要
   const targetId = target_id ?? userId;
   const isAdmin = userId === "admin";
 
-  let creds: any;
-  try {
-    creds = JSON.parse(fs.readFileSync(CREDS_PATH, "utf-8"));
-  } catch {
-    return NextResponse.json({ error: "認証データを読み込めません" }, { status: 500 });
-  }
+  const creds = await getCredentials();
 
-  const userIdx = creds.users.findIndex((u: any) => u.id === targetId);
+  const userIdx = creds.users.findIndex((u) => u.id === targetId);
   if (userIdx === -1) {
     return NextResponse.json({ error: "ユーザーが見つかりません" }, { status: 404 });
   }
 
-  // 自分のパスワード変更 or 初回変更の場合は現在パスワード確認
   if (targetId === userId || !isAdmin) {
     if (!current_password) {
       return NextResponse.json({ error: "現在のパスワードを入力してください" }, { status: 400 });
@@ -57,17 +47,10 @@ export async function POST(req: NextRequest) {
   creds.users[userIdx].password_hash = await sha256(new_password);
   creds.users[userIdx].must_change = false;
 
-  try {
-    fs.writeFileSync(CREDS_PATH, JSON.stringify(creds, null, 2), "utf-8");
-  } catch (e: any) {
-    console.error("writeFileSync error:", CREDS_PATH, e?.message);
-    return NextResponse.json({ error: `保存失敗: ${e?.message ?? "unknown"} (path: ${CREDS_PATH})` }, { status: 500 });
-  }
-
+  await saveCredentials(creds);
   return NextResponse.json({ ok: true });
 }
 
-// 管理者用：ユーザー追加
 export async function PUT(req: NextRequest) {
   const userId = await getSessionUserId();
   if (userId !== "admin") {
@@ -79,23 +62,17 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ error: "IDとパスワードを入力してください" }, { status: 400 });
   }
 
-  let creds: any;
-  try {
-    creds = JSON.parse(fs.readFileSync(CREDS_PATH, "utf-8"));
-  } catch {
-    return NextResponse.json({ error: "認証データを読み込めません" }, { status: 500 });
-  }
+  const creds = await getCredentials();
 
-  if (creds.users.find((u: any) => u.id === id)) {
+  if (creds.users.find((u) => u.id === id)) {
     return NextResponse.json({ error: "そのIDは既に存在します" }, { status: 409 });
   }
 
   creds.users.push({ id, password_hash: await sha256(password), must_change: true });
-  fs.writeFileSync(CREDS_PATH, JSON.stringify(creds, null, 2), "utf-8");
+  await saveCredentials(creds);
   return NextResponse.json({ ok: true });
 }
 
-// 管理者用：ユーザー削除
 export async function DELETE(req: NextRequest) {
   const userId = await getSessionUserId();
   if (userId !== "admin") {
@@ -107,14 +84,8 @@ export async function DELETE(req: NextRequest) {
     return NextResponse.json({ error: "adminは削除できません" }, { status: 400 });
   }
 
-  let creds: any;
-  try {
-    creds = JSON.parse(fs.readFileSync(CREDS_PATH, "utf-8"));
-  } catch {
-    return NextResponse.json({ error: "認証データを読み込めません" }, { status: 500 });
-  }
-
-  creds.users = creds.users.filter((u: any) => u.id !== id);
-  fs.writeFileSync(CREDS_PATH, JSON.stringify(creds, null, 2), "utf-8");
+  const creds = await getCredentials();
+  creds.users = creds.users.filter((u) => u.id !== id);
+  await saveCredentials(creds);
   return NextResponse.json({ ok: true });
 }
