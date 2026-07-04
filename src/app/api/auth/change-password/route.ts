@@ -7,7 +7,7 @@ export async function GET() {
   if (userId !== "admin") {
     return NextResponse.json({ error: "権限がありません" }, { status: 403 });
   }
-  const creds = await getCredentials();
+  const creds = getCredentials();
   const users = creds.users.map(({ id, must_change }) => ({ id, must_change: must_change ?? false }));
   return NextResponse.json({ users });
 }
@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
   const targetId = target_id ?? userId;
   const isAdmin = userId === "admin";
 
-  const creds = await getCredentials();
+  const creds = getCredentials();
 
   const userIdx = creds.users.findIndex((u) => u.id === targetId);
   if (userIdx === -1) {
@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
   creds.users[userIdx].password_hash = await sha256(new_password);
   creds.users[userIdx].must_change = false;
 
-  await saveCredentials(creds);
+  saveCredentials(creds);
   return NextResponse.json({ ok: true });
 }
 
@@ -62,14 +62,14 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ error: "IDとパスワードを入力してください" }, { status: 400 });
   }
 
-  const creds = await getCredentials();
+  const creds = getCredentials();
 
   if (creds.users.find((u) => u.id === id)) {
     return NextResponse.json({ error: "そのIDは既に存在します" }, { status: 409 });
   }
 
   creds.users.push({ id, password_hash: await sha256(password), must_change: true });
-  await saveCredentials(creds);
+  saveCredentials(creds);
   return NextResponse.json({ ok: true });
 }
 
@@ -84,8 +84,8 @@ export async function DELETE(req: NextRequest) {
     return NextResponse.json({ error: "adminは削除できません" }, { status: 400 });
   }
 
-  const creds = await getCredentials();
+  const creds = getCredentials();
   creds.users = creds.users.filter((u) => u.id !== id);
-  await saveCredentials(creds);
+  saveCredentials(creds);
   return NextResponse.json({ ok: true });
 }

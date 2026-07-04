@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "IDとパスワードを入力してください" }, { status: 400 });
   }
 
-  const creds = await getCredentials();
+  const creds = getCredentials();
   const user = creds.users.find((u) => u.id === id);
   if (!user) {
     return NextResponse.json({ error: "IDまたはパスワードが違います" }, { status: 401 });
