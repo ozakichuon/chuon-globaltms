@@ -232,6 +232,8 @@ export function getAllEmployeesAsSummary(): EmployeeSummary[] {
       photo_url: (e as any).photo_url ?? null,
       tenure_months: tenureMonths(e.hired_at),
       skill_count: 0,
+      nickname: (e as any).nickname ?? null,
+      gender: (e.gender === "male" || e.gender === "female") ? e.gender : null,
     };
   });
 }

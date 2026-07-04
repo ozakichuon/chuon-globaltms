@@ -63,6 +63,8 @@ export interface EmployeeSummary {
   photo_url: string | null;
   tenure_months: number;
   skill_count: number;
+  nickname: string | null;
+  gender: "male" | "female" | null;
 }
 
 export interface VisaAlert {

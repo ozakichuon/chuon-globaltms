@@ -62,6 +62,11 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
           <div className="text-xs text-slate-400 font-mono mt-1">
             {e.employee_code}
           </div>
+          {e.nickname && (
+            <span className={`inline-block mt-1 px-2 py-0.5 rounded text-xs font-medium border ${e.gender === "female" ? "bg-red-50 text-red-700 border-red-200" : "bg-blue-50 text-blue-700 border-blue-200"}`}>
+              {e.nickname}
+            </span>
+          )}
         </div>
       </div>
 
