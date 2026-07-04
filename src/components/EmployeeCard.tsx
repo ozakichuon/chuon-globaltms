@@ -61,7 +61,14 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
         </div>
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-1.5 items-center">
+      {hasVisaBadge && e.residence_card_procedure && (
+        <div className="mt-3 flex justify-end">
+          <span className="badge bg-blue-50 text-blue-700 border border-blue-200 text-[10px]">
+            {e.residence_card_procedure}
+          </span>
+        </div>
+      )}
+      <div className={`flex flex-wrap gap-1.5 items-center ${hasVisaBadge && e.residence_card_procedure ? "mt-1" : "mt-4"}`}>
         <Badge className={careerLevelBadge(e.career_level)}>
           Lv{e.career_level} {e.career_level_name_ja}
         </Badge>
@@ -74,18 +81,11 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
           </Badge>
         )}
         {hasVisaBadge && (
-          <div className="flex flex-col items-end gap-1 ml-auto">
-            {e.residence_card_procedure && (
-              <span className="badge bg-blue-50 text-blue-700 border border-blue-200 text-[10px]">
-                {e.residence_card_procedure}
-              </span>
-            )}
-            <span className={`badge ${alertColor(alertLv)}`} title="在留期限">
-              {alertLv === "expired"
-                ? "期限切れ"
-                : `あと${e.visa_days_until_expiry ?? "—"}日`}
-            </span>
-          </div>
+          <span className={`badge ${alertColor(alertLv)} ml-auto`} title="在留期限">
+            {alertLv === "expired"
+              ? "期限切れ"
+              : `あと${e.visa_days_until_expiry ?? "—"}日`}
+          </span>
         )}
       </div>
 
