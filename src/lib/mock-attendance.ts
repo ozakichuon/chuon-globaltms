@@ -111,7 +111,7 @@ export function getAttendanceMonthly(): AttendanceMonthly[] {
       const p1 = findOvertime(e.employee_code, prev1Key);
       const p2 = findOvertime(e.employee_code, prev2Key);
       const avg3m = (p1 != null || p2 != null)
-        ? ((p1?.overtime_hours ?? 0) + (p2?.overtime_hours ?? 0)) / ((p1 != null ? 1 : 0) + (p2 != null ? 1 : 0))
+        ? ((p1?.overtime_hours ?? 0) + (p2?.overtime_hours ?? 0)) / 2
         : (baseOvertimeHours(profile, -1) + baseOvertimeHours(profile, -2)) / 2;
 
       results.push({
