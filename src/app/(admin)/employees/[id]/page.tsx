@@ -129,7 +129,7 @@ export default async function EmployeeDetailPage({
           <div className="mt-2 text-sm text-slate-600 flex flex-wrap gap-x-4 gap-y-1">
             <span>{nationalityLabel(emp.nationality)}</span>
             <span>•</span>
-            <span>{employmentTypeLabel(emp.employment_type)}</span>
+            <span>{emp.visa_type_jp ?? employmentTypeLabel(emp.employment_type)}</span>
             <span>•</span>
             <span>{emp.organization_name ?? "—"}</span>
             <span>•</span>

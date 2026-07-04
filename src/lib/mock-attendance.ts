@@ -110,9 +110,11 @@ export function getAttendanceMonthly(): AttendanceMonthly[] {
       const prev2Key = toKey(prev2);
       const p1 = findOvertime(e.employee_code, prev1Key);
       const p2 = findOvertime(e.employee_code, prev2Key);
-      const avg3m = (p1 != null || p2 != null)
-        ? ((p1?.overtime_hours ?? 0) + (p2?.overtime_hours ?? 0)) / 2
-        : (baseOvertimeHours(profile, -1) + baseOvertimeHours(profile, -2)) / 2;
+      const prev1IsReal = prev1Key in realDataByMonth;
+      const prev2IsReal = prev2Key in realDataByMonth;
+      const h1 = p1 != null ? p1.overtime_hours : prev1IsReal ? 0 : baseOvertimeHours(profile, -1);
+      const h2 = p2 != null ? p2.overtime_hours : prev2IsReal ? 0 : baseOvertimeHours(profile, -2);
+      const avg3m = ((h1 + h2) / 2);
 
       results.push({
         employee_id: e.id,
