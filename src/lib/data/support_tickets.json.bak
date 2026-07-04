@@ -1,0 +1,4250 @@
+[
+  {
+    "id": "ffe38032-d442-55d8-9136-926b9a36fe78",
+    "seq": 1,
+    "date": "2025-10-28",
+    "time": "08:54:15",
+    "recorder": "池内",
+    "target_employee_code": "07013662",
+    "target_employee_id": "816eb52f-f781-5246-adf0-51cf31e6e01f",
+    "place": "ビレッジ4-502",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": null,
+    "responses": [
+      {
+        "date": "2025-10-28",
+        "responder": "池内",
+        "note": "10.26から体調不良　10.28かどた内科にて受診でコロナ陽性　金曜日まで自宅療養"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "34a20999-d48a-5e54-8562-ec04a4ca2764",
+    "seq": 2,
+    "date": "2025-10-29",
+    "time": "15:17:09",
+    "recorder": "池内",
+    "target_employee_code": "07013675",
+    "target_employee_id": "ec14b43b-9d1c-5c35-8e1a-fe32f8c0af7c",
+    "place": "ビレッジ3-501",
+    "kind": "病院",
+    "status": "対応中",
+    "request_note": "10/29にチンティアから、11/12にどい心療内科へ連れてってほしいと相談。（最近眠れない、涙が出る。などの症状）本人が11：50診察予約している。チンティアのおばが通訳として病院に同行予定。",
+    "responses": [
+      {
+        "date": "2025-10-31",
+        "responder": "尾崎",
+        "note": "新開工場長より、昨日、タブレット入力ミスを他の実習生に指摘され更衣室で泣いてた。その時に精神科受診の話を聞いた。本日、休み。明日も休むようなら様子を確認すると伝える。11.1_10時自宅にて池内さん尾崎で話し、落ち着いた様子。とりあえず、月曜日から仕事にはいく。ブイにも話しなくていいとのこと。また何かあれば、連絡依頼。11/4に11/3,11/4出勤確認。"
+      },
+      {
+        "date": "2025-11-12",
+        "responder": "池内",
+        "note": "11/12どい心療内科受診。3か月ほど前から不安症状あり。他人からどう見られているのかとても気にしてしまい過剰に不安になる。失敗するのが怖く、色々考えて集中できない。10日分の薬をもらい11/22に再度受診予定。11月頭の実習生に怒られた件も少しトラウマになっているので、今後のチーム組むときにできれば配慮をしてほしいと工場長に相談した。"
+      },
+      {
+        "date": null,
+        "responder": null,
+        "note": "11/22経過観察。インドネシアにいるときにも心療内科かかってたらしい。合う薬模索中。次回12/5 10:00~"
+      }
+    ],
+    "overall_note": "12/22済・次回1/23　9:50～"
+  },
+  {
+    "id": "6edb42d7-3528-5ce3-b05c-cca066b03efb",
+    "seq": 3,
+    "date": "2025-10-30",
+    "time": "09:50:20",
+    "recorder": "尾崎",
+    "target_employee_code": "07013641",
+    "target_employee_id": "d47dcd9c-2ca4-58d6-beb0-67bb87f66404",
+    "place": null,
+    "kind": "帰国",
+    "status": "完了",
+    "request_note": "新開工場長より、2026/3/13より2ヶ月ぐらい、自身の結婚のため帰国の申し出。日程の調整確認依頼",
+    "responses": [
+      {
+        "date": "2025-10-30",
+        "responder": "尾崎",
+        "note": "10/30現在有休残３日、11/29付与12日、合計15日新開工場長へline済み"
+      },
+      {
+        "date": "2025-11-10",
+        "responder": "尾崎",
+        "note": "3/13結婚のため、一時帰国。5/10頃帰国し在留カード更新手続きを行うと話す。"
+      },
+      {
+        "date": "2026-03-11",
+        "responder": "尾崎",
+        "note": "3/12松山発17:40に変更。インドネシアへはノヴィと一緒"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "57cefe8e-f4bf-516a-a920-1f06261609a7",
+    "seq": 4,
+    "date": "2025-10-30",
+    "time": "09:52:50",
+    "recorder": "尾崎",
+    "target_employee_code": "07013685",
+    "target_employee_id": "e3bdef32-ae87-5568-8434-94a411975e7d",
+    "place": null,
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "ザーラより、LINEにて、12/20を最終出勤日として翌1/5の飛行機で大学に行くため帰国したい申し出。新開工場長へ電話にて報告",
+    "responses": [
+      {
+        "date": "2025-10-30",
+        "responder": "尾崎",
+        "note": "10/30現在有休残４日。付与日は4/29のため、４日で新開工場長へline済"
+      },
+      {
+        "date": "2025-11-10",
+        "responder": "尾崎",
+        "note": "本人より、12/20退職、12/末現金給与、1/7松山空港発(1/7退寮)、1/10東京発でチケットとった。チケット送付依頼し、そのスケジュールにて進めると伝える。1/10羽田空港11:45発"
+      }
+    ],
+    "overall_note": "最終出勤12/18　12/19と12/20は有給使用"
+  },
+  {
+    "id": "55cb697a-dfd6-5835-b9ea-a2e729187014",
+    "seq": 5,
+    "date": "2025-10-30",
+    "time": "10:16:13",
+    "recorder": "尾崎",
+    "target_employee_code": "07001616",
+    "target_employee_id": "8d099d55-95d4-5296-808f-42f4c48bbca6",
+    "place": "アトム705",
+    "kind": "購入",
+    "status": "完了",
+    "request_note": "ヒエンの妹が入社するので、エアコン設置依頼",
+    "responses": [
+      {
+        "date": "2025-10-30",
+        "responder": "尾崎",
+        "note": "竹内空調さんへ11/18までに設置依頼"
+      },
+      {
+        "date": "2025-11-05",
+        "responder": "尾崎",
+        "note": "竹内空調にて設置済み　三菱エアコン　77,000税別　月末締め翌月OK"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "72138c26-e28d-5da6-afc3-ac521f339f1a",
+    "seq": 6,
+    "date": "2025-10-31",
+    "time": "07:30:00",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "コーポ津吉1-6",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "コーポ津吉1-6で３日間Wifiが使えない状態の申し出。",
+    "responses": [
+      {
+        "date": "2025-11-01",
+        "responder": "尾崎",
+        "note": "電源及び配線再起動により稼働、マデ休みにより"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "801a40b2-9fb1-5878-8815-780de99e578a",
+    "seq": 7,
+    "date": "2025-10-31",
+    "time": "16:41:07",
+    "recorder": "尾崎",
+    "target_employee_code": "07018606",
+    "target_employee_id": "33986411-c202-5e8d-aba1-07b6d034a0ff",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "新開工場長より、インドネシア時より、脊髄がまがる病気で重たいもの等をもつ仕事を変更してほしいとの申し出あり。入国前の健康診断でも問題がないため入国ができ、入国後の健康診断でも該当ないため、本人と面談を行う",
+    "responses": [
+      {
+        "date": "2025-11-01",
+        "responder": "尾崎",
+        "note": "デフィとヤニと４人で牛渕２号館ではなし。病院には行ってない。とりあえず、できるところまでやってみて、ダメになる前に上長へ。新開工場長へ報告済み"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "2ef4b904-2aea-5231-9466-e318cd59e799",
+    "seq": 8,
+    "date": "2025-11-02",
+    "time": "12:29:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013638",
+    "target_employee_id": "f90cd498-aab4-5c1b-a499-4f5183610eb1",
+    "place": null,
+    "kind": "妊娠",
+    "status": "対応中",
+    "request_note": "エカより、ニマが妊娠13週との連絡あり。今後について、相談すると伝える。",
+    "responses": [
+      {
+        "date": "2025-11-04",
+        "responder": "尾崎",
+        "note": "新開工場長へline連絡"
+      },
+      {
+        "date": "2025-11-05",
+        "responder": "尾崎",
+        "note": "エカと３人で津吉社長室にて話す。出産予定5/5、つばきウイメンズで出産予定、日本にて産みたい。エカも特定２号受けたい。入社が2025/6/17、転職のため、特定１号の期限が2027/3までのため、入官へ確認"
+      },
+      {
+        "date": "2026-03-10",
+        "responder": "尾崎",
+        "note": "出産を県立中央病院へ変更した。予定通り3/25より産休予定"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "c30300d4-92e2-5261-8dd4-5a62528aa1ad",
+    "seq": 9,
+    "date": "2025-11-04",
+    "time": "13:04:39",
+    "recorder": "池内",
+    "target_employee_code": "07011609",
+    "target_employee_id": "d8a1ac18-6de7-55cc-8d90-0b5d3d2b27a8",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "11/4ヅエンから尾崎さんへ就労証明書発行依頼あり。→恒岡さんへ記入依頼済。出来上がり次第ヅエンへ届ける。",
+    "responses": [
+      {
+        "date": "2025-11-05",
+        "responder": "尾崎",
+        "note": "本人へ就労証明書と年末調整の書類を渡す。年末調整は後日取りに来ると伝える。"
+      },
+      {
+        "date": "2025-11-11",
+        "responder": "尾崎",
+        "note": "年末調整及び送金明細書回収する"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "c2f7b0d6-3c05-5d56-8494-0ffbaebb5761",
+    "seq": 10,
+    "date": "2025-11-06",
+    "time": "09:39:40",
+    "recorder": "池内",
+    "target_employee_code": "07001423",
+    "target_employee_id": null,
+    "place": "アトム401",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "11/6朴さんより宮内工場長へ連絡あり。ディンが4か月ほど生理が来ていないらしく、11/18に中四国が婦人科へ連れていくとのこと。",
+    "responses": [
+      {
+        "date": null,
+        "responder": "池内",
+        "note": "一応、生理再開したとのことで病院は行かないことになった。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "1b146233-687e-548b-9e8b-be37080abe17",
+    "seq": 11,
+    "date": "2025-11-07",
+    "time": "06:54:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013682",
+    "target_employee_id": "cacee0e5-c971-52b4-ac88-cbb57ff08b85",
+    "place": null,
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "新開工場長より、２/２０退職、１０日後退寮の申し出あり、確認依頼。",
+    "responses": [
+      {
+        "date": "2025-11-10",
+        "responder": "尾崎",
+        "note": "2/20退職してインドネシアに帰国する。2/末給料、3/1に松山発の予定。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "b2246325-e43d-5fdf-80e4-40ac220ed867",
+    "seq": 12,
+    "date": "2025-11-07",
+    "time": "08:07:31",
+    "recorder": "尾崎",
+    "target_employee_code": "07001618",
+    "target_employee_id": "b545c47f-62a3-56b3-b203-af6f4fa87a82",
+    "place": "アトム404",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "宮内工場長に、皮膚に発疹みたいなものがあり、病院に行きたい申し出あり。11/7、９時に連れていく旨連絡。",
+    "responses": [
+      {
+        "date": "2025-11-07",
+        "responder": "池内",
+        "note": "二宮皮ふ科受診。全身にかゆみと発疹あり。蕁麻疹と診断。２日前くらいから出ているので、食べ物などのアレルギーではなさそう。免疫低下やストレス？薬飲んで様子見る。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "954ee8dc-dc7f-5016-a7c1-64ee4ff04f3d",
+    "seq": 13,
+    "date": "2025-11-07",
+    "time": "08:47:55",
+    "recorder": "尾崎",
+    "target_employee_code": "07012622",
+    "target_employee_id": "4e6eafa9-b8be-5bfa-9bd5-29f53250594f",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "11/17月曜日、子宮筋腫の手術",
+    "responses": [
+      {
+        "date": "2025-11-20",
+        "responder": "尾崎",
+        "note": "恒岡さんより、デルタ四国の通訳よりTELあり、手術跡が大きく、当初11/30までやすみだったが、12/20ごろまでには出勤すると連絡あり。後日、12/1～の休暇届作成すること"
+      },
+      {
+        "date": "2025-11-26",
+        "responder": "尾崎",
+        "note": "本人と面談。12/3水曜日が通院日。12/20まで傷口が大きいため休暇申出。12/3病院受診時に診断書をもらうとのこと"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "74152e2b-c91a-5d7e-8b8d-504594b9a4e7",
+    "seq": 14,
+    "date": "2025-11-07",
+    "time": "12:30:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018631",
+    "target_employee_id": "0c2f42d9-6049-5fb4-868d-5e4f1d91f59a",
+    "place": null,
+    "kind": "紛失",
+    "status": "完了",
+    "request_note": "在留カードが、銀行口座作成してから紛失。探したが見つからず。とりあえず、コピーを渡す。",
+    "responses": [
+      {
+        "date": "2025-11-08",
+        "responder": "池内",
+        "note": "11/6在留カード紛失の申し出。11/8に南署にて遺失物届を出した。受理番号1669。11/10に入管へ在留カード再発行申請をする予定。"
+      },
+      {
+        "date": "2025-11-10",
+        "responder": "尾崎",
+        "note": "入官にて在留カード再発行を行い、昼、食堂にて渡す。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "668ce59c-079d-5997-9a6e-2a4774e16637",
+    "seq": 15,
+    "date": "2025-11-07",
+    "time": "13:30:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011606",
+    "target_employee_id": "fe2084fd-7e43-59db-af77-ffec120edefc",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "２号試験終了後、２月初めから、２ヶ月一時帰国したい申し出あり。水沼さん了承。",
+    "responses": [
+      {
+        "date": "2025-12-25",
+        "responder": "尾崎",
+        "note": "1/24～３/24まで一時帰国。広島空港発着"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "1b16cc1e-ea4c-5648-aabc-0bd643e9fa6c",
+    "seq": 16,
+    "date": "2025-11-10",
+    "time": "10:20:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013679",
+    "target_employee_id": "fe8f0016-bbd7-55dc-9280-8fff75608bbb",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "新開工場長より、手が痛いので病院へ連れていってほしいとの依頼あり。以前、尾崎に話してたとのこと。10/4に日曜日に診察できる整形外科の案内があり、南松山病院を案内。その当時、ハクと一緒に行くと行っていたが、実際に診察したかどうかは不明。本日お昼に確認する。",
+    "responses": [
+      {
+        "date": "2025-11-10",
+        "responder": "尾崎",
+        "note": "手首は痛いが、木曜日か金曜日でOK。新開工場長へ伝え、時間が分かったら連絡依頼。10/4は整形外科の先生がいないため診察しなかった。金澤整形でもOK"
+      },
+      {
+        "date": "2025-11-13",
+        "responder": "池内",
+        "note": "11.13金澤受診。重いものや手首の曲げで負担かかっている。レントゲンにて、左手首、少し炎症してる。電気治療を何度か行いリハビリで様子見る。次回は11.29リハビリ。イーサンは次回より１人で受診"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "1b03c94d-693e-58b1-82fd-f1c014058e9d",
+    "seq": 17,
+    "date": "2025-11-10",
+    "time": "11:36:55",
+    "recorder": "池内",
+    "target_employee_code": "07013665",
+    "target_employee_id": "bdd1dc1b-3228-58a3-8ade-459676e49733",
+    "place": "ビレッジ2-502",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "同部屋のアルバシタから、アイナの体調不良とLINEあり。数日前から声が出なくなっていた。近くのよしおか内科を案内。",
+    "responses": [
+      {
+        "date": "2025-11-10",
+        "responder": "尾崎",
+        "note": "アルバシタと話す。イナは今日11:30～仕事で熱はなく声が出ない様子。明日、昼からなので、午前中、病院へ行くなら８時までにLINE依頼"
+      },
+      {
+        "date": "2025-11-11",
+        "responder": "池内",
+        "note": "11/11　よしおか内科受診。熱はないため検査なし。鼻水・咳・声枯れの症状で薬飲んで様子見。仕事は通常通り勤務する。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "5c61a3b6-4878-5dd4-8030-4d52102636e5",
+    "seq": 18,
+    "date": "2025-11-10",
+    "time": "13:45:26",
+    "recorder": "尾崎",
+    "target_employee_code": "07011602",
+    "target_employee_id": "02482a2d-5068-578b-bc32-7d746fd60ed4",
+    "place": null,
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "2026/2月に退職して帰国したい申し出。新開工場長へ連絡済み。帰りの飛行機代を確認依頼。",
+    "responses": [
+      {
+        "date": "2025-11-27",
+        "responder": "尾崎",
+        "note": "2/14広島空港13:00発チケット、交通手段確認"
+      },
+      {
+        "date": "2025-12-19",
+        "responder": "尾崎",
+        "note": "広島空港までは自分で行くとのこと"
+      },
+      {
+        "date": "2026-02-09",
+        "responder": "尾崎",
+        "note": "銀行及び転出届、広島空港２つ荷物をヤマト運輸持ち込み。保険証回収済み。家の鍵と自転車鍵はハンヘ土曜日に渡すとのこと。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "f138b025-e636-5204-9fa1-b89b67dacdf3",
+    "seq": 19,
+    "date": "2025-11-11",
+    "time": "12:46:18",
+    "recorder": "尾崎",
+    "target_employee_code": "07012626",
+    "target_employee_id": "f3be0e3e-3132-5f87-bf3e-63ad3e603af3",
+    "place": null,
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "退寮日が変更になった。11/20退職、11/21退寮、11/21の15時頃の飛行機。11/21の9時部屋の立ち会いだが、事前に１８日～２０日までに部屋確認すると伝える",
+    "responses": [
+      {
+        "date": "2025-11-14",
+        "responder": "尾崎",
+        "note": "日曜日に掃除とゴミを捨てるよう指示。最終11/21の１０時訪問予定"
+      },
+      {
+        "date": "2025-11-21",
+        "responder": "尾崎",
+        "note": "退去確認。部屋の鍵、自転車の鍵、保険証預り終了。デルタ四国立会"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "fae4616f-18f2-5ab1-871a-28fe9c917ea8",
+    "seq": 20,
+    "date": "2025-11-11",
+    "time": "13:34:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07012622",
+    "target_employee_id": "4e6eafa9-b8be-5bfa-9bd5-29f53250594f",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "ビレッジ中野さんから、松山南警察地域課高山さん958-0110より自転車が置かれており撤去依頼があったと連絡あり。",
+    "responses": [
+      {
+        "date": "2025-11-11",
+        "responder": "尾崎",
+        "note": "昼休憩にて本人がおり、自転車撤去に向かう。朝、出勤時にアンディ二が自転車でこけてククが自転車で会社に連れて行った。アンディ二の自転車をチャンが乗って行って、チャンの自転車を日野車体の車庫に置いたため、日野車体より警察に連絡が入る。仕事終わりに取りに行く予定だった。"
+      },
+      {
+        "date": "2025-11-11",
+        "responder": "尾崎",
+        "note": "チャン同席の上、日野車体に訪問し、お詫びし自転車を回収する。結構お怒りモードだったが、ご迷惑おかけしたことお詫びし了承をえる。"
+      }
+    ],
+    "overall_note": "大澤専務に報告後、新開工場長へ栗ご飯の素持参予定"
+  },
+  {
+    "id": "ed7fe282-4261-5832-8249-eabdc8a6c459",
+    "seq": 21,
+    "date": "2025-11-12",
+    "time": "07:53:05",
+    "recorder": "尾崎",
+    "target_employee_code": "07013685",
+    "target_employee_id": "e3bdef32-ae87-5568-8434-94a411975e7d",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "昨日から背中が痛いので病院へ行きたいとの申し出あり。",
+    "responses": [
+      {
+        "date": "2025-11-13",
+        "responder": "池内",
+        "note": "右脇腹あたりが痛む。息するのも痛みがあるため、金澤受診。レントゲンをとり、症状から骨にヒビが入ってる可能性があるとのこと。固定バンドをつけて生活するように言われた。11.20に金澤を受診するよう言われた。１人では不安なので付き添って欲しいとのこと。仕事については、本人の無理のない範囲で行うよう伝えた"
+      },
+      {
+        "date": "2025-11-20",
+        "responder": "池内",
+        "note": "呼吸時の痛みは治まったが、まだ起き上がるとき辛い。固定バンド外してたので、お風呂以外はバントするよう伝えた。12/4受診予定"
+      },
+      {
+        "date": "2025-12-08",
+        "responder": "池内",
+        "note": "12/4にて、通院終了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "3f849ba0-1bb5-5be1-b4d4-ef28f464a70b",
+    "seq": 22,
+    "date": "2025-11-12",
+    "time": "12:51:44",
+    "recorder": "尾崎",
+    "target_employee_code": "07012625",
+    "target_employee_id": null,
+    "place": null,
+    "kind": "妊娠",
+    "status": "完了",
+    "request_note": "昨日、病院へ行って妊娠４週ぐらい。まだ小さいため、安定したら再度話す。新開工場長へは連絡済み",
+    "responses": [
+      {
+        "date": "2025-11-17",
+        "responder": "尾崎",
+        "note": "ブイより、流産したと報告あり。タオは本日休み。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "c5140f1c-cc93-5198-88c3-0f0a56440e70",
+    "seq": 23,
+    "date": "2025-11-14",
+    "time": "11:11:04",
+    "recorder": "池内",
+    "target_employee_code": "07001423",
+    "target_employee_id": null,
+    "place": "アトム401",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "藤原さんより、ディンが体調不良なのか、仕事に来てないので部屋に見に行って欲しいとのことで渡部さんに見に行ってもらった。生理痛がひどく寝込んでいた。15日の昼から仕事に行くとのこと。18日には中四国と一緒に婦人科へ受診することになっている→病院行かなくていいとのこと。",
+    "responses": [
+      {
+        "date": "2025-11-14",
+        "responder": "渡部",
+        "note": null
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "405b26ba-4364-5e28-af19-92a606af073e",
+    "seq": 24,
+    "date": "2025-11-14",
+    "time": "23:00:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018624",
+    "target_employee_id": "606fe81c-907b-5ff2-b5d0-2651de5a25a4",
+    "place": "牛渕１",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "エヴィより、手が腫れて病院へ行きたいとの申し出あり。11/15土曜日8:45迎え行くと伝える",
+    "responses": [
+      {
+        "date": "2025-11-15",
+        "responder": "尾崎",
+        "note": "金澤整形に受診、新開工場長と相談し、手の固定されてるので11/16休み、11/17病院へ行き、手の固定がどうなるかで勤務するか判断。11/17、11/20に病院へ行くと伝える。11/17金澤整形受診、痛みもまだあり固定器具もはずせないため、11/20受診まで休み、新開工場長へ連絡済み"
+      },
+      {
+        "date": "2025-11-20",
+        "responder": "池内",
+        "note": "まだ内出血で腫れている。指を曲げるような仕事は控えるよう言われた。本人が早く仕事復帰したいというので、新開さんへ事情を伝えた上で11/20昼から勤務してみるとのこと。次回11/27受診予定。"
+      },
+      {
+        "date": "2025-12-04",
+        "responder": "池内",
+        "note": "12/4受診。また来週も来るよう言われたが、本人はもう行かなくても大丈夫と言ってるので、今回で通院終了。"
+      }
+    ],
+    "overall_note": "11/27 経過良好だが、まだ少し痛み残っているため12/4に受診予定がある。オクトリヴィアも4日に受診なので二人で行くよう伝えた。12/11再診。痛みはないが右手握れない。"
+  },
+  {
+    "id": "3f6b1615-eab1-5e10-bd05-ddf702a96bb9",
+    "seq": 25,
+    "date": "2025-11-14",
+    "time": "13:00:00",
+    "recorder": "渡部",
+    "target_employee_code": "07001618",
+    "target_employee_id": "b545c47f-62a3-56b3-b203-af6f4fa87a82",
+    "place": "アトム404",
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "宮内工場長より、アトムマンションに自転車を停めていたところ、紛失したとのこと。本人に詳細確認予定。",
+    "responses": [
+      {
+        "date": "2025-11-15",
+        "responder": "渡部",
+        "note": "ロンに詳細を確認したところ、11/11(火)の15時頃に買い物に行こうとしたところ無くなっていた。鍵はかけておいていた。代替自転車が必要とのことで、準備が出来し伝える。"
+      },
+      {
+        "date": "2025-11-15",
+        "responder": "池内",
+        "note": "自転車6656（B-0246656）が準備できたので、ロンに鍵を渡した。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "7da49cbd-0a1e-5c81-9b78-f711f8b30eaf",
+    "seq": 26,
+    "date": "2025-11-15",
+    "time": "13:23:14",
+    "recorder": "渡部",
+    "target_employee_code": "07012622",
+    "target_employee_id": "4e6eafa9-b8be-5bfa-9bd5-29f53250594f",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "子宮筋腫の手術のため、デルタより病院からの連帯保証人に雇用主様にて対応をお願いしたいとのメールあり。専務に確認したところ弊社で対応する旨了承済み。傷病手当で進めるようにとのこと。",
+    "responses": [
+      {
+        "date": "2025-11-06",
+        "responder": "渡部",
+        "note": null
+      },
+      {
+        "date": "2025-11-14",
+        "responder": "渡部",
+        "note": "病院からの書類をデルタへ渡した。休暇届けをデルタの松岡さんに代筆で記入してもらう。傷病手当の書類を2セット渡し済み。11/20締めで1回目の申請をすると伝えた。"
+      },
+      {
+        "date": "2025-12-22",
+        "responder": "渡部",
+        "note": "デルタ　松岡さんより、傷病手当の書類が揃い次第、持って来られる予定。"
+      }
+    ],
+    "overall_note": "書類回収により申請終了"
+  },
+  {
+    "id": "c0dffc47-d220-588c-8624-4406c7a400f8",
+    "seq": 27,
+    "date": "2025-11-15",
+    "time": "11:30:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018627",
+    "target_employee_id": "58c72a12-6dd8-5792-ad87-ebd838ea48a5",
+    "place": "中野２",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車が何かおかしい。中野２に置いている",
+    "responses": [
+      {
+        "date": "2025-11-15",
+        "responder": "尾崎",
+        "note": "後輪にネジが刺さっていたため、抜いて対応終了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "17b058f5-5334-5348-ad01-76f83a1dca64",
+    "seq": 28,
+    "date": "2025-11-17",
+    "time": "07:52:16",
+    "recorder": "尾崎",
+    "target_employee_code": "07013631",
+    "target_employee_id": "e8a666c2-bd78-55d2-aceb-d26466de7fd5",
+    "place": "ビレッジ3-507",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "ナウファルより腰が痛いので病院へ連れていってほしいと連絡あり",
+    "responses": [
+      {
+        "date": "2025-11-17",
+        "responder": "尾崎",
+        "note": "金澤整形受診。ぎっくり腰のため、次回11/20、痛みがまだあるようなら、11/27受診依頼。次回は自転車で行くよう指示。"
+      },
+      {
+        "date": "2025-11-27",
+        "responder": "池内",
+        "note": "痛みほぼ治った。今ある薬飲み切ってもう病院行かなくていいとのこと。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "fa669f94-7e1b-5ac6-b7e2-cdc09443e2b8",
+    "seq": 29,
+    "date": "2025-11-17",
+    "time": "08:20:34",
+    "recorder": "池内",
+    "target_employee_code": "07018616",
+    "target_employee_id": "9452c45d-ee70-5f90-83c9-950bb21b927b",
+    "place": "牛渕１",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "入社時の健康診断で貧血で要治療判定。専務より、貧血で倒れるといけないので病院を受診するよう言われた。有給がないため、土曜日に受診できる中野クリニックに行く予定。11/29午前中受診予定",
+    "responses": [
+      {
+        "date": "2025-11-29",
+        "responder": "渡部",
+        "note": "中野クリニック受診。鉄欠乏性貧血と診断され、1カ月薬を服用し、飲みきったら再度受診し採血の予定。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "bd42351a-0b80-5af1-bbe6-eb14f9c7828e",
+    "seq": 30,
+    "date": "2025-11-15",
+    "time": "21:40:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013669",
+    "target_employee_id": "a188af17-c29f-56df-9f19-97d225b62c46",
+    "place": "ビレッジ3-508",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車がパンクしたと申し出あり。月曜日に対応する。カギが必要と伝える。",
+    "responses": [
+      {
+        "date": "2025-11-17",
+        "responder": "尾崎",
+        "note": "タイヤ交換、4,000円、鍵を前かごにいれる"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "69b09403-db79-5658-906d-f4560d24625c",
+    "seq": 31,
+    "date": "2025-11-18",
+    "time": "08:02:16",
+    "recorder": "池内",
+    "target_employee_code": "07018621",
+    "target_employee_id": "e6844a5f-ec23-5710-a0a8-bf7ad4823c81",
+    "place": "牛渕１",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "11/17の夜からガスが使えなくなったとの連絡あり。尾崎さんに見に行ってもらう。",
+    "responses": [
+      {
+        "date": "2025-11-18",
+        "responder": "尾崎",
+        "note": "トーカイガス089-932-3351に来てもらい、復旧。ガス欠だった。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "47d56099-53c6-57fa-a0f8-dc3e49dcd481",
+    "seq": 32,
+    "date": "2025-11-19",
+    "time": "12:20:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011612",
+    "target_employee_id": "97b71325-1b37-5e8d-95de-e06639eab6de",
+    "place": "コーポ津吉1-2",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "健診で大腸がんの健診を受けるよう話す。来週夜勤のため受診可能。",
+    "responses": [
+      {
+        "date": "2025-11-20",
+        "responder": "尾崎",
+        "note": "■ 診察予約  【診察日時】2025年11月25日 10:30 【医療機関】眞柴消化器内科クリニック（TEL: 0899681202)　11/28(金)12：00～16:00大腸内視鏡検査　28日は仕事休むこと新開さんへ連絡済"
+      },
+      {
+        "date": "2025-11-28",
+        "responder": "池内",
+        "note": "検査問題なく終了。異常もなく、結果は問題なし。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "7ea740fb-24a4-58c0-b576-c4dda331489a",
+    "seq": 33,
+    "date": "2025-11-20",
+    "time": "12:11:39",
+    "recorder": "尾崎",
+    "target_employee_code": "07001605",
+    "target_employee_id": null,
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "宮内工場長より2025/12/25～2/3まで一時帰国の申出あり。チケットは中温で取得の要請あり。",
+    "responses": [
+      {
+        "date": "2025-11-21",
+        "responder": "尾崎",
+        "note": "関西国際空港　12/25 10:00発　13:30着　ハノイ　2/2　01:05発　06:55着　往復115,800-にてチケット手配"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "ffcecd56-cf8e-5951-958a-c8d8eec4e2fb",
+    "seq": 34,
+    "date": "2025-11-24",
+    "time": "09:43:12",
+    "recorder": "池内",
+    "target_employee_code": "07018630",
+    "target_employee_id": "7b1d6dc1-4143-535a-8c1f-8c6de2e4562f",
+    "place": "中野２",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "11/23に歯が痛く熱もあり病院に行きたいとLINEあり。休日2連休で病院も休診で職員も休日のため、25日まで様子見るとのこと。",
+    "responses": [
+      {
+        "date": "2025-11-24",
+        "responder": "尾崎",
+        "note": "11/25、9:30～グリーン歯科予約　11/25右奥歯下が腫れてて抜くしかない。３日分の化膿止めと熱覚ましをもらい、12/2に抜く予定。病院の先生より、疲れと化膿及び熱があるため木曜日まで休み。木曜日に症状連絡依頼→11/27少し腫れているが、痛み治まってきたので11/28から出勤。"
+      },
+      {
+        "date": "2025-12-02",
+        "responder": "池内",
+        "note": "12/2抜歯した。12/9　9：30に消毒の為、再受診"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "02e9bbf6-43f8-5f41-9d5c-89fe6f9eb385",
+    "seq": 35,
+    "date": "2025-11-25",
+    "time": "11:46:52",
+    "recorder": "尾崎",
+    "target_employee_code": "07013633",
+    "target_employee_id": "e93cf2bc-8538-5aa1-8247-e6db4e842181",
+    "place": null,
+    "kind": "結婚",
+    "status": "対応中",
+    "request_note": "ナナより、デウィマシトと来年結婚する。2026/7/18～9/4まで帰国結婚、中温で２人で住居したい申出。日程については、新開工場長と相談済。",
+    "responses": [
+      {
+        "date": "2026-02-05",
+        "responder": "尾崎",
+        "note": "ナナとLINE交換しやり取りすると伝える"
+      },
+      {
+        "date": "2026-02-12",
+        "responder": "尾崎",
+        "note": "ナナより、チケットもらう"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "93cc214d-946f-58ca-bf0c-e19c112c84b9",
+    "seq": 36,
+    "date": "2025-11-26",
+    "time": "14:37:17",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "牛渕２",
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "６、２５、３６、８、１、１２、１５、１４",
+    "responses": [
+      {
+        "date": "2025-11-26",
+        "responder": "尾崎",
+        "note": "６の自転車を中野１へ移動"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "4e6c1901-7bc0-5d2c-b7be-1fc6554d03f5",
+    "seq": 37,
+    "date": "2025-11-26",
+    "time": "14:48:49",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "牛渕１",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "電気が弱い",
+    "responses": [
+      {
+        "date": "2025-11-26",
+        "responder": "尾崎",
+        "note": "電球が切れているため、電球交換"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "e9e75b7a-a079-59db-99e4-1a03fffffe54",
+    "seq": 38,
+    "date": "2025-11-27",
+    "time": "12:40:24",
+    "recorder": "池内",
+    "target_employee_code": "07013653",
+    "target_employee_id": "e4fb9177-ecd1-5766-9ef0-de63d0bcc95c",
+    "place": "牛渕２",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "口の周りが荒れて痛みがあり皮膚科に行きたいと申し出。１人で行くのは不安なので着いてきてほしいとのこと。11/29 9:00八木皮膚科受診予定",
+    "responses": [
+      {
+        "date": "2025-11-29",
+        "responder": "池内",
+        "note": "歯磨き粉や、リップクリームが合わないのかも？ワセリン100パーのものを使うこと、口の周りを拭きすぎないことを指導された。塗り薬を1～2週間使って治らなければ再受診。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "de67ace1-c8eb-5db3-8940-85084439aa8f",
+    "seq": 39,
+    "date": "2025-11-27",
+    "time": "20:20:10",
+    "recorder": "池内",
+    "target_employee_code": "07013649",
+    "target_employee_id": "02a8ee4e-bc34-5205-a94c-e071c993bf2e",
+    "place": null,
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "デラよりLINEで退職したい申し出あり。いつ頃退職して帰国したいのかヒアリングする。有給残12日（12月付与）と４時間",
+    "responses": [
+      {
+        "date": "2025-11-29",
+        "responder": "池内",
+        "note": "デラと話し、退職希望日は1/20だが、1月が厳しいなら2/20でも構わない。とりあえず体調がよくないので帰国したいとのこと。新開さんへLINE済。→新開さんより2/20退職で。とのこと。デラにLINE済"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "f780187f-0d8e-59c7-9614-8d9e21309e97",
+    "seq": 40,
+    "date": "2025-11-30",
+    "time": "08:24:25",
+    "recorder": "尾崎",
+    "target_employee_code": "07013655",
+    "target_employee_id": "6c783a5d-7870-5fa5-a0b6-12bb91a4dc5c",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "母親が手術のため、一時帰国を希望、12/14～1/10まで",
+    "responses": [
+      {
+        "date": "2025-11-30",
+        "responder": "尾崎",
+        "note": "新開工場長相談済。12/14～1/10まで。有給等後日と伝える。→12/2有給提出したとのこと"
+      },
+      {
+        "date": "2025-12-14",
+        "responder": "尾崎",
+        "note": "松山空港送迎完了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "5cc44774-11d0-594e-85e4-4c006ed35196",
+    "seq": 41,
+    "date": "2025-12-01",
+    "time": "07:57:22",
+    "recorder": "尾崎",
+    "target_employee_code": "07018614",
+    "target_employee_id": "874ab188-3ab1-5c66-9eef-1462d5008a80",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "エヴィより、銀行のキャッシュカードが間違えてロックがかかったとのこと。",
+    "responses": [
+      {
+        "date": "2025-12-01",
+        "responder": "池内",
+        "note": "伊予銀富永様へ確認済。12/2に暗所番号変更手続き書類持ってきてくれる。"
+      },
+      {
+        "date": "2025-12-04",
+        "responder": "池内",
+        "note": "大街道支店にてキャッシュカード即時発行。レギタへカードも渡し完了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "7f8669b5-f705-522c-a878-d172eb610da1",
+    "seq": 42,
+    "date": "2025-09-11",
+    "time": "11:45:24",
+    "recorder": "尾崎",
+    "target_employee_code": "07013663",
+    "target_employee_id": "e8bbf730-6774-5b13-991e-f4a7cdc39de4",
+    "place": "牛渕１別棟",
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "新開工場長よりメルヴァ12/15～1/9帰国希望のラインあり。",
+    "responses": [
+      {
+        "date": "2025-12-03",
+        "responder": "池内",
+        "note": "チケットにて日程確認。12/14～1/10一時帰国"
+      },
+      {
+        "date": "2025-12-14",
+        "responder": "尾崎",
+        "note": "松山空港送迎完了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "13ed0e3c-6d8f-5cde-9f37-d750780b7516",
+    "seq": 43,
+    "date": "2025-12-02",
+    "time": "07:56:15",
+    "recorder": "尾崎",
+    "target_employee_code": "07013667",
+    "target_employee_id": "66516ca3-5e32-5c8c-9937-6fac813c3e24",
+    "place": "ビレッジ3-501",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "新開工場長より昨日掃除中に頭をぶつけ、仕事を続けてたが、その後駐輪場で倒れた。今日休んでおり、昼から男の子より病院へ行きたいと申出があったため、確認依頼。朝一確認すると伝える。",
+    "responses": [
+      {
+        "date": "2025-12-02",
+        "responder": "尾崎",
+        "note": "現在、意識もしっかりしており、ご飯もさっき食べた。朝まではしんどかったが現在は大丈夫とのことで様子を見る。昨日１９時頃頭をぶつけ２２時頃退社。ライハンと一緒に自転車を押してかえった。本日は休みにし何か調子がおかしかったら連絡依頼。新開工場長連絡済。"
+      },
+      {
+        "date": "2025-12-03",
+        "responder": "池内",
+        "note": "体調は大丈夫と返信もあり、12/3も朝から出勤しているようなので、そのまま様子見。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "24b1dd4a-4436-5572-afbf-5686b3194e05",
+    "seq": 44,
+    "date": "2025-12-02",
+    "time": "08:19:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013654",
+    "target_employee_id": "a43c8590-4940-5cc4-af4c-b4b96ea529e0",
+    "place": null,
+    "kind": "妊娠",
+    "status": "完了",
+    "request_note": "新開工場長より、妊娠したとの申し出あり。",
+    "responses": [
+      {
+        "date": "2026-02-05",
+        "responder": "尾崎",
+        "note": "チカと話す。家族帯同ビザに夫に資格変更してもらう。3/20退職にてスケジュール。出産予定は８月とのこと"
+      },
+      {
+        "date": "2026-03-20",
+        "responder": "尾崎",
+        "note": "3/20退職"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "1dc40f56-96de-5fb4-9e97-8f1a9ac199fa",
+    "seq": 45,
+    "date": "2025-12-03",
+    "time": "16:19:37",
+    "recorder": "池内",
+    "target_employee_code": "07013644",
+    "target_employee_id": "f8f1f3e4-b61e-52b7-9c65-a07e05c1b95e",
+    "place": "牛渕２",
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "12/3に退職の申し出。帰国し、大学へ通いたいとのこと。本人は、2/20退職希望しているが、新開さんは3/20ではだめかとのこと。（12月に有給12日付与予定で計14日になる予定）",
+    "responses": [
+      {
+        "date": "2025-12-05",
+        "responder": "池内",
+        "note": "本人は3月には大学が始まるので2月退職を強く希望。新開さんへ了承をもらい、2/20退職で進める。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "37794ff3-ed09-5f3a-9530-77b2d1c7e58b",
+    "seq": 46,
+    "date": "2025-12-05",
+    "time": "22:48:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018617",
+    "target_employee_id": "18cd54b3-d260-594e-ad6d-d19912f35947",
+    "place": "牛渕１",
+    "kind": "携帯",
+    "status": "完了",
+    "request_note": "エヴィより12/6土曜日に携帯契約したい申し出。",
+    "responses": [
+      {
+        "date": "2025-12-06",
+        "responder": "尾崎 , 池内",
+        "note": "牛渕より楽天へ。契約時、リヴァニ、ギム、ジラも来て契約。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "9431d00f-9a58-5cbe-b8c1-6fb358a2cd17",
+    "seq": 47,
+    "date": "2025-12-07",
+    "time": "21:44:51",
+    "recorder": "尾崎",
+    "target_employee_code": "07013632",
+    "target_employee_id": "5b6b65fb-fcea-5904-8bc9-2c4b2bf5eaf4",
+    "place": "ビレッジ4-501",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車パンクして修理の依頼あり。明日対応すると伝える",
+    "responses": [
+      {
+        "date": "2025-12-08",
+        "responder": "尾崎",
+        "note": "カドタ自転車にて前輪のブレーキと後輪交換。6,000円"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "5b302063-4ff7-54ea-aaca-680a6ae90a5b",
+    "seq": 48,
+    "date": "2025-12-06",
+    "time": "18:40:52",
+    "recorder": "尾崎",
+    "target_employee_code": "07001608",
+    "target_employee_id": null,
+    "place": "アトム305",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "天井から水が落ちてくる。蛍光灯が切れた",
+    "responses": [
+      {
+        "date": "2025-12-10",
+        "responder": "尾崎",
+        "note": "蛍光灯交換済。水漏れは行った時には確認できず。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "a284d3d3-269f-5e7b-b3aa-b114af7f7317",
+    "seq": 49,
+    "date": "2025-12-09",
+    "time": "09:55:45",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "ビレッジ2-502 , ビレッジ4-502",
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "ビレッジ中野さんより、2-502と4-502の段ボールの出し方の指導依頼。段ボールは縛って出すことになってる。",
+    "responses": [
+      {
+        "date": "2025-12-09",
+        "responder": "尾崎",
+        "note": "アルバシタとプジャにLINEにて部屋の全員へ通知依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "9d364eb3-e07c-5ea5-a037-8a09a038f4d4",
+    "seq": 50,
+    "date": "2025-12-06",
+    "time": "15:00:00",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "アトム404",
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "アトム404と604について、カンの出し方の指導依頼。ペットやプラスチックにカンが含まれている",
+    "responses": [
+      {
+        "date": "2025-12-09",
+        "responder": "尾崎",
+        "note": "昼礼時に全員に注意喚起"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "adf16bcc-aaff-5fae-91ce-b75c78af35b6",
+    "seq": 51,
+    "date": "2025-12-09",
+    "time": "11:55:59",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": null,
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "石崎さんより、アトム606の人より騒音のクレームあり。注意及び気を付けるよう依頼あり",
+    "responses": [
+      {
+        "date": "2025-12-10",
+        "responder": "尾崎",
+        "note": "昼礼後、注意喚起"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "236033e2-7d8d-5c69-8ac6-40add5c801d5",
+    "seq": 52,
+    "date": "2025-12-09",
+    "time": "12:35:08",
+    "recorder": "池内",
+    "target_employee_code": "07013631",
+    "target_employee_id": "e8a666c2-bd78-55d2-aceb-d26466de7fd5",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "ナウファルより、レザが頭痛で休むので病院へ連れていってほしいと連絡あり。一人で行けないか確認中",
+    "responses": [
+      {
+        "date": null,
+        "responder": "池内",
+        "note": "風邪ではなく疲れからのようなので、様子見。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "71107521-d103-5e31-beed-ca665742adf8",
+    "seq": 53,
+    "date": "2025-12-13",
+    "time": "21:00:19",
+    "recorder": "尾崎",
+    "target_employee_code": "07013648",
+    "target_employee_id": "030107a7-5bba-56f6-ad4d-037ae162df2c",
+    "place": "牛渕２",
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "ナウファルより、インドネシアで洪水の災害で、家が浸水したと連絡あり。月曜日に確認すると返信",
+    "responses": [
+      {
+        "date": "2025-12-26",
+        "responder": "尾崎",
+        "note": "インドネシアで被害を受け５日間連絡が取れなく被害を受けたが、どうしようもないためとのことで終了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "b7ef747b-ad67-5046-b80a-558200bd0ebd",
+    "seq": 54,
+    "date": "2025-12-15",
+    "time": "13:34:33",
+    "recorder": "尾崎",
+    "target_employee_code": "07013629",
+    "target_employee_id": "3d3d195f-8abb-5baf-9589-1d3471f405b6",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "ククより、妻を2/10～２ヶ月間、短期滞在ビザで呼びたい。一緒に生活したい。申請するために、住民票、納税、課税証明書を取得してほしい申し出。",
+    "responses": [
+      {
+        "date": "2025-12-16",
+        "responder": "尾崎",
+        "note": "本人と面談。マンスリーマンションの説明を行い、ククの部屋にいるなら協力すると伝え、別途部屋を用意することはしないと伝える。短期滞在ビザの申請については協力すると伝える。"
+      },
+      {
+        "date": "2026-01-19",
+        "responder": "尾崎",
+        "note": "1/19入管へ特定技能１号として申請"
+      },
+      {
+        "date": "2026-03-27",
+        "responder": "尾崎",
+        "note": "3/27入管より入国許可の通知が届く"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "6d837070-44c3-5fce-a749-0860d7aa8a7c",
+    "seq": 55,
+    "date": "2025-12-15",
+    "time": "14:15:23",
+    "recorder": "池内",
+    "target_employee_code": "17000007",
+    "target_employee_id": null,
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "12/15　最近胃の不調がある。宮内工場長が朴さんへ病院へ連れていくよう連絡済",
+    "responses": [
+      {
+        "date": "2025-12-17",
+        "responder": "池内",
+        "note": "12/17朴さん同行で受診。胃カメラをし、12/23に再受診予定"
+      },
+      {
+        "date": "2025-12-23",
+        "responder": "尾崎",
+        "note": "朴さんより、病院に行って診察するも、特に問題なし。本人も納得とのことで終了。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "dbab01f2-b07f-5632-8eca-f9b1b63eed1d",
+    "seq": 56,
+    "date": "2025-12-15",
+    "time": "14:18:11",
+    "recorder": "池内",
+    "target_employee_code": "07013601",
+    "target_employee_id": "e96526b9-f421-5ffb-8e70-68f8815ea27f",
+    "place": "ビレッジ4-505",
+    "kind": "購入",
+    "status": "完了",
+    "request_note": "H＆Cが用意した冷蔵庫が小さすぎるため、全然入れれなくて困っている。大きい冷蔵庫がほしいとのこと。尾崎さんへ相談",
+    "responses": [
+      {
+        "date": null,
+        "responder": "池内",
+        "note": "新しいものを購入するのは難しいが中古のものはあれば優先的に譲る。すぐの対応はできないと伝えている。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "b75597b2-7769-53f6-9e6e-0e7d4f574701",
+    "seq": 57,
+    "date": "2025-12-16",
+    "time": "08:12:55",
+    "recorder": "池内",
+    "target_employee_code": "07013667",
+    "target_employee_id": "66516ca3-5e32-5c8c-9937-6fac813c3e24",
+    "place": "ビレッジ3-501",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "頭が痛く、病院へ行きたい申し出あり。よしおか内科へ行けるか確認。１人で行けそうなので、先に行ってもらい、後で駆けつけるとLINE",
+    "responses": [
+      {
+        "date": "2025-12-16",
+        "responder": "尾崎",
+        "note": "よしおか内科受診。現在、36.1度、はなみずのみの症状のため、症状抗生物質をもらい様子見。まだ体調が悪いため、通院予定。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "636ea113-ea99-5ce4-b74c-fc404d79997c",
+    "seq": 58,
+    "date": "2025-12-17",
+    "time": "09:31:36",
+    "recorder": "池内",
+    "target_employee_code": "07004405",
+    "target_employee_id": null,
+    "place": "アトム602",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "12/17　頭痛で早退。薬あるということで、昼に様子見行く",
+    "responses": [
+      {
+        "date": "2025-12-17",
+        "responder": "池内 , 渡部",
+        "note": "部屋も見たが不在。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "703d9146-ba87-506b-b66e-38ceb6f2b92c",
+    "seq": 59,
+    "date": "2025-12-19",
+    "time": "08:36:36",
+    "recorder": "尾崎",
+    "target_employee_code": "07001605",
+    "target_employee_id": null,
+    "place": "アトム504",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "宮内工場長より電球交換の依頼。風呂の電球交換",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "3c6cc64d-08ae-5ae6-b449-ba3e1e79d0d0",
+    "seq": 60,
+    "date": "2025-12-19",
+    "time": "08:50:45",
+    "recorder": "池内",
+    "target_employee_code": "07001423",
+    "target_employee_id": null,
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "12/16に朴さんと婦人科受診。生理不順の改善が見られないため、12/23に検査結果が出る予定とのこと。引き続き朴さんと連携を取りながら様子見る。",
+    "responses": [
+      {
+        "date": "2025-12-23",
+        "responder": "尾崎",
+        "note": "朴さんより、本日病院受診したが、１１月に生理が来てるとのことで、特に問題はないようだとのこと。２月までまだないようなら再度受診予定"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "dacb3142-10d5-56e9-aa51-0622c25a8d2f",
+    "seq": 61,
+    "date": "2025-12-19",
+    "time": "09:07:45",
+    "recorder": "池内",
+    "target_employee_code": "07018630",
+    "target_employee_id": "7b1d6dc1-4143-535a-8c1f-8c6de2e4562f",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "ギムから頭痛と吐き気で休んでいる。と連絡あり。病院は自転車で行くのしんどいから行かないとのこと",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "a8343412-8f88-50cb-8595-1a7582b31ceb",
+    "seq": 62,
+    "date": "2025-12-19",
+    "time": "12:45:16",
+    "recorder": "尾崎",
+    "target_employee_code": "07018623",
+    "target_employee_id": "f9af3152-46ae-591b-a0d0-04de4a97256a",
+    "place": "牛渕１",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "エヴィより、呼吸が１週間ほどしんどいので、原因がしりたい。土曜日に呼吸器内科受診予定",
+    "responses": [
+      {
+        "date": "2025-12-20",
+        "responder": "池内",
+        "note": "カハリの病院の結果は異常はありませんでした。 ですが、背骨が少し曲がっていて姿勢が悪くなっているので、それのせいで息が苦しくなることがあるのかもしれません。 長時間同じ姿勢にならないように気をつけてみてください。とのこと。"
+      },
+      {
+        "date": "2025-12-25",
+        "responder": "池内",
+        "note": "ラストノからカハリ良くならない、痛いと言っているとのことで他院受診希望。12/27　11：30　眞柴消化器内科予約"
+      },
+      {
+        "date": "2025-12-27",
+        "responder": "池内",
+        "note": "眞柴消化器内科へ受診。レントゲン、採血異常なし。息苦しさは休みの日にはならない。年末年始の休暇でしっかり体休めるようにつたえた。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "deb7bf80-7dc1-55f4-a284-acccb5e35b9d",
+    "seq": 63,
+    "date": "2025-12-19",
+    "time": "21:11:11",
+    "recorder": "池内",
+    "target_employee_code": "07013665",
+    "target_employee_id": "bdd1dc1b-3228-58a3-8ade-459676e49733",
+    "place": "ビレッジ2-502",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "イナからガス使えなくなったとのこと。連絡来たのが夜なので、翌日20日に対応すると伝えた。",
+    "responses": [
+      {
+        "date": "2025-12-20",
+        "responder": "尾崎",
+        "note": "四国ガス燃料、990-1200へ連絡。ACの表示は長時間ガスを使用したため安全装置が働いて、止まったとのこと。鍵の開けて解除し、復旧。イナに解除方法伝える"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "fff8abee-857e-5b4b-ba3a-aa926b49df27",
+    "seq": 64,
+    "date": "2025-12-19",
+    "time": "13:00:00",
+    "recorder": "渡部",
+    "target_employee_code": "07001627",
+    "target_employee_id": "52d21196-393d-5235-8a24-99a3590fea59",
+    "place": null,
+    "kind": "帰国",
+    "status": "完了",
+    "request_note": "宮内工場長より、家庭の事情により2026/1/27より一時帰国もしくは退職の予定とのこと。",
+    "responses": [
+      {
+        "date": "2025-12-19",
+        "responder": "渡部",
+        "note": null
+      },
+      {
+        "date": "2025-12-24",
+        "responder": "渡部",
+        "note": "宮内工場長より、1/24退職、1/24給料現金払い、1/25退寮　1/22、23有給使用　最終出勤日1/21 帰りの飛行機代は会社負担になるのか宮内工場長より確認してほしいとのこと。"
+      },
+      {
+        "date": "2026-01-25",
+        "responder": null,
+        "note": "1/25のバスにて関空へ"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "c96abcba-fb2c-5478-993f-4b120a12d5dd",
+    "seq": 65,
+    "date": "2025-12-20",
+    "time": "12:09:04",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "牛渕１",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "牛渕１のレンジの皿が割れた。皿を交換する",
+    "responses": [
+      {
+        "date": "2025-12-22",
+        "responder": "尾崎",
+        "note": "廃棄予定電子レンジより交換にて終了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "b2a70e5e-ebcb-5ce9-a831-cf44341111d2",
+    "seq": 66,
+    "date": "2025-12-20",
+    "time": "10:44:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018631",
+    "target_employee_id": "0c2f42d9-6049-5fb4-868d-5e4f1d91f59a",
+    "place": "中野２",
+    "kind": "携帯",
+    "status": "完了",
+    "request_note": "携帯契約したい申し出。12/27午前中に行きたい",
+    "responses": [
+      {
+        "date": "2025-12-20",
+        "responder": "尾崎",
+        "note": "楽天重信　10:00で予約"
+      },
+      {
+        "date": null,
+        "responder": "尾崎",
+        "note": "携帯契約で終了　070-9449-6583"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "618a7c3f-0452-544c-bb41-599ae1a1280e",
+    "seq": 67,
+    "date": "2025-12-20",
+    "time": "13:23:49",
+    "recorder": "尾崎",
+    "target_employee_code": "07013625",
+    "target_employee_id": "219bc3dc-570a-5135-8dce-65f002b3463b",
+    "place": null,
+    "kind": "結婚",
+    "status": "申請中",
+    "request_note": "新開工場長よりラティフとミャナが7/21～9/20まで結婚のため一時帰国希望のＬＩＮＥあり。",
+    "responses": [
+      {
+        "date": "2026-01-23",
+        "responder": "尾崎",
+        "note": "チケット画面"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "844b33ec-fb98-5965-8e75-29d0f47ef876",
+    "seq": 68,
+    "date": "2025-12-22",
+    "time": "06:49:52",
+    "recorder": "尾崎",
+    "target_employee_code": "07018616",
+    "target_employee_id": "9452c45d-ee70-5f90-83c9-950bb21b927b",
+    "place": "牛渕１",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車修理依頼",
+    "responses": [
+      {
+        "date": "2025-12-22",
+        "responder": "尾崎",
+        "note": "カドタ自転車にて修理。2,600円"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "0edf46c4-1306-579b-9c56-6e6b76e3d420",
+    "seq": 69,
+    "date": "2025-12-22",
+    "time": "08:29:54",
+    "recorder": "尾崎",
+    "target_employee_code": "18001403",
+    "target_employee_id": "b7744e94-350c-5e51-9ddc-9649fccc1be4",
+    "place": "アトム605",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "宮内工場長より昨日自転車で事故したとの報告あり。8:05に相手先に電話するも出ず。8:13朴さんに一報し、本人より事故の状況聞き取り依頼。",
+    "responses": [
+      {
+        "date": "2025-12-22",
+        "responder": "尾崎",
+        "note": "11:45相手の母親より連絡あり。090-3379-6981、山根さん、担当者などを送付いただいた。"
+      },
+      {
+        "date": "2025-12-23",
+        "responder": "尾崎",
+        "note": "シーに聞き取り（ダット通訳）写真の場所にてぶつかった、朴さんより、連絡をとるがシーより連絡がないとのこと。"
+      },
+      {
+        "date": "2026-03-25",
+        "responder": "尾崎",
+        "note": "3/25に2,600円の振込を行ったと連絡あり。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "988ec6f7-75d0-570f-adf3-76b56a1b92fe",
+    "seq": 70,
+    "date": "2025-12-22",
+    "time": "11:30:00",
+    "recorder": "渡部",
+    "target_employee_code": "07001616",
+    "target_employee_id": "8d099d55-95d4-5296-808f-42f4c48bbca6",
+    "place": "アトム705",
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "アトム606の方より、毎日騒音がひどいとのことでアトムへ怒鳴りこんできているとのこと。",
+    "responses": [
+      {
+        "date": "2025-12-22",
+        "responder": "渡部",
+        "note": "ヒエンに気を付けるよう伝えた。ご主人、トゥーにも伝えてもらうようにした。"
+      },
+      {
+        "date": "2025-12-23",
+        "responder": "尾崎",
+        "note": "ヒエンに聞き取り、夜が遅く料理をしている可能性があるため、再度、注意を依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "ea2fe648-051b-5dda-8355-2bcf9b8cdc8c",
+    "seq": 71,
+    "date": "2025-12-23",
+    "time": "06:20:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07012625\n07017701",
+    "target_employee_id": "1fc1ce49-bf6d-5220-b71f-0d1bcf4647e7",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "給料について問い合わせあり",
+    "responses": [
+      {
+        "date": "2025-12-23",
+        "responder": "尾崎",
+        "note": "新開工場長へLINEにて連絡。対応依頼。"
+      },
+      {
+        "date": "2025-12-26",
+        "responder": "尾崎",
+        "note": "新開工場長より説明を受け納得したとの回答あり"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "1795fb10-64bd-5d6d-8b54-7c30f5bb9e12",
+    "seq": 72,
+    "date": "2025-12-23",
+    "time": "19:41:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013614",
+    "target_employee_id": "a3692526-43ed-56e6-b065-491d11fb00da",
+    "place": null,
+    "kind": "一時帰国 , 結婚",
+    "status": "完了",
+    "request_note": "新開工場長より、LINEにて、2025/4/20～6/3まで、自身の結婚のため一時帰国の申し出あり。また、次の特定２号の試験の申し出ありとのこと",
+    "responses": [
+      {
+        "date": "2026-02-19",
+        "responder": "尾崎",
+        "note": "連番 127 日付 2026/02/19 時間 12:39:07 登録者 尾崎 実習生 コフィファー ヌル コエリヤー View Ref (実習生) 申請区分 一時帰国 完了区分 申請中 登録記事 4/20～6/5帰国。在留カード更新、4/15頃行う"
+      },
+      {
+        "date": "2026-03-12",
+        "responder": "尾崎",
+        "note": "3/12入管へ提出"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "110e9d5f-ac30-5813-bf2f-f732b0b336be",
+    "seq": 73,
+    "date": "2025-12-24",
+    "time": "12:19:50",
+    "recorder": "尾崎",
+    "target_employee_code": "07013631",
+    "target_employee_id": "e8a666c2-bd78-55d2-aceb-d26466de7fd5",
+    "place": null,
+    "kind": "携帯",
+    "status": "完了",
+    "request_note": "楽天より弁護士を使ってメールあり、対応してほしいとのこと。市ヶ谷中央法律事務所　05031172527",
+    "responses": [
+      {
+        "date": "2025-12-24",
+        "responder": "池内",
+        "note": "弁護士事務所へ電話したが本人同席でないと対応できないと言われた。後日レザと改めて電話する"
+      },
+      {
+        "date": null,
+        "responder": "池内",
+        "note": "レザ同席の元、弁護士事務所へ連絡。滞納分R7.7～10月分￥13,195。12/25レザからお金を預かり支払い済。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "e6d947b7-6476-5c78-8e11-625ccafb7dc3",
+    "seq": 74,
+    "date": "2025-12-24",
+    "time": "12:22:23",
+    "recorder": "尾崎",
+    "target_employee_code": "07018615",
+    "target_employee_id": "730efaa9-f35c-5e46-9ff6-667930883b85",
+    "place": "牛渕１",
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "スハルより、サエと一緒に別棟に移っていいかの問い合わせ。ウフィック、ウイッティOKとのことで部屋を見て決めたい",
+    "responses": [
+      {
+        "date": "2025-12-26",
+        "responder": "尾崎",
+        "note": "別棟へ移動はいやとのことで、食堂の前に移る。ウィックに２名探すよう指示。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "50d5acc6-995b-5a24-8870-f7be259511d5",
+    "seq": 75,
+    "date": "2025-12-24",
+    "time": "12:34:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013626",
+    "target_employee_id": "71077342-c34a-56fd-a291-f8a503db5472",
+    "place": "中野２",
+    "kind": "購入",
+    "status": "完了",
+    "request_note": "中野２の自転車置場が、夜間暗いため電気を設置依頼",
+    "responses": [
+      {
+        "date": "2025-12-24",
+        "responder": "尾崎",
+        "note": "ダイキにて購入し、仮設置"
+      },
+      {
+        "date": "2025-12-25",
+        "responder": "尾崎",
+        "note": "12/26にナウファルにて問題ないとの回答。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "f9716d24-ff84-5342-af5e-8ae7cf821dfd",
+    "seq": 76,
+    "date": "2025-12-26",
+    "time": "13:07:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011608",
+    "target_employee_id": "70312715-2d7e-520f-8275-9e3d9f14fe1c",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "チンや子供で大変なため、育児休暇を延長依頼。確認すると伝える",
+    "responses": [
+      {
+        "date": "2025-12-26",
+        "responder": "尾崎",
+        "note": "1/31まで延長にて回答、本人了承"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "72065688-0f58-5ca6-a97c-82e505202d96",
+    "seq": 77,
+    "date": "2026-01-03",
+    "time": "17:32:33",
+    "recorder": "尾崎",
+    "target_employee_code": "07018616",
+    "target_employee_id": "9452c45d-ee70-5f90-83c9-950bb21b927b",
+    "place": "牛渕１",
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": null,
+    "responses": [
+      {
+        "date": "2026-01-03",
+        "responder": "尾崎",
+        "note": "参加登録はしましたが、１人で参加はむずかしいので確認すること"
+      },
+      {
+        "date": "2026-01-05",
+        "responder": "尾崎",
+        "note": "アイシャーも成人式出席のため、参加登録。東温市役所にも、２名で参加、連絡して問題ない回答"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "8b792ac9-37c6-56a8-87c5-db7bcbeada8c",
+    "seq": 78,
+    "date": "2026-01-04",
+    "time": "15:30:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018604",
+    "target_employee_id": "ce06221f-18c8-559d-be6f-8b2d5826607e",
+    "place": "ビレッジ4-501",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "明日、病院へ連れて行ってほしいと連絡あり。熱３８咳と喉が痛い症状。明日、よしおか内科予約し連絡する。朝８時までに症状報告依頼。サニアも同じ症状のため病院へ行きたい",
+    "responses": [
+      {
+        "date": "2026-01-05",
+        "responder": "尾崎",
+        "note": "よしおか内科受診、リズキはインフルB、サニアは該当なし。サニアはインフルの薬でていないとのこと。"
+      },
+      {
+        "date": "2026-01-07",
+        "responder": "尾崎",
+        "note": "リズキより薬の追加がほしいと連絡あり。よしおか内科に確認。４日分の薬と１０回分の咳止めを処方してもらい840円。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "60808ee2-8919-548c-bf40-e5b69e75c2ff",
+    "seq": 79,
+    "date": "2026-01-05",
+    "time": "06:10:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013674",
+    "target_employee_id": "5d717644-79ef-5092-b4d9-a456a0d98b70",
+    "place": "コーポ津吉2-4",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "アリフより、マヤンとダナンが熱との連絡あり。",
+    "responses": [
+      {
+        "date": "2026-01-05",
+        "responder": "尾崎",
+        "note": "本日の病院は雨等により無理とのことで、1/6(火曜日)10:30で再予約"
+      },
+      {
+        "date": "2026-01-06",
+        "responder": "池内 , 尾崎",
+        "note": "1/6よしおか内科受診。ダナンはインフルA。解熱すれば11日より勤務。マヤングは陰性で熱もないため、昼から勤務。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "5883902f-132d-5308-871a-a2a4d2e295a4",
+    "seq": 80,
+    "date": "2026-01-05",
+    "time": "08:49:01",
+    "recorder": "尾崎",
+    "target_employee_code": "07013661",
+    "target_employee_id": "0402d27d-5f6c-5230-80a0-88d098a6e645",
+    "place": "ビレッジ1-205",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "給湯器が使用できないとの申し出あり。管理人に確認すると伝える",
+    "responses": [
+      {
+        "date": "2026-01-05",
+        "responder": "尾崎",
+        "note": "お湯が出たと報告あり。完了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "802ed77e-d725-5081-a6f5-3a8fdc1dfd4d",
+    "seq": 81,
+    "date": "2026-01-06",
+    "time": "17:08:02",
+    "recorder": "池内",
+    "target_employee_code": "07018605",
+    "target_employee_id": "28e0dc96-6587-548d-9b2c-283a24c6c373",
+    "place": "牛渕２",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "5日くらい前から、頭痛、左胸あたりが痛み苦しくなる。吐き気あり。夜も寝れないなどの症状があり、病院へ行きたいとのこと。",
+    "responses": [
+      {
+        "date": "2026-01-06",
+        "responder": "池内",
+        "note": "1/6くぼた呼吸器内科へ受診。症状を伝えたが尿検査、血圧測って終了。仮病じゃないかと言われ、吐き気の薬飲み処方。とりあえず、処方された薬飲んで様子見。"
+      },
+      {
+        "date": "2026-01-17",
+        "responder": "池内",
+        "note": "1/17に病状確認。本人的に治ったとのこと。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "177971ca-cc81-56c9-ada0-a507550b11b5",
+    "seq": 82,
+    "date": "2026-01-06",
+    "time": "12:49:07",
+    "recorder": "尾崎",
+    "target_employee_code": "07013640",
+    "target_employee_id": "72c5c5e5-d372-55ed-bd01-bd37dbdf54dc",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "一時帰国の申出。3/12に変更～4/10までアンディニと一緒とのこと",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "b99cff93-0a3b-51de-a3f6-35d73d2f9a91",
+    "seq": 83,
+    "date": "2026-01-07",
+    "time": "21:24:07",
+    "recorder": "尾崎",
+    "target_employee_code": "07018607",
+    "target_employee_id": "a6d9bb64-5299-5b2f-8984-673688a91dd8",
+    "place": "牛渕２",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "手がぶつぶつができて痒いので病院へ行きたい申し出あり。新開工場長へLINE連絡済み",
+    "responses": [
+      {
+        "date": "2026-01-08",
+        "responder": "池内",
+        "note": "1/8八木皮膚科受診。両手の手の甲、両腕、両足にひどめの湿疹でかゆい。乾燥がひどいのが原因。塗り薬多めに貰い様子見てみる。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "9b3ecd79-58eb-55fa-b0e6-4ff7887c173c",
+    "seq": 84,
+    "date": "2026-01-08",
+    "time": "06:49:10",
+    "recorder": "尾崎",
+    "target_employee_code": "07013646",
+    "target_employee_id": "54f7766d-d1d7-5995-9ab6-3edf04eba06d",
+    "place": "ビレッジ4-407",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "新開工場長より、月曜日1/5より指が少し腫れていると連絡あり。今週様子見て治らないようなら来週病院へ",
+    "responses": [
+      {
+        "date": "2026-01-08",
+        "responder": "尾崎",
+        "note": "左手中指、右手薬指が痛い、来週痛いようなら再度連絡依頼。→1/24（土）金澤整形受診"
+      },
+      {
+        "date": "2026-01-24",
+        "responder": "池内",
+        "note": "金澤受診。レントゲンでは異常はないが、リウマチの可能性もあるかもしれないので採血を実施。次回1/31に検査結果とリハビリ予定(ナナと二人で行くとのこと)"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "70b347cf-7b7d-5218-884f-670ed1038f1e",
+    "seq": 85,
+    "date": "2026-01-06",
+    "time": "12:25:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013678",
+    "target_employee_id": "1f4d71f4-9bc9-5d61-a5d7-e9a89241b394",
+    "place": "コーポ津吉1-6",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "冷蔵庫が冷えない申し出があり、確認に行くと冷蔵が出来ない様子",
+    "responses": [
+      {
+        "date": "2026-01-08",
+        "responder": "尾崎",
+        "note": "冷えないため、専務に相談、2019年8月購入のため、購入相談、OK"
+      },
+      {
+        "date": "2026-01-09",
+        "responder": "尾崎",
+        "note": "ケーズ電気にて購入、1/17土曜日配達"
+      },
+      {
+        "date": "2026-01-17",
+        "responder": "尾崎",
+        "note": "ケーズ電気にて購入搬入"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "d81a34a0-1e5e-5183-945d-716f276b901b",
+    "seq": 86,
+    "date": "2026-01-09",
+    "time": "14:47:21",
+    "recorder": "池内",
+    "target_employee_code": "07001628",
+    "target_employee_id": "4ee45765-e499-5413-9af0-de4116bcbf76",
+    "place": "アトム402",
+    "kind": "帰国",
+    "status": "申請中",
+    "request_note": "宮内工場長より、ヌーの一時帰国6/15～8/2の連絡あり。（飛行機は6/16　9:20大阪発～8/1　7:50大阪着）",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "94d5a7f8-7184-58c9-a0b5-45b68ff02330",
+    "seq": 87,
+    "date": "2026-01-11",
+    "time": "19:17:50",
+    "recorder": "池内",
+    "target_employee_code": "07013676",
+    "target_employee_id": "aa42c78c-e421-5474-a566-2da3f70d328e",
+    "place": "中野３",
+    "kind": "病院",
+    "status": "対応中",
+    "request_note": "ミャナより現在しばらくばね指で通院しているが、薬でも改善しないため、手術になるとのこと。1/17の朝に受診予定のために一緒に話を聞きに行くことにする。",
+    "responses": [
+      {
+        "date": "2026-01-17",
+        "responder": "池内",
+        "note": "金澤より、日赤へ紹介状を送ってもらった。後日、日赤へいつ受診行くかなど連絡来る。引き続き池内対応します。→1/28　13:00～日赤"
+      },
+      {
+        "date": "2026-01-28",
+        "responder": "池内",
+        "note": "日赤の整形受診。ばね指の症状の、指の引っ掛かりが強い。今回は注射で痛み緩和の処置。1か月後に改善がなければ手術の日程を決めましょうという話になった。次回、2月25日(水)13:10～"
+      },
+      {
+        "date": "2026-02-25",
+        "responder": "池内",
+        "note": "3/17 午前中手術　3/25抜糸　予定。新開工場長と大西さん連絡済み"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "2959d985-1bff-56d2-a1e8-1b6b8e550a43",
+    "seq": 88,
+    "date": "2026-01-12",
+    "time": "20:12:02",
+    "recorder": "尾崎",
+    "target_employee_code": "07018616",
+    "target_employee_id": "9452c45d-ee70-5f90-83c9-950bb21b927b",
+    "place": "牛渕１",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車のペダル修理依頼",
+    "responses": [
+      {
+        "date": "2026-01-13",
+        "responder": "尾崎",
+        "note": null
+      },
+      {
+        "date": "2026-01-17",
+        "responder": "尾崎",
+        "note": "クランプを抜くには特殊な工具が必要なため、門田サイクルへ、月曜日まで預ける"
+      },
+      {
+        "date": "2026-01-19",
+        "responder": "尾崎",
+        "note": "古い自転車の部品と交換。工賃2,000円"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "dcea70ee-eb20-5feb-9630-7dc59ef84539",
+    "seq": 89,
+    "date": "2026-01-12",
+    "time": "20:13:39",
+    "recorder": "尾崎",
+    "target_employee_code": "07013662",
+    "target_employee_id": "816eb52f-f781-5246-adf0-51cf31e6e01f",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車のパンク修理依頼。会社にある様子",
+    "responses": [
+      {
+        "date": "2026-01-13",
+        "responder": "尾崎",
+        "note": "修理終了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "21d6b196-443d-5cf9-8dd5-009e236448b1",
+    "seq": 90,
+    "date": "2026-01-13",
+    "time": "12:25:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013638",
+    "target_employee_id": "f90cd498-aab4-5c1b-a499-4f5183610eb1",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "エカより、1/15午後、ニマを椿ウイメンズに一緒にいってほしいとの話があり。時間を連絡依頼",
+    "responses": [
+      {
+        "date": "2026-01-14",
+        "responder": "尾崎",
+        "note": "明日の病院はなし。次回は自分で行くとの申し出"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "df3a4d0e-d62f-566e-9886-60d7e634898b",
+    "seq": 91,
+    "date": "2026-01-15",
+    "time": "10:03:03",
+    "recorder": "尾崎",
+    "target_employee_code": "07011614",
+    "target_employee_id": "868f2735-1672-50fc-9d64-cedaaa790712",
+    "place": "ビレッジ2-506",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "おやしらずがいたく歯医者にいくと連絡あり。あとで、病院の予約ずみの様子。グリーン歯科　9:00",
+    "responses": [
+      {
+        "date": "2026-01-17",
+        "responder": "尾崎",
+        "note": "おやしらずを抜く、なにもなければ、終了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "27c84861-8b80-5fb0-8095-7b8594965cc2",
+    "seq": 92,
+    "date": "2026-01-16",
+    "time": "12:37:35",
+    "recorder": "池内",
+    "target_employee_code": "07013644",
+    "target_employee_id": "f8f1f3e4-b61e-52b7-9c65-a07e05c1b95e",
+    "place": "牛渕２",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "1/16発熱で早退したと連絡あり。38度くらい。17日(土)に八木耳鼻咽喉科にて発熱外来受けれるようにこちらで病院の手配をする。病院へはインフル、コロナの検査希望をつたえた。予約制ではないので朝8：30～11：00までに受付するように伝えた。",
+    "responses": [
+      {
+        "date": "2026-01-17",
+        "responder": "池内",
+        "note": "インフルA。発症日が1/16(金)で、1/21まで自宅療養。新開さんへ連絡済。特定1号保険は未加入"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "acf4b641-855a-57c0-be8f-27f54eceee24",
+    "seq": 93,
+    "date": "2026-01-16",
+    "time": "22:48:30",
+    "recorder": "尾崎",
+    "target_employee_code": "07018622",
+    "target_employee_id": "e34c85a9-3247-5514-9618-c69e71baaa9b",
+    "place": "牛渕１",
+    "kind": "問合せ",
+    "status": "対応中",
+    "request_note": "エヴィより、牛渕に国民年金の紙が来たとのこと。確認すると伝える",
+    "responses": [
+      {
+        "date": "2026-01-21",
+        "responder": "尾崎",
+        "note": "アイシャーからとの返事"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "934864bd-e4fa-541d-a07f-f3d90d83251f",
+    "seq": 94,
+    "date": "2026-01-17",
+    "time": "08:33:18",
+    "recorder": "尾崎",
+    "target_employee_code": "07013662",
+    "target_employee_id": "816eb52f-f781-5246-adf0-51cf31e6e01f",
+    "place": "ビレッジ4-502",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "エヴィより連絡あり。",
+    "responses": [
+      {
+        "date": "2026-01-17",
+        "responder": "尾崎",
+        "note": "一度取り外す、中野１へ"
+      },
+      {
+        "date": "2026-01-17",
+        "responder": "尾崎",
+        "note": "4-507ヒダヤットの部屋の分と交換する"
+      },
+      {
+        "date": "2026-01-17",
+        "responder": "尾崎",
+        "note": "パイプに穴が開いたため、パイプ交換"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "c93886e6-8b18-5b47-aa34-8441ce0de740",
+    "seq": 95,
+    "date": "2026-01-19",
+    "time": "10:41:21",
+    "recorder": "尾崎",
+    "target_employee_code": "07001616",
+    "target_employee_id": "8d099d55-95d4-5296-808f-42f4c48bbca6",
+    "place": "アトム705",
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "アトム６０６の谷森さんより騒音についての問い合わせあり。",
+    "responses": [
+      {
+        "date": "2026-01-23",
+        "responder": "尾崎",
+        "note": "谷森さんへ連絡して確認。現在のところ、穏やかな日々を送っているとのこと。何かあれば、連絡を依頼。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "3b1468d9-722b-5d12-93e9-2309df56024a",
+    "seq": 96,
+    "date": "2026-01-19",
+    "time": "21:15:52",
+    "recorder": "池内",
+    "target_employee_code": "07018624",
+    "target_employee_id": "606fe81c-907b-5ff2-b5d0-2651de5a25a4",
+    "place": "コーポ津吉2-4",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "21時頃、ジラより電話があり、ベリが外で倒れ気絶したとのこと。ジラがコーポ津吉まで連れて帰った。新開工場長へ連絡をし、様子を見に行っていただく。",
+    "responses": [
+      {
+        "date": "2026-01-19",
+        "responder": "池内",
+        "note": "新開工場長よりべリの様子を見に行っていただき、意識あり、熱無し。薬飲ませて対応していただきました。翌朝、べリの様子を見に行き報告すると伝えました"
+      },
+      {
+        "date": "2026-01-20",
+        "responder": "尾崎",
+        "note": "平成脳神経外科受診、MRI、血液検査共に問題なし。血圧102/56で血圧が低いため、脳に血液が送られるにが低下したため、脳低血圧による失神ではないかとのこと。脱水症状もあるため、水分及び食事をきちんととるよう指示。専務より、２日は休んで体調整えるよう指示あり。山本統括にも報告済み"
+      },
+      {
+        "date": "2026-01-23",
+        "responder": "池内",
+        "note": "1/23より勤務している"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "4ed06b35-7777-5fe6-9ffd-079400dee316",
+    "seq": 97,
+    "date": "2026-01-20",
+    "time": "13:00:13",
+    "recorder": "尾崎",
+    "target_employee_code": "07018614",
+    "target_employee_id": "874ab188-3ab1-5c66-9eef-1462d5008a80",
+    "place": "牛渕１",
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "レギタより、オリフェアとノビと３人で下の部屋に移動したいと申請あり。",
+    "responses": [
+      {
+        "date": "2026-01-24",
+        "responder": "尾崎",
+        "note": "３人が移動したと報告あり"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "9e6f0b50-3b3e-5948-b7a6-643195192327",
+    "seq": 98,
+    "date": "2026-01-22",
+    "time": "09:29:23",
+    "recorder": "池内",
+    "target_employee_code": "07001628",
+    "target_employee_id": "4ee45765-e499-5413-9af0-de4116bcbf76",
+    "place": "アトム402",
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "宮内工場長より、ヌーの一時帰国2/5～3/7の連絡あり。（飛行機は2/5　13：30広島発～3/7　12:00広島着）",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "b68b4606-5c6b-54e0-af66-40a7651e767d",
+    "seq": 99,
+    "date": "2026-01-23",
+    "time": "14:40:57",
+    "recorder": "尾崎",
+    "target_employee_code": "07011610",
+    "target_employee_id": "3ea7176d-50f5-5c80-8664-6742083c94f6",
+    "place": "ビレッジ1-303",
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "3/1～家の建築のため一時帰国したい申出。新開工場長へ報告済みだが、本人より伝えるよう伝える。",
+    "responses": [
+      {
+        "date": "2026-02-06",
+        "responder": "尾崎",
+        "note": "飛行機チケット受領。2/26～4/14の飛行機（広島発着）2/25最終出勤、4/15勤務開始"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "664ba06f-153f-582b-b33f-05c5569e3208",
+    "seq": 100,
+    "date": "2026-01-23",
+    "time": "12:06:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013632",
+    "target_employee_id": "5b6b65fb-fcea-5904-8bc9-2c4b2bf5eaf4",
+    "place": "ビレッジ4-501",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車の鍵が折れた。自分でやってみて出来なければ連絡依頼",
+    "responses": [
+      {
+        "date": "2026-01-24",
+        "responder": "尾崎",
+        "note": "鍵を取り出す"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "9c05f08f-c6f2-5fbf-9c63-d2bdce92a3bc",
+    "seq": 101,
+    "date": "2026-01-23",
+    "time": "17:08:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013680",
+    "target_employee_id": "0db063df-b298-5d25-94c2-b0a8667f146f",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "申請中",
+    "request_note": "新開工場長より、5/6～6/6まで一時帰国のメールあり。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "c7a6f34d-0ef3-5f19-9a8e-6b6367cfc51e",
+    "seq": 102,
+    "date": "2026-01-24",
+    "time": "10:26:33",
+    "recorder": "渡部",
+    "target_employee_code": "07001627",
+    "target_employee_id": "52d21196-393d-5235-8a24-99a3590fea59",
+    "place": "アトム401",
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "1/25 11時過ぎ頃寮を出る予定。自転車と寮の鍵はホンへ渡すとのこと。1/26に回収予定。自転車の確認済。エレベーター付近の駐輪場へ停めている。NO.7919",
+    "responses": [
+      {
+        "date": "2026-01-24",
+        "responder": "渡部",
+        "note": null
+      },
+      {
+        "date": "2026-01-29",
+        "responder": "尾崎",
+        "note": "中野２へ"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "f4541c90-b06d-54ea-8363-a38285eb3dc3",
+    "seq": 103,
+    "date": "2026-01-25",
+    "time": "16:36:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013632",
+    "target_employee_id": "5b6b65fb-fcea-5904-8bc9-2c4b2bf5eaf4",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "足に痛みがあり、病院へ行きたいとLINEあり。",
+    "responses": [
+      {
+        "date": "2026-01-26",
+        "responder": "池内",
+        "note": "自転車で転倒した際に怪我した。膝から足首にかけて打撲しており内出血しているため、足を引きずっている状態。金澤整形にて受診。骨折や筋肉の損傷はないが痛みが引くまで無理しない様にとのこと。２月１週目に再受診させる予定。（仕事終わり18時頃に行くように伝えた）"
+      },
+      {
+        "date": "2026-02-05",
+        "responder": "尾崎",
+        "note": "足の怪我も治ったとのこと"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "25f31ed8-03dd-51ce-8291-093a127d099f",
+    "seq": 104,
+    "date": "2026-01-26",
+    "time": "08:07:22",
+    "recorder": "尾崎",
+    "target_employee_code": "07001618",
+    "target_employee_id": "b545c47f-62a3-56b3-b203-af6f4fa87a82",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "藤原副工場長より、ロンが目に出来物ができて病院へ行きたいと申し出があり。近くの病院に空きがないため、直接行くと伝える",
+    "responses": [
+      {
+        "date": "2026-01-26",
+        "responder": "尾崎",
+        "note": "あおば眼科受診。石が発生しているため、取る。まだ、下に石がありそれが表面に出てくることがあり、表面に出てきたら取るしかないとのこと。今回石を取るので出血してるので１時間ぐらい痛みがある。３日間目薬を処方し終了。"
+      },
+      {
+        "date": "2026-02-02",
+        "responder": "尾崎",
+        "note": "再度、痛みが発生したため再受診。目をさわったことにより、めいぼができた。飲み薬を処方し様子を見る"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "c62b3312-6a02-559e-8893-9c41b3e2bb0d",
+    "seq": 105,
+    "date": "2026-01-26",
+    "time": "08:22:25",
+    "recorder": "池内",
+    "target_employee_code": "07013645",
+    "target_employee_id": "f123bdf8-12e7-5011-ae18-4b23bd2351c0",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車の調子が悪いと連絡あり。男の子が直してくれたので一旦は大丈夫そうとのことだが、また修理依頼が来るかもしれません",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "1e2a8748-d217-5428-b05a-9e60a5093f72",
+    "seq": 106,
+    "date": "2026-01-26",
+    "time": "08:41:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07001626",
+    "target_employee_id": "0b9e9787-0726-5d48-b098-81d42ce1890d",
+    "place": "アトム401",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "ホンより、４０１の台所の排水が漏れると連絡あり。アトム石崎さんへ連絡。1/27火曜日9:30に予約が取れたと連絡あり。",
+    "responses": [
+      {
+        "date": "2026-01-27",
+        "responder": "尾崎",
+        "note": "石崎さんより業者手配し完了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "186c7a6b-8c00-5647-ac24-28edfa1768a4",
+    "seq": 107,
+    "date": "2026-01-27",
+    "time": "07:59:42",
+    "recorder": "尾崎",
+    "target_employee_code": "08004401",
+    "target_employee_id": "47732880-da16-55dc-a0f2-00cbb28de117",
+    "place": "アトム602",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "６０２の風呂の水漏れ、石崎さんへLINE済",
+    "responses": [
+      {
+        "date": "2026-01-27",
+        "responder": "尾崎",
+        "note": "石崎さん対応済み"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "857ffc57-d270-5f28-abab-32dec4bc5ed3",
+    "seq": 108,
+    "date": "2026-01-27",
+    "time": "08:07:15",
+    "recorder": "尾崎",
+    "target_employee_code": "07001619",
+    "target_employee_id": "f44aa39c-4210-58b9-ad67-6d144591b1b8",
+    "place": "アトム406",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "洗濯機の給水のところが合わない。",
+    "responses": [
+      {
+        "date": "2026-01-27",
+        "responder": "尾崎",
+        "note": "ダイキにて部品購入し、設置"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "a9807350-8494-5abc-82e4-ad9865f6f7a0",
+    "seq": 109,
+    "date": "2026-01-28",
+    "time": "18:06:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018601",
+    "target_employee_id": "c792d77f-9ff1-5692-b056-9bad92a86e8e",
+    "place": "ビレッジ4-504",
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "エカより、駐車場契約について相談あり。明日、確認して連絡すると伝える。",
+    "responses": [
+      {
+        "date": "2026-01-29",
+        "responder": "尾崎",
+        "note": "ビレッジへ契約対応中"
+      },
+      {
+        "date": "2026-02-06",
+        "responder": "尾崎",
+        "note": "ビレッジより許可証等届いたため、エカへＬＩＮＥ及び津吉印刷し本人へ"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "2edd26ec-4805-5aea-a64f-1d421edc453e",
+    "seq": 110,
+    "date": "2026-01-29",
+    "time": "12:49:56",
+    "recorder": "尾崎",
+    "target_employee_code": "07018612",
+    "target_employee_id": "e03643a5-a917-58e6-8127-088ed48c1049",
+    "place": "牛渕１",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "エヴィより、タラユニの自転車がパンクで修理依頼。明日、行うと通知",
+    "responses": [
+      {
+        "date": "2026-01-29",
+        "responder": "尾崎",
+        "note": "現在パンクしていないため、大西工場長代理に連絡。エヴィに確認及び本人より、空気をいれてしばらくすると抜けてるとのこと。現在のところパンクしていないので様子を見てと伝える"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "436414b7-12fb-56e8-b92f-13e17c04ac6e",
+    "seq": 111,
+    "date": "2026-01-29",
+    "time": "13:43:07",
+    "recorder": "池内",
+    "target_employee_code": "07013645",
+    "target_employee_id": "f123bdf8-12e7-5011-ae18-4b23bd2351c0",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "ロパから、鼻水が止まらない。夜も寝れないので、病院でアレルギー検査を受けたいとのこと。アレルギー検査できる病院を探すと伝えている。→1/31㈯　8:15～よしおか内科へ。一人で行く。何かあったら池内へ電話かかってくるので対応する。",
+    "responses": [
+      {
+        "date": "2026-02-06",
+        "responder": "池内",
+        "note": "検査結果は異常なく、たまねぎのアレルギーはなし。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "4804b088-9ac6-5df5-9eac-6d9ad43fc213",
+    "seq": 112,
+    "date": "2026-02-01",
+    "time": "07:20:32",
+    "recorder": "尾崎",
+    "target_employee_code": "07013652",
+    "target_employee_id": "37adee43-8b94-5a8e-87ef-073f57278348",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "新開工場長より、リリスが昨日手を怪我したと連絡あり。病院へはいっており、月曜日も行くとの報告あり。",
+    "responses": [
+      {
+        "date": "2026-02-01",
+        "responder": "尾崎",
+        "note": "デュアナからも連絡あり。"
+      },
+      {
+        "date": "2026-02-02",
+        "responder": "池内",
+        "note": "中川病院にて1/31と2/2に処置してもらった。2/3も受診予定。2/4から出勤したいとのこと"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "10be564c-aee4-5141-9fc1-a8e102a7c9c2",
+    "seq": 113,
+    "date": "2026-02-03",
+    "time": "12:54:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011613",
+    "target_employee_id": "07d2b15b-a325-5113-850b-c1e0575314b9",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "チンより、出産一時金の用紙について、問い合わせあり。近く訪問するので、そのときに記入する。",
+    "responses": [
+      {
+        "date": "2026-02-05",
+        "responder": "尾崎",
+        "note": "書類作成し、提出依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "b5e0711e-3cf5-547a-9e50-0c5d8f70bfe0",
+    "seq": 114,
+    "date": "2026-02-04",
+    "time": "20:29:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011602",
+    "target_employee_id": "02482a2d-5068-578b-bc32-7d746fd60ed4",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "退職後の書類の依頼があり。",
+    "responses": [
+      {
+        "date": "2026-02-05",
+        "responder": "尾崎",
+        "note": "資格取得証明書送付、後は、退職後、送付予定"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "34b537d4-f14d-5c45-868b-918c4e0b6c4d",
+    "seq": 115,
+    "date": "2026-02-05",
+    "time": "09:12:41",
+    "recorder": "池内",
+    "target_employee_code": "07013663",
+    "target_employee_id": "e8bbf730-6774-5b13-991e-f4a7cdc39de4",
+    "place": "牛渕１別棟",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "2/2～体調不良で休んでいる。頭が痛いので病院へ行きたいとのこと。八木耳鼻咽喉科へ連絡",
+    "responses": [
+      {
+        "date": "2026-02-05",
+        "responder": "尾崎",
+        "note": "八木病院へ受診。コロナ、インフル陰性。風邪薬もらう"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "7ceb73c9-fc0c-5b6d-869c-c3f90c37f04b",
+    "seq": 116,
+    "date": "2026-02-05",
+    "time": "12:13:44",
+    "recorder": "尾崎",
+    "target_employee_code": "07013635",
+    "target_employee_id": "fc3775af-52fd-5c91-8bd4-83e6740e84a2",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "日本にいる友達を中温に転職の依頼。履歴書、在留カード、パスポート、A2、飲食資格を送るよう伝える",
+    "responses": [
+      {
+        "date": "2026-04-06",
+        "responder": "尾崎",
+        "note": "3人対応中"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "1d8aefa6-1f37-5186-8e50-3ea9b961622c",
+    "seq": 117,
+    "date": "2026-02-05",
+    "time": "13:41:17",
+    "recorder": "池内",
+    "target_employee_code": "07013674",
+    "target_employee_id": "5d717644-79ef-5092-b4d9-a456a0d98b70",
+    "place": "コーポ津吉2-4",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "2/5　マヤングより足が痛い、かゆくて我慢できない。靴履くのもつらく病院へ連れていってほしいとのこと。尾崎さんが津吉付近にいるので病院同行お願いした。同日同時間にデヴィメルヴァも八木病院へ行くことになっていたので、一緒に。",
+    "responses": [
+      {
+        "date": "2026-02-05",
+        "responder": "尾崎",
+        "note": "八木皮膚科受診。しもやけ。寒いため、靴下などで温くする。薬をもらい様子を見る"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "cf789533-b63d-56cb-90b2-e9f12a4e0d18",
+    "seq": 118,
+    "date": "2026-02-06",
+    "time": "10:46:50",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "アトム602",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "アトム石崎さんより、５０２の人が来て、昨日、洗面台の上から水が雨のように降ってきたとのこと。現地確認すると、洗濯機の排水と台所の排水が悪いとのことで、石崎さんへ伝える。本日、13:30に現地確認予定",
+    "responses": [
+      {
+        "date": "2026-02-07",
+        "responder": "尾崎",
+        "note": "アトム石崎さんより、昨日、配管を交換したが、詰まりが直ってない様子。月曜日、業者手配し連絡しますとのこと。"
+      },
+      {
+        "date": "2026-02-09",
+        "responder": null,
+        "note": "作業終了の連絡あり"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "432a058c-617e-5beb-a706-b09046a5920a",
+    "seq": 119,
+    "date": "2026-02-08",
+    "time": "15:09:52",
+    "recorder": "尾崎",
+    "target_employee_code": "07013653",
+    "target_employee_id": "e4fb9177-ecd1-5766-9ef0-de63d0bcc95c",
+    "place": "牛渕２",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "外の配水管が詰まってるのでは？と問い合わせ。明日、確認すると返信",
+    "responses": [
+      {
+        "date": "2026-02-09",
+        "responder": "尾崎",
+        "note": "保険の福岡さんへ、保険適応できないか確認依頼。"
+      },
+      {
+        "date": "2026-02-12",
+        "responder": "尾崎",
+        "note": "福岡さんより保険の対象外。アベレージ社長へ確認を依頼。コスモ技研さんかどや技研にて確認。シャワー室下にて詰まりや温水より水漏れしてる様子。明日、１４時以降対応"
+      },
+      {
+        "date": "2026-02-17",
+        "responder": "尾崎",
+        "note": "かどや設備西村さんにて、対応済み"
+      },
+      {
+        "date": "2026-02-24",
+        "responder": "池内",
+        "note": "かどや設備にて再度修理"
+      }
+    ],
+    "overall_note": "２/20ディアナより再度水漏れの連絡あり。かどや設備さんへ連絡"
+  },
+  {
+    "id": "641bf966-ff1d-50c0-b1d2-347e92b5726c",
+    "seq": 120,
+    "date": "2026-02-10",
+    "time": "22:46:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018621",
+    "target_employee_id": "e6844a5f-ec23-5710-a0a8-bf7ad4823c81",
+    "place": null,
+    "kind": "病院",
+    "status": "対応中",
+    "request_note": "エヴィより連絡あり。２週間前から小指が痛いので病院へ行きたい",
+    "responses": [
+      {
+        "date": "2026-02-12",
+        "responder": "池内",
+        "note": "炎症しているのか腫れている。骨は異常なし。痛み止めと湿布で様子見。2/20に再度受診予定。"
+      },
+      {
+        "date": "2026-02-20",
+        "responder": "池内",
+        "note": "まだ痛む。次回2/27　仕事終わり17：00以降に自分で行くよう指示"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "a3d845ef-0f5b-590d-85db-4cce70bfe7d3",
+    "seq": 121,
+    "date": "2026-02-10",
+    "time": "10:32:38",
+    "recorder": "尾崎",
+    "target_employee_code": "07013630",
+    "target_employee_id": "1280ab42-6f36-5033-b289-bbf135dbd049",
+    "place": "ビレッジ3-508",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "ヒダヤットより、洗濯機が壊れたと連絡あり。",
+    "responses": [
+      {
+        "date": "2026-02-12",
+        "responder": "尾崎",
+        "note": "これだけの洗濯物が絡んでた"
+      },
+      {
+        "date": "2026-02-12",
+        "responder": "尾崎",
+        "note": "全ての洗濯物を撤去。稼働確認"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "3cf2aa62-d802-52cb-b2c5-38d543fc1525",
+    "seq": 122,
+    "date": "2026-02-13",
+    "time": "14:38:30",
+    "recorder": "尾崎",
+    "target_employee_code": "07018632",
+    "target_employee_id": "cfd72c41-3ee5-5ebc-8651-636b8e5256d0",
+    "place": "中野２",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "Wifiが繋がらない",
+    "responses": [
+      {
+        "date": "2026-02-13",
+        "responder": "尾崎",
+        "note": "再起動し、接続確認"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "201dda81-3654-50c5-9a44-aedaa9ee11e2",
+    "seq": 123,
+    "date": "2026-02-13",
+    "time": "14:33:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018632",
+    "target_employee_id": "cfd72c41-3ee5-5ebc-8651-636b8e5256d0",
+    "place": "中野２",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "電気がつかない",
+    "responses": [
+      {
+        "date": "2026-02-13",
+        "responder": "尾崎",
+        "note": "廃棄分より同じサイズの分を一時的に取り付け"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "697fb58b-73e6-5bca-b030-5e725a4edb29",
+    "seq": 124,
+    "date": "2026-02-16",
+    "time": "07:51:23",
+    "recorder": "尾崎",
+    "target_employee_code": "07013632",
+    "target_employee_id": "5b6b65fb-fcea-5904-8bc9-2c4b2bf5eaf4",
+    "place": "ビレッジ4-501",
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "一時帰国したい申し出。祖母の調子が悪いとのことだが、3/10～８月までは長すぎるし、在留カードが更新できない。検討中",
+    "responses": [
+      {
+        "date": "2026-02-27",
+        "responder": "尾崎",
+        "note": "帰国までに在留カード更新を条件に帰国。新開工場長連絡済み"
+      },
+      {
+        "date": "2026-03-06",
+        "responder": "池内",
+        "note": "帰国3/10～5/22でチケット確定"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "f383226b-1bad-5b70-95f5-2b760c55e759",
+    "seq": 125,
+    "date": "2026-02-16",
+    "time": "08:09:43",
+    "recorder": "池内",
+    "target_employee_code": "07013678",
+    "target_employee_id": "1f4d71f4-9bc9-5d61-a5d7-e9a89241b394",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車後ろタイヤパンク",
+    "responses": [
+      {
+        "date": "2026-02-16",
+        "responder": "池内",
+        "note": "タイヤが避けていたのでタイヤとチューブ交換。4000円立て替え。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "02bc5039-64aa-5a1a-ba3a-a0ba4648232b",
+    "seq": 126,
+    "date": "2026-02-16",
+    "time": "09:25:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07001629",
+    "target_employee_id": "cca93047-c105-536c-bf2e-fa244e281af9",
+    "place": "アトム504",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "シンクの水が溢れるとのことで、石崎さんに対応依頼。",
+    "responses": [
+      {
+        "date": "2026-02-16",
+        "responder": "尾崎",
+        "note": "石崎さんより完了報告あり"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "eec2e455-d880-514e-ae75-5e77d153d0f1",
+    "seq": 127,
+    "date": "2026-02-20",
+    "time": "16:18:06",
+    "recorder": "尾崎",
+    "target_employee_code": "07013634",
+    "target_employee_id": "0d74ac9b-b3b0-5e2a-8f35-b4a53af25c6a",
+    "place": "ビレッジ3-103",
+    "kind": "クレーム",
+    "status": "申請中",
+    "request_note": "管理人さんより通路に放置してたので、上に上げた。改造もしているとのこと。本人に戻すよう指示。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "68eb328d-829e-5d3a-8fd2-8eab07ec22cb",
+    "seq": 128,
+    "date": "2026-02-20",
+    "time": "12:27:00",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "中野２",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車置き場の屋根のトタンが外れて危険",
+    "responses": [
+      {
+        "date": "2026-02-20",
+        "responder": "尾崎",
+        "note": "ダイキにて購入して修理"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "6adea0ee-eee3-56f7-9d5b-5575828aaf7f",
+    "seq": 129,
+    "date": "2026-02-20",
+    "time": "22:27:17",
+    "recorder": "尾崎",
+    "target_employee_code": "07012622",
+    "target_employee_id": "4e6eafa9-b8be-5bfa-9bd5-29f53250594f",
+    "place": null,
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "デルタ四国松岡さんより、子宮筋腫の手術に伴い体調が優れない為、業務量の少ない業種へ転職を希望  退職日希望日 2026年3月24日  退寮希望日 未定",
+    "responses": [
+      {
+        "date": "2026-02-27",
+        "responder": "尾崎",
+        "note": "有給４日、カット勤務のため、3/12最終出勤。3/20退職。3/31給料は組合へ渡す"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "d2b2f81f-f1bb-580e-83ed-0e6de48f4afa",
+    "seq": 130,
+    "date": "2026-02-20",
+    "time": "16:03:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07012625\n07017701",
+    "target_employee_id": "1fc1ce49-bf6d-5220-b71f-0d1bcf4647e7",
+    "place": null,
+    "kind": "病院",
+    "status": "対応中",
+    "request_note": "ブイより、タオが妊娠。出産予定９月１８日で、西条に夫婦で行く予定のため、病院で迷っている。現在ツバキウイメンズ。後日相談。",
+    "responses": [
+      {
+        "date": "2026-02-25",
+        "responder": "池内",
+        "note": "2/25　ブイから、今後の子育てのことなどを踏まえ、松山に残るか西条に行くかもう一度検討したい。と相談があった。新開工場長へ伝えブイと話してもらう。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "2dd05341-64e0-5cf2-8947-5be7af892916",
+    "seq": 131,
+    "date": "2026-02-21",
+    "time": "12:38:46",
+    "recorder": "尾崎",
+    "target_employee_code": "07013661",
+    "target_employee_id": "0402d27d-5f6c-5230-80a0-88d098a6e645",
+    "place": "ビレッジ1-205",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "シンクの給湯器が使用できないと連絡あり",
+    "responses": [
+      {
+        "date": "2026-02-24",
+        "responder": "尾崎",
+        "note": null
+      },
+      {
+        "date": "2026-02-24",
+        "responder": "尾崎",
+        "note": "電池交換して動作確認。終了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "34b7eaea-a1e9-58cf-9676-105433ecb58a",
+    "seq": 132,
+    "date": "2026-02-22",
+    "time": "15:34:31",
+    "recorder": "尾崎",
+    "target_employee_code": "07018616",
+    "target_employee_id": "9452c45d-ee70-5f90-83c9-950bb21b927b",
+    "place": "牛渕１別棟",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車の鍵を紛失して、交換依頼",
+    "responses": [
+      {
+        "date": "2026-02-24",
+        "responder": null,
+        "note": "予備のカギが合わないため、検討依頼"
+      },
+      {
+        "date": "2026-02-24",
+        "responder": "尾崎",
+        "note": "かどた自転車に確認。自転車のカギ番号が分からなければ無理。購入したところに確認依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "a19840b7-25cd-52a1-a4f3-23d1feb35d36",
+    "seq": 133,
+    "date": "2026-02-22",
+    "time": "15:36:53",
+    "recorder": "尾崎",
+    "target_employee_code": "07013669",
+    "target_employee_id": "a188af17-c29f-56df-9f19-97d225b62c46",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "5/2～6/2まで一時帰国予定、チケット送付依頼",
+    "responses": [
+      {
+        "date": "2026-03-20",
+        "responder": "尾崎",
+        "note": "チケット"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "86b8505b-bf70-5470-9af6-94fb73145ddf",
+    "seq": 134,
+    "date": "2026-02-24",
+    "time": "12:39:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018612",
+    "target_employee_id": "e03643a5-a917-58e6-8127-088ed48c1049",
+    "place": "牛渕１",
+    "kind": null,
+    "status": "完了",
+    "request_note": "朝、賞味期限切れの食パンを食べて、吐いている。新開工場長と相談し、退社し後で確認しに行くと伝える",
+    "responses": [
+      {
+        "date": "2026-02-24",
+        "responder": "尾崎",
+        "note": "１６時頃、頭が痛いとのことでしたが、１２時頃よりは体調はいいとのことで、何かあれば連絡をもらうようにしてます。"
+      },
+      {
+        "date": "2026-02-27",
+        "responder": "尾崎",
+        "note": "お昼食堂にて、大丈夫との返事"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "2c3322fd-e1e4-52be-9904-6ef3a694bf89",
+    "seq": 135,
+    "date": "2026-02-24",
+    "time": "16:02:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013628",
+    "target_employee_id": "e257c076-40eb-5cfc-906c-a5cf9858b30f",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "アリより、一時帰国申し出",
+    "responses": [
+      {
+        "date": "2026-03-11",
+        "responder": "尾崎",
+        "note": "3/14～4/21帰国にてチケット済"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "f26e1b70-9418-5e03-b3a5-4e14caf7a9d4",
+    "seq": 136,
+    "date": "2026-02-25",
+    "time": "08:45:55",
+    "recorder": "池内",
+    "target_employee_code": "07001618",
+    "target_employee_id": "b545c47f-62a3-56b3-b203-af6f4fa87a82",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "対応中",
+    "request_note": "宮内工場長より、ロン5月頃帰国したいとのこと。在留カード期限５/２９のため日程確認",
+    "responses": [
+      {
+        "date": "2026-03-11",
+        "responder": "池内",
+        "note": "在留カード更新書類は提出済み。5/6～6/9まで帰国。チケット有。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "aa3bb863-a9a8-58f2-be7d-2ae2702d8b9d",
+    "seq": 137,
+    "date": "2026-02-25",
+    "time": "09:42:35",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "ビレッジ3-108",
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "ビレッジハウス管理人中野さんより、段ボール等片付け依頼。インドネシアリーダーへLINE。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "659bd8da-b434-5cf1-a674-08e3c2fefb18",
+    "seq": 138,
+    "date": "2026-02-26",
+    "time": "10:19:00",
+    "recorder": "池内",
+    "target_employee_code": "07013606",
+    "target_employee_id": "ef801581-f352-52a5-9bc1-333bbf611269",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "新開工場長から、アユサ３９度発熱と連絡あり。本人に症状聞き取りし、よしおか内科へ行く手配した。アユサ１人で受診。",
+    "responses": [
+      {
+        "date": "2026-02-27",
+        "responder": "尾崎",
+        "note": "領収書預かる"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "14ea28b8-e212-536d-8807-a2d009f0a603",
+    "seq": 139,
+    "date": "2026-02-26",
+    "time": "10:30:44",
+    "recorder": "池内",
+    "target_employee_code": "07001613",
+    "target_employee_id": "3b5c1518-df53-571c-95c1-52ffec4eb563",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "申請中",
+    "request_note": "宮内工場長から、ロアン一時帰国５月～２か月くらい希望とのこと。在留カード期限9/29",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "985c2006-1e22-5b38-99ae-df5734908daf",
+    "seq": 140,
+    "date": "2026-02-26",
+    "time": "10:30:00",
+    "recorder": "渡部",
+    "target_employee_code": "08004404",
+    "target_employee_id": "dddd45ef-e52c-5c8e-9927-83b04b417860",
+    "place": null,
+    "kind": "退職",
+    "status": "対応中",
+    "request_note": null,
+    "responses": [
+      {
+        "date": "2026-02-26",
+        "responder": "渡部",
+        "note": "宮内工場長より、専門級試験の学科の結果が合格点数に達してなかったため、5月に実習2号終了で退職となる旨を工場長から本人へ伝えたとのことです。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "c64a7114-4635-5fd8-a59d-bf7e896eacfb",
+    "seq": 141,
+    "date": "2026-02-26",
+    "time": "18:35:21",
+    "recorder": "尾崎",
+    "target_employee_code": "07018630",
+    "target_employee_id": "7b1d6dc1-4143-535a-8c1f-8c6de2e4562f",
+    "place": "中野２",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "大西工場長代理より、２日前から熱で休んでおり現在も３７.２とのことで、病院へ行きたいとのこと。明日は休みとのことで、、明日、確認しに行くと伝える。",
+    "responses": [
+      {
+        "date": "2026-02-27",
+        "responder": "尾崎",
+        "note": "ギムと会うも、現在、熱もなく様子を見るでいいとのこと"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "a53789b1-7057-56ea-bce6-81adb66cca34",
+    "seq": 142,
+    "date": "2026-02-27",
+    "time": "08:04:29",
+    "recorder": "尾崎",
+    "target_employee_code": "07013640",
+    "target_employee_id": "72c5c5e5-d372-55ed-bd01-bd37dbdf54dc",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "エヴィより、自転車パンク修理依頼",
+    "responses": [
+      {
+        "date": "2026-02-27",
+        "responder": "尾崎",
+        "note": "パンク修理終了 元の場所に戻しました"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "c6810b2f-faa9-5317-852e-4e1886db3fc1",
+    "seq": 143,
+    "date": "2026-02-27",
+    "time": "12:53:10",
+    "recorder": "尾崎",
+    "target_employee_code": "07013626",
+    "target_employee_id": "71077342-c34a-56fd-a291-f8a503db5472",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車パンク修理依頼",
+    "responses": [
+      {
+        "date": "2026-02-27",
+        "responder": "尾崎",
+        "note": "ユニタの自転車。タイヤ、チューブ交換"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "6592ee7b-fcb2-53b9-8332-5c27171297f1",
+    "seq": 144,
+    "date": "2026-02-28",
+    "time": "11:14:50",
+    "recorder": "尾崎",
+    "target_employee_code": "07018603",
+    "target_employee_id": "429daef6-f3e7-5e69-9c07-de1b08090994",
+    "place": null,
+    "kind": "問合せ",
+    "status": "対応中",
+    "request_note": "市県民税について支払いの相談あり。後日、支払いの確認必要。反映に時間がかかる、及び",
+    "responses": [
+      {
+        "date": null,
+        "responder": null,
+        "note": "姫路の納税証明書必要"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "4239e564-0939-51c7-9158-118752d9fe34",
+    "seq": 145,
+    "date": "2026-03-01",
+    "time": "10:55:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018616",
+    "target_employee_id": "9452c45d-ee70-5f90-83c9-950bb21b927b",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "楽天モバイルの支払について連絡あり。",
+    "responses": [
+      {
+        "date": "2026-03-01",
+        "responder": "尾崎",
+        "note": "コンビニの用紙あるか確認依頼"
+      },
+      {
+        "date": "2026-03-01",
+        "responder": "尾崎",
+        "note": "3/2、食堂にて対応予定"
+      },
+      {
+        "date": "2026-03-06",
+        "responder": "池内",
+        "note": "尾崎さんが立て替えて支払いしたが、まだ利用できないと連絡あり。週明けの対応にする。→翌日使用できたとのこと"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "550fc9b3-8f10-5262-8b6a-e10aa2138697",
+    "seq": 146,
+    "date": "2026-03-01",
+    "time": "14:03:10",
+    "recorder": "尾崎",
+    "target_employee_code": "07013605\n07018700",
+    "target_employee_id": "8ed4f8a9-94ab-58a0-b02b-4f29ae80d8aa",
+    "place": "ビレッジ4-205",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "Wifiが使用できない",
+    "responses": [
+      {
+        "date": "2026-03-02",
+        "responder": "尾崎",
+        "note": "出来たと連絡あり"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "cacf7997-bee0-58ab-aec4-b7ed16d74191",
+    "seq": 147,
+    "date": "2026-03-02",
+    "time": "07:45:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07001620",
+    "target_employee_id": "e694866d-256d-5851-8541-1bc89fd4bd11",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "土曜日朝より、お腹の左側が痛いので、病院へ行きたい申出",
+    "responses": [
+      {
+        "date": "2026-03-02",
+        "responder": "尾崎",
+        "note": "遠藤内科受診。痛みや症状より、県病院にて受診を進められる。"
+      },
+      {
+        "date": "2026-03-02",
+        "responder": "尾崎",
+        "note": "すぐにとのことで、県病院へ"
+      },
+      {
+        "date": "2026-03-02",
+        "responder": "尾崎",
+        "note": "けいしつえんとの診断。本日と明日は休み"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "e08999ff-c124-54af-af40-d6ddd81fe688",
+    "seq": 148,
+    "date": "2026-03-02",
+    "time": "10:47:30",
+    "recorder": "尾崎",
+    "target_employee_code": "07013683",
+    "target_employee_id": "dbf45aa9-5d1a-5d65-9188-86da9886ac76",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "弁護士より、楽天モバイルの督促あり",
+    "responses": [
+      {
+        "date": "2026-03-02",
+        "responder": "池内",
+        "note": "コンビニで支払いができた。とのこと。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "7e4d677f-87fe-576f-855a-02025b18c29f",
+    "seq": 149,
+    "date": "2026-03-02",
+    "time": "14:07:44",
+    "recorder": "池内",
+    "target_employee_code": "07018620",
+    "target_employee_id": "96bc4cb2-e2d6-5d0f-9577-2cb86ba8c155",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車の前輪タイヤゴム外れて走行不可。自転車屋にて修理",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "e61b03be-31b9-59f3-8507-2eb504a634ee",
+    "seq": 150,
+    "date": "2026-03-03",
+    "time": "08:42:55",
+    "recorder": "池内",
+    "target_employee_code": "07018634",
+    "target_employee_id": "43f30053-9a9d-5ee7-8f16-983bc8073f17",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "郵便の不在通知が分からず、在留カード受け取り期限過ぎた。再配達可能か問い合わせる。",
+    "responses": [
+      {
+        "date": "2026-03-03",
+        "responder": "池内",
+        "note": "東京入管　おだいば分室へ問合せし、申請番号や本人情報を記載した紙と、簡易書留分の切手を貼った返信用封筒を同封し、速達で再発送依頼をした。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "40eef664-68e9-520b-82b8-714d586d20b2",
+    "seq": 151,
+    "date": "2026-03-03",
+    "time": "08:44:47",
+    "recorder": "池内",
+    "target_employee_code": "07013663",
+    "target_employee_id": "e8bbf730-6774-5b13-991e-f4a7cdc39de4",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "昨日から腹痛で欠勤している。病院行くか聞き取り中",
+    "responses": [
+      {
+        "date": "2026-03-04",
+        "responder": "池内",
+        "note": "3/4復帰していたので、完了とする"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "dcf94a43-d6ec-536b-9077-72aed6f8f2b8",
+    "seq": 152,
+    "date": "2026-03-05",
+    "time": "07:40:05",
+    "recorder": "尾崎",
+    "target_employee_code": "08004401",
+    "target_employee_id": "47732880-da16-55dc-a0f2-00cbb28de117",
+    "place": null,
+    "kind": "退職",
+    "status": "完了",
+    "request_note": "5/10チケット購入",
+    "responses": [
+      {
+        "date": "2026-03-05",
+        "responder": "尾崎",
+        "note": "5/10 9:30関西国際空港発　ダナン12:25着　50,450円"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "ba2f07c2-d34e-52d2-bd1f-97339b271490",
+    "seq": 153,
+    "date": "2026-03-07",
+    "time": "16:33:47",
+    "recorder": "尾崎",
+    "target_employee_code": "07012624\n07017700",
+    "target_employee_id": "14e0266d-d1c4-5403-86e1-1c3a8dfb8e10",
+    "place": "ビレッジ2-507",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "洗濯機の脱水がエラーが出てできない",
+    "responses": [
+      {
+        "date": "2026-03-09",
+        "responder": "尾崎",
+        "note": "脱水で止まる、ハイアール担当者、基盤が壊れてるようで、１万前後かかりそうとのこと"
+      },
+      {
+        "date": "2026-03-10",
+        "responder": "尾崎",
+        "note": "ビレッジ2-507のJW-U55HK（C7MAT0013）を中野２へ。牛渕２の洗濯機JW-U55HK（C7NBT0204）を入れ替え"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "f932bc53-4507-563e-a4da-fad9abc04636",
+    "seq": 154,
+    "date": "2026-03-08",
+    "time": "11:01:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013655",
+    "target_employee_id": "6c783a5d-7870-5fa5-a0b6-12bb91a4dc5c",
+    "place": "牛渕２",
+    "kind": "退職",
+    "status": "対応中",
+    "request_note": "牛渕にて退職相談。大学卒業して技人国で在留したいが勉強する時間がないので、転職。山梨の会社に５月より勤務予定。",
+    "responses": [
+      {
+        "date": "2026-03-13",
+        "responder": "尾崎",
+        "note": "退職については、まだ、内密にとの依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "65cee23e-6ca1-5f23-9d1a-544b13293f81",
+    "seq": 155,
+    "date": "2026-03-08",
+    "time": "13:54:36",
+    "recorder": "池内",
+    "target_employee_code": "07018617",
+    "target_employee_id": "18cd54b3-d260-594e-ad6d-d19912f35947",
+    "place": null,
+    "kind": "問合せ",
+    "status": "申請中",
+    "request_note": "使ってない部屋に移動したいとのこと。尾崎さんへ確認して返事すると回答",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "884aefeb-36c8-59c5-afa3-9021cf9809e7",
+    "seq": 156,
+    "date": "2026-03-10",
+    "time": "09:05:13",
+    "recorder": "池内",
+    "target_employee_code": "07013650",
+    "target_employee_id": "1a583315-4039-5144-bacd-d1a1145b501a",
+    "place": null,
+    "kind": "病院",
+    "status": "対応中",
+    "request_note": "ニル―から眼科へ行きたいと申し出。目がずっと赤く痛みがある。インドネシアの眼科やほかの眼科で手術を勧められたことがある。3/28㈯9:00～まえおか眼科。",
+    "responses": [
+      {
+        "date": null,
+        "responder": "池内",
+        "note": "まえおか眼科受診。白目の細胞が黒めに侵食してきている。放置していると黒目全部に膜が張ったように白目の細胞が増殖するので、今の時点で手術したほうがいい。とのこと。紹介状を用意してもらい、4/14(火)10:00～愛大付属受診予定。そこで今後の手術のスケジュールを確認する。手術は日帰りでできる。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "f0b2f87e-dab7-52dc-b6c3-6e38ed96d7df",
+    "seq": 157,
+    "date": "2026-03-11",
+    "time": "09:47:13",
+    "recorder": "尾崎",
+    "target_employee_code": "07013635",
+    "target_employee_id": "fc3775af-52fd-5c91-8bd4-83e6740e84a2",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "対応中",
+    "request_note": "新開工場長より、レイハンとジェシカが5/26～6/26一時帰国の話あり。",
+    "responses": [
+      {
+        "date": "2026-03-12",
+        "responder": "尾崎",
+        "note": "レイハンよりチケット購入した送付あり。国内線確認中"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "d566630f-9c66-5898-81e4-3ca7f49a3b5e",
+    "seq": 158,
+    "date": "2026-03-11",
+    "time": "09:48:41",
+    "recorder": "尾崎",
+    "target_employee_code": "07013642",
+    "target_employee_id": "35c2a08b-b5dc-56a2-8a4d-0f09c85d7f3a",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "対応中",
+    "request_note": "新開工場長より、レイハンとジェシカが5/26～6/26一時帰国の話あり。",
+    "responses": [
+      {
+        "date": "2026-03-12",
+        "responder": "尾崎",
+        "note": "レイハンよりチケット購入した送付あり。国内線確認中"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "0a4b23ff-8622-5337-a7fe-b8e67d45966d",
+    "seq": 159,
+    "date": "2026-03-11",
+    "time": "14:52:49",
+    "recorder": "池内",
+    "target_employee_code": "07013663",
+    "target_employee_id": "e8bbf730-6774-5b13-991e-f4a7cdc39de4",
+    "place": "牛渕１別棟",
+    "kind": "退職",
+    "status": "対応中",
+    "request_note": "3/11退職希望の申し出。体調もあまり良くないため残業の少ない仕事をしたい。5月～山梨へ転職する。新開さんへLINEした。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "1d36c80b-5030-579d-bbf6-74983bee6e54",
+    "seq": 160,
+    "date": "2026-03-13",
+    "time": "12:40:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011606",
+    "target_employee_id": "fe2084fd-7e43-59db-af77-ffec120edefc",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "対応中",
+    "request_note": "新開工場長より、一時帰国の期間が4月中旬まで伸びそう。帰国理由が旦那との離婚だったが、警察？との話で延びそうとの連絡あり。離婚については、内密にとの依頼",
+    "responses": [
+      {
+        "date": "2026-03-23",
+        "responder": "尾崎",
+        "note": "3/20付退職扱い。日本へ来る日がわかったら、連絡を依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "6a34f7df-ef32-596b-a0c5-30853a2ba222",
+    "seq": 161,
+    "date": "2026-03-13",
+    "time": "12:52:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018627",
+    "target_employee_id": "58c72a12-6dd8-5792-ad87-ebd838ea48a5",
+    "place": "牛渕１",
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "ウフィクの後の部屋に入りたいとの申し出。他にもいると伝え相談扱い",
+    "responses": [
+      {
+        "date": "2026-03-31",
+        "responder": "尾崎",
+        "note": "ウフィクの後に、ティアラとカハリの２名で住みたいとのことで、他の人もOKとのことで了承"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "bc78a847-af67-525d-961b-a0e343008f1e",
+    "seq": 162,
+    "date": "2026-03-13",
+    "time": "20:25:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013611",
+    "target_employee_id": "30faa324-e790-5b64-9d76-6bcfd406e972",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "新開工場長より、退職したロチの勤務証明書がほしいとの連絡",
+    "responses": [
+      {
+        "date": "2026-03-17",
+        "responder": "尾崎",
+        "note": "535-0003 大阪府大阪市旭区中宮3丁目15-15ジョイテル3-301へ郵送"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "b81fbe18-a2ad-5e98-adfa-715bdf36d57f",
+    "seq": 163,
+    "date": "2026-03-14",
+    "time": "08:31:43",
+    "recorder": "池内",
+    "target_employee_code": "07013671",
+    "target_employee_id": "f468a891-8b5f-5eda-966e-a0d0c2060666",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "request_note": "3/23入国予定のリンダ(妻)の入国が中止になった。おそらく4/:頃になるかと思われる",
+    "responses": [
+      {
+        "date": "2026-04-03",
+        "responder": "尾崎",
+        "note": "4/4入国"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "8a587310-61f6-5093-93ac-9ad3aa04d519",
+    "seq": 164,
+    "date": "2026-03-15",
+    "time": "12:22:04",
+    "recorder": "尾崎",
+    "target_employee_code": "07018628",
+    "target_employee_id": "089d26ad-b155-5e29-9503-9406fc9cfd3f",
+    "place": null,
+    "kind": "問合せ",
+    "status": "申請中",
+    "request_note": "ラティサより、デア、スラストリの３人でアパートへ住みたい申請あり。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "e8d8e490-3679-51b0-9e72-7b31e81a8fcf",
+    "seq": 165,
+    "date": "2026-03-15",
+    "time": "16:22:46",
+    "recorder": "尾崎",
+    "target_employee_code": "07013679",
+    "target_employee_id": "fe8f0016-bbd7-55dc-9280-8fff75608bbb",
+    "place": null,
+    "kind": "退職",
+    "status": "申請中",
+    "request_note": "4/20退職の申し出あり。10/29入社",
+    "responses": [
+      {
+        "date": "2026-04-06",
+        "responder": "池内",
+        "note": "5/1退寮　チケット済"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "79be5e1a-4543-5977-86da-7de8e51ec7c4",
+    "seq": 166,
+    "date": "2026-03-16",
+    "time": "09:41:18",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "ビレッジ1-205 , ビレッジ2-508 , ビレッジ2-504 , ビレッジ2-503 , ビレッジ2-502",
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "段ボールの出し方と騒音、においについて中野さんより連絡あり",
+    "responses": [
+      {
+        "date": "2026-03-16",
+        "responder": "尾崎",
+        "note": "インドネシア全体と、サニア、ハク、ナウファルに送付"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "7af0a537-4f9f-5557-a7bd-b580f7cf320f",
+    "seq": 167,
+    "date": "2026-03-17",
+    "time": "15:19:55",
+    "recorder": "池内",
+    "target_employee_code": "07013661",
+    "target_employee_id": "0402d27d-5f6c-5230-80a0-88d098a6e645",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "手首が湿疹でかゆい。薬ほしい。3/21土に自分で受診。小国皮膚科に連絡済",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "ee31a2e4-3131-5bcd-86c4-84934053ef24",
+    "seq": 168,
+    "date": "2026-03-17",
+    "time": "20:28:23",
+    "recorder": "池内",
+    "target_employee_code": "07013671",
+    "target_employee_id": "f468a891-8b5f-5eda-966e-a0d0c2060666",
+    "place": null,
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "帰りに知らない男性に自転車のライトが弱いと怒られた。名前、住所、会社名を聞かれ警察に連絡すると言われたそう。自転車のライトは確認してから取り替え等の対応をする。警察や男性から連絡来たらこちらで対応するとハクに伝えている",
+    "responses": [
+      {
+        "date": "2026-03-18",
+        "responder": "尾崎",
+        "note": "自転車の補助（ハンドルにつけるタイプ）の電池がなかったので、取り替えした。それで、大丈夫とのこと"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "8ebd92a1-e8e0-5fc9-8ba2-aabca04f577e",
+    "seq": 169,
+    "date": "2026-03-18",
+    "time": "13:26:31",
+    "recorder": "尾崎",
+    "target_employee_code": "07013675",
+    "target_employee_id": "ec14b43b-9d1c-5c35-8e1a-fe32f8c0af7c",
+    "place": "ビレッジ3-501",
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "ビレッジハウス中野さんより、3-401の人より２３時頃3-501がベランダの出入りがうるさいとクレームあり。",
+    "responses": [
+      {
+        "date": "2026-03-18",
+        "responder": "尾崎",
+        "note": "昨日、23時には寝てたが気を付けるよう３人に伝えてもらうて"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "5ebada1a-01c5-533d-9a42-e31de6874500",
+    "seq": 170,
+    "date": "2026-03-18",
+    "time": "09:59:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07012622",
+    "target_employee_id": "4e6eafa9-b8be-5bfa-9bd5-29f53250594f",
+    "place": "ビレッジ2-506",
+    "kind": "クレーム",
+    "status": "完了",
+    "request_note": "ビレッジハウス中野さんより、段ボールが自転車置場に置いてありクレームとなっている。",
+    "responses": [
+      {
+        "date": "2026-03-18",
+        "responder": "尾崎",
+        "note": "チャンの自転車だったため、中野さんに送るまで待ってほしいと依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "4d9b83f8-2511-5892-841e-345c53f5c985",
+    "seq": 171,
+    "date": "2026-03-19",
+    "time": "10:56:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011614",
+    "target_employee_id": "868f2735-1672-50fc-9d64-cedaaa790712",
+    "place": "コーポ津吉1-2",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "電気の大きいやつと豆電気が付かない",
+    "responses": [
+      {
+        "date": "2026-03-24",
+        "responder": "尾崎",
+        "note": "電気交換"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "68f4d35d-6be4-55d0-9de0-d73b88d6b122",
+    "seq": 172,
+    "date": "2026-03-19",
+    "time": "10:58:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011614",
+    "target_employee_id": "868f2735-1672-50fc-9d64-cedaaa790712",
+    "place": "コーポ津吉1-2",
+    "kind": null,
+    "status": "対応中",
+    "request_note": "大家さんへ連絡し、修理可能か連絡。後日、確認するとのこと",
+    "responses": [
+      {
+        "date": "2026-03-28",
+        "responder": "尾崎",
+        "note": "大家さんより、3/28 13:00業者が確認に入る"
+      },
+      {
+        "date": "2026-04-06",
+        "responder": "尾崎",
+        "note": "大家さんより、4/19.26に修理に入りたい申し出"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "336f0abf-9e73-512c-8854-fdc0ab6681ef",
+    "seq": 173,
+    "date": "2026-03-24",
+    "time": "10:00:50",
+    "recorder": "池内",
+    "target_employee_code": "07013678",
+    "target_employee_id": "1f4d71f4-9bc9-5d61-a5d7-e9a89241b394",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "日曜日から体調不良で病院へ行きたい申し出。よしおか内科へ連絡済。自分で行く。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "e668e4fc-bc38-5290-942f-9111d5f0c5de",
+    "seq": 174,
+    "date": "2026-03-26",
+    "time": "13:01:36",
+    "recorder": "尾崎",
+    "target_employee_code": "07018631",
+    "target_employee_id": "0c2f42d9-6049-5fb4-868d-5e4f1d91f59a",
+    "place": "中野２",
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "病院へ行きたい申出",
+    "responses": [
+      {
+        "date": "2026-03-27",
+        "responder": "尾崎",
+        "note": "カビが発生とのことで、塗り薬を処方"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "26dee985-730f-5111-b9f3-be02991b75e3",
+    "seq": 175,
+    "date": "2026-03-26",
+    "time": "13:08:44",
+    "recorder": "宮内",
+    "target_employee_code": "08004402",
+    "target_employee_id": "755c8928-aa88-5622-a496-8aeda3a79c86",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "希望７/20～9/1　広島→ハノイ",
+    "responses": [
+      {
+        "date": "2026-04-08",
+        "responder": "尾崎",
+        "note": "飛行機の便の関係で、広島⇔ハノイ7/21～9/1　フオンと一緒　@71,965 ２人で143,930-"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "e27136a1-d7f8-5125-b381-327abdaba576",
+    "seq": 176,
+    "date": "2026-03-26",
+    "time": "17:01:18",
+    "recorder": "池内",
+    "target_employee_code": "07018630",
+    "target_employee_id": "7b1d6dc1-4143-535a-8c1f-8c6de2e4562f",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "歯医者に行きたい申し出。4/3　9:00～グリーン歯科予約",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "baeb082e-0c20-5921-9a28-f2ed08bd65be",
+    "seq": 177,
+    "date": "2026-03-27",
+    "time": "09:52:53",
+    "recorder": "尾崎",
+    "target_employee_code": "07018630",
+    "target_employee_id": "7b1d6dc1-4143-535a-8c1f-8c6de2e4562f",
+    "place": "中野２",
+    "kind": "結婚",
+    "status": "完了",
+    "request_note": "２月に結婚した、妻が宮城から昨日から泊まっている。明日帰る。事前に伝えるよう伝える。また、部屋内でタバコ吸ってるため指導。室内で吸わないこと伝える。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "88a15e35-872b-59b2-9db6-aa0a167ac620",
+    "seq": 178,
+    "date": "2026-03-30",
+    "time": "09:24:26",
+    "recorder": "尾崎",
+    "target_employee_code": "07013639",
+    "target_employee_id": "fab00fac-67f8-5725-a47b-727a718b0806",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "対応中",
+    "request_note": "アユサより、7/12～8/11まで一時帰国の申し出",
+    "responses": [
+      {
+        "date": "2026-03-31",
+        "responder": "尾崎",
+        "note": "新開工場長より了承のため、アユサへOKの連絡しチケットを送付依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "069852e7-255b-5fbf-a10c-b6a96154eada",
+    "seq": 179,
+    "date": "2026-04-03",
+    "time": "12:23:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018627",
+    "target_employee_id": "58c72a12-6dd8-5792-ad87-ebd838ea48a5",
+    "place": "牛渕１別棟",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "牛渕１の別棟の冷蔵庫が２つとも故障している。２人入居するため冷蔵庫がほしい",
+    "responses": [
+      {
+        "date": "2026-04-03",
+        "responder": "尾崎",
+        "note": "専務に相談し、中野１の使ってない１台を持っていって、新たに入居するときに購入を依頼し了承を得る"
+      },
+      {
+        "date": "2026-04-04",
+        "responder": "尾崎",
+        "note": "中野１の冷蔵庫を持っていった"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "4004eaab-d4af-5cf3-acd7-e7fb4ac50004",
+    "seq": 180,
+    "date": "2026-04-03",
+    "time": "17:26:34",
+    "recorder": "尾崎",
+    "target_employee_code": "18001402",
+    "target_employee_id": "45f71797-733d-53db-a7dd-ccfc559b470d",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "グエンより7月にヴァンと同じ日程でハノイに広島より、帰りたい申し出。",
+    "responses": [
+      {
+        "date": "2026-04-08",
+        "responder": "尾崎",
+        "note": "飛行機の便の関係で、広島⇔ハノイ7/21～9/1　ヴァンと一緒　@71,965 ２人で143,930-"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "d2438885-3ab5-5191-b820-03f8189bdf7c",
+    "seq": 181,
+    "date": "2026-04-05",
+    "time": "10:56:38",
+    "recorder": "尾崎",
+    "target_employee_code": "07001618",
+    "target_employee_id": "b545c47f-62a3-56b3-b203-af6f4fa87a82",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "藤原副工場長より、体が痒く内科に連れていったが、明日、皮膚科に連れていって、津吉へ連れていってほしい申し出",
+    "responses": [
+      {
+        "date": "2026-04-06",
+        "responder": "尾崎",
+        "note": "小国皮膚科受診。昨日、南松山病院へ行ってることなど伝え、じんましん。カニアレルギーかどうかは不明。10日分の飲み薬にて様子を見るとのこと。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "0a2fb40b-9978-5fff-85f5-7eead44df14d",
+    "seq": 182,
+    "date": "2026-04-04",
+    "time": "10:15:45",
+    "recorder": "池内",
+    "target_employee_code": "07001618",
+    "target_employee_id": "b545c47f-62a3-56b3-b203-af6f4fa87a82",
+    "place": null,
+    "kind": "紛失",
+    "status": "対応中",
+    "request_note": "3/29 15:00~高島屋近くの駐輪場に自転車をとめて飲みに行きタクシーで帰宅。4/3　17：30～自転車を取りに行ったら無かった。鍵はかけていた。とのこと。自転車盗難2回目なので厳重注意。",
+    "responses": [
+      {
+        "date": "2026-04-06",
+        "responder": "池内",
+        "note": "松山市都市生活サービス課へ連絡し撤去されてないか確認したが市では回収してないので警察へ盗難届を提出する予定。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "34467cca-7f0d-59a1-b392-a1cb744af3af",
+    "seq": 183,
+    "date": "2026-04-06",
+    "time": "16:36:10",
+    "recorder": "尾崎",
+    "target_employee_code": "08004406",
+    "target_employee_id": "d07fc209-8204-5da7-b42a-e4621f0d878f",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "request_note": "8/10～9/25一時帰国希望",
+    "responses": [
+      {
+        "date": "2026-04-13",
+        "responder": "尾崎",
+        "note": "8/11広島⇔ハノイ9/24チケット購入"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "fb725476-3cbc-5813-a92a-efcaf6e5a700",
+    "seq": 184,
+    "date": "2026-04-07",
+    "time": "15:50:03",
+    "recorder": "池内",
+    "target_employee_code": "07011606",
+    "target_employee_id": "fe2084fd-7e43-59db-af77-ffec120edefc",
+    "place": null,
+    "kind": "問合せ",
+    "status": "対応中",
+    "request_note": "愛媛銀行　滝川様より、帰国期間が長いため不正利用防止のためホアンの口座を一時的に停止すると連絡あり。ホアンが戻ってきたら解除の手続きする。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "a4e728e2-b874-5032-bef0-b4b1081e5d32",
+    "seq": 185,
+    "date": "2026-04-09",
+    "time": "07:13:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013681",
+    "target_employee_id": "ad43b61f-7616-5526-a028-b0b7c5d53fbf",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "自転車パンク修理依頼",
+    "responses": [
+      {
+        "date": null,
+        "responder": "尾崎",
+        "note": "パンク修理代1,000円、鍵は手袋内に入れる"
+      },
+      {
+        "date": "2026-04-10",
+        "responder": "尾崎",
+        "note": "代金回収"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "744162bf-4af0-5708-bfe6-13ab94a93586",
+    "seq": 186,
+    "date": "2026-04-10",
+    "time": "12:03:33",
+    "recorder": "尾崎",
+    "target_employee_code": "07013646",
+    "target_employee_id": "54f7766d-d1d7-5995-9ab6-3edf04eba06d",
+    "place": "ビレッジ4-407",
+    "kind": "修理",
+    "status": "完了",
+    "request_note": "洗面台の排水が流れない",
+    "responses": [
+      {
+        "date": "2026-04-10",
+        "responder": "尾崎",
+        "note": "ビレッジにて借りて対応。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "4a63932c-1217-5760-8f26-8b8f5cb390ed",
+    "seq": 187,
+    "date": "2026-04-13",
+    "time": "08:49:56",
+    "recorder": "尾崎",
+    "target_employee_code": "07001620",
+    "target_employee_id": "e694866d-256d-5851-8541-1bc89fd4bd11",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "request_note": "平山さんより、金曜日から発熱、昼から病院を手配してほしい",
+    "responses": [
+      {
+        "date": "2026-04-13",
+        "responder": "尾崎",
+        "note": "遠藤内科、発熱外来14:30～、着いたら連絡をするよう本人に伝える。"
+      },
+      {
+        "date": "2026-04-13",
+        "responder": "尾崎",
+        "note": "病院にて薬をもらったと連絡あり"
+      }
+    ],
+    "overall_note": null
+  }
+]

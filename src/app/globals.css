@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-noto: "Noto Sans JP", "Noto Sans", system-ui, sans-serif;
+}
+
+html {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+body {
+  min-height: 100%;
+  font-family: var(--font-noto);
+  background: #f8fafc;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-slate-200 p-5;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-700 text-white px-4 py-2 rounded-lg font-medium transition-colors;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 text-slate-700 hover:bg-slate-100 px-3 py-2 rounded-lg font-medium transition-colors;
+  }
+  .stat-label { @apply text-xs text-slate-500 uppercase tracking-wide; }
+  .stat-value { @apply text-2xl font-bold text-slate-900; }
+}

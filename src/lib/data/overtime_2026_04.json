@@ -1,0 +1,1303 @@
+{
+  "period": "2026-04-21_2026-05-20",
+  "month_label": "2026-04",
+  "month_start": "2026-04-01",
+  "data": {
+    "18001401": {
+      "worked_minutes": 13000,
+      "paid_minutes": 10720,
+      "overtime_minutes": 2280,
+      "midnight_minutes": 0,
+      "overtime_hours": 38,
+      "worked_hours": 216.67,
+      "midnight_hours": 0
+    },
+    "18001402": {
+      "worked_minutes": 15020,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4260,
+      "midnight_minutes": 128,
+      "overtime_hours": 71,
+      "worked_hours": 250.33,
+      "midnight_hours": 2.13
+    },
+    "18001403": {
+      "worked_minutes": 15230,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4470,
+      "midnight_minutes": 128,
+      "overtime_hours": 74.5,
+      "worked_hours": 253.83,
+      "midnight_hours": 2.13
+    },
+    "18001404": {
+      "worked_minutes": 14450,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3690,
+      "midnight_minutes": 65,
+      "overtime_hours": 61.5,
+      "worked_hours": 240.83,
+      "midnight_hours": 1.08
+    },
+    "07001610": {
+      "worked_minutes": 16330,
+      "paid_minutes": 10760,
+      "overtime_minutes": 5570,
+      "midnight_minutes": 129,
+      "overtime_hours": 92.83,
+      "worked_hours": 272.17,
+      "midnight_hours": 2.15
+    },
+    "07001611": {
+      "worked_minutes": 0,
+      "paid_minutes": 0,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0
+    },
+    "07001613": {
+      "worked_minutes": 14340,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3580,
+      "midnight_minutes": 108,
+      "overtime_hours": 59.67,
+      "worked_hours": 239,
+      "midnight_hours": 1.8
+    },
+    "07001614": {
+      "worked_minutes": 15680,
+      "paid_minutes": 11060,
+      "overtime_minutes": 4620,
+      "midnight_minutes": 169,
+      "overtime_hours": 77,
+      "worked_hours": 261.33,
+      "midnight_hours": 2.82
+    },
+    "07001615": {
+      "worked_minutes": 15530,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4770,
+      "midnight_minutes": 129,
+      "overtime_hours": 79.5,
+      "worked_hours": 258.83,
+      "midnight_hours": 2.15
+    },
+    "07001616": {
+      "worked_minutes": 15210,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4450,
+      "midnight_minutes": 253,
+      "overtime_hours": 74.17,
+      "worked_hours": 253.5,
+      "midnight_hours": 4.22
+    },
+    "07001617": {
+      "worked_minutes": 8160,
+      "paid_minutes": 5300,
+      "overtime_minutes": 2860,
+      "midnight_minutes": 33,
+      "overtime_hours": 47.67,
+      "worked_hours": 136,
+      "midnight_hours": 0.55
+    },
+    "07001619": {
+      "worked_minutes": 16020,
+      "paid_minutes": 11040,
+      "overtime_minutes": 4980,
+      "midnight_minutes": 97,
+      "overtime_hours": 83,
+      "worked_hours": 267,
+      "midnight_hours": 1.62
+    },
+    "07001620": {
+      "worked_minutes": 16460,
+      "paid_minutes": 10760,
+      "overtime_minutes": 5700,
+      "midnight_minutes": 161,
+      "overtime_hours": 95,
+      "worked_hours": 274.33,
+      "midnight_hours": 2.68
+    },
+    "07001622": {
+      "worked_minutes": 15410,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4650,
+      "midnight_minutes": 98,
+      "overtime_hours": 77.5,
+      "worked_hours": 256.83,
+      "midnight_hours": 1.63
+    },
+    "07001623": {
+      "worked_minutes": 16300,
+      "paid_minutes": 10760,
+      "overtime_minutes": 5540,
+      "midnight_minutes": 191,
+      "overtime_hours": 92.33,
+      "worked_hours": 271.67,
+      "midnight_hours": 3.18
+    },
+    "07001624": {
+      "worked_minutes": 15350,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4590,
+      "midnight_minutes": 158,
+      "overtime_hours": 76.5,
+      "worked_hours": 255.83,
+      "midnight_hours": 2.63
+    },
+    "07001625": {
+      "worked_minutes": 15600,
+      "paid_minutes": 11060,
+      "overtime_minutes": 4540,
+      "midnight_minutes": 163,
+      "overtime_hours": 75.67,
+      "worked_hours": 260,
+      "midnight_hours": 2.72
+    },
+    "07001626": {
+      "worked_minutes": 15960,
+      "paid_minutes": 11060,
+      "overtime_minutes": 4900,
+      "midnight_minutes": 191,
+      "overtime_hours": 81.67,
+      "worked_hours": 266,
+      "midnight_hours": 3.18
+    },
+    "07001628": {
+      "worked_minutes": 15620,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4860,
+      "midnight_minutes": 252,
+      "overtime_hours": 81,
+      "worked_hours": 260.33,
+      "midnight_hours": 4.2
+    },
+    "07001629": {
+      "worked_minutes": 15760,
+      "paid_minutes": 10980,
+      "overtime_minutes": 4780,
+      "midnight_minutes": 66,
+      "overtime_hours": 79.67,
+      "worked_hours": 262.67,
+      "midnight_hours": 1.1
+    },
+    "08001401": {
+      "worked_minutes": 14880,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4120,
+      "midnight_minutes": 67,
+      "overtime_hours": 68.67,
+      "worked_hours": 248,
+      "midnight_hours": 1.12
+    },
+    "08001402": {
+      "worked_minutes": 13640,
+      "paid_minutes": 10720,
+      "overtime_minutes": 2920,
+      "midnight_minutes": 129,
+      "overtime_hours": 48.67,
+      "worked_hours": 227.33,
+      "midnight_hours": 2.15
+    },
+    "08001403": {
+      "worked_minutes": 14690,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3930,
+      "midnight_minutes": 131,
+      "overtime_hours": 65.5,
+      "worked_hours": 244.83,
+      "midnight_hours": 2.18
+    },
+    "08001404": {
+      "worked_minutes": 14940,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4180,
+      "midnight_minutes": 165,
+      "overtime_hours": 69.67,
+      "worked_hours": 249,
+      "midnight_hours": 2.75
+    },
+    "08001405": {
+      "worked_minutes": 14560,
+      "paid_minutes": 10740,
+      "overtime_minutes": 3820,
+      "midnight_minutes": 127,
+      "overtime_hours": 63.67,
+      "worked_hours": 242.67,
+      "midnight_hours": 2.12
+    },
+    "08001406": {
+      "worked_minutes": 15040,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4280,
+      "midnight_minutes": 160,
+      "overtime_hours": 71.33,
+      "worked_hours": 250.67,
+      "midnight_hours": 2.67
+    },
+    "08001407": {
+      "worked_minutes": 15300,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4540,
+      "midnight_minutes": 254,
+      "overtime_hours": 75.67,
+      "worked_hours": 255,
+      "midnight_hours": 4.23
+    },
+    "08001408": {
+      "worked_minutes": 10940,
+      "paid_minutes": 6760,
+      "overtime_minutes": 4180,
+      "midnight_minutes": 224,
+      "overtime_hours": 69.67,
+      "worked_hours": 182.33,
+      "midnight_hours": 3.73
+    },
+    "08004401": {
+      "worked_minutes": 240,
+      "paid_minutes": 3360,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 4,
+      "midnight_hours": 0
+    },
+    "08004402": {
+      "worked_minutes": 14970,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4210,
+      "midnight_minutes": 132,
+      "overtime_hours": 70.17,
+      "worked_hours": 249.5,
+      "midnight_hours": 2.2
+    },
+    "08004403": {
+      "worked_minutes": 11430,
+      "paid_minutes": 11060,
+      "overtime_minutes": 370,
+      "midnight_minutes": 130,
+      "overtime_hours": 6.17,
+      "worked_hours": 190.5,
+      "midnight_hours": 2.17
+    },
+    "08004404": {
+      "worked_minutes": 0,
+      "paid_minutes": 0,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0
+    },
+    "08004405": {
+      "worked_minutes": 14640,
+      "paid_minutes": 10440,
+      "overtime_minutes": 4200,
+      "midnight_minutes": 66,
+      "overtime_hours": 70,
+      "worked_hours": 244,
+      "midnight_hours": 1.1
+    },
+    "08004406": {
+      "worked_minutes": 14870,
+      "paid_minutes": 11060,
+      "overtime_minutes": 3810,
+      "midnight_minutes": 0,
+      "overtime_hours": 63.5,
+      "worked_hours": 247.83,
+      "midnight_hours": 0
+    },
+    "08004407": {
+      "worked_minutes": 14330,
+      "paid_minutes": 10830,
+      "overtime_minutes": 3500,
+      "midnight_minutes": 100,
+      "overtime_hours": 58.33,
+      "worked_hours": 238.83,
+      "midnight_hours": 1.67
+    },
+    "08004408": {
+      "worked_minutes": 14470,
+      "paid_minutes": 10500,
+      "overtime_minutes": 3970,
+      "midnight_minutes": 161,
+      "overtime_hours": 66.17,
+      "worked_hours": 241.17,
+      "midnight_hours": 2.68
+    },
+    "08004409": {
+      "worked_minutes": 10670,
+      "paid_minutes": 6520,
+      "overtime_minutes": 4150,
+      "midnight_minutes": 194,
+      "overtime_hours": 69.17,
+      "worked_hours": 177.83,
+      "midnight_hours": 3.23
+    },
+    "07001618": {
+      "worked_minutes": 4980,
+      "paid_minutes": 4980,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 83,
+      "midnight_hours": 0
+    },
+    "07007700": {
+      "worked_minutes": 0,
+      "paid_minutes": 0,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0
+    },
+    "07011608": {
+      "worked_minutes": 0,
+      "paid_minutes": 0,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0
+    },
+    "07011609": {
+      "worked_minutes": 9760,
+      "paid_minutes": 9930,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 162.67,
+      "midnight_hours": 0
+    },
+    "07011610": {
+      "worked_minutes": 13980,
+      "paid_minutes": 10740,
+      "overtime_minutes": 3240,
+      "midnight_minutes": 40,
+      "overtime_hours": 54,
+      "worked_hours": 233,
+      "midnight_hours": 0.67
+    },
+    "07011612": {
+      "worked_minutes": 13760,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3000,
+      "midnight_minutes": 0,
+      "overtime_hours": 50,
+      "worked_hours": 229.33,
+      "midnight_hours": 0
+    },
+    "07011613": {
+      "worked_minutes": 0,
+      "paid_minutes": 0,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0
+    },
+    "07011614": {
+      "worked_minutes": 13500,
+      "paid_minutes": 10770,
+      "overtime_minutes": 2730,
+      "midnight_minutes": 0,
+      "overtime_hours": 45.5,
+      "worked_hours": 225,
+      "midnight_hours": 0
+    },
+    "07012619": {
+      "worked_minutes": 12900,
+      "paid_minutes": 10740,
+      "overtime_minutes": 2160,
+      "midnight_minutes": 0,
+      "overtime_hours": 36,
+      "worked_hours": 215,
+      "midnight_hours": 0
+    },
+    "07013601": {
+      "worked_minutes": 13860,
+      "paid_minutes": 10770,
+      "overtime_minutes": 3090,
+      "midnight_minutes": 143,
+      "overtime_hours": 51.5,
+      "worked_hours": 231,
+      "midnight_hours": 2.38
+    },
+    "07013606": {
+      "worked_minutes": 14250,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3490,
+      "midnight_minutes": 0,
+      "overtime_hours": 58.17,
+      "worked_hours": 237.5,
+      "midnight_hours": 0
+    },
+    "07013614": {
+      "worked_minutes": 0,
+      "paid_minutes": 0,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0
+    },
+    "07013615": {
+      "worked_minutes": 14750,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3990,
+      "midnight_minutes": 0,
+      "overtime_hours": 66.5,
+      "worked_hours": 245.83,
+      "midnight_hours": 0
+    },
+    "07013621": {
+      "worked_minutes": 14000,
+      "paid_minutes": 10770,
+      "overtime_minutes": 3230,
+      "midnight_minutes": 0,
+      "overtime_hours": 53.83,
+      "worked_hours": 233.33,
+      "midnight_hours": 0
+    },
+    "07013625": {
+      "worked_minutes": 14630,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3870,
+      "midnight_minutes": 0,
+      "overtime_hours": 64.5,
+      "worked_hours": 243.83,
+      "midnight_hours": 0
+    },
+    "07013626": {
+      "worked_minutes": 11090,
+      "paid_minutes": 10630,
+      "overtime_minutes": 460,
+      "midnight_minutes": 11,
+      "overtime_hours": 7.67,
+      "worked_hours": 184.83,
+      "midnight_hours": 0.18
+    },
+    "07013628": {
+      "worked_minutes": 13910,
+      "paid_minutes": 10260,
+      "overtime_minutes": 3650,
+      "midnight_minutes": 0,
+      "overtime_hours": 60.83,
+      "worked_hours": 231.83,
+      "midnight_hours": 0
+    },
+    "07013629": {
+      "worked_minutes": 13430,
+      "paid_minutes": 9800,
+      "overtime_minutes": 3630,
+      "midnight_minutes": 0,
+      "overtime_hours": 60.5,
+      "worked_hours": 223.83,
+      "midnight_hours": 0
+    },
+    "07013630": {
+      "worked_minutes": 13560,
+      "paid_minutes": 10760,
+      "overtime_minutes": 2800,
+      "midnight_minutes": 0,
+      "overtime_hours": 46.67,
+      "worked_hours": 226,
+      "midnight_hours": 0
+    },
+    "07013631": {
+      "worked_minutes": 13180,
+      "paid_minutes": 9800,
+      "overtime_minutes": 3380,
+      "midnight_minutes": 6,
+      "overtime_hours": 56.33,
+      "worked_hours": 219.67,
+      "midnight_hours": 0.1
+    },
+    "07013632": {
+      "worked_minutes": 0,
+      "paid_minutes": 0,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0
+    },
+    "07013633": {
+      "worked_minutes": 13620,
+      "paid_minutes": 10640,
+      "overtime_minutes": 2980,
+      "midnight_minutes": 142,
+      "overtime_hours": 49.67,
+      "worked_hours": 227,
+      "midnight_hours": 2.37
+    },
+    "07013634": {
+      "worked_minutes": 11130,
+      "paid_minutes": 10280,
+      "overtime_minutes": 850,
+      "midnight_minutes": 0,
+      "overtime_hours": 14.17,
+      "worked_hours": 185.5,
+      "midnight_hours": 0
+    },
+    "07013635": {
+      "worked_minutes": 14950,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4190,
+      "midnight_minutes": 193,
+      "overtime_hours": 69.83,
+      "worked_hours": 249.17,
+      "midnight_hours": 3.22
+    },
+    "07013637": {
+      "worked_minutes": 14310,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3550,
+      "midnight_minutes": 0,
+      "overtime_hours": 59.17,
+      "worked_hours": 238.5,
+      "midnight_hours": 0
+    },
+    "07013638": {
+      "worked_minutes": 0,
+      "paid_minutes": 0,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0
+    },
+    "07013639": {
+      "worked_minutes": 14630,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3870,
+      "midnight_minutes": 0,
+      "overtime_hours": 64.5,
+      "worked_hours": 243.83,
+      "midnight_hours": 0
+    },
+    "07013640": {
+      "worked_minutes": 14510,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3750,
+      "midnight_minutes": 40,
+      "overtime_hours": 62.5,
+      "worked_hours": 241.83,
+      "midnight_hours": 0.67
+    },
+    "07013641": {
+      "worked_minutes": 4510,
+      "paid_minutes": 3360,
+      "overtime_minutes": 1150,
+      "midnight_minutes": 0,
+      "overtime_hours": 19.17,
+      "worked_hours": 75.17,
+      "midnight_hours": 0
+    },
+    "07013642": {
+      "worked_minutes": 14420,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3660,
+      "midnight_minutes": 0,
+      "overtime_hours": 61,
+      "worked_hours": 240.33,
+      "midnight_hours": 0
+    },
+    "07013643": {
+      "worked_minutes": 13980,
+      "paid_minutes": 10740,
+      "overtime_minutes": 3240,
+      "midnight_minutes": 0,
+      "overtime_hours": 54,
+      "worked_hours": 233,
+      "midnight_hours": 0
+    },
+    "07013645": {
+      "worked_minutes": 13370,
+      "paid_minutes": 10760,
+      "overtime_minutes": 2610,
+      "midnight_minutes": 35,
+      "overtime_hours": 43.5,
+      "worked_hours": 222.83,
+      "midnight_hours": 0.58
+    },
+    "07013646": {
+      "worked_minutes": 13800,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3040,
+      "midnight_minutes": 142,
+      "overtime_hours": 50.67,
+      "worked_hours": 230,
+      "midnight_hours": 2.37
+    },
+    "07013648": {
+      "worked_minutes": 13390,
+      "paid_minutes": 10760,
+      "overtime_minutes": 2630,
+      "midnight_minutes": 142,
+      "overtime_hours": 43.83,
+      "worked_hours": 223.17,
+      "midnight_hours": 2.37
+    },
+    "07013650": {
+      "worked_minutes": 14240,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3480,
+      "midnight_minutes": 0,
+      "overtime_hours": 58,
+      "worked_hours": 237.33,
+      "midnight_hours": 0
+    },
+    "07013652": {
+      "worked_minutes": 14500,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3740,
+      "midnight_minutes": 0,
+      "overtime_hours": 62.33,
+      "worked_hours": 241.67,
+      "midnight_hours": 0
+    },
+    "07013653": {
+      "worked_minutes": 12990,
+      "paid_minutes": 10740,
+      "overtime_minutes": 2250,
+      "midnight_minutes": 0,
+      "overtime_hours": 37.5,
+      "worked_hours": 216.5,
+      "midnight_hours": 0
+    },
+    "07013656": {
+      "worked_minutes": 14380,
+      "paid_minutes": 10730,
+      "overtime_minutes": 3650,
+      "midnight_minutes": 0,
+      "overtime_hours": 60.83,
+      "worked_hours": 239.67,
+      "midnight_hours": 0
+    },
+    "07013657": {
+      "worked_minutes": 13380,
+      "paid_minutes": 10740,
+      "overtime_minutes": 2640,
+      "midnight_minutes": 0,
+      "overtime_hours": 44,
+      "worked_hours": 223,
+      "midnight_hours": 0
+    },
+    "07013659": {
+      "worked_minutes": 13920,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3160,
+      "midnight_minutes": 142,
+      "overtime_hours": 52.67,
+      "worked_hours": 232,
+      "midnight_hours": 2.37
+    },
+    "07013660": {
+      "worked_minutes": 14620,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3860,
+      "midnight_minutes": 0,
+      "overtime_hours": 64.33,
+      "worked_hours": 243.67,
+      "midnight_hours": 0
+    },
+    "07013661": {
+      "worked_minutes": 14070,
+      "paid_minutes": 10280,
+      "overtime_minutes": 3790,
+      "midnight_minutes": 3,
+      "overtime_hours": 63.17,
+      "worked_hours": 234.5,
+      "midnight_hours": 0.05
+    },
+    "07013662": {
+      "worked_minutes": 14280,
+      "paid_minutes": 10770,
+      "overtime_minutes": 3510,
+      "midnight_minutes": 0,
+      "overtime_hours": 58.5,
+      "worked_hours": 238,
+      "midnight_hours": 0
+    },
+    "07013665": {
+      "worked_minutes": 14320,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3560,
+      "midnight_minutes": 0,
+      "overtime_hours": 59.33,
+      "worked_hours": 238.67,
+      "midnight_hours": 0
+    },
+    "07013666": {
+      "worked_minutes": 12990,
+      "paid_minutes": 10520,
+      "overtime_minutes": 2470,
+      "midnight_minutes": 0,
+      "overtime_hours": 41.17,
+      "worked_hours": 216.5,
+      "midnight_hours": 0
+    },
+    "07013667": {
+      "worked_minutes": 13030,
+      "paid_minutes": 9800,
+      "overtime_minutes": 3230,
+      "midnight_minutes": 0,
+      "overtime_hours": 53.83,
+      "worked_hours": 217.17,
+      "midnight_hours": 0
+    },
+    "07013669": {
+      "worked_minutes": 6070,
+      "paid_minutes": 4500,
+      "overtime_minutes": 1570,
+      "midnight_minutes": 0,
+      "overtime_hours": 26.17,
+      "worked_hours": 101.17,
+      "midnight_hours": 0
+    },
+    "07013671": {
+      "worked_minutes": 13670,
+      "paid_minutes": 10760,
+      "overtime_minutes": 2910,
+      "midnight_minutes": 0,
+      "overtime_hours": 48.5,
+      "worked_hours": 227.83,
+      "midnight_hours": 0
+    },
+    "07013672": {
+      "worked_minutes": 13420,
+      "paid_minutes": 9800,
+      "overtime_minutes": 3620,
+      "midnight_minutes": 19,
+      "overtime_hours": 60.33,
+      "worked_hours": 223.67,
+      "midnight_hours": 0.32
+    },
+    "07013673": {
+      "worked_minutes": 12150,
+      "paid_minutes": 10260,
+      "overtime_minutes": 1890,
+      "midnight_minutes": 0,
+      "overtime_hours": 31.5,
+      "worked_hours": 202.5,
+      "midnight_hours": 0
+    },
+    "07013674": {
+      "worked_minutes": 13890,
+      "paid_minutes": 10280,
+      "overtime_minutes": 3610,
+      "midnight_minutes": 0,
+      "overtime_hours": 60.17,
+      "worked_hours": 231.5,
+      "midnight_hours": 0
+    },
+    "07013675": {
+      "worked_minutes": 14570,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3810,
+      "midnight_minutes": 0,
+      "overtime_hours": 63.5,
+      "worked_hours": 242.83,
+      "midnight_hours": 0
+    },
+    "07013676": {
+      "worked_minutes": 14390,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3630,
+      "midnight_minutes": 8,
+      "overtime_hours": 60.5,
+      "worked_hours": 239.83,
+      "midnight_hours": 0.13
+    },
+    "07013677": {
+      "worked_minutes": 13620,
+      "paid_minutes": 10260,
+      "overtime_minutes": 3360,
+      "midnight_minutes": 9,
+      "overtime_hours": 56,
+      "worked_hours": 227,
+      "midnight_hours": 0.15
+    },
+    "07013678": {
+      "worked_minutes": 13850,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3090,
+      "midnight_minutes": 0,
+      "overtime_hours": 51.5,
+      "worked_hours": 230.83,
+      "midnight_hours": 0
+    },
+    "07013680": {
+      "worked_minutes": 6150,
+      "paid_minutes": 8550,
+      "overtime_minutes": 0,
+      "midnight_minutes": 38,
+      "overtime_hours": 0,
+      "worked_hours": 102.5,
+      "midnight_hours": 0.63
+    },
+    "07013681": {
+      "worked_minutes": 14100,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3340,
+      "midnight_minutes": 0,
+      "overtime_hours": 55.67,
+      "worked_hours": 235,
+      "midnight_hours": 0
+    },
+    "07013683": {
+      "worked_minutes": 12550,
+      "paid_minutes": 10500,
+      "overtime_minutes": 2050,
+      "midnight_minutes": 2,
+      "overtime_hours": 34.17,
+      "worked_hours": 209.17,
+      "midnight_hours": 0.03
+    },
+    "07013687": {
+      "worked_minutes": 14230,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3470,
+      "midnight_minutes": 9,
+      "overtime_hours": 57.83,
+      "worked_hours": 237.17,
+      "midnight_hours": 0.15
+    },
+    "07013688": {
+      "worked_minutes": 14310,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3550,
+      "midnight_minutes": 0,
+      "overtime_hours": 59.17,
+      "worked_hours": 238.5,
+      "midnight_hours": 0
+    },
+    "07013689": {
+      "worked_minutes": 14750,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3990,
+      "midnight_minutes": 0,
+      "overtime_hours": 66.5,
+      "worked_hours": 245.83,
+      "midnight_hours": 0
+    },
+    "07013690": {
+      "worked_minutes": 14530,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3770,
+      "midnight_minutes": 0,
+      "overtime_hours": 62.83,
+      "worked_hours": 242.17,
+      "midnight_hours": 0
+    },
+    "07013691": {
+      "worked_minutes": 14670,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3910,
+      "midnight_minutes": 0,
+      "overtime_hours": 65.17,
+      "worked_hours": 244.5,
+      "midnight_hours": 0
+    },
+    "07017700": {
+      "worked_minutes": 14600,
+      "paid_minutes": 10780,
+      "overtime_minutes": 3820,
+      "midnight_minutes": 0,
+      "overtime_hours": 63.67,
+      "worked_hours": 243.33,
+      "midnight_hours": 0
+    },
+    "07017701": {
+      "worked_minutes": 10720,
+      "paid_minutes": 10750,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 178.67,
+      "midnight_hours": 0
+    },
+    "07018601": {
+      "worked_minutes": 9610,
+      "paid_minutes": 10250,
+      "overtime_minutes": 0,
+      "midnight_minutes": 0,
+      "overtime_hours": 0,
+      "worked_hours": 160.17,
+      "midnight_hours": 0
+    },
+    "07018602": {
+      "worked_minutes": 12220,
+      "paid_minutes": 10640,
+      "overtime_minutes": 1580,
+      "midnight_minutes": 0,
+      "overtime_hours": 26.33,
+      "worked_hours": 203.67,
+      "midnight_hours": 0
+    },
+    "07018603": {
+      "worked_minutes": 13310,
+      "paid_minutes": 10760,
+      "overtime_minutes": 2550,
+      "midnight_minutes": 10,
+      "overtime_hours": 42.5,
+      "worked_hours": 221.83,
+      "midnight_hours": 0.17
+    },
+    "07018604": {
+      "worked_minutes": 14880,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4120,
+      "midnight_minutes": 8,
+      "overtime_hours": 68.67,
+      "worked_hours": 248,
+      "midnight_hours": 0.13
+    },
+    "07018605": {
+      "worked_minutes": 13230,
+      "paid_minutes": 10760,
+      "overtime_minutes": 2470,
+      "midnight_minutes": 137,
+      "overtime_hours": 41.17,
+      "worked_hours": 220.5,
+      "midnight_hours": 2.28
+    },
+    "07018606": {
+      "worked_minutes": 14550,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3790,
+      "midnight_minutes": 0,
+      "overtime_hours": 63.17,
+      "worked_hours": 242.5,
+      "midnight_hours": 0
+    },
+    "07018607": {
+      "worked_minutes": 14430,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3670,
+      "midnight_minutes": 0,
+      "overtime_hours": 61.17,
+      "worked_hours": 240.5,
+      "midnight_hours": 0
+    },
+    "07018608": {
+      "worked_minutes": 14700,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3940,
+      "midnight_minutes": 0,
+      "overtime_hours": 65.67,
+      "worked_hours": 245,
+      "midnight_hours": 0
+    },
+    "07018609": {
+      "worked_minutes": 14260,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3500,
+      "midnight_minutes": 140,
+      "overtime_hours": 58.33,
+      "worked_hours": 237.67,
+      "midnight_hours": 2.33
+    },
+    "07018610": {
+      "worked_minutes": 14370,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3610,
+      "midnight_minutes": 0,
+      "overtime_hours": 60.17,
+      "worked_hours": 239.5,
+      "midnight_hours": 0
+    },
+    "07018611": {
+      "worked_minutes": 14250,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3490,
+      "midnight_minutes": 0,
+      "overtime_hours": 58.17,
+      "worked_hours": 237.5,
+      "midnight_hours": 0
+    },
+    "07018612": {
+      "worked_minutes": 14780,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4020,
+      "midnight_minutes": 0,
+      "overtime_hours": 67,
+      "worked_hours": 246.33,
+      "midnight_hours": 0
+    },
+    "07018613": {
+      "worked_minutes": 14270,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3510,
+      "midnight_minutes": 0,
+      "overtime_hours": 58.5,
+      "worked_hours": 237.83,
+      "midnight_hours": 0
+    },
+    "07018614": {
+      "worked_minutes": 13700,
+      "paid_minutes": 10280,
+      "overtime_minutes": 3420,
+      "midnight_minutes": 0,
+      "overtime_hours": 57,
+      "worked_hours": 228.33,
+      "midnight_hours": 0
+    },
+    "07018615": {
+      "worked_minutes": 13980,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3220,
+      "midnight_minutes": 135,
+      "overtime_hours": 53.67,
+      "worked_hours": 233,
+      "midnight_hours": 2.25
+    },
+    "07018616": {
+      "worked_minutes": 13890,
+      "paid_minutes": 10280,
+      "overtime_minutes": 3610,
+      "midnight_minutes": 0,
+      "overtime_hours": 60.17,
+      "worked_hours": 231.5,
+      "midnight_hours": 0
+    },
+    "07018617": {
+      "worked_minutes": 14580,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3820,
+      "midnight_minutes": 0,
+      "overtime_hours": 63.67,
+      "worked_hours": 243,
+      "midnight_hours": 0
+    },
+    "07018618": {
+      "worked_minutes": 14130,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3370,
+      "midnight_minutes": 0,
+      "overtime_hours": 56.17,
+      "worked_hours": 235.5,
+      "midnight_hours": 0
+    },
+    "07018619": {
+      "worked_minutes": 14580,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3820,
+      "midnight_minutes": 0,
+      "overtime_hours": 63.67,
+      "worked_hours": 243,
+      "midnight_hours": 0
+    },
+    "07018620": {
+      "worked_minutes": 13840,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3080,
+      "midnight_minutes": 0,
+      "overtime_hours": 51.33,
+      "worked_hours": 230.67,
+      "midnight_hours": 0
+    },
+    "07018621": {
+      "worked_minutes": 14540,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3780,
+      "midnight_minutes": 0,
+      "overtime_hours": 63,
+      "worked_hours": 242.33,
+      "midnight_hours": 0
+    },
+    "07018622": {
+      "worked_minutes": 14580,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3820,
+      "midnight_minutes": 35,
+      "overtime_hours": 63.67,
+      "worked_hours": 243,
+      "midnight_hours": 0.58
+    },
+    "07018623": {
+      "worked_minutes": 14740,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3980,
+      "midnight_minutes": 0,
+      "overtime_hours": 66.33,
+      "worked_hours": 245.67,
+      "midnight_hours": 0
+    },
+    "07018624": {
+      "worked_minutes": 13140,
+      "paid_minutes": 9780,
+      "overtime_minutes": 3360,
+      "midnight_minutes": 8,
+      "overtime_hours": 56,
+      "worked_hours": 219,
+      "midnight_hours": 0.13
+    },
+    "07018625": {
+      "worked_minutes": 14540,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3780,
+      "midnight_minutes": 0,
+      "overtime_hours": 63,
+      "worked_hours": 242.33,
+      "midnight_hours": 0
+    },
+    "07018626": {
+      "worked_minutes": 14110,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3350,
+      "midnight_minutes": 99,
+      "overtime_hours": 55.83,
+      "worked_hours": 235.17,
+      "midnight_hours": 1.65
+    },
+    "07018627": {
+      "worked_minutes": 14180,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3420,
+      "midnight_minutes": 0,
+      "overtime_hours": 57,
+      "worked_hours": 236.33,
+      "midnight_hours": 0
+    },
+    "07018628": {
+      "worked_minutes": 14430,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3670,
+      "midnight_minutes": 9,
+      "overtime_hours": 61.17,
+      "worked_hours": 240.5,
+      "midnight_hours": 0.15
+    },
+    "07018629": {
+      "worked_minutes": 14430,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3670,
+      "midnight_minutes": 0,
+      "overtime_hours": 61.17,
+      "worked_hours": 240.5,
+      "midnight_hours": 0
+    },
+    "07018630": {
+      "worked_minutes": 13790,
+      "paid_minutes": 10520,
+      "overtime_minutes": 3270,
+      "midnight_minutes": 0,
+      "overtime_hours": 54.5,
+      "worked_hours": 229.83,
+      "midnight_hours": 0
+    },
+    "07018631": {
+      "worked_minutes": 14310,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3550,
+      "midnight_minutes": 0,
+      "overtime_hours": 59.17,
+      "worked_hours": 238.5,
+      "midnight_hours": 0
+    },
+    "07018632": {
+      "worked_minutes": 14660,
+      "paid_minutes": 10640,
+      "overtime_minutes": 4020,
+      "midnight_minutes": 3,
+      "overtime_hours": 67,
+      "worked_hours": 244.33,
+      "midnight_hours": 0.05
+    },
+    "07018633": {
+      "worked_minutes": 13980,
+      "paid_minutes": 10530,
+      "overtime_minutes": 3450,
+      "midnight_minutes": 0,
+      "overtime_hours": 57.5,
+      "worked_hours": 233,
+      "midnight_hours": 0
+    },
+    "07018634": {
+      "worked_minutes": 15250,
+      "paid_minutes": 10760,
+      "overtime_minutes": 4490,
+      "midnight_minutes": 4,
+      "overtime_hours": 74.83,
+      "worked_hours": 254.17,
+      "midnight_hours": 0.07
+    },
+    "07018635": {
+      "worked_minutes": 13660,
+      "paid_minutes": 10760,
+      "overtime_minutes": 2900,
+      "midnight_minutes": 44,
+      "overtime_hours": 48.33,
+      "worked_hours": 227.67,
+      "midnight_hours": 0.73
+    },
+    "07018636": {
+      "worked_minutes": 14540,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3780,
+      "midnight_minutes": 9,
+      "overtime_hours": 63,
+      "worked_hours": 242.33,
+      "midnight_hours": 0.15
+    },
+    "07018637": {
+      "worked_minutes": 12950,
+      "paid_minutes": 9260,
+      "overtime_minutes": 3690,
+      "midnight_minutes": 0,
+      "overtime_hours": 61.5,
+      "worked_hours": 215.83,
+      "midnight_hours": 0
+    },
+    "07018638": {
+      "worked_minutes": 9150,
+      "paid_minutes": 6760,
+      "overtime_minutes": 2390,
+      "midnight_minutes": 0,
+      "overtime_hours": 39.83,
+      "worked_hours": 152.5,
+      "midnight_hours": 0
+    },
+    "07018639": {
+      "worked_minutes": 9240,
+      "paid_minutes": 6760,
+      "overtime_minutes": 2480,
+      "midnight_minutes": 0,
+      "overtime_hours": 41.33,
+      "worked_hours": 154,
+      "midnight_hours": 0
+    },
+    "07018640": {
+      "worked_minutes": 9270,
+      "paid_minutes": 6760,
+      "overtime_minutes": 2510,
+      "midnight_minutes": 0,
+      "overtime_hours": 41.83,
+      "worked_hours": 154.5,
+      "midnight_hours": 0
+    },
+    "07018700": {
+      "worked_minutes": 14150,
+      "paid_minutes": 10740,
+      "overtime_minutes": 3410,
+      "midnight_minutes": 9,
+      "overtime_hours": 56.83,
+      "worked_hours": 235.83,
+      "midnight_hours": 0.15
+    },
+    "07018701": {
+      "worked_minutes": 14140,
+      "paid_minutes": 10760,
+      "overtime_minutes": 3380,
+      "midnight_minutes": 0,
+      "overtime_hours": 56.33,
+      "worked_hours": 235.67,
+      "midnight_hours": 0
+    }
+  }
+}

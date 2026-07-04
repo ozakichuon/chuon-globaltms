@@ -1,0 +1,302 @@
+[
+  {
+    "id": "e9154770-3b88-4891-80c0-1116db73c936",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "304"
+  },
+  {
+    "id": "f3f416d7-2e55-4082-a544-c0ec74e19198",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "305"
+  },
+  {
+    "id": "e6e8ce09-aa3b-432c-a595-0473f5cf6674",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "401"
+  },
+  {
+    "id": "9208ad20-3480-42d7-91c8-8e90d433076f",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "402"
+  },
+  {
+    "id": "0570acbf-bae6-4d99-97b3-d891ee5739ad",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "403"
+  },
+  {
+    "id": "02e3a7e0-c31d-489e-877b-9284f88c4dbf",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "404"
+  },
+  {
+    "id": "63e143f9-5d11-48e9-a60c-690584f5d832",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "406"
+  },
+  {
+    "id": "ec744709-1dd8-4ee2-af26-6f02d4031c42",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "504"
+  },
+  {
+    "id": "3e938612-f905-405a-a1b6-fc87377b918b",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "506"
+  },
+  {
+    "id": "90578bb0-ca89-4f16-a02f-1f08b039d031",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "602"
+  },
+  {
+    "id": "d31eb762-126f-4279-aeaf-560d299cea3e",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "604"
+  },
+  {
+    "id": "acb7b5ec-1c7d-4305-9d24-0a3ffc156804",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "605"
+  },
+  {
+    "id": "edacd83f-1c91-44ae-9986-2cb9b8fa51da",
+    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
+    "dormitory_name": "アトム",
+    "room_no": "705"
+  },
+  {
+    "id": "80b1e403-038f-4727-a7b1-9e608f9140e6",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "1-303"
+  },
+  {
+    "id": "f3d3a8d7-06fc-41a4-adcf-91fbaeae5e57",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "1-205"
+  },
+  {
+    "id": "42bef456-fa51-46a8-add0-fabc82ae0186",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "1-507"
+  },
+  {
+    "id": "7c8bbdf0-f40a-405a-8fd5-97405bb660eb",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "1-402"
+  },
+  {
+    "id": "cb0528fb-679d-4dff-9b0e-1578f9020fc6",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "2-507"
+  },
+  {
+    "id": "956319c5-38ee-4fce-a111-a3e18c6c14ad",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "2-506"
+  },
+  {
+    "id": "bfb28e99-6181-4ebd-8086-08c69abbb76f",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "2-405"
+  },
+  {
+    "id": "ff73c568-da4f-43f7-8333-e3ac880fd73a",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "2-508"
+  },
+  {
+    "id": "21c9378e-29d3-4cb9-a27b-76fff1d84e42",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "2-504"
+  },
+  {
+    "id": "3bb18666-e2a3-41e3-abd2-44e22845a39f",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "2-502"
+  },
+  {
+    "id": "bc38db36-da87-48a0-8ffd-16216d54bde5",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "2-503"
+  },
+  {
+    "id": "99a712b9-43e7-4d60-9ac3-89527d13e416",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "3-508"
+  },
+  {
+    "id": "5736aa10-69ec-42f0-89f8-2870d567b776",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "3-507"
+  },
+  {
+    "id": "650fbcf0-3971-4f1f-8f87-1d9a5628a87e",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "3-103"
+  },
+  {
+    "id": "0bff67ce-f15a-4c2a-bb6c-aaabf973160c",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "3-501"
+  },
+  {
+    "id": "2c7a8b9f-a1f6-498d-a7c7-3c48e7951f47",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "3-108"
+  },
+  {
+    "id": "2f4a5c62-12a8-45b4-a4db-2e356b6c7ff9",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "4-501"
+  },
+  {
+    "id": "7415b338-8379-4975-aa72-a0f116f91b7c",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "4-505"
+  },
+  {
+    "id": "658eded8-9264-498d-ad2e-112b577160df",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "4-205"
+  },
+  {
+    "id": "b72e23ff-5b3c-4ec0-a926-6d99c645c27c",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "4-502"
+  },
+  {
+    "id": "3277ef52-a31c-463d-a530-75b42ea06c81",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "4-504"
+  },
+  {
+    "id": "b5358236-498a-45e3-a71c-89e3f25738df",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_no": "4-407"
+  },
+  {
+    "id": "2149977b-6a66-4d2d-8321-6b939bed00e9",
+    "dormitory_id": "55b291e2-adb1-49e2-bc5e-292e22ea5f12",
+    "dormitory_name": "コーポ津吉",
+    "room_no": "1-2"
+  },
+  {
+    "id": "e1381ade-2619-4d69-ac76-542eb6eb932f",
+    "dormitory_id": "55b291e2-adb1-49e2-bc5e-292e22ea5f12",
+    "dormitory_name": "コーポ津吉",
+    "room_no": "1-6"
+  },
+  {
+    "id": "ce1f3c4b-0557-41f7-9ea6-f4cbe49501e2",
+    "dormitory_id": "55b291e2-adb1-49e2-bc5e-292e22ea5f12",
+    "dormitory_name": "コーポ津吉",
+    "room_no": "2-4"
+  },
+  {
+    "id": "4515acba-ba55-4d65-b5f5-4af8f81a7710",
+    "dormitory_id": "8da6f587-e92b-4bd8-8f00-c016165be252",
+    "dormitory_name": "東温市牛渕（個別）",
+    "room_no": "123-1"
+  },
+  {
+    "id": "c0dc726d-38e4-4208-ba81-824d214aa1f6",
+    "dormitory_id": "8da6f587-e92b-4bd8-8f00-c016165be252",
+    "dormitory_name": "東温市牛渕（個別）",
+    "room_no": "170-3"
+  },
+  {
+    "id": "82fb5864-b026-4bb6-85db-c452e44eedac",
+    "dormitory_id": "8da6f587-e92b-4bd8-8f00-c016165be252",
+    "dormitory_name": "東温市牛渕（個別）",
+    "room_no": "170‐３"
+  },
+  {
+    "id": "d78cfb76-3cc5-48ab-a46b-bc3839257f17",
+    "dormitory_id": "49bedc9c-8210-4fa6-990a-6632fc805eff",
+    "dormitory_name": "EARLS COURT東温Ⅱ",
+    "room_no": "205"
+  },
+  {
+    "id": "e361fc36-4f7a-4fd9-b404-b260a4dba6b0",
+    "dormitory_id": "9a822ea9-aa8b-470b-a0f5-98eec649ba15",
+    "dormitory_name": "シティハイム",
+    "room_no": "101"
+  },
+  {
+    "id": "f5a21f1d-1a7b-454f-86c4-012d5d8a40c5",
+    "dormitory_id": "3ab65e8c-d558-4360-afb1-c3117a7a29f6",
+    "dormitory_name": "中野町",
+    "room_no": "368-6"
+  },
+  {
+    "id": "59456d6a-a9c9-4d94-a262-237201ffe240",
+    "dormitory_id": "3ab65e8c-d558-4360-afb1-c3117a7a29f6",
+    "dormitory_name": "中野町",
+    "room_no": "457-1"
+  },
+  {
+    "id": "011d49bc-7615-4471-8e97-453187f44a6b",
+    "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
+    "dormitory_name": "HAPPINESS",
+    "room_no": "F棟201"
+  },
+  {
+    "id": "cbe8abdf-5180-4fad-9b1a-c3edb53d46f2",
+    "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
+    "dormitory_name": "HAPPINESS",
+    "room_no": "F棟202"
+  },
+  {
+    "id": "fd2beada-d187-48d1-9ad9-dc00b53c9205",
+    "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
+    "dormitory_name": "HAPPINESS",
+    "room_no": "F棟101"
+  },
+  {
+    "id": "e62cf01a-3771-4335-9acd-f2e0c29265f8",
+    "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
+    "dormitory_name": "HAPPINESS",
+    "room_no": "F棟102"
+  },
+  {
+    "id": "3258bc7c-7592-4044-8e15-4f1b807bb766",
+    "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
+    "dormitory_name": "HAPPINESS",
+    "room_no": "F棟103"
+  }
+]

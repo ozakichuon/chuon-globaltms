@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "2259ca1b-a45f-50f2-8bab-2c139d4e8aba",
+    "employee_id": "d4cc2a21-04d2-5bf3-b805-93648bf01cf4",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "ＤＸ30707722ＰＣ",
+    "expires_at": "2022-11-28",
+    "is_current": false
+  },
+  {
+    "id": "a85f2580-2449-5f99-85b3-25805ab3440b",
+    "employee_id": "ff4a47ae-a972-5f32-bd38-1ee846cf27f9",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "ＤＸ89886995ＰＣ",
+    "expires_at": "2022-11-28",
+    "is_current": false
+  },
+  {
+    "id": "96a2c80c-941d-55f4-8feb-78d9e96ceb88",
+    "employee_id": "02482a2d-5068-578b-bc32-7d746fd60ed4",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH17492757PC",
+    "expires_at": "2026-11-01",
+    "is_current": false
+  },
+  {
+    "id": "dbb59c6b-fbd7-521c-958d-2c9a89a85324",
+    "employee_id": "3ca61d5e-9c01-5515-8115-feee08aa607c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "TJ66354580PA",
+    "expires_at": "2023-11-01",
+    "is_current": false
+  },
+  {
+    "id": "6c1b074f-b4cb-526b-a96d-6c1978c32887",
+    "employee_id": "4961aaaf-1ebe-5d72-8067-a8ac26af9050",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP48961811PA",
+    "expires_at": "2024-07-10",
+    "is_current": false
+  },
+  {
+    "id": "f56d45f5-fcbf-5199-b1bc-94f5cd68c142",
+    "employee_id": "b87781c6-861e-554f-94be-18094d428bae",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "TJ69040729PC",
+    "expires_at": "2023-12-13",
+    "is_current": false
+  },
+  {
+    "id": "b3d4c164-b3f4-5b23-9c4d-63dace11432a",
+    "employee_id": "b022ac1f-9d3a-5f82-ab5f-12760c94c721",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "TJ53898721PC",
+    "expires_at": "2023-12-13",
+    "is_current": false
+  },
+  {
+    "id": "03f83115-977a-5ed9-82e4-11e7f18faaf7",
+    "employee_id": "95258d72-2d38-507d-b32d-c6fbaccae06f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA28686623PA",
+    "expires_at": "2025-09-12",
+    "is_current": false
+  },
+  {
+    "id": "642a0275-0c26-5735-b761-f13e4fd6fe0b",
+    "employee_id": "d4a54622-a041-5d8a-83e7-00f99b5af898",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH54552117PC",
+    "expires_at": "2026-09-29",
+    "is_current": true
+  },
+  {
+    "id": "cf782d81-2213-5955-a418-5dbab2169c58",
+    "employee_id": "3b5c1518-df53-571c-95c1-52ffec4eb563",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH51964624PC",
+    "expires_at": "2026-09-29",
+    "is_current": true
+  },
+  {
+    "id": "f710902f-aaf6-5697-bc3d-709bfd88ae6c",
+    "employee_id": "e5107853-7b7e-5b1c-b7ac-dcb5d6ef4e4d",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "TJ09931713PC",
+    "expires_at": "2023-07-09",
+    "is_current": false
+  },
+  {
+    "id": "1e8ce236-0c24-5826-98f8-841be78e9ea7",
+    "employee_id": "5d07a93d-e3ee-582d-8e65-aed698fbe422",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH80838380PC",
+    "expires_at": "2026-09-29",
+    "is_current": true
+  },
+  {
+    "id": "db47cec3-5e56-53fe-ad18-bd88e7dd914a",
+    "employee_id": "6ffe5535-688b-5811-a29a-4580dafd08b5",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "TJ51126887PC",
+    "expires_at": "2023-02-27",
+    "is_current": false
+  },
+  {
+    "id": "a50f0ae6-9cff-59b2-8e53-704f62be220c",
+    "employee_id": "fb5894c9-12de-5c6e-aa53-79472cb26c01",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "DX17958926PC",
+    "expires_at": "2022-08-21",
+    "is_current": false
+  },
+  {
+    "id": "d2f4dfb3-26b5-536a-bf48-f5170c49b9a3",
+    "employee_id": "b604a922-7f6e-5f60-949e-4f6c1b025a3f",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "NP60084115PC",
+    "expires_at": "2024-10-22",
+    "is_current": false
+  },
+  {
+    "id": "e0dc2dd6-b56e-5e09-89c5-9be95bccb7a1",
+    "employee_id": "8da43ca6-6b12-53b9-b801-0cd8941b7634",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "DX99865766PC",
+    "expires_at": "2022-08-21",
+    "is_current": false
+  },
+  {
+    "id": "9e71b27f-26fe-5b94-8c9a-ab3dd50ca12c",
+    "employee_id": "4531a83b-8fb2-58d4-9177-8cdaf7470e35",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP29436386PA",
+    "expires_at": "2024-02-10",
+    "is_current": false
+  },
+  {
+    "id": "375730bc-e8e0-569f-ad91-76e14ce2e6e9",
+    "employee_id": "07d2b15b-a325-5113-850b-c1e0575314b9",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH90854712PC",
+    "expires_at": "2026-12-04",
+    "is_current": true
+  },
+  {
+    "id": "f08e051f-d5b7-5544-9b05-134463649edf",
+    "employee_id": "687787b4-1e90-54f2-a9ef-3d74897ef059",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "TJ09914475PC",
+    "expires_at": "2023-10-22",
+    "is_current": false
+  },
+  {
+    "id": "fc1aa2d7-668a-5639-88a3-1fe21f803f45",
+    "employee_id": "6aea9238-a72b-537a-9b82-a5d473cf110a",
+    "visa_status": "other",
+    "residence_card_no": "TJ88198592RA",
+    "expires_at": "2023-02-07",
+    "is_current": false
+  },
+  {
+    "id": "b2988099-f59b-5137-b326-bd7979ff45eb",
+    "employee_id": "62a69a0d-9577-562b-9a90-2872062d9488",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "TJ92560142PA",
+    "expires_at": "2023-10-08",
+    "is_current": false
+  },
+  {
+    "id": "b46dac11-6764-5696-8be3-9c98b9ac3bed",
+    "employee_id": "ea493c4a-ad9b-5f43-ad4d-79b8912832a2",
+    "visa_status": "other",
+    "residence_card_no": "ＴＪ04286685PC",
+    "expires_at": "2022-10-23",
+    "is_current": false
+  },
+  {
+    "id": "1180d948-8ef6-543e-902a-c67d84a2fc15",
+    "employee_id": "1e7aeaa4-15f1-5161-a0b6-1e72c4ff097c",
+    "visa_status": "other",
+    "residence_card_no": "ＴＪ39383067PC",
+    "expires_at": "2022-10-23",
+    "is_current": false
+  },
+  {
+    "id": "32ef0d42-261e-53c6-a490-c9d3d0cd2112",
+    "employee_id": "fe2084fd-7e43-59db-af77-ffec120edefc",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH16081560PA",
+    "expires_at": "2026-07-03",
+    "is_current": true
+  },
+  {
+    "id": "a91140cd-f1ea-5333-866c-7a1d8642718b",
+    "employee_id": "53b1b910-8228-569f-9da3-9c72dbec4cd6",
+    "visa_status": "other",
+    "residence_card_no": "ＴＪ53602521PC",
+    "expires_at": "2022-10-23",
+    "is_current": false
+  },
+  {
+    "id": "38c57914-740b-524d-8d53-74b24ef56f57",
+    "employee_id": "a3790b3d-cc8a-548f-a113-6653dbbadad2",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA48074257PA",
+    "expires_at": "2025-09-12",
+    "is_current": false
+  },
+  {
+    "id": "e37cc2c4-aae2-5110-a9cb-7178cf26a1eb",
+    "employee_id": "cca93047-c105-536c-bf2e-fa244e281af9",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH63950753PC",
+    "expires_at": "2026-09-29",
+    "is_current": true
+  },
+  {
+    "id": "c39bd73c-5fc0-5cde-9aef-96ffdcd5bb54",
+    "employee_id": "06e4a7e7-8b8b-5cb0-9876-d4bcecd21b98",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH42724630PC",
+    "expires_at": "2026-09-29",
+    "is_current": true
+  },
+  {
+    "id": "efc0d14d-3a47-5bd9-811f-a95d6466a5b7",
+    "employee_id": "706ae4b9-de71-58ce-9a27-804a74c1619b",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "TJ41491013PC",
+    "expires_at": "2023-01-27",
+    "is_current": false
+  },
+  {
+    "id": "34ed5f60-af8c-510f-a997-385400267eff",
+    "employee_id": "571174de-3402-5955-abae-f81c8fdaa17d",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "TJ48438123PC",
+    "expires_at": "2023-01-27",
+    "is_current": false
+  },
+  {
+    "id": "56ff6b14-77a4-51c2-8028-a4ab0601d272",
+    "employee_id": "1e303aeb-ab09-55f5-a2aa-b059bf17f4d2",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "TJ44753516PC",
+    "expires_at": "2023-01-27",
+    "is_current": false
+  },
+  {
+    "id": "dc467245-f3c2-5a15-86f7-3fd19b1226fc",
+    "employee_id": "73ee64b2-4566-5ed4-af6c-b4e29d65b41c",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "TJ57789188PC",
+    "expires_at": "2023-01-27",
+    "is_current": false
+  },
+  {
+    "id": "5c680aa7-7726-5a4b-82a0-c8d9e6acf0f4",
+    "employee_id": "484b0e03-b5fe-514f-b5c2-531c30168a3a",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA26542494PA",
+    "expires_at": "2025-02-28",
+    "is_current": false
+  },
+  {
+    "id": "d41da6d1-41d0-5052-8a80-c0fffdf3f980",
+    "employee_id": "cb3cf078-9e9b-59c2-9b46-be3eb97180f6",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH64477231PC",
+    "expires_at": "2026-12-21",
+    "is_current": true
+  },
+  {
+    "id": "43ad65e8-18e6-5b36-81e3-8f697af0450e",
+    "employee_id": "5df59c31-3bb4-5971-9cc3-f8eefec8b2b3",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "TJ53670164PC",
+    "expires_at": "2023-12-21",
+    "is_current": false
+  },
+  {
+    "id": "8f7a5893-01fb-55d5-90c7-a7a9c2c5d839",
+    "employee_id": "a3f5a376-2148-57ff-89ba-a4a4b0ae3306",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP14928533PA",
+    "expires_at": "2024-12-21",
+    "is_current": false
+  },
+  {
+    "id": "2ea597c9-1fd2-5d82-baec-72e1b9f7e4d3",
+    "employee_id": "2f7cd56c-bab8-5075-963e-08ce85a168db",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "TJ64941730PC",
+    "expires_at": "2023-12-21",
+    "is_current": false
+  },
+  {
+    "id": "a8d53135-b259-56c8-8d42-2b04cbe6aeda",
+    "employee_id": "7773086f-36ef-5e85-acb3-3172ad061605",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "TJ17412123PC",
+    "expires_at": "2023-04-01",
+    "is_current": false
+  },
+  {
+    "id": "e3f44d48-907e-58ad-81ce-480355fab318",
+    "employee_id": "79467988-9f2e-574c-a226-0912d5c30acc",
+    "visa_status": "technical_intern_3",
+    "residence_card_no": "TJ92668730PC",
+    "expires_at": "2023-04-01",
+    "is_current": false
+  },
+  {
+    "id": "b547786b-24f6-5204-9fbe-48352feffcaf",
+    "employee_id": "ead926a3-0276-5fd1-a3f8-4d107696bf6f",
+    "visa_status": "other",
+    "residence_card_no": "TJ15016868PC",
+    "expires_at": "2022-11-19",
+    "is_current": false
+  },
+  {
+    "id": "59711d90-ede6-5c41-a089-1b88021605ab",
+    "employee_id": "22cba279-22ba-5adb-9d3f-a5471872e40c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA96273864PC",
+    "expires_at": "2025-01-22",
+    "is_current": false
+  },
+  {
+    "id": "3f8f06e5-503b-5648-8603-889d2cdcf9fd",
+    "employee_id": "e5cf7cab-a1c4-56e8-aa1a-4486fbab7105",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "TJ50818345PA",
+    "expires_at": "2023-01-04",
+    "is_current": false
+  },
+  {
+    "id": "63bc8080-71df-5ea0-8cdd-1bf2a78fa1ac",
+    "employee_id": "1fc1ce49-bf6d-5220-b71f-0d1bcf4647e7",
+    "visa_status": "specified_skill_2",
+    "residence_card_no": "UH79100289PC",
+    "expires_at": "2028-12-15",
+    "is_current": true
+  },
+  {
+    "id": "36d01692-d22a-5d96-98c5-05c029cd35c4",
+    "employee_id": "14e0266d-d1c4-5403-86e1-1c3a8dfb8e10",
+    "visa_status": "specified_skill_2",
+    "residence_card_no": "UH13080122PC",
+    "expires_at": "2028-12-15",
+    "is_current": true
+  },
+  {
+    "id": "f7afd7b7-d548-5b46-ba2f-5286fc4a08eb",
+    "employee_id": "1e1352d9-e6b0-5b22-bf70-fe6fa869f9be",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA19114543EA",
+    "expires_at": "2025-07-18",
+    "is_current": false
+  },
+  {
+    "id": "fd3f5d59-5b26-5781-bf49-b46f2e3a9ab1",
+    "employee_id": "2a00a46d-ff16-5bd1-a865-432aa5b4978d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP75209824PC",
+    "expires_at": "2024-08-18",
+    "is_current": false
+  },
+  {
+    "id": "d6ded131-9e5d-59ba-b9bb-6bd63630b490",
+    "employee_id": "38ce470c-eb6a-5514-a1f5-b8fc601a1fc3",
+    "visa_status": "other",
+    "residence_card_no": "TJ84866671PC",
+    "expires_at": "2023-10-18",
+    "is_current": false
+  },
+  {
+    "id": "9a39b79e-6e5b-54aa-8604-2742df66e60f",
+    "employee_id": "f1c4c5bb-56e0-58af-888e-a4b47b007784",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP42358626EA",
+    "expires_at": "2024-12-28",
+    "is_current": false
+  },
+  {
+    "id": "9a4083c1-182e-568a-9bb1-ab3f463db474",
+    "employee_id": "bf30fc92-ac41-5a45-a1a9-f8973ade5cbc",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP83766353MA",
+    "expires_at": "2024-01-11",
+    "is_current": false
+  },
+  {
+    "id": "bf9c9de4-2744-568a-825d-6d3668074868",
+    "employee_id": "196a6739-f5e1-59da-8b59-940d9349b6a4",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA11529932EA",
+    "expires_at": "2025-02-06",
+    "is_current": false
+  },
+  {
+    "id": "69466944-86c7-5f74-b41c-74d31a281fb7",
+    "employee_id": "2fb4a630-f4f9-5c75-a3f5-f1874d788399",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP63447264MA",
+    "expires_at": "2024-01-11",
+    "is_current": false
+  },
+  {
+    "id": "e2e6ef51-8a80-5b6a-9424-73acb911c6de",
+    "employee_id": "030c056c-afa0-5f7d-bc83-cea10924bf81",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP30657628PC",
+    "expires_at": "2024-01-20",
+    "is_current": false
+  },
+  {
+    "id": "f6ddb63f-8da9-5541-ac23-1af5bfba4a66",
+    "employee_id": "c3bdd8cd-3f4b-5c14-8d8a-323803eca959",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA76079571EA",
+    "expires_at": "2025-06-10",
+    "is_current": false
+  },
+  {
+    "id": "1d7b35bb-3d6d-5e4f-b094-31974b41f210",
+    "employee_id": "46a43403-65b5-56ae-b677-67623aa1d5af",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA08839739EA",
+    "expires_at": "2024-10-11",
+    "is_current": false
+  },
+  {
+    "id": "c82365cd-f5e4-55eb-8ff6-14480bb20781",
+    "employee_id": "cf8d102a-7a09-5662-b38c-c830054e0d9f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP85143709PC",
+    "expires_at": "2024-11-06",
+    "is_current": false
+  },
+  {
+    "id": "e636bc42-6d2a-5820-ac41-d5ea5dd229b6",
+    "employee_id": "413eccd3-3c2e-5403-b8df-05a52272ef40",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA60944681EA",
+    "expires_at": "2025-12-11",
+    "is_current": false
+  },
+  {
+    "id": "8ce1580b-360f-5194-9349-8236fc6d236f",
+    "employee_id": "a746da16-79f4-53e3-af3f-5b8487306d18",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA59269635PC",
+    "expires_at": "2025-02-20",
+    "is_current": false
+  },
+  {
+    "id": "afeb1543-33a8-563e-a797-fdc25db4a55e",
+    "employee_id": "3d3d195f-8abb-5baf-9589-1d3471f405b6",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH69112519PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "c219b684-3b87-5b7b-aee2-cc29faa0cc17",
+    "employee_id": "c6bd8aee-baa4-5cb2-9d41-3346958b12f0",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "TJ79903994FA",
+    "expires_at": "2023-04-10",
+    "is_current": false
+  },
+  {
+    "id": "04cd10ce-312f-509e-a17d-15b012fd93eb",
+    "employee_id": "c80d7892-2b86-56d8-b3aa-012378762957",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP41864952PC",
+    "expires_at": "2024-04-26",
+    "is_current": false
+  },
+  {
+    "id": "f7360a4e-b585-5f83-8a4b-b16acf9b5309",
+    "employee_id": "e605ff9e-1de6-51b8-95fb-db886e06466c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "TJ59788198FA",
+    "expires_at": "2023-04-10",
+    "is_current": false
+  },
+  {
+    "id": "cd309101-65dc-5829-886f-8a5b69f24354",
+    "employee_id": "1280ab42-6f36-5033-b289-bbf135dbd049",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH67756555PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "83a2aa9a-ab2a-5f88-999b-3ecb6b60b14a",
+    "employee_id": "e8a666c2-bd78-55d2-aceb-d26466de7fd5",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH91062732PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "fe6327b1-b51b-5bd6-b40b-3a6002b9838a",
+    "employee_id": "5b6b65fb-fcea-5904-8bc9-2c4b2bf5eaf4",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH58397878PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "95324f53-2704-584c-b765-34474e7dd6c4",
+    "employee_id": "e93cf2bc-8538-5aa1-8247-e6db4e842181",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH92389157PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "f1f45744-5999-5fbb-a473-1adc15cd68a9",
+    "employee_id": "0d74ac9b-b3b0-5e2a-8f35-b4a53af25c6a",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH07197758PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "b8a36b50-a67f-514a-8ecd-8123491137ae",
+    "employee_id": "ed786fcf-b728-5572-abcb-5c549229c3bb",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP14098347PC",
+    "expires_at": "2024-04-26",
+    "is_current": false
+  },
+  {
+    "id": "f80e4186-4d19-59fe-8242-81dd73ee40f5",
+    "employee_id": "fc3775af-52fd-5c91-8bd4-83e6740e84a2",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH59875474PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "ff02b716-e00d-51a9-9ac9-b40e80f9d947",
+    "employee_id": "ed461868-7b01-5101-b09f-942410bcc90b",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA24363882PC",
+    "expires_at": "2025-04-09",
+    "is_current": false
+  },
+  {
+    "id": "c85b8286-17f7-5de8-b5db-953d530fbb4d",
+    "employee_id": "fe1cd321-9c65-5963-8c49-46c7d8618b89",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH41395173PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "392b2547-8bcd-5857-9398-e0a59e188773",
+    "employee_id": "e96526b9-f421-5ffb-8e70-68f8815ea27f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH33566452PC",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "7bfe8c29-914f-5eaf-8cbe-b8d921c7c3ca",
+    "employee_id": "8ed4f8a9-94ab-58a0-b02b-4f29ae80d8aa",
+    "visa_status": "specified_skill_2",
+    "residence_card_no": "UH82099732PC",
+    "expires_at": "2028-12-15",
+    "is_current": true
+  },
+  {
+    "id": "f50cdd73-1e9c-557e-9ac7-a047143de239",
+    "employee_id": "ef801581-f352-52a5-9bc1-333bbf611269",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH11298219PC",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "e4a218f0-13c1-5a97-8812-4f82dc790d3f",
+    "employee_id": "1e22cbe8-ee33-50bc-bc44-8c6db691552c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA20104549PC",
+    "expires_at": "2025-05-08",
+    "is_current": false
+  },
+  {
+    "id": "4539b41e-c875-5c61-bbd4-89ac55fe2dff",
+    "employee_id": "59fe8d62-604f-505d-9dfe-502ca1152eee",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA63755763PC",
+    "expires_at": "2025-05-08",
+    "is_current": false
+  },
+  {
+    "id": "25bffdaf-25b1-5891-a50f-e2dab584d836",
+    "employee_id": "52a37746-d760-56e8-bbc5-67f8815aac04",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA68067686PC",
+    "expires_at": "2025-05-08",
+    "is_current": false
+  },
+  {
+    "id": "58ea4f5c-55d3-5f21-9285-37bbffab43e4",
+    "employee_id": "dc1f0c28-0d4c-5641-89fc-d010bf603741",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA03276157PC",
+    "expires_at": "2025-05-31",
+    "is_current": false
+  },
+  {
+    "id": "1f6a895d-4a25-5332-9180-64f48bb2e444",
+    "employee_id": "a3692526-43ed-56e6-b065-491d11fb00da",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH31691579PC一時帰国前、申請済",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "e90aa16a-67f1-5367-9291-ee303ef56548",
+    "employee_id": "dc73cc38-9e17-5968-8c9b-b6469f578185",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "TJ55804897RD",
+    "expires_at": "2023-12-27",
+    "is_current": false
+  },
+  {
+    "id": "c2e0335c-f9ae-5643-9ede-372ade7ebf8f",
+    "employee_id": "d317a2c4-6c2b-5d84-9a76-1a46d5eeb8de",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "TJ49633205RD",
+    "expires_at": "2023-12-27",
+    "is_current": false
+  },
+  {
+    "id": "11a1c910-2c64-5390-aef4-1309a5662562",
+    "employee_id": "7bb61bef-839e-5188-b126-09c29b892f8e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH25074774PC",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "0de65430-1724-5fe4-b9fb-5cfcc5c910f0",
+    "employee_id": "467a552f-879f-5563-88e8-720cfbbe77bb",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA25435720PC",
+    "expires_at": "2025-05-31",
+    "is_current": false
+  },
+  {
+    "id": "649f1b59-0162-51a7-a2c7-267a9c659111",
+    "employee_id": "4e895e1a-db86-5a3f-b652-6180783f23f0",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA94653239PC",
+    "expires_at": "2025-05-31",
+    "is_current": false
+  },
+  {
+    "id": "1d4842b2-8bfa-5bc4-ac79-89689f6eff76",
+    "employee_id": "3640a0ad-bd36-542e-99c0-086d4524f4ae",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA22913091PC",
+    "expires_at": "2025-05-31",
+    "is_current": false
+  },
+  {
+    "id": "d746e18a-e4cf-55ee-8f74-ee2339eb69b8",
+    "employee_id": "30faa324-e790-5b64-9d76-6bcfd406e972",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA25451122PC",
+    "expires_at": "2025-05-31",
+    "is_current": false
+  },
+  {
+    "id": "fdd4a78e-0c2a-5494-92d5-b3a856129366",
+    "employee_id": "a9ed325f-ce8d-59e2-aab7-f985d27c0e2a",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA93545760PC",
+    "expires_at": "2025-05-31",
+    "is_current": false
+  },
+  {
+    "id": "7e93b636-06db-52e4-b7ab-359fc14524d0",
+    "employee_id": "e7e5e834-b87e-5a2b-a65c-120b4ddce931",
+    "visa_status": "specified_skill_2",
+    "residence_card_no": "UH86875702PC",
+    "expires_at": "2028-12-15",
+    "is_current": true
+  },
+  {
+    "id": "dd805e07-ec6d-572c-9ae6-0e3812580f80",
+    "employee_id": "c64a4628-502f-598c-be43-047e994534fa",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA83962817PC",
+    "expires_at": "2025-05-31",
+    "is_current": false
+  },
+  {
+    "id": "9e77e69c-5a8e-5875-8d55-9caf65d6166b",
+    "employee_id": "f90cd498-aab4-5c1b-a499-4f5183610eb1",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH01039353PC",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "6526ab78-449b-58b0-be52-08643f7491ee",
+    "employee_id": "fab00fac-67f8-5725-a47b-727a718b0806",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH53265164PC",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "d3ba9c71-c76a-5d3d-b3ad-78f8e271f366",
+    "employee_id": "72c5c5e5-d372-55ed-bd01-bd37dbdf54dc",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH31391623PC一時帰国後、申請",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "c1ab271a-93db-5651-8c84-68fd207dbd6c",
+    "employee_id": "d47dcd9c-2ca4-58d6-beb0-67bb87f66404",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH20712284PC一時帰国後、申請",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "08a894d1-2096-59a3-91cf-d03c840ec0e0",
+    "employee_id": "35c2a08b-b5dc-56a2-8a4d-0f09c85d7f3a",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH46443230PC",
+    "expires_at": "2026-07-11",
+    "is_current": true
+  },
+  {
+    "id": "66725b74-912a-5355-882f-d5ae55b3e0c5",
+    "employee_id": "d2c71efc-a295-5b8f-bca2-4268769e5dec",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH89655030PC",
+    "expires_at": "2026-07-11",
+    "is_current": true
+  },
+  {
+    "id": "0d099734-eb36-5857-b402-784e27c39bd5",
+    "employee_id": "f8f1f3e4-b61e-52b7-9c65-a07e05c1b95e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH38521065PC",
+    "expires_at": "2026-07-11",
+    "is_current": false
+  },
+  {
+    "id": "5dad73f7-60ac-57ce-a396-8d5433fd4724",
+    "employee_id": "f123bdf8-12e7-5011-ae18-4b23bd2351c0",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH35593552PC",
+    "expires_at": "2026-07-11",
+    "is_current": true
+  },
+  {
+    "id": "377c890b-4cc3-5688-ab42-8dc6890bd015",
+    "employee_id": "54f7766d-d1d7-5995-9ab6-3edf04eba06d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH49694920PC",
+    "expires_at": "2026-07-11",
+    "is_current": true
+  },
+  {
+    "id": "966384b9-13f0-535c-932f-e679afaa2d56",
+    "employee_id": "49249792-d740-569b-a8a1-796bb6434165",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA03715972PC",
+    "expires_at": "2025-06-17",
+    "is_current": false
+  },
+  {
+    "id": "6d8012c2-2334-50b2-b2cb-d070835fcf39",
+    "employee_id": "030107a7-5bba-56f6-ad4d-037ae162df2c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH67194128PC",
+    "expires_at": "2026-07-11",
+    "is_current": true
+  },
+  {
+    "id": "f46e69a6-4e38-55ba-8bc4-c5f2f776d154",
+    "employee_id": "02a8ee4e-bc34-5205-a94c-e071c993bf2e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH81719246PC",
+    "expires_at": "2026-07-11",
+    "is_current": false
+  },
+  {
+    "id": "80abaf4f-c995-5cab-b9a6-960f9bda377e",
+    "employee_id": "1a583315-4039-5144-bacd-d1a1145b501a",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH83908670PC",
+    "expires_at": "2026-07-11",
+    "is_current": true
+  },
+  {
+    "id": "461aa4b5-fa7a-5829-a840-02e4ff43ccc2",
+    "employee_id": "d2834afe-2ecc-5baf-8b37-5ff533c65612",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA15392392PC",
+    "expires_at": "2025-07-02",
+    "is_current": false
+  },
+  {
+    "id": "5cae0e72-e3f7-5cd9-8967-4bfc48182a86",
+    "employee_id": "37adee43-8b94-5a8e-87ef-073f57278348",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH24949243PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "d0c6a2fa-36bf-55b8-bb3d-6e2e13ea8919",
+    "employee_id": "e4fb9177-ecd1-5766-9ef0-de63d0bcc95c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH52589559PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "2e100652-6c41-5440-b9ef-1371033e9940",
+    "employee_id": "a43c8590-4940-5cc4-af4c-b4b96ea529e0",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH63905058PC",
+    "expires_at": "2026-12-03",
+    "is_current": false
+  },
+  {
+    "id": "f30416cd-3535-5323-ac02-84d1b3f57dff",
+    "employee_id": "6c783a5d-7870-5fa5-a0b6-12bb91a4dc5c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH29571459PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "baee80e5-323c-5da9-9967-2d4d00bf3bd8",
+    "employee_id": "3584d626-83f5-56fa-a1cd-a70441f07cf8",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH43709461PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "cdef08d1-e19a-52fa-b5fd-260c3c4b9d12",
+    "employee_id": "c03bb739-7e19-586e-b281-9ed5667ed47e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH53194730PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "2f139347-a2ad-574f-b117-ffedbcda2eda",
+    "employee_id": "3581bcdc-141a-570f-8111-cfc604f354ac",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "NP84366476MA",
+    "expires_at": "2024-10-08",
+    "is_current": false
+  },
+  {
+    "id": "28095511-fd27-57bc-bccf-bad4de8c4ab8",
+    "employee_id": "4c256fa6-417a-53d4-975e-abe5978875c3",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH95100477PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "89b85f6c-b0a6-58ca-9e10-0cbf2be240e4",
+    "employee_id": "0c4a9aea-ef2a-5915-acfa-24737377685d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH60280566PC",
+    "expires_at": "2026-12-03",
+    "is_current": false
+  },
+  {
+    "id": "12ba8a93-d662-59df-b2c5-a103cecd0627",
+    "employee_id": "0402d27d-5f6c-5230-80a0-88d098a6e645",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH87483077PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "3c6678f2-9e63-51d7-8dcd-c17642f717e9",
+    "employee_id": "816eb52f-f781-5246-adf0-51cf31e6e01f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH04222035PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "a9eef59a-3383-51b8-a94f-5e59f360cd0d",
+    "employee_id": "e8bbf730-6774-5b13-991e-f4a7cdc39de4",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH70743274PC",
+    "expires_at": "2026-12-03",
+    "is_current": true
+  },
+  {
+    "id": "9c02c633-4b03-5c6f-8b05-d19537f658cb",
+    "employee_id": "dba33553-9173-5f03-b001-78a73d1019ca",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA81017746PC",
+    "expires_at": "2025-12-03",
+    "is_current": false
+  },
+  {
+    "id": "bb4e2e24-12a3-543b-aec0-5d8456fb2e13",
+    "employee_id": "cb98b5f6-98a2-51ed-a7b9-2ff583371015",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ74130965PC",
+    "expires_at": "2027-02-14",
+    "is_current": true
+  },
+  {
+    "id": "19a669f8-036c-5fc6-a5d3-3455993a61a9",
+    "employee_id": "c6a9c56e-386e-56bf-84f0-8f1ff8c14143",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH52204744PC",
+    "expires_at": "2026-02-14",
+    "is_current": false
+  },
+  {
+    "id": "cb7bf2ee-a3eb-533c-a024-af21ef7dad22",
+    "employee_id": "219bc3dc-570a-5135-8dce-65f002b3463b",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ02919850PC",
+    "expires_at": "2027-02-14",
+    "is_current": true
+  },
+  {
+    "id": "02073eaa-998c-5bcd-bfc5-651ec3cb5fe2",
+    "employee_id": "71077342-c34a-56fd-a291-f8a503db5472",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ29637774PC",
+    "expires_at": "2027-02-14",
+    "is_current": true
+  },
+  {
+    "id": "1ca1a28c-5f47-58ca-9384-f54eb1e7151d",
+    "employee_id": "eeab3081-f418-5c5d-aceb-2f27ba4447f5",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH49043472PC",
+    "expires_at": "2026-02-14",
+    "is_current": false
+  },
+  {
+    "id": "4a511c54-8d80-5994-8b69-b0382f9cddf6",
+    "employee_id": "e257c076-40eb-5cfc-906c-a5cf9858b30f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ02919901PC",
+    "expires_at": "2027-02-14",
+    "is_current": true
+  },
+  {
+    "id": "919d66bd-4f46-5cbe-8bea-0fde3f52c4f6",
+    "employee_id": "d8a1ac18-6de7-55cc-8d90-0b5d3d2b27a8",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ50567500PC",
+    "expires_at": "2029-03-13",
+    "is_current": true
+  },
+  {
+    "id": "5f626497-3f51-569f-8da7-58fce77c88e2",
+    "employee_id": "70312715-2d7e-520f-8275-9e3d9f14fe1c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH02946324PC",
+    "expires_at": "2027-01-14",
+    "is_current": true
+  },
+  {
+    "id": "315e2590-3ead-5845-91ec-ad4fb227bef6",
+    "employee_id": "b545c47f-62a3-56b3-b203-af6f4fa87a82",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH94536849PA",
+    "expires_at": "2026-05-29",
+    "is_current": true
+  },
+  {
+    "id": "23dbb9d9-f401-5487-b736-0d607b6934e4",
+    "employee_id": "f44aa39c-4210-58b9-ad67-6d144591b1b8",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ20876296PC",
+    "expires_at": "2029-04-15",
+    "is_current": true
+  },
+  {
+    "id": "222e23db-4a38-532b-ace8-e8fc26f1c5f4",
+    "employee_id": "e694866d-256d-5851-8541-1bc89fd4bd11",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ78088029PC",
+    "expires_at": "2029-04-15",
+    "is_current": true
+  },
+  {
+    "id": "7bd31b3a-8c0a-5ea3-aba1-e758f11bd4fd",
+    "employee_id": "0a8d2ce8-bf95-5e9f-ac33-0687c46339d8",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "SA05135148PA",
+    "expires_at": "2025-04-17",
+    "is_current": false
+  },
+  {
+    "id": "f55b33c3-4496-580f-8b96-e884e61c1944",
+    "employee_id": "ab516e62-56d0-51de-a960-9f3c794439f3",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "SA65528601PA",
+    "expires_at": "2025-04-17",
+    "is_current": false
+  },
+  {
+    "id": "94403260-2873-51ff-ab03-72fef87435cd",
+    "employee_id": "ca55e506-4634-58b6-9c44-123965861deb",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH05746279PA",
+    "expires_at": "2026-04-15",
+    "is_current": false
+  },
+  {
+    "id": "75b919bc-b5af-56dc-9a25-887afd17e0f5",
+    "employee_id": "37fbc47e-1f51-56dc-aa68-bde079873d6f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ28117156PC",
+    "expires_at": "2029-04-15",
+    "is_current": true
+  },
+  {
+    "id": "3f68fabd-7f56-5171-bfa4-6c657f19c18d",
+    "employee_id": "da1f9765-10bf-5849-a3f5-58319bb5bfc1",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ48606238PC",
+    "expires_at": "2029-04-15",
+    "is_current": true
+  },
+  {
+    "id": "73946136-f9fe-507d-8459-169c6cb48333",
+    "employee_id": "d3ab2083-ae75-5215-bdf3-9c1719b69f3d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ85935256PC",
+    "expires_at": "2029-04-15",
+    "is_current": true
+  },
+  {
+    "id": "e4a0226a-74f2-53f9-8959-c0d14a9b3d25",
+    "employee_id": "868f2735-1672-50fc-9d64-cedaaa790712",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ02837417PC",
+    "expires_at": "2029-04-15",
+    "is_current": true
+  },
+  {
+    "id": "b4df7520-e5f3-5023-9531-b62cea865415",
+    "employee_id": "456ce444-e32c-500b-9fb6-2323a06ea4ae",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "SA06041117PA",
+    "expires_at": "2025-04-17",
+    "is_current": false
+  },
+  {
+    "id": "d856bc89-1ee0-5c84-ade3-dd1da8909b6d",
+    "employee_id": "948c54e0-32b6-51d7-ad8c-e0d23c27d473",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "SA61215380PA",
+    "expires_at": "2025-04-17",
+    "is_current": false
+  },
+  {
+    "id": "7cc41998-747a-5b62-aab6-f0ab91e07c07",
+    "employee_id": "0b9e9787-0726-5d48-b098-81d42ce1890d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ30488010PC",
+    "expires_at": "2029-04-21",
+    "is_current": true
+  },
+  {
+    "id": "8d9b411e-28c5-537a-968e-38a622f850c1",
+    "employee_id": "52d21196-393d-5235-8a24-99a3590fea59",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH70226708PA",
+    "expires_at": "2026-04-21",
+    "is_current": false
+  },
+  {
+    "id": "6e48bf01-a645-5f75-a5c2-058899c9d938",
+    "employee_id": "f28294ad-443b-5c9f-866e-7b49a317189d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ12119790PC",
+    "expires_at": "2029-04-21",
+    "is_current": true
+  },
+  {
+    "id": "0b99f3ec-97f5-59f6-86e5-2940336c4abb",
+    "employee_id": "47732880-da16-55dc-a0f2-00cbb28de117",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH53838943PC",
+    "expires_at": "2026-05-30",
+    "is_current": false
+  },
+  {
+    "id": "022e2837-7b97-5b34-abb8-6c7b6c773105",
+    "employee_id": "755c8928-aa88-5622-a496-8aeda3a79c86",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH17624448PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "b59ca9b8-8c22-595f-b842-318f47c27c10",
+    "employee_id": "dc76c50b-5e6e-53e0-a290-16e902047146",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH57268708PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "8d394245-236f-51f5-ac5d-8b48e1c7981a",
+    "employee_id": "dddd45ef-e52c-5c8e-9927-83b04b417860",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH49506118PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "900a7caa-ce38-5435-8816-c49adc39e2bc",
+    "employee_id": "cb50a673-f93f-5e71-a01f-a64421b0bc00",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH45355402PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "a49d1a9f-1c80-55ab-96c9-27d2bdad3dad",
+    "employee_id": "d07fc209-8204-5da7-b42a-e4621f0d878f",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH94767631PC",
+    "expires_at": "2026-05-30",
+    "is_current": true
+  },
+  {
+    "id": "84177906-911c-50c0-b383-d92c5923fdc4",
+    "employee_id": "a1bf5706-7f22-5c35-9aee-b598c8bc5c8e",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH52998254EA",
+    "expires_at": "2026-07-22",
+    "is_current": true
+  },
+  {
+    "id": "b6965525-86bb-57b0-a1b8-47f26589cb27",
+    "employee_id": "45f71797-733d-53db-a7dd-ccfc559b470d",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH07639317EA",
+    "expires_at": "2026-07-22",
+    "is_current": true
+  },
+  {
+    "id": "2bff41e9-c090-575c-a383-d1b71d6ccff8",
+    "employee_id": "0f1c4ecc-8333-5114-9f9b-96e59157973a",
+    "visa_status": "specified_skill_2",
+    "residence_card_no": "UH75026157PC",
+    "expires_at": "2028-12-15",
+    "is_current": true
+  },
+  {
+    "id": "57f3f7f1-796a-52d3-8bae-8e110804bb8f",
+    "employee_id": "6cc38d4b-73cc-550d-a0a6-83e0725cb697",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA29212122EA",
+    "expires_at": "2025-03-06",
+    "is_current": false
+  },
+  {
+    "id": "f7f4ea69-0438-50ea-95e3-4d719f300ebf",
+    "employee_id": "3ea7176d-50f5-5c80-8664-6742083c94f6",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ33663416PC",
+    "expires_at": "2029-03-12",
+    "is_current": true
+  },
+  {
+    "id": "b64c94b6-3132-59d5-96f0-9380c7b1e2c4",
+    "employee_id": "ffb86dc7-1985-5c49-9951-5ecce5c7823f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA35789627EA",
+    "expires_at": "2025-03-05",
+    "is_current": false
+  },
+  {
+    "id": "06897c46-fd5d-5dd8-9cfb-af4c2a26fe39",
+    "employee_id": "bdd1dc1b-3228-58a3-8ade-459676e49733",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ73076722PC",
+    "expires_at": "2029-03-23",
+    "is_current": true
+  },
+  {
+    "id": "e068f99a-8954-50ba-87d2-6de77dbf96a5",
+    "employee_id": "1c5269a6-0121-5885-b572-aace426e3e87",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ42309804PC",
+    "expires_at": "2029-03-23",
+    "is_current": true
+  },
+  {
+    "id": "4d13f9eb-3887-5009-9f58-f64d82d0337d",
+    "employee_id": "66516ca3-5e32-5c8c-9937-6fac813c3e24",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ26674986PC",
+    "expires_at": "2029-03-23",
+    "is_current": true
+  },
+  {
+    "id": "2ae5cb1d-d3bd-5531-95b5-05642880f0fe",
+    "employee_id": "c1c23af3-aa74-5ab0-9dfb-d7836abc53d2",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH34980565PC",
+    "expires_at": "2026-04-23",
+    "is_current": false
+  },
+  {
+    "id": "7e40be6a-4a91-503c-b9d4-1fe8c6b05de6",
+    "employee_id": "a188af17-c29f-56df-9f19-97d225b62c46",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ18840473PC",
+    "expires_at": "2029-03-23",
+    "is_current": true
+  },
+  {
+    "id": "ebdad32d-ebad-58cc-bc2a-eb46bcc9ca45",
+    "employee_id": "97b71325-1b37-5e8d-95de-e06639eab6de",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ41076546PC",
+    "expires_at": "2029-04-09",
+    "is_current": true
+  },
+  {
+    "id": "fb5786dd-35ff-5b32-9e38-8f62b323a65c",
+    "employee_id": "ceda0f5b-8e71-56e5-8da0-fdd96a7c5bc9",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA30339787PC",
+    "expires_at": "2025-05-21",
+    "is_current": false
+  },
+  {
+    "id": "5ff1d909-f7ca-52e1-8189-ab0e85ad7ba6",
+    "employee_id": "6c07932f-9044-503a-b047-10099894cb63",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH01995596PA",
+    "expires_at": "2026-06-25",
+    "is_current": true
+  },
+  {
+    "id": "1d6c72de-ed65-5331-8137-c78cf730ba75",
+    "employee_id": "7c46622d-9091-562a-b63c-428575e3a1d1",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA06107106MA",
+    "expires_at": "2025-07-09",
+    "is_current": false
+  },
+  {
+    "id": "72bfe705-1fa7-5c6f-a7b1-ce9ade28c916",
+    "employee_id": "d155a562-e2d5-5a1a-909c-98daaf2cf53c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH40165047EA",
+    "expires_at": "2026-08-27",
+    "is_current": true
+  },
+  {
+    "id": "4ba3e404-32b2-5a5c-9379-8b7c6f75a0ff",
+    "employee_id": "f468a891-8b5f-5eda-966e-a0d0c2060666",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH98261164PC",
+    "expires_at": "2026-06-11",
+    "is_current": true
+  },
+  {
+    "id": "cfe0fbb4-73ef-5668-98d0-a04f42744b12",
+    "employee_id": "9f4c4f6e-df89-5f0a-81ac-6954eac1d89e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA04446810MA",
+    "expires_at": "2025-08-19",
+    "is_current": false
+  },
+  {
+    "id": "71c5fa27-04e9-579e-8389-5ad78b74926b",
+    "employee_id": "58d7109a-11bb-56d7-8f1c-fcccde9fbefb",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH40517597PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "08b5ba0f-bdd3-5e8d-91fb-bc2808c83fee",
+    "employee_id": "1f4d71f4-9bc9-5d61-a5d7-e9a89241b394",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH71186347PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "2dcdcd66-d893-5a6a-a9c4-8960c35b8189",
+    "employee_id": "fe8f0016-bbd7-55dc-9280-8fff75608bbb",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH28839412PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "848a4df1-b814-5738-9a36-053ce8e89793",
+    "employee_id": "0db063df-b298-5d25-94c2-b0a8667f146f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH14292148PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "39652642-2180-552e-9d08-bd51b7bd87e4",
+    "employee_id": "e0a8bc48-d936-502e-a4ee-aa0bc5866a34",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH71864282PC",
+    "expires_at": "2026-10-20",
+    "is_current": true
+  },
+  {
+    "id": "46bf7faa-e767-5400-a3f4-04c7c0539674",
+    "employee_id": "ad43b61f-7616-5526-a028-b0b7c5d53fbf",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH39166902PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "c3d9359d-3ede-579a-928f-0c7c619f7748",
+    "employee_id": "cacee0e5-c971-52b4-ac88-cbb57ff08b85",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH66593836PC",
+    "expires_at": "2026-10-27",
+    "is_current": false
+  },
+  {
+    "id": "6f476aea-b843-5262-adfd-fa44e4ee1e9f",
+    "employee_id": "dbf45aa9-5d1a-5d65-9188-86da9886ac76",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH15226915PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "a8d6333b-451e-5f6e-85f7-0a74425666ee",
+    "employee_id": "ac2e9f29-5ede-516b-9a71-ea2e1f041499",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH40041600PC",
+    "expires_at": "2026-10-20",
+    "is_current": true
+  },
+  {
+    "id": "a4f2d6a1-e0d8-5038-b3d2-331a0952227f",
+    "employee_id": "7b5016c5-d0b8-5695-8651-fb1ac1360a4f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA19330646FA",
+    "expires_at": "2025-10-27",
+    "is_current": false
+  },
+  {
+    "id": "0648fc5e-3b70-5ec2-ba4e-53299c0b550c",
+    "employee_id": "e3bdef32-ae87-5568-8434-94a411975e7d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH01299678PC",
+    "expires_at": "2026-10-27",
+    "is_current": false
+  },
+  {
+    "id": "3c90a8e7-1674-5299-b3ee-8eb1711755d0",
+    "employee_id": "b322e960-b73d-519b-9fc5-a75e256c63be",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "SA58573773FA",
+    "expires_at": "2025-10-27",
+    "is_current": false
+  },
+  {
+    "id": "a2231e4a-1079-5af0-addf-afada4c2aff1",
+    "employee_id": "bb22d67e-a1ef-5ef9-b90c-f1d7a576bfeb",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH86563492PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "a5f484be-b773-5884-af2f-9f30744df174",
+    "employee_id": "ff6de062-1dde-5287-a633-831144d7a9b2",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH58359289PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "e3a71951-8e0e-5ea8-a7ba-5775af890973",
+    "employee_id": "5d717644-79ef-5092-b4d9-a456a0d98b70",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH34302751PC",
+    "expires_at": "2026-10-20",
+    "is_current": true
+  },
+  {
+    "id": "f7a1486d-0a18-5d15-a211-ca0b5c4f6404",
+    "employee_id": "ec14b43b-9d1c-5c35-8e1a-fe32f8c0af7c",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH04301535PC",
+    "expires_at": "2026-10-20",
+    "is_current": true
+  },
+  {
+    "id": "b31d322d-654f-5474-8993-3d9b7e5e6853",
+    "employee_id": "aa42c78c-e421-5474-a566-2da3f70d328e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH46862255PC一時帰国後、申請",
+    "expires_at": "2026-10-20",
+    "is_current": true
+  },
+  {
+    "id": "912c922b-027f-5de3-bcb6-47498ca95635",
+    "employee_id": "553b092b-daa0-531f-a392-614c61f180ee",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH55437318PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "ec87b970-ebc2-5933-b089-c8713afc910d",
+    "employee_id": "41a6de7c-8752-5f69-9786-13e533a89768",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH50933947PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "ae963fe8-87fc-51f5-9225-3620397009f1",
+    "employee_id": "40039c53-6242-51a5-bd76-335c1a86a4ac",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH95792453PC",
+    "expires_at": "2026-10-27",
+    "is_current": true
+  },
+  {
+    "id": "11c70a63-a73f-5072-ac60-508f810b506b",
+    "employee_id": "a8fd38f3-b02e-585a-b02c-5b2d3680ad7f",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH94681581EA",
+    "expires_at": "2026-09-16",
+    "is_current": true
+  },
+  {
+    "id": "354f4939-1a80-5cbd-a923-688f20e0ba82",
+    "employee_id": "bf60ac2a-b342-5c95-a708-8d4ec7eff015",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH90621287EA",
+    "expires_at": "2026-09-16",
+    "is_current": true
+  },
+  {
+    "id": "05578423-0c9b-5ed5-a16e-ce7f4d455871",
+    "employee_id": "4bfbbb82-0d81-567c-82f6-7cf21c986a8e",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH78850007EA",
+    "expires_at": "2026-09-16",
+    "is_current": true
+  },
+  {
+    "id": "d8ba42b4-5ec1-5d76-b0b3-63325de1c790",
+    "employee_id": "457b1878-fa91-5d75-9cd8-eeb0909691c0",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH71184870EA",
+    "expires_at": "2026-09-16",
+    "is_current": true
+  },
+  {
+    "id": "7a90de6a-f365-5594-b0ff-672a1eff653e",
+    "employee_id": "92df5e89-65c7-571f-ba1c-2121c79ae03f",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "UH75420369EA",
+    "expires_at": "2026-09-16",
+    "is_current": true
+  },
+  {
+    "id": "b887568b-356e-55e3-815f-198299b2e54f",
+    "employee_id": "f5bc6496-958e-5819-a516-7281c08b3cf0",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "LJ56119282PC",
+    "expires_at": "2027-01-29",
+    "is_current": true
+  },
+  {
+    "id": "3f9a162d-210e-59b6-9cb5-e1f6607b6f2c",
+    "employee_id": "715e9611-c969-5586-a106-03c706f14f28",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "LJ05065975PC",
+    "expires_at": "2027-01-29",
+    "is_current": true
+  },
+  {
+    "id": "88dd520e-2bbe-5c9c-9b11-c62581e04e6e",
+    "employee_id": "8d099d55-95d4-5296-808f-42f4c48bbca6",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ18084808PC",
+    "expires_at": "2027-02-21",
+    "is_current": true
+  },
+  {
+    "id": "20c6aae0-0aed-5e3a-b74d-b1691b76459e",
+    "employee_id": "4e6eafa9-b8be-5bfa-9bd5-29f53250594f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH79915241MA",
+    "expires_at": "2026-03-13",
+    "is_current": false
+  },
+  {
+    "id": "50e9f6fe-8824-59d2-bbe1-0b025bad0db2",
+    "employee_id": "1f7248f8-973d-56b9-8c2c-59007d45273b",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH33886956MA",
+    "expires_at": "2026-03-13",
+    "is_current": false
+  },
+  {
+    "id": "297ebb1f-2ac1-5ff9-b161-e6492f62c6f1",
+    "employee_id": "b7744e94-350c-5e51-9ddc-9649fccc1be4",
+    "visa_status": "technical_intern_1",
+    "residence_card_no": "UH05987589FA",
+    "expires_at": "2026-03-27",
+    "is_current": true
+  },
+  {
+    "id": "c83caa31-cd1a-5e1f-a159-0e2e0a705d56",
+    "employee_id": "5fdbb76a-e081-5a1b-90d8-92dc019aaff2",
+    "visa_status": "technical_intern_1",
+    "residence_card_no": "UH75130225FA",
+    "expires_at": "2026-03-27",
+    "is_current": true
+  },
+  {
+    "id": "0ea43c36-3b4b-596f-b931-40d737d5ce3f",
+    "employee_id": "f3be0e3e-3132-5f87-bf3e-63ad3e603af3",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH32643358EA",
+    "expires_at": "2026-06-03",
+    "is_current": false
+  },
+  {
+    "id": "70fe9961-1df5-5643-9aea-3c69ef9821cf",
+    "employee_id": "c792d77f-9ff1-5692-b056-9bad92a86e8e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH34795168EA",
+    "expires_at": "2026-06-18",
+    "is_current": true
+  },
+  {
+    "id": "03cf0e22-b52e-5cef-aae0-30e9209f9a39",
+    "employee_id": "50d99ed0-048f-5d9e-8405-913a1d15ac58",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH38197447EA",
+    "expires_at": "2026-07-08",
+    "is_current": true
+  },
+  {
+    "id": "b9b94e3f-39fb-5e94-ad15-b53fd15354c2",
+    "employee_id": "429daef6-f3e7-5e69-9c07-de1b08090994",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH98867287EA",
+    "expires_at": "2026-07-16",
+    "is_current": true
+  },
+  {
+    "id": "077c3527-7c17-5512-b153-053fda47b5f5",
+    "employee_id": "ce06221f-18c8-559d-be6f-8b2d5826607e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH06610138EA",
+    "expires_at": "2026-08-01",
+    "is_current": true
+  },
+  {
+    "id": "87bf0e66-69bd-5390-aa26-22a652d35ef1",
+    "employee_id": "4ee45765-e499-5413-9af0-de4116bcbf76",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH65617663FA",
+    "expires_at": "2026-08-20",
+    "is_current": true
+  },
+  {
+    "id": "8bd4c4bc-ba0d-51f0-a139-b27a44969376",
+    "employee_id": "20317ec4-fe56-5eeb-843d-3e48cb41b4d6",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH66078188PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "3acd6752-b4ba-5f3c-beaa-b89ce33872e5",
+    "employee_id": "dfb7a888-82a7-510b-aee7-22af8c9462a4",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH28793045PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "96e68dbd-cf1e-5280-af2d-beb9e1e9ba8b",
+    "employee_id": "1f7b0b0c-b454-5210-af02-469412fc1dd0",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH82271041PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "10080176-8213-5d73-ac9c-48d56e911c0d",
+    "employee_id": "e03643a5-a917-58e6-8127-088ed48c1049",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH65936650PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "26946d4b-317c-5c07-b214-30b27c0b2619",
+    "employee_id": "9e129c08-ba0b-552e-bcce-e900e88eac0d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH15375412PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "55994d18-1dca-5fa7-b4cf-130ee39f1252",
+    "employee_id": "874ab188-3ab1-5c66-9eef-1462d5008a80",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH45683244PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "b28fd3a1-1ad7-5b77-a26c-e925986f58b6",
+    "employee_id": "730efaa9-f35c-5e46-9ff6-667930883b85",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH63814373PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "5f70dd5f-47e0-5e5e-94d3-0ba45731371a",
+    "employee_id": "9452c45d-ee70-5f90-83c9-950bb21b927b",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH12429074PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "c69f0ed2-0d76-5c7e-9160-6fd3c911f629",
+    "employee_id": "18cd54b3-d260-594e-ad6d-d19912f35947",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH39791519PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "7a16ac95-5af9-53fb-a8f8-b5eb5978e50d",
+    "employee_id": "28e0dc96-6587-548d-9b2c-283a24c6c373",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH40796281PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "579d4ec7-9093-54d7-b7cd-88fa0c002d5b",
+    "employee_id": "33986411-c202-5e8d-aba1-07b6d034a0ff",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH45356037PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "7497f0a1-04ee-5110-ba02-b28691e346e0",
+    "employee_id": "a6d9bb64-5299-5b2f-8984-673688a91dd8",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH39670910PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "87b5a2cf-c2a7-52bc-9c45-4e414950f0dd",
+    "employee_id": "85b59258-5549-5ea4-815d-9721f9331caa",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH73371864PC",
+    "expires_at": "2026-09-11",
+    "is_current": true
+  },
+  {
+    "id": "67120c6b-0d16-56c5-b95a-23b1d7a8233d",
+    "employee_id": "38385275-f563-5220-8dc2-c84b3d483dca",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH60038680FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "07ac06d6-b984-5629-9953-ef2237cbab84",
+    "employee_id": "b1edfc82-2070-516b-b1d7-9fd54133865e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH59564443FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "68097ed0-3a62-537d-929c-4d56d3e44bc9",
+    "employee_id": "96bc4cb2-e2d6-5d0f-9577-2cb86ba8c155",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH05980607FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "c2262cab-c11c-52e2-a000-d9788a36acc7",
+    "employee_id": "e6844a5f-ec23-5710-a0a8-bf7ad4823c81",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH52493178FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "0ddbde0e-b7c3-59b6-81b0-e89188e7e7f2",
+    "employee_id": "e34c85a9-3247-5514-9618-c69e71baaa9b",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH37168996FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "0cf4549a-f3cc-510a-8735-e2f39ecbacd1",
+    "employee_id": "f9af3152-46ae-591b-a0d0-04de4a97256a",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH71152654FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "56c2d740-5619-5ef4-bbbc-e308e6632768",
+    "employee_id": "606fe81c-907b-5ff2-b5d0-2651de5a25a4",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH51458516FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "ff6ab90b-96a5-5802-859e-8f610b341795",
+    "employee_id": "352c54e8-5a14-5ece-9d5c-8e12efc09eda",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH92412804FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "4da838fe-1b7e-5229-b9e0-cb3582bd0092",
+    "employee_id": "107faf01-9d8c-5d01-8be2-11f8458df37e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH87465575FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "969cdc60-4179-50be-906d-e037306b6411",
+    "employee_id": "58c72a12-6dd8-5792-ad87-ebd838ea48a5",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH90914513FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "8a9154ed-d994-5c47-9dc5-0eb3e12c9cf8",
+    "employee_id": "089d26ad-b155-5e29-9503-9406fc9cfd3f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH23191450FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "ad3e8e24-ddca-5876-aaf8-7d8f3ae4cf8b",
+    "employee_id": "7d5219ae-c833-5fb1-9e1d-d2af396ad654",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH81381598FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "7a7a2e2e-8628-5cd0-ae4c-22e97c60268f",
+    "employee_id": "7b1d6dc1-4143-535a-8c1f-8c6de2e4562f",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH27560917FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "2249be53-438f-5f73-a029-950a4a7a8309",
+    "employee_id": "0c2f42d9-6049-5fb4-868d-5e4f1d91f59a",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH82476295PC",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "c0c77f53-e46a-59d2-9450-cea344183e49",
+    "employee_id": "cfd72c41-3ee5-5ebc-8651-636b8e5256d0",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "UH69715034FA",
+    "expires_at": "2026-10-17",
+    "is_current": true
+  },
+  {
+    "id": "6bc4e8d7-3919-57e3-98f0-8eed77ccf226",
+    "employee_id": "a929306e-00e0-571c-adfc-fb76bf2e3b90",
+    "visa_status": "technical_intern_1",
+    "residence_card_no": "UH24579676FA",
+    "expires_at": "2026-10-20",
+    "is_current": true
+  },
+  {
+    "id": "89bbde5c-446b-5142-8b0e-aec0ce05396d",
+    "employee_id": "c914af8c-d773-5349-ac8d-c17b807508e0",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ63294244PC",
+    "expires_at": "2028-01-20",
+    "is_current": true
+  },
+  {
+    "id": "4ee0fca0-fa60-5005-9cfc-f2cce4dae220",
+    "employee_id": "04fc500f-dd8f-5565-b6f7-58aff1af1add",
+    "visa_status": "technical_intern_2",
+    "residence_card_no": "LJ00763243FA",
+    "expires_at": "2026-07-30",
+    "is_current": true
+  },
+  {
+    "id": "eb514a00-eceb-5d61-902b-62058918d680",
+    "employee_id": "43f30053-9a9d-5ee7-8f16-983bc8073f17",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ63250088PC",
+    "expires_at": "2027-02-18",
+    "is_current": true
+  },
+  {
+    "id": "c2f6467f-d8e3-511c-a27a-76b280651e01",
+    "employee_id": "3537c17e-918d-5130-b60f-52da8887db5d",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ13769919GA",
+    "expires_at": "2027-04-04",
+    "is_current": true
+  },
+  {
+    "id": "46db93b2-fb95-521a-9245-5f64847610ba",
+    "employee_id": "9abc9c5e-330c-5a39-986b-8a6d8b3b368e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": "LJ58798422PC",
+    "expires_at": "2028-04-09",
+    "is_current": true
+  },
+  {
+    "id": "d5d5161d-9a7f-565a-b0c4-5c55a40c37b2",
+    "employee_id": "5ee90c87-781a-5372-9ec1-76dda8a8f5a6",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": null,
+    "expires_at": null,
+    "is_current": true
+  },
+  {
+    "id": "b118fc18-7d81-5e5f-9435-d36d8f6bd143",
+    "employee_id": "9a9781b0-9c2c-5430-bf60-aa03f2305142",
+    "visa_status": "technical_intern_1",
+    "residence_card_no": null,
+    "expires_at": null,
+    "is_current": true
+  },
+  {
+    "id": "24c07922-ea3a-5200-94b4-00393b0c31f9",
+    "employee_id": "142c11e3-d711-5d90-9986-7a0c4c31b98e",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": null,
+    "expires_at": null,
+    "is_current": true
+  },
+  {
+    "id": "0ed109f5-ae8c-54ab-a2c2-41b64aae93ca",
+    "employee_id": "fa52cf52-9185-50fe-80ca-0eabe2a61265",
+    "visa_status": "technical_intern_1",
+    "residence_card_no": null,
+    "expires_at": null,
+    "is_current": true
+  },
+  {
+    "id": "5a204cf0-62ca-55cd-8bfd-e42125e98414",
+    "employee_id": "a13769ee-0b3d-59e7-b900-2687332eb0fe",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": null,
+    "expires_at": null,
+    "is_current": true
+  },
+  {
+    "id": "63e390b0-1402-53b2-8dfd-9b3aec40acaf",
+    "employee_id": "398f17d4-69ec-51e0-9e8e-9c2b786e8a54",
+    "visa_status": "specified_skill_1",
+    "residence_card_no": null,
+    "expires_at": null,
+    "is_current": true
+  }
+]
