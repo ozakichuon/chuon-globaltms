@@ -1,5 +1,6 @@
 import { isSupabaseConfigured } from "@/lib/supabase/server";
-import { Settings, Database, CheckCircle2, XCircle } from "lucide-react";
+import { Settings, Database, CheckCircle2, XCircle, Users } from "lucide-react";
+import { UserManagement } from "./UserManagement";
 
 export const dynamic = "force-dynamic";
 
@@ -18,6 +19,16 @@ export default function AdminPage() {
 
       <section className="card">
         <h3 className="font-bold flex items-center gap-2">
+          <Users size={18} /> ユーザー管理
+        </h3>
+        <p className="text-xs text-slate-500 mt-1">
+          ログインIDとパスワードを管理します。
+        </p>
+        <UserManagement />
+      </section>
+
+      <section className="card">
+        <h3 className="font-bold flex items-center gap-2">
           <Database size={18} /> データ接続
         </h3>
         <div className="mt-3 flex items-center gap-2 text-sm">
@@ -33,26 +44,6 @@ export default function AdminPage() {
             </>
           )}
         </div>
-        {!configured && (
-          <div className="mt-3 text-xs bg-amber-50 border border-amber-100 rounded-lg p-3 text-amber-900">
-            <div className="font-semibold">セットアップ手順</div>
-            <ol className="list-decimal list-inside mt-1 space-y-0.5">
-              <li>supabase CLI をインストール（brew install supabase/tap/supabase）</li>
-              <li>
-                プロジェクト直下で <code className="bg-white px-1 rounded">supabase start</code>
-              </li>
-              <li>
-                表示された URL と ANON KEY を{" "}
-                <code className="bg-white px-1 rounded">.env.local</code> に貼り付け
-              </li>
-              <li>
-                <code className="bg-white px-1 rounded">supabase db reset</code>{" "}
-                でマイグレーションとシードを適用
-              </li>
-              <li>ブラウザをリロード</li>
-            </ol>
-          </div>
-        )}
       </section>
 
       <section className="card">
@@ -65,20 +56,6 @@ export default function AdminPage() {
           <li>✅ 多言語対応（日本語・インドネシア語・ベトナム語）</li>
           <li>✅ 従業員向けマイページ（母語UI）</li>
           <li>✅ 離職率ダッシュボード</li>
-          <li>✅ RLSによる権限分離（master / hr_admin / line_manager / employee）</li>
-        </ul>
-      </section>
-
-      <section className="card">
-        <h3 className="font-bold">次フェーズ候補</h3>
-        <ul className="mt-3 text-sm space-y-1.5 text-slate-600">
-          <li>• リファーラル採用LP自動生成</li>
-          <li>• PDF履歴書のVision AI取込</li>
-          <li>• メンター制度のワークフロー</li>
-          <li>• ゲーミフィケーション（中温コイン）</li>
-          <li>• 1on1支援・エンゲージメントサーベイ</li>
-          <li>• eラーニング動画・自動字幕翻訳</li>
-          <li>• KraftLine Excel 自動取込</li>
         </ul>
       </section>
     </div>
