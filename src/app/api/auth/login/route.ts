@@ -18,8 +18,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "IDまたはパスワードが違います" }, { status: 401 });
   }
 
+  const INITIAL_HASH = "5d0a1ea004df018bee898ddd4ad8c3e72cc667fd047159a21279d02c1637ccf1";
+  const mustChange = (user.must_change ?? false) || hash === INITIAL_HASH;
+
   const token = await createSessionToken(id);
-  const res = NextResponse.json({ ok: true, must_change: user.must_change ?? false });
+  const res = NextResponse.json({ ok: true, must_change: mustChange });
   res.cookies.set(COOKIE_NAME, token, {
     httpOnly: true,
     sameSite: "lax",

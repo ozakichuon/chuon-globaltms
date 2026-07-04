@@ -17,6 +17,10 @@ export default function ChangePasswordPage() {
       setError("新パスワードが一致しません");
       return;
     }
+    if (next1 === "5211") {
+      setError("このパスワードは使用できません");
+      return;
+    }
     if (next1.length < 4) {
       setError("パスワードは4文字以上にしてください");
       return;
