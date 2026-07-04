@@ -93,7 +93,7 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
         {hasVisaBadge && (
           <div className="flex justify-between">
             <dt className="text-slate-400">在留</dt>
-            <dd className="text-slate-700">{visaLabel(e.current_visa_status)}</dd>
+            <dd className="text-slate-700">{e.visa_type_jp ?? visaLabel(e.current_visa_status)}</dd>
           </div>
         )}
       </dl>
