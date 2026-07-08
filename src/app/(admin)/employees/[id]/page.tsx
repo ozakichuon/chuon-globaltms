@@ -153,8 +153,7 @@ export default async function EmployeeDetailPage({
             <div>
               <div className="text-xs text-slate-500">実労働</div>
               <div className="text-xl font-bold">
-                {currentAttendance.worked_hours.toFixed(1)}
-                <span className="text-xs font-normal text-slate-500 ml-1">h</span>
+                {hoursToHHMM(currentAttendance.worked_hours)}
               </div>
             </div>
             <div>
@@ -179,8 +178,7 @@ export default async function EmployeeDetailPage({
             <div>
               <div className="text-xs text-slate-500">深夜</div>
               <div className="text-xl font-bold">
-                {currentAttendance.late_night_hours.toFixed(1)}
-                <span className="text-xs font-normal text-slate-500 ml-1">h</span>
+                {hoursToHHMM(currentAttendance.late_night_hours)}
               </div>
             </div>
             <div>
