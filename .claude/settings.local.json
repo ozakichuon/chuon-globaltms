@@ -31,7 +31,8 @@
       "Bash(pdftotext \"//192.168.1.111/Chuon/クロノス関連/残業時間アラート/2026_0701_勤務個人表_本社実習生.pdf\" -)",
       "Bash(pdftotext -layout \"C:/Users/ozaki/Downloads/ilovepdf_merged \\(1\\).pdf\" -)",
       "Bash(grep -E \"CD\\\\d{8}|^\\\\s+\\\\d+/\\\\d+\")",
-      "Bash(node -e \"const data = require\\('./src/lib/data/support_tickets.json'\\); console.log\\(JSON.stringify\\(data[1], null, 2\\)\\);\")"
+      "Bash(node -e \"const data = require\\('./src/lib/data/support_tickets.json'\\); console.log\\(JSON.stringify\\(data[1], null, 2\\)\\);\")",
+      "Bash(gh auth *)"
     ]
   }
 }
