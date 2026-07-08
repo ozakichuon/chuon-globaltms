@@ -6570,7 +6570,16 @@
     "reg_img1": "/appsheet/rireki_photo/232.登録画像１－１.114018.jpg",
     "reg_img2": null,
     "request_note": "新開工場長より、一時帰国の申請あり",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/07/03",
+        "time": "23:09:00",
+        "responder": "尾崎",
+        "img1": "履歴_Images/232.対応画像１ー１.101006.jpg",
+        "img2": null,
+        "note": "池内さんよりチケット入手"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -6583,7 +6592,7 @@
     "target_employee_id": "07013653",
     "place": null,
     "kind": "病院",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": null,
     "reg_img2": null,
     "request_note": "めまいがするため、病院行きたいと連絡あり。",
@@ -6603,6 +6612,183 @@
         "img1": "/appsheet/rireki_photo/233.対応画像２ー１.071048.jpg",
         "img2": null,
         "note": "受診後、今週はお休みをとるとのこと。1週間後再診察、それまでに同じ症状が出た場合はすぐに病院へ行くこと。新開工場長には連絡済み。"
+      },
+      {
+        "date": "2026/07/03",
+        "time": "9:04:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/233.対応画像３ー１.060653.jpg",
+        "img2": null,
+        "note": "朝、めまいがするとのことで、再受診。薬がなくなる来週、受診すること"
+      },
+      {
+        "date": "2026/07/08",
+        "time": "9:00:38",
+        "responder": "尾崎",
+        "img1": null,
+        "img2": null,
+        "note": "再診察。調子もいいため終了"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "234",
+    "seq": 234,
+    "date": "2026/07/03",
+    "time": "19:18:05",
+    "recorder": "尾崎",
+    "target_employee_code": "07018623",
+    "target_employee_id": "07018623",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/234.登録画像１－１.102303.jpg",
+    "reg_img2": "/appsheet/rireki_photo/234.登録画像１－２.102303.jpg",
+    "request_note": "新開工場長より、逆流性胃腸炎か何かで、ふらついたりで、家に連れて帰った。以前、病院へ行ったことがあるよう。4/25の件伝え、土日で様子を見ると伝える",
+    "responses": [
+      {
+        "date": "2026/07/04",
+        "time": "10:59:00",
+        "responder": "尾崎",
+        "img1": "履歴_Images/234.対応画像１ー１.020038.jpg",
+        "img2": null,
+        "note": "八木耳鼻咽喉科に受診、7/6午前中再受診"
+      },
+      {
+        "date": "2026/07/06",
+        "time": "9:49:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/234.対応画像２ー１.005159.jpg",
+        "img2": null,
+        "note": "頭の痛みも解消。病院より就労可能で昼～勤務"
+      },
+      {
+        "date": "2026/07/06",
+        "time": null,
+        "responder": null,
+        "img1": null,
+        "img2": null,
+        "note": null
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "235",
+    "seq": 235,
+    "date": "2026/07/05",
+    "time": "11:43:23",
+    "recorder": "尾崎",
+    "target_employee_code": "07018620",
+    "target_employee_id": "07018620",
+    "place": "牛渕１",
+    "kind": "紛失",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/235.登録画像１－１.024437.jpg",
+    "reg_img2": "/appsheet/rireki_photo/235.登録画像１－２.024437.jpg",
+    "request_note": "財布を紛失したと連絡あり",
+    "responses": [
+      {
+        "date": "2026/07/05",
+        "time": "11:55:00",
+        "responder": "尾崎",
+        "img1": "履歴_Images/235.対応画像１ー１.030808.jpg",
+        "img2": null,
+        "note": "松山南警察署に調べてもらうも、届いてない。明日、会計課へ電話で紛失の届け出を確認してほしいとのこと"
+      },
+      {
+        "date": "2026/07/06",
+        "time": "10:31:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/235.対応画像２ー１.013223.jpg",
+        "img2": null,
+        "note": "重信交番に紛失届出"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "236",
+    "seq": 236,
+    "date": "2026/07/05",
+    "time": "23:01:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013688",
+    "target_employee_id": "07013688",
+    "place": "中野３",
+    "kind": "修理",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/236.登録画像１－１.190307.jpg",
+    "reg_img2": null,
+    "request_note": "ヌルルより、１階の天井から水漏れの連絡",
+    "responses": [
+      {
+        "date": "2026/07/06",
+        "time": "10:30:00",
+        "responder": "尾崎",
+        "img1": "履歴_Images/236.対応画像１ー１.001829.jpg",
+        "img2": "/appsheet/rireki_photo/236.対応画像１－２.001829.jpg",
+        "note": "配管ではなく、ホースがダメ。丹生谷さんへ連絡し対応しますとのことで、7/7、9時に水道屋さん対応予定"
+      },
+      {
+        "date": "2026/07/07",
+        "time": "9:17:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img2": null,
+        "note": "藤本配管さん、7/8、15時に工事対応"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "237",
+    "seq": 237,
+    "date": "2026/07/05",
+    "time": "12:54:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011608",
+    "target_employee_id": "07011608",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/237.登録画像１－１.230105.jpg",
+    "reg_img2": null,
+    "request_note": "7/7～チンとタオ、一時帰国の連絡あり、帰国日未定",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "238",
+    "seq": 238,
+    "date": "2026/07/06",
+    "time": "12:10:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07011615",
+    "target_employee_id": "07011615",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "対応中",
+    "reg_img1": null,
+    "reg_img2": null,
+    "request_note": "新開工場長より、病院へ行きたいため、一時帰国の申し出あり。日本の病院を進めるが、帰国希望。新開工場長と相談し１０日以内条件",
+    "responses": [
+      {
+        "date": "2026/07/06",
+        "time": "12:11:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img2": null,
+        "note": "本人と面談。10日上限で帰国許可。チケットを送付依頼"
+      },
+      {
+        "date": "2026/07/06",
+        "time": "16:09:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img2": null,
+        "note": "専務にホアンの件相談し了承を得る"
       }
     ],
     "overall_note": null
