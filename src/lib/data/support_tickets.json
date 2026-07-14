@@ -6704,6 +6704,14 @@
         "img1": "/appsheet/rireki_photo/235.対応画像２ー１.013223.jpg",
         "img2": null,
         "note": "重信交番に紛失届出"
+      },
+      {
+        "date": "2026/07/08",
+        "time": "15:06:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img2": null,
+        "note": "入官への再発行手続き書類に記入"
       }
     ],
     "overall_note": null
@@ -6718,7 +6726,7 @@
     "target_employee_id": "07013688",
     "place": "中野３",
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/236.登録画像１－１.190307.jpg",
     "reg_img2": null,
     "request_note": "ヌルルより、１階の天井から水漏れの連絡",
@@ -6738,6 +6746,14 @@
         "img1": null,
         "img2": null,
         "note": "藤本配管さん、7/8、15時に工事対応"
+      },
+      {
+        "date": "2026/07/08",
+        "time": "17:04:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/236.対応画像３ー１.180554.jpg",
+        "img2": null,
+        "note": "交換にて工事完了、費用は丹生谷さん対応"
       }
     ],
     "overall_note": null
@@ -6789,6 +6805,117 @@
         "img1": null,
         "img2": null,
         "note": "専務にホアンの件相談し了承を得る"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "239",
+    "seq": 239,
+    "date": "2026/07/09",
+    "time": "9:06:47",
+    "recorder": "池内",
+    "target_employee_code": "07007701",
+    "target_employee_id": "07007701",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "対応中",
+    "reg_img1": null,
+    "reg_img2": null,
+    "request_note": "ベトナムにいる子どもが骨折したため、急遽7/9～アインと一時帰国。戻り未定。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "240",
+    "seq": 240,
+    "date": "2026/07/11",
+    "time": "13:19:00",
+    "recorder": "尾崎",
+    "target_employee_code": "06626001",
+    "target_employee_id": "06626001",
+    "place": null,
+    "kind": null,
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/240.登録画像１－１.142050.jpg",
+    "reg_img2": "/appsheet/rireki_photo/240.登録画像１－２.142238.jpg",
+    "request_note": "佐伯さんより、他の農業３名より、不平不満の申し出あり。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "241",
+    "seq": 241,
+    "date": "2026/07/12",
+    "time": "9:01:30",
+    "recorder": "池内",
+    "target_employee_code": "07013675",
+    "target_employee_id": "07013675",
+    "place": null,
+    "kind": null,
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/241.登録画像１－１.002145.jpg",
+    "reg_img2": null,
+    "request_note": "以前から目が腫れており、7/10に砥部病院の眼科を受診させていたが、7/12朝にチンティアから再受診したい申し出。目がひどく腫れ、顔に湿疹のようなものが出ている。貰った塗り薬が原因？早急に受診させたい",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "242",
+    "seq": 242,
+    "date": "2026/07/13",
+    "time": "5:42:53",
+    "recorder": "尾崎",
+    "target_employee_code": "06626001",
+    "target_employee_id": "06626001",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/242.登録画像１－１.211728.jpg",
+    "reg_img2": "/appsheet/rireki_photo/242.登録画像１－２.211728.jpg",
+    "request_note": "佐伯さんより、朝、階段上がったところでこけて眉毛の上を１センチ程度切った。現在、出血は止まったが、救急車呼ぶかどうか問い合わせ。現在、病院は開いていないため、９時まで待てるか、救急車呼ぶか本人に確認依頼",
+    "responses": [
+      {
+        "date": "2026/07/13",
+        "time": "22:57:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/242.対応画像１ー１.035917.jpg",
+        "img2": null,
+        "note": "今井クリニック整形外科受診、レントゲンするも問題なし、本日、休みとして明日から出勤"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "243",
+    "seq": 243,
+    "date": "2026/07/13",
+    "time": "9:22:56",
+    "recorder": "丹下",
+    "target_employee_code": "07013641",
+    "target_employee_id": "07013641",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": null,
+    "reg_img2": null,
+    "request_note": "木曜日から体調不良(熱、咳、鼻水、喉の痛み)良くならないため病院への申し出あり。",
+    "responses": [
+      {
+        "date": null,
+        "time": null,
+        "responder": null,
+        "img1": null,
+        "img2": null,
+        "note": "よしおか内科"
+      },
+      {
+        "date": "2026/07/13",
+        "time": "10:30:11",
+        "responder": "丹下",
+        "img1": null,
+        "img2": null,
+        "note": "コロナ、インフル陰性。処方された薬で様子見とする。"
       }
     ],
     "overall_note": null
