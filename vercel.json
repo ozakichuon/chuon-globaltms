@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/update-employees",
+      "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/cron/update-overtime",
+      "schedule": "0 * * * *"
+    }
+  ]
+}

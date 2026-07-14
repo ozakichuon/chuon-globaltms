@@ -1,6 +1,7 @@
 import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { Settings, Database, CheckCircle2, XCircle, Users } from "lucide-react";
 import { UserManagement } from "./UserManagement";
+import DataUpdateButtons from "./DataUpdateButtons";
 
 export const dynamic = "force-dynamic";
 
@@ -16,6 +17,8 @@ export default function AdminPage() {
           システム設定・データ接続・マスタ管理
         </p>
       </div>
+
+      <DataUpdateButtons />
 
       <section className="card">
         <h3 className="font-bold flex items-center gap-2">
