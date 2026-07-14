@@ -3,38 +3,6 @@ import { getSessionUserId } from "@/lib/auth";
 import { commitFileToGitHub } from "@/lib/github-commit";
 import fs from "fs";
 import path from "path";
-import https from "https";
-
-const DRIVE_FOLDER_ID = "1HYb16p25qiagDJS-cIFxi2Uu6EtEDB2a";
-const API_KEY = process.env.GOOGLE_API_KEY ?? "";
-
-function httpsGet(url: string): Promise<string> {
-  return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      const chunks: Buffer[] = [];
-      if (res.statusCode && res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        httpsGet(res.headers.location).then(resolve).catch(reject);
-        return;
-      }
-      res.on("data", (c) => chunks.push(c));
-      res.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-    }).on("error", reject);
-  });
-}
-
-function httpsGetBinary(url: string): Promise<Buffer> {
-  return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      const chunks: Buffer[] = [];
-      if (res.statusCode && res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        httpsGetBinary(res.headers.location).then(resolve).catch(reject);
-        return;
-      }
-      res.on("data", (c) => chunks.push(c));
-      res.on("end", () => resolve(Buffer.concat(chunks)));
-    }).on("error", reject);
-  });
-}
 
 function parseTime(str: string): number {
   if (!str || !str.includes(":")) return 0;
@@ -108,66 +76,8 @@ async function parsePdfBuffer(buf: Buffer): Promise<{
 
       resolve({ period, month_label: monthLabel, month_start: monthStart, data: result });
     });
-    // pdf2json accepts Buffer via parseBuffer
     (parser as any).parseBuffer(buf);
   });
-}
-
-async function trashDriveFile(fileId: string, accessToken: string): Promise<void> {
-  await new Promise<void>((resolve, reject) => {
-    const body = JSON.stringify({ trashed: true });
-    const req = https.request(
-      {
-        hostname: "www.googleapis.com",
-        path: `/drive/v3/files/${fileId}`,
-        method: "PATCH",
-        headers: {
-          Authorization: `Bearer ${accessToken}`,
-          "Content-Type": "application/json",
-          "Content-Length": Buffer.byteLength(body),
-        },
-      },
-      (res) => {
-        res.resume();
-        if (res.statusCode && res.statusCode < 300) resolve();
-        else reject(new Error(`Trash failed: ${res.statusCode}`));
-      }
-    );
-    req.on("error", reject);
-    req.write(body);
-    req.end();
-  });
-}
-
-async function getAccessToken(): Promise<string | null> {
-  const saJson = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
-  if (!saJson) return null;
-  try {
-    const sa = JSON.parse(saJson);
-    // Simple JWT for service account (RS256) — use fetch to Google's token endpoint
-    const now = Math.floor(Date.now() / 1000);
-    const header = btoa(JSON.stringify({ alg: "RS256", typ: "JWT" })).replace(/=+$/, "").replace(/\+/g, "-").replace(/\//g, "_");
-    const payload = btoa(JSON.stringify({
-      iss: sa.client_email,
-      scope: "https://www.googleapis.com/auth/drive",
-      aud: "https://oauth2.googleapis.com/token",
-      exp: now + 3600,
-      iat: now,
-    })).replace(/=+$/, "").replace(/\+/g, "-").replace(/\//g, "_");
-    // Sign with private key
-    const { createSign } = await import("crypto");
-    const sign = createSign("RSA-SHA256");
-    sign.update(`${header}.${payload}`);
-    const sig = sign.sign(sa.private_key, "base64").replace(/=+$/, "").replace(/\+/g, "-").replace(/\//g, "_");
-    const jwt = `${header}.${payload}.${sig}`;
-    const tokenRes = await fetch("https://oauth2.googleapis.com/token", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: `grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=${jwt}`,
-    });
-    const tokenData = await tokenRes.json() as any;
-    return tokenData.access_token ?? null;
-  } catch { return null; }
 }
 
 export async function POST(req: Request) {
@@ -179,34 +89,67 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "権限がありません" }, { status: 403 });
     }
   }
-  if (!API_KEY) {
-    return NextResponse.json({ error: "GOOGLE_API_KEY が設定されていません" }, { status: 500 });
-  }
 
   try {
-    // List PDF files in folder
+    const contentType = req.headers.get("content-type") ?? "";
+
+    // PDFアップロード（手動更新）
+    if (contentType.includes("multipart/form-data")) {
+      const formData = await req.formData();
+      const file = formData.get("pdf") as File | null;
+      if (!file) return NextResponse.json({ error: "PDFファイルがありません" }, { status: 400 });
+
+      const buf = Buffer.from(await file.arrayBuffer());
+      const parsed = await parsePdfBuffer(buf);
+
+      if (!parsed.month_label) {
+        return NextResponse.json({ error: "PDFから期間情報を読み取れませんでした" }, { status: 400 });
+      }
+
+      const [year, month] = parsed.month_label.split("-");
+      const filePath = `src/lib/data/overtime_${year}_${month}.json`;
+      const content = JSON.stringify(parsed, null, 2);
+      const now = new Date().toISOString();
+
+      if (process.env.VERCEL) {
+        await commitFileToGitHub(filePath, content, `chore: 残業データ更新 ${parsed.month_label} ${now}`);
+      } else {
+        fs.writeFileSync(path.join(process.cwd(), filePath), content, "utf-8");
+      }
+
+      return NextResponse.json({
+        ok: true,
+        month_label: parsed.month_label,
+        employees: Object.keys(parsed.data).length,
+      });
+    }
+
+    // Driveからの自動取得（cronまたはGOOGLE_API_KEY設定済みの場合）
+    const API_KEY = process.env.GOOGLE_API_KEY ?? "";
+    if (!API_KEY) {
+      return NextResponse.json({ error: "GOOGLE_API_KEY が設定されていません" }, { status: 500 });
+    }
+
+    const DRIVE_FOLDER_ID = "1HYb16p25qiagDJS-cIFxi2Uu6EtEDB2a";
     const listUrl = `https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(`'${DRIVE_FOLDER_ID}' in parents and mimeType='application/pdf' and trashed=false`)}&key=${API_KEY}&fields=files(id,name)`;
-    const listData = JSON.parse(await httpsGet(listUrl)) as any;
+    const listRes = await fetch(listUrl);
+    const listData = await listRes.json() as any;
     const files: { id: string; name: string }[] = listData.files ?? [];
 
     if (files.length === 0) {
-      return NextResponse.json({ ok: true, message: "PDFファイルなし", processed: 0 });
+      return NextResponse.json({ ok: true, message: "PDFファイルなし", processed: [] });
     }
 
-    const accessToken = await getAccessToken();
     const processed: string[] = [];
     const errors: string[] = [];
 
     for (const file of files) {
       try {
-        const dlUrl = `https://www.googleapis.com/drive/v3/files/${file.id}?alt=media&key=${API_KEY}`;
-        const pdfBuf = await httpsGetBinary(dlUrl);
-        const parsed = await parsePdfBuffer(pdfBuf);
+        const dlRes = await fetch(`https://www.googleapis.com/drive/v3/files/${file.id}?alt=media&key=${API_KEY}`);
+        const buf = Buffer.from(await dlRes.arrayBuffer());
+        const parsed = await parsePdfBuffer(buf);
 
-        if (!parsed.month_label) {
-          errors.push(`${file.name}: 期間解析失敗`);
-          continue;
-        }
+        if (!parsed.month_label) { errors.push(`${file.name}: 期間解析失敗`); continue; }
 
         const [year, month] = parsed.month_label.split("-");
         const filePath = `src/lib/data/overtime_${year}_${month}.json`;
@@ -219,9 +162,6 @@ export async function POST(req: Request) {
           fs.writeFileSync(path.join(process.cwd(), filePath), content, "utf-8");
         }
 
-        if (accessToken) {
-          await trashDriveFile(file.id, accessToken);
-        }
         processed.push(`${file.name} → ${filePath} (${Object.keys(parsed.data).length}名)`);
       } catch (e: any) {
         errors.push(`${file.name}: ${e?.message}`);
