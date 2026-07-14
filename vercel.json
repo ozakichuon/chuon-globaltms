@@ -2,11 +2,11 @@
   "crons": [
     {
       "path": "/api/cron/update-employees",
-      "schedule": "0 * * * *"
+      "schedule": "0 22,1,3,6 * * *"
     },
     {
       "path": "/api/cron/update-overtime",
-      "schedule": "0 * * * *"
+      "schedule": "0 22,1,3,6 * * *"
     }
   ]
 }
