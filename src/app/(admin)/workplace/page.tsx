@@ -131,20 +131,20 @@ function PersonRow({ e }: { e: Emp }) {
         photoUrl={employeePhotoMap.get(code) ?? employeePhotoMap.get(e.employee_code)}
         size={22}
       />
-      <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate w-28 shrink-0">
+      <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate w-40 shrink-0">
         {e.display_name}
       </Link>
       {/* 直近3日 */}
       {recent3Dates.length > 0 && (
-        <div className="flex gap-1 shrink-0">
+        <div className="flex gap-0.5 shrink-0">
           {recent3Dates.map((d) => {
             const mm = d.slice(5, 7).replace(/^0/, "");
             const dd = d.slice(8, 10).replace(/^0/, "");
             const val = daily[d];
             return (
-              <div key={d} className="flex flex-col items-center w-8">
-                <span className="text-[8px] text-slate-400">{mm}/{dd}</span>
-                <span className="text-[9px] font-mono text-slate-600">
+              <div key={d} className="flex flex-col items-center w-6">
+                <span className="text-[7px] text-slate-400">{mm}/{dd}</span>
+                <span className="text-[8px] font-mono text-slate-600">
                   {val == null ? "-" : val === 0 ? "0" : `${val.toFixed(1)}`}
                 </span>
               </div>
@@ -163,7 +163,7 @@ function PersonRow({ e }: { e: Emp }) {
             style={{ left: `${(OVERTIME_THRESHOLDS.critical / BAR_MAX) * 100}%` }} />
           <div className={cn("h-full", overtimeAlertBarColor(level))} style={{ width: `${pct}%` }} />
         </div>
-        <span className="text-[10px] font-mono w-10 text-right shrink-0">{ot.toFixed(1)}h</span>
+        <span className="text-[9px] font-mono w-9 text-right shrink-0">{ot.toFixed(1)}h</span>
         <span className={cn("text-[9px] px-1 py-0.5 rounded shrink-0", overtimeAlertColor(level))}>
           {overtimeAlertShort(level)}
         </span>
@@ -333,7 +333,7 @@ export default async function WorkplacePage({
                         <div className="text-xs font-semibold text-slate-500 mb-1.5 px-1">
                           {sec}　{people.length}名
                         </div>
-                        <div className="grid grid-cols-2 gap-2">
+                        <div className="flex flex-col gap-2">
                           <GenderBox label="男性" people={males} color="blue" />
                           <GenderBox label="女性" people={females} color="rose" />
                         </div>
