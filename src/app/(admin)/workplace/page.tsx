@@ -118,20 +118,18 @@ function GenderBox({ label, people, color }: { label: string; people: Emp[]; col
   const styles = { blue: "border-blue-200 bg-blue-50 text-blue-700", rose: "border-rose-200 bg-rose-50 text-rose-700" };
   return (
     <div className={`border rounded-lg p-2 text-xs ${styles[color]}`}>
-      <div className="font-semibold mb-1.5 flex items-center">
-        <span>{label} {people.length}名</span>
-        {recent3Dates.length > 0 && (
-          <div className="flex gap-0.5 ml-auto">
-            {recent3Dates.map((d) => {
-              const mm = d.slice(5, 7).replace(/^0/, "");
-              const dd = d.slice(8, 10).replace(/^0/, "");
-              return (
-                <div key={d} className="w-10 text-center text-[8px] text-slate-400">{mm}/{dd}</div>
-              );
-            })}
-          </div>
-        )}
-      </div>
+      <div className="font-semibold mb-1">{label} {people.length}名</div>
+      {recent3Dates.length > 0 && (
+        <div className="flex justify-end gap-0.5 mb-0.5 pr-0.5">
+          {recent3Dates.map((d) => {
+            const mm = d.slice(5, 7).replace(/^0/, "");
+            const dd = d.slice(8, 10).replace(/^0/, "");
+            return (
+              <div key={d} className="w-10 text-center text-[8px] text-slate-400">{mm}/{dd}</div>
+            );
+          })}
+        </div>
+      )}
       {people.length === 0 ? (
         <div className="text-slate-400">—</div>
       ) : (
