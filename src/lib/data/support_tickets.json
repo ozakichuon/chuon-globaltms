@@ -6835,7 +6835,7 @@
     "target_employee_code": "06626001",
     "target_employee_id": "06626001",
     "place": null,
-    "kind": null,
+    "kind": "クレーム",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/240.登録画像１－１.142050.jpg",
     "reg_img2": "/appsheet/rireki_photo/240.登録画像１－２.142238.jpg",
@@ -6852,7 +6852,7 @@
     "target_employee_code": "07013675",
     "target_employee_id": "07013675",
     "place": null,
-    "kind": null,
+    "kind": "病院",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/241.登録画像１－１.002145.jpg",
     "reg_img2": null,
@@ -6918,6 +6918,23 @@
         "note": "コロナ、インフル陰性。処方された薬で様子見とする。"
       }
     ],
+    "overall_note": null
+  },
+  {
+    "id": "244",
+    "seq": 244,
+    "date": "2026/07/15",
+    "time": "10:30:16",
+    "recorder": "丹下",
+    "target_employee_code": "07013675",
+    "target_employee_id": "07013675",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": null,
+    "reg_img2": null,
+    "request_note": "皮膚科の再診。飲み薬、塗り薬を処方され様子見とのこと。血液検査結果は来週以降にでる。",
+    "responses": [],
     "overall_note": null
   }
 ]
