@@ -125,10 +125,10 @@ function GenderBox({ label, people, color }: { label: string; people: Emp[]; col
         {recent3Dates.length > 0 && (
           <div className="flex gap-0.5 shrink-0">
             {recent3Dates.map((d) => {
-              const mm = d.slice(5, 7).replace(/^0/, "");
-              const dd = d.slice(8, 10).replace(/^0/, "");
+              const mm = d.slice(5, 7);
+              const dd = d.slice(8, 10);
               return (
-                <div key={d} className="w-10 text-right text-[8px] text-slate-400 pr-1">{mm}/{dd}</div>
+                <div key={d} className="w-10 text-right font-mono text-[8px] text-slate-400">{mm}/{dd}</div>
               );
             })}
           </div>
@@ -169,7 +169,7 @@ function PersonRow({ e }: { e: Emp }) {
       {recent3Dates.length > 0 && (
         <div className="flex gap-0.5 shrink-0">
           {recent3Dates.map((d) => (
-            <div key={d} className="w-10 text-center text-[9px] font-mono text-slate-600">
+            <div key={d} className="w-10 text-right text-[9px] font-mono text-slate-600">
               {dailyHHMM(daily[d] as number | null)}
             </div>
           ))}
