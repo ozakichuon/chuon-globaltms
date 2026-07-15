@@ -10,11 +10,24 @@ function parseTime(str: string): number {
   return h + m / 60;
 }
 
+// 期間内の全日付を生成
+function periodDates(startStr: string, endStr: string): Date[] {
+  const dates: Date[] = [];
+  const cur = new Date(startStr);
+  const end = new Date(endStr);
+  while (cur <= end) { dates.push(new Date(cur)); cur.setDate(cur.getDate() + 1); }
+  return dates;
+}
+
+function toDateStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 async function parsePdfBuffer(buf: Buffer): Promise<{
   period: string;
   month_label: string;
   month_start: string;
-  data: Record<string, { overtime_hours: number; worked_hours: number; midnight_hours: number }>;
+  data: Record<string, { overtime_hours: number; worked_hours: number; midnight_hours: number; daily: Record<string, number> }>;
 }> {
   const PDFParser = (await import("pdf2json")).default;
   return new Promise((resolve, reject) => {
@@ -25,6 +38,8 @@ async function parsePdfBuffer(buf: Buffer): Promise<{
       let period = "";
       let monthLabel = "";
       let monthStart = "";
+      let periodStart = "";
+      let periodEnd = "";
 
       pdfData.Pages.forEach((page: any, pageIdx: number) => {
         const texts = page.Texts.map((t: any) => ({
@@ -44,34 +59,69 @@ async function parsePdfBuffer(buf: Buffer): Promise<{
           if (periodLine) {
             const m = periodLine.text.match(/(\d{4})年(\d{2})月\[(\d{4})年(\d{2})月(\d{2})日.*～(\d{4})年(\d{2})月(\d{2})日/);
             if (m) {
-              // 期間の開始月を月ラベルとして使用（例：6/21〜7/20は6月分）
               monthLabel = `${m[3]}-${m[4]}`;
-              const s = `${m[3]}-${m[4].padStart(2, "0")}-${m[5].padStart(2, "0")}`;
-              const e = `${m[6]}-${m[7].padStart(2, "0")}-${m[8].padStart(2, "0")}`;
-              period = `${s}_${e}`;
+              periodStart = `${m[3]}-${m[4].padStart(2, "0")}-${m[5].padStart(2, "0")}`;
+              periodEnd   = `${m[6]}-${m[7].padStart(2, "0")}-${m[8].padStart(2, "0")}`;
+              period = `${periodStart}_${periodEnd}`;
               monthStart = `${m[3]}-${m[4]}-01`;
             }
           }
         }
 
         const totalRow = texts.filter((t: any) => Math.abs(t.y - 29) < 0.6);
-        const findVal = (xMin: number, xMax: number) => {
-          const f = totalRow.find((t: any) => t.x >= xMin && t.x <= xMax);
+        const findVal = (row: any[], xMin: number, xMax: number) => {
+          const f = row.find((t: any) => t.x >= xMin && t.x <= xMax);
           return f ? f.text : null;
         };
 
-        const hayade = parseTime(findVal(30.5, 32.5) ?? "");
-        const futsu = parseTime(findVal(32.5, 34.5) ?? "");
-        const shinyaR = parseTime(findVal(34.5, 36.5) ?? "");
-        const shinyaJ = parseTime(findVal(36.5, 38.5) ?? "");
-        const kyujitsu = parseTime(findVal(38.5, 40.5) ?? "");
-        const kyuDeep = parseTime(findVal(40.5, 42.5) ?? "");
-        const worked = parseTime(findVal(47.5, 49.5) ?? "");
+        const hayade   = parseTime(findVal(totalRow, 30.5, 32.5) ?? "");
+        const futsu    = parseTime(findVal(totalRow, 32.5, 34.5) ?? "");
+        const shinyaR  = parseTime(findVal(totalRow, 34.5, 36.5) ?? "");
+        const shinyaJ  = parseTime(findVal(totalRow, 36.5, 38.5) ?? "");
+        const kyujitsu = parseTime(findVal(totalRow, 38.5, 40.5) ?? "");
+        const kyuDeep  = parseTime(findVal(totalRow, 40.5, 42.5) ?? "");
+        const worked   = parseTime(findVal(totalRow, 47.5, 49.5) ?? "");
+
+        // 日別残業を抽出（合計行より上のy位置にある日付行）
+        const totalY = totalRow.length > 0 ? Math.min(...totalRow.map((t: any) => t.y)) : 29;
+        const dailyMap: Record<string, number> = {};
+
+        if (periodStart && periodEnd) {
+          const allDates = periodDates(periodStart, periodEnd);
+          // y位置でグループ化（日行ごと）
+          const yGroups: Record<string, any[]> = {};
+          for (const t of texts) {
+            if (t.y >= 4 && t.y < totalY - 0.3) {
+              const key = t.y.toFixed(1);
+              if (!yGroups[key]) yGroups[key] = [];
+              yGroups[key].push(t);
+            }
+          }
+          // y昇順でソート → 日付順
+          const sortedYs = Object.keys(yGroups).map(Number).sort((a, b) => a - b);
+          let dateIdx = 0;
+          for (const y of sortedYs) {
+            const row = yGroups[y.toFixed(1)];
+            // 行の先頭（最小x）が日数字かチェック
+            const dayText = row.find((t: any) => t.x < 5 && /^\d{1,2}$/.test(t.text.trim()));
+            if (!dayText) continue;
+            const dayNum = parseInt(dayText.text.trim());
+            if (dayNum < 1 || dayNum > 31) continue;
+            // 対応する日付を期間日付リストから探す
+            while (dateIdx < allDates.length && allDates[dateIdx].getDate() !== dayNum) dateIdx++;
+            if (dateIdx >= allDates.length) break;
+            const dateStr = toDateStr(allDates[dateIdx]);
+            const ot = parseTime(findVal(row, 30.5, 32.5) ?? "") + parseTime(findVal(row, 32.5, 34.5) ?? "") + parseTime(findVal(row, 38.5, 40.5) ?? "");
+            dailyMap[dateStr] = Math.round(ot * 100) / 100;
+            dateIdx++;
+          }
+        }
 
         result[empCode] = {
           overtime_hours: Math.round((hayade + futsu + kyujitsu) * 100) / 100,
           worked_hours: Math.round(worked * 100) / 100,
           midnight_hours: Math.round((shinyaR + shinyaJ + kyuDeep) * 100) / 100,
+          daily: dailyMap,
         };
       });
 

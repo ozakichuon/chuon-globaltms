@@ -17,6 +17,23 @@ import overtimeReal06 from "@/lib/data/overtime_2026_06.json";
 
 export const dynamic = "force-dynamic";
 
+// 全overtimeデータから日別マップを構築
+const allDailyData: Record<string, Record<string, number>> = {};
+for (const src of [overtimeReal04, overtimeReal05, overtimeReal06] as any[]) {
+  for (const [code, val] of Object.entries(src.data as Record<string, any>)) {
+    if (!allDailyData[code]) allDailyData[code] = {};
+    if (val.daily) Object.assign(allDailyData[code], val.daily);
+  }
+}
+
+// 全dailyデータ中の最新3日（直近3日）を特定
+const allDatesInDaily = new Set<string>();
+for (const daily of Object.values(allDailyData)) {
+  for (const d of Object.keys(daily)) allDatesInDaily.add(d);
+}
+const sortedAllDates = [...allDatesInDaily].sort();
+const recent3Dates = sortedAllDates.slice(-4, -1); // 最終日の3日前〜1日前
+
 // タブ定義：key = URL パラメータ値、workplaces = 対象 workplace 値
 const SITE_TABS = [
   { key: "",          label: "すべて",       workplaces: ["本社", "津吉", "西条", "西条ファーム", "協同本社"] },
@@ -104,6 +121,8 @@ function PersonRow({ e }: { e: Emp }) {
   const ot = getOvertime(e.employee_code);
   const level = overtimeLevel(ot);
   const pct = Math.min((ot / BAR_MAX) * 100, 100);
+  const daily = allDailyData[code] ?? allDailyData[e.employee_code] ?? {};
+
   return (
     <div className="flex items-center gap-1.5">
       <MiniAvatar
@@ -112,9 +131,27 @@ function PersonRow({ e }: { e: Emp }) {
         photoUrl={employeePhotoMap.get(code) ?? employeePhotoMap.get(e.employee_code)}
         size={22}
       />
-      <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate w-32 shrink-0">
+      <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate w-28 shrink-0">
         {e.display_name}
       </Link>
+      {/* 直近3日 */}
+      {recent3Dates.length > 0 && (
+        <div className="flex gap-1 shrink-0">
+          {recent3Dates.map((d) => {
+            const mm = d.slice(5, 7).replace(/^0/, "");
+            const dd = d.slice(8, 10).replace(/^0/, "");
+            const val = daily[d];
+            return (
+              <div key={d} className="flex flex-col items-center w-8">
+                <span className="text-[8px] text-slate-400">{mm}/{dd}</span>
+                <span className="text-[9px] font-mono text-slate-600">
+                  {val == null ? "-" : val === 0 ? "0" : `${val.toFixed(1)}`}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      )}
       {/* 残業バー */}
       <div className="flex items-center gap-1 flex-1 min-w-0">
         <div className="relative flex-1 bg-slate-100 rounded-full h-3 overflow-hidden">
@@ -266,13 +303,13 @@ export default async function WorkplacePage({
                                 <div className="text-[11px] text-slate-400 mb-1 px-0.5">{vg}　{people.length}名</div>
                                 {vg === "技能実習" ? (
                                   <div className="border-2 border-green-600 bg-green-100 rounded-lg p-2">
-                                    <div className="grid grid-cols-2 gap-2">
+                                    <div className="flex flex-col gap-2">
                                       <GenderBox label="男性" people={males} color="blue" />
                                       <GenderBox label="女性" people={females} color="rose" />
                                     </div>
                                   </div>
                                 ) : (
-                                  <div className="grid grid-cols-2 gap-2">
+                                  <div className="flex flex-col gap-2">
                                     <GenderBox label="男性" people={males} color="blue" />
                                     <GenderBox label="女性" people={females} color="rose" />
                                   </div>
