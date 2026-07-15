@@ -118,18 +118,23 @@ function GenderBox({ label, people, color }: { label: string; people: Emp[]; col
   const styles = { blue: "border-blue-200 bg-blue-50 text-blue-700", rose: "border-rose-200 bg-rose-50 text-rose-700" };
   return (
     <div className={`border rounded-lg p-2 text-xs ${styles[color]}`}>
-      <div className="font-semibold mb-1">{label} {people.length}名</div>
-      {recent3Dates.length > 0 && (
-        <div className="flex justify-end gap-0.5 mb-0.5 pr-0.5">
-          {recent3Dates.map((d) => {
-            const mm = d.slice(5, 7).replace(/^0/, "");
-            const dd = d.slice(8, 10).replace(/^0/, "");
-            return (
-              <div key={d} className="w-10 text-center text-[8px] text-slate-400">{mm}/{dd}</div>
-            );
-          })}
-        </div>
-      )}
+      {/* ヘッダー行：PersonRowと同じ構造で日付を値列の上に揃える */}
+      <div className="flex items-center gap-1.5 mb-0.5">
+        <div className="font-semibold">{label} {people.length}名</div>
+        <div className="flex-1 min-w-0" />
+        {recent3Dates.length > 0 && (
+          <div className="flex gap-0.5 shrink-0">
+            {recent3Dates.map((d) => {
+              const mm = d.slice(5, 7).replace(/^0/, "");
+              const dd = d.slice(8, 10).replace(/^0/, "");
+              return (
+                <div key={d} className="w-10 text-center text-[8px] text-slate-400">{mm}/{dd}</div>
+              );
+            })}
+          </div>
+        )}
+        <div className="flex-1 min-w-0" />
+      </div>
       {people.length === 0 ? (
         <div className="text-slate-400">—</div>
       ) : (
