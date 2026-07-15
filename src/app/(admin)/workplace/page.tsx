@@ -26,16 +26,20 @@ for (const src of [overtimeReal04, overtimeReal05, overtimeReal06] as any[]) {
   }
 }
 
-// 今日より前の日付のみ対象（将来日付を除外）
-const todayStr = new Date().toISOString().slice(0, 10);
+// 最新のJSONのprint_dateを基準日にする（例: "2026/07/15" → "2026-07-15"）
+const latestSrc = [overtimeReal06, overtimeReal05, overtimeReal04].find((s) => (s as any).print_date) as any;
+const printDateStr: string = latestSrc?.print_date
+  ? latestSrc.print_date.replace(/\//g, "-")  // "2026/07/15" → "2026-07-15"
+  : new Date().toISOString().slice(0, 10);
+
 const allDatesInDaily = new Set<string>();
 for (const daily of Object.values(allDailyData)) {
   for (const d of Object.keys(daily)) {
-    if (d < todayStr) allDatesInDaily.add(d);
+    if (d < printDateStr) allDatesInDaily.add(d);
   }
 }
 const sortedAllDates = [...allDatesInDaily].sort();
-const recent3Dates = sortedAllDates.slice(-3); // 直近3日
+const recent3Dates = sortedAllDates.slice(-3); // 印刷日前の直近3日
 
 // タブ定義：key = URL パラメータ値、workplaces = 対象 workplace 値
 const SITE_TABS = [

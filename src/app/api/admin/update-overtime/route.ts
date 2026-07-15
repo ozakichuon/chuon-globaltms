@@ -27,6 +27,7 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
   period: string;
   month_label: string;
   month_start: string;
+  print_date: string;
   data: Record<string, { overtime_hours: number; worked_hours: number; midnight_hours: number; daily: Record<string, number | null> }>;
   debugRows?: any[];
 }> {
@@ -41,6 +42,7 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
       let monthStart = "";
       let periodStart = "";
       let periodEnd = "";
+      let printDate = "";
       const debugRows: any[] = [];
 
       pdfData.Pages.forEach((page: any, pageIdx: number) => {
@@ -57,6 +59,10 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
         const empCode = empMatch[1];
 
         if (pageIdx === 0) {
+          // 右上の印刷日付（例: "2026/07/15 08:08"）
+          const printLine = texts.find((t: any) => /^\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/.test(t.text.trim()));
+          if (printLine) printDate = printLine.text.trim().slice(0, 10); // "2026/07/15"
+
           const periodLine = texts.find((t: any) => t.text.includes("～"));
           if (periodLine) {
             const m = periodLine.text.match(/(\d{4})年(\d{2})月\[(\d{4})年(\d{2})月(\d{2})日.*～(\d{4})年(\d{2})月(\d{2})日/);
@@ -143,7 +149,7 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
         };
       });
 
-      resolve({ period, month_label: monthLabel, month_start: monthStart, data: result, debugRows: debug ? debugRows : undefined });
+      resolve({ period, month_label: monthLabel, month_start: monthStart, print_date: printDate, data: result, debugRows: debug ? debugRows : undefined });
     });
     (parser as any).parseBuffer(buf);
   });
