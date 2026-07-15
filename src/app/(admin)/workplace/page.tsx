@@ -26,13 +26,16 @@ for (const src of [overtimeReal04, overtimeReal05, overtimeReal06] as any[]) {
   }
 }
 
-// 全dailyデータ中の最新3日（直近3日）を特定
+// 今日より前の日付のみ対象（将来日付を除外）
+const todayStr = new Date().toISOString().slice(0, 10);
 const allDatesInDaily = new Set<string>();
 for (const daily of Object.values(allDailyData)) {
-  for (const d of Object.keys(daily)) allDatesInDaily.add(d);
+  for (const d of Object.keys(daily)) {
+    if (d < todayStr) allDatesInDaily.add(d);
+  }
 }
 const sortedAllDates = [...allDatesInDaily].sort();
-const recent3Dates = sortedAllDates.slice(-4, -1); // 最終日の3日前〜1日前
+const recent3Dates = sortedAllDates.slice(-3); // 直近3日
 
 // タブ定義：key = URL パラメータ値、workplaces = 対象 workplace 値
 const SITE_TABS = [
@@ -85,6 +88,14 @@ function overtimeLevel(h: number): OvertimeAlert {
 
 const BAR_MAX = 80;
 
+function dailyHHMM(val: number | null | undefined): string {
+  if (val === null || val === undefined) return "-";
+  const totalMin = Math.round(val * 60);
+  const h = Math.floor(totalMin / 60);
+  const m = totalMin % 60;
+  return `${h}:${String(m).padStart(2, "0")}`;
+}
+
 function visaGroup(visaTypeJp: string | null): string {
   if (!visaTypeJp) return "その他";
   if (visaTypeJp.includes("特定技能")) return "特定技能";
@@ -103,7 +114,20 @@ function GenderBox({ label, people, color }: { label: string; people: Emp[]; col
   const styles = { blue: "border-blue-200 bg-blue-50 text-blue-700", rose: "border-rose-200 bg-rose-50 text-rose-700" };
   return (
     <div className={`border rounded-lg p-2 text-xs ${styles[color]}`}>
-      <div className="font-semibold mb-1.5">{label} {people.length}名</div>
+      <div className="font-semibold mb-1.5 flex items-center">
+        <span>{label} {people.length}名</span>
+        {recent3Dates.length > 0 && (
+          <div className="flex gap-0.5 ml-auto">
+            {recent3Dates.map((d) => {
+              const mm = d.slice(5, 7).replace(/^0/, "");
+              const dd = d.slice(8, 10).replace(/^0/, "");
+              return (
+                <div key={d} className="w-10 text-center text-[8px] text-slate-400">{mm}/{dd}</div>
+              );
+            })}
+          </div>
+        )}
+      </div>
       {people.length === 0 ? (
         <div className="text-slate-400">—</div>
       ) : (
@@ -124,32 +148,24 @@ function PersonRow({ e }: { e: Emp }) {
   const daily = allDailyData[code] ?? allDailyData[e.employee_code] ?? {};
 
   return (
-    <div className="flex items-center gap-1.5">
+    <div className="flex items-center gap-1.5 min-w-0">
       <MiniAvatar
         name={e.display_name}
         nationality={(e as any).nationality}
         photoUrl={employeePhotoMap.get(code) ?? employeePhotoMap.get(e.employee_code)}
         size={22}
       />
-      <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate w-40 shrink-0">
+      <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate flex-1 min-w-0">
         {e.display_name}
       </Link>
-      {/* 直近3日 */}
+      {/* 直近3日の残業（値のみ・日付はGenderBoxヘッダーに表示） */}
       {recent3Dates.length > 0 && (
-        <div className="flex gap-0.5 shrink-0">
-          {recent3Dates.map((d) => {
-            const mm = d.slice(5, 7).replace(/^0/, "");
-            const dd = d.slice(8, 10).replace(/^0/, "");
-            const val = daily[d];
-            return (
-              <div key={d} className="flex flex-col items-center w-6">
-                <span className="text-[7px] text-slate-400">{mm}/{dd}</span>
-                <span className="text-[8px] font-mono text-slate-600">
-                  {val == null ? "-" : val === 0 ? "0" : `${val.toFixed(1)}`}
-                </span>
-              </div>
-            );
-          })}
+        <div className="flex gap-0.5 shrink-0 ml-auto">
+          {recent3Dates.map((d) => (
+            <div key={d} className="w-10 text-center text-[9px] font-mono text-slate-600">
+              {dailyHHMM(daily[d] as number | null)}
+            </div>
+          ))}
         </div>
       )}
       {/* 残業バー */}
