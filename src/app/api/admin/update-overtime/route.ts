@@ -122,10 +122,9 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
             // 期間外は除外
             if (dateStr < periodStart || dateStr > periodEnd) continue;
 
-            // 実働合計 - 給与実働 = 残業
-            // x座標はデバッグで確認後に調整（暫定値）
-            const jitsuDoKeisan = findVal(row, 47.5, 52.0); // 実働合計
-            const kyuyoJitsu   = findVal(row, 52.0, 56.5);  // 給与実働
+            // 実働合計(x≈48.5) - 給与実働(x≈46.6) = 残業
+            const jitsuDoKeisan = findVal(row, 47.5, 51.0); // 実働合計
+            const kyuyoJitsu   = findVal(row, 44.0, 47.5);  // 給与実働
             if (!jitsuDoKeisan && !kyuyoJitsu) {
               dailyMap[dateStr] = null; // 両方空欄 → "-"
             } else {
