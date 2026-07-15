@@ -23,11 +23,12 @@ function toDateStr(d: Date): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
-async function parsePdfBuffer(buf: Buffer): Promise<{
+async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
   period: string;
   month_label: string;
   month_start: string;
-  data: Record<string, { overtime_hours: number; worked_hours: number; midnight_hours: number; daily: Record<string, number> }>;
+  data: Record<string, { overtime_hours: number; worked_hours: number; midnight_hours: number; daily: Record<string, number | null> }>;
+  debugRows?: any[];
 }> {
   const PDFParser = (await import("pdf2json")).default;
   return new Promise((resolve, reject) => {
@@ -40,6 +41,7 @@ async function parsePdfBuffer(buf: Buffer): Promise<{
       let monthStart = "";
       let periodStart = "";
       let periodEnd = "";
+      const debugRows: any[] = [];
 
       pdfData.Pages.forEach((page: any, pageIdx: number) => {
         const texts = page.Texts.map((t: any) => ({
@@ -68,11 +70,15 @@ async function parsePdfBuffer(buf: Buffer): Promise<{
           }
         }
 
-        const totalRow = texts.filter((t: any) => Math.abs(t.y - 29) < 0.6);
         const findVal = (row: any[], xMin: number, xMax: number) => {
           const f = row.find((t: any) => t.x >= xMin && t.x <= xMax);
           return f ? f.text : null;
         };
+
+        // 合計行を探す（「合計」テキストがある行）
+        const goukeiText = texts.find((t: any) => t.text === "合計");
+        const totalY = goukeiText ? goukeiText.y : 29;
+        const totalRow = texts.filter((t: any) => Math.abs(t.y - totalY) < 0.6);
 
         const hayade   = parseTime(findVal(totalRow, 30.5, 32.5) ?? "");
         const futsu    = parseTime(findVal(totalRow, 32.5, 34.5) ?? "");
@@ -82,38 +88,51 @@ async function parsePdfBuffer(buf: Buffer): Promise<{
         const kyuDeep  = parseTime(findVal(totalRow, 40.5, 42.5) ?? "");
         const worked   = parseTime(findVal(totalRow, 47.5, 49.5) ?? "");
 
-        // 日別残業を抽出（合計行より上のy位置にある日付行）
-        const totalY = totalRow.length > 0 ? Math.min(...totalRow.map((t: any) => t.y)) : 29;
-        const dailyMap: Record<string, number> = {};
+        // 日別残業を抽出
+        const dailyMap: Record<string, number | null> = {};
 
         if (periodStart && periodEnd) {
-          const allDates = periodDates(periodStart, periodEnd);
-          // y位置でグループ化（日行ごと）
+          // y位置でグループ化
           const yGroups: Record<string, any[]> = {};
           for (const t of texts) {
-            if (t.y >= 4 && t.y < totalY - 0.3) {
+            if (t.y > 4 && t.y < totalY - 0.3) {
               const key = t.y.toFixed(1);
               if (!yGroups[key]) yGroups[key] = [];
               yGroups[key].push(t);
             }
           }
-          // y昇順でソート → 日付順
           const sortedYs = Object.keys(yGroups).map(Number).sort((a, b) => a - b);
-          let dateIdx = 0;
+
+          // デバッグ：最初のページの全行を収集
+          if (debug && pageIdx === 0) {
+            for (const y of sortedYs) {
+              const row = yGroups[y.toFixed(1)];
+              debugRows.push({ y, texts: row.map((t: any) => ({ x: t.x, text: t.text })) });
+            }
+          }
+
           for (const y of sortedYs) {
             const row = yGroups[y.toFixed(1)];
-            // 行の先頭（最小x）が日数字かチェック
-            const dayText = row.find((t: any) => t.x < 5 && /^\d{1,2}$/.test(t.text.trim()));
+            // MM/DD 形式の日付テキストを探す（例: 06/21）
+            const dayText = row.find((t: any) => /^\d{1,2}\/\d{1,2}$/.test(t.text.trim()));
             if (!dayText) continue;
-            const dayNum = parseInt(dayText.text.trim());
-            if (dayNum < 1 || dayNum > 31) continue;
-            // 対応する日付を期間日付リストから探す
-            while (dateIdx < allDates.length && allDates[dateIdx].getDate() !== dayNum) dateIdx++;
-            if (dateIdx >= allDates.length) break;
-            const dateStr = toDateStr(allDates[dateIdx]);
-            const ot = parseTime(findVal(row, 30.5, 32.5) ?? "") + parseTime(findVal(row, 32.5, 34.5) ?? "") + parseTime(findVal(row, 38.5, 40.5) ?? "");
-            dailyMap[dateStr] = Math.round(ot * 100) / 100;
-            dateIdx++;
+            const [mm, dd] = dayText.text.trim().split("/").map(Number);
+            const year = periodStart.slice(0, 4);
+            const dateStr = `${year}-${String(mm).padStart(2, "0")}-${String(dd).padStart(2, "0")}`;
+            // 期間外は除外
+            if (dateStr < periodStart || dateStr > periodEnd) continue;
+
+            // 実働合計 - 給与実働 = 残業
+            // x座標はデバッグで確認後に調整（暫定値）
+            const jitsuDoKeisan = findVal(row, 47.5, 52.0); // 実働合計
+            const kyuyoJitsu   = findVal(row, 52.0, 56.5);  // 給与実働
+            if (!jitsuDoKeisan && !kyuyoJitsu) {
+              dailyMap[dateStr] = null; // 両方空欄 → "-"
+            } else {
+              const total = parseTime(jitsuDoKeisan ?? "");
+              const kyu   = parseTime(kyuyoJitsu ?? "");
+              dailyMap[dateStr] = Math.round(Math.max(0, total - kyu) * 100) / 100;
+            }
           }
         }
 
@@ -125,13 +144,13 @@ async function parsePdfBuffer(buf: Buffer): Promise<{
         };
       });
 
-      resolve({ period, month_label: monthLabel, month_start: monthStart, data: result });
+      resolve({ period, month_label: monthLabel, month_start: monthStart, data: result, debugRows: debug ? debugRows : undefined });
     });
     (parser as any).parseBuffer(buf);
   });
 }
 
-export async function POST(req: Request) {
+export async function POST(req: Request, { params }: { params?: any } = {}) {
   const authHeader = req.headers.get("authorization");
   const isCron = authHeader === `Bearer ${process.env.CRON_SECRET}` && !!process.env.CRON_SECRET;
   if (!isCron) {
@@ -150,8 +169,13 @@ export async function POST(req: Request) {
       const file = formData.get("pdf") as File | null;
       if (!file) return NextResponse.json({ error: "PDFファイルがありません" }, { status: 400 });
 
+      const debugMode = new URL(req.url).searchParams.get("debug") === "1";
       const buf = Buffer.from(await file.arrayBuffer());
-      const parsed = await parsePdfBuffer(buf);
+      const parsed = await parsePdfBuffer(buf, debugMode);
+
+      if (debugMode) {
+        return NextResponse.json({ debug: true, debugRows: parsed.debugRows, month_label: parsed.month_label, employees: Object.keys(parsed.data).length });
+      }
 
       if (!parsed.month_label) {
         return NextResponse.json({ error: "PDFから期間情報を読み取れませんでした" }, { status: 400 });
