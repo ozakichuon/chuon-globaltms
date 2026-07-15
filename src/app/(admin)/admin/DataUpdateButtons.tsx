@@ -120,13 +120,66 @@ function OvertimeUpdateButton() {
   );
 }
 
+function DeployButton() {
+  const [status, setStatus] = useState<Status>("idle");
+  const [message, setMessage] = useState("");
+
+  const handleClick = async () => {
+    if (!confirm("本番環境にデプロイしますか？")) return;
+    setStatus("loading");
+    setMessage("");
+    try {
+      const res = await fetch("/api/admin/deploy", { method: "POST" });
+      const data = await res.json();
+      if (!res.ok || data.error) {
+        setStatus("error");
+        setMessage(data.error ?? "エラーが発生しました");
+      } else {
+        setStatus("ok");
+        setMessage("デプロイを開始しました（反映まで1〜2分）");
+      }
+    } catch (e: any) {
+      setStatus("error");
+      setMessage(e?.message ?? "ネットワークエラー");
+    }
+  };
+
+  return (
+    <div className="flex flex-col gap-1">
+      <button
+        onClick={handleClick}
+        disabled={status === "loading"}
+        className={`px-4 py-2 rounded text-sm font-medium border-2 transition-colors ${
+          status === "loading"
+            ? "border-gray-300 text-gray-400 cursor-not-allowed"
+            : status === "ok"
+            ? "border-green-600 bg-green-600 text-white"
+            : status === "error"
+            ? "border-red-500 text-red-500 bg-white"
+            : "border-green-600 text-green-600 bg-white hover:bg-green-50"
+        }`}
+      >
+        {status === "loading" ? "デプロイ中..." : "データ更新"}
+      </button>
+      {message && (
+        <p className={`text-xs ${status === "error" ? "text-red-600" : "text-green-700"}`}>
+          {message}
+        </p>
+      )}
+    </div>
+  );
+}
+
 export default function DataUpdateButtons() {
   return (
     <div className="bg-white rounded-lg shadow p-4 mb-6">
       <h2 className="text-sm font-semibold text-gray-700 mb-3">データ更新</h2>
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-wrap gap-3 items-start">
         <EmployeesUpdateButton />
         <OvertimeUpdateButton />
+        <div className="ml-auto">
+          <DeployButton />
+        </div>
       </div>
       <p className="text-xs text-gray-400 mt-2">残業時間更新：PDFファイルを選択するとデータを解析・更新します</p>
     </div>

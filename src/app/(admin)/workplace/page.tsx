@@ -100,6 +100,15 @@ function dailyHHMM(val: number | null | undefined): string {
   return `${h}:${String(m).padStart(2, "0")}`;
 }
 
+function dailyColor(val: number | null | undefined): string {
+  if (val === null || val === undefined) return "text-slate-400";
+  if (val >= 8)  return "text-red-600";
+  if (val >= 6)  return "text-orange-500";
+  if (val >= 4)  return "text-yellow-500";
+  if (val >= 2)  return "text-green-600";
+  return "text-slate-800";
+}
+
 function visaGroup(visaTypeJp: string | null): string {
   if (!visaTypeJp) return "その他";
   if (visaTypeJp.includes("特定技能")) return "特定技能";
@@ -115,26 +124,34 @@ function empCode(e: Emp): string {
 }
 
 function GenderBox({ label, people, color }: { label: string; people: Emp[]; color: "blue" | "rose" }) {
+  if (people.length === 0) return null;
   const styles = { blue: "border-blue-200 bg-blue-50 text-blue-700", rose: "border-rose-200 bg-rose-50 text-rose-700" };
   return (
-    <div className={`border rounded-lg p-2 text-xs ${styles[color]}`}>
-      {/* ヘッダー行：PersonRowと同じ構造（アバター22px + 名前flex-1 + 値列 + バーflex-1） */}
-      <div className="flex items-center gap-1.5 mb-0.5">
-        <div className="shrink-0" style={{ width: 22 }} />
-        <div className="font-semibold flex-1 min-w-0">{label} {people.length}名</div>
-        {recent3Dates.length > 0 && (
-          <div className="flex gap-0.5 shrink-0">
-            {recent3Dates.map((d) => {
+    <div className={`border rounded-lg p-2 text-sm ${styles[color]}`}>
+      {/* ラベル行 */}
+      <div className="font-semibold mb-1">{label} {people.length}名</div>
+      {/* 日付行：PersonRowと同じflex構造 */}
+      {recent3Dates.length > 0 && (
+        <div className="flex items-center gap-1.5 mb-0.5">
+          <div className="shrink-0" style={{ width: 36 }} />
+          <div className="flex-1 min-w-0" />
+          <div className="flex shrink-0">
+            {recent3Dates.map((d, i) => {
               const mm = d.slice(5, 7);
               const dd = d.slice(8, 10);
+              const color = "text-slate-800";
               return (
-                <div key={d} className="w-10 text-right font-mono text-[8px] text-slate-400">{mm}/{dd}</div>
+                <div key={d} className={`w-[5ch] flex justify-center font-mono text-sm font-bold ${color} ${i < recent3Dates.length - 1 ? "mr-2 border-r border-solid border-slate-300" : ""}`}>
+                  <span className="inline-block w-[2ch] text-right">{mm}</span>
+                  <span>/</span>
+                  <span className="inline-block w-[2ch] text-left">{dd}</span>
+                </div>
               );
             })}
           </div>
-        )}
-        <div className="flex items-center gap-1 flex-1 min-w-0" />
-      </div>
+          <div className="flex items-center gap-1 flex-[2] min-w-0" />
+        </div>
+      )}
       {people.length === 0 ? (
         <div className="text-slate-400">—</div>
       ) : (
@@ -160,23 +177,36 @@ function PersonRow({ e }: { e: Emp }) {
         name={e.display_name}
         nationality={(e as any).nationality}
         photoUrl={employeePhotoMap.get(code) ?? employeePhotoMap.get(e.employee_code)}
-        size={22}
+        size={36}
       />
-      <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate flex-1 min-w-0">
+      <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate flex-1 min-w-0 text-sm">
         {e.display_name}
       </Link>
       {/* 直近3日の残業（バーの左・値のみ） */}
       {recent3Dates.length > 0 && (
-        <div className="flex gap-0.5 shrink-0">
-          {recent3Dates.map((d) => (
-            <div key={d} className="w-10 text-right text-[9px] font-mono text-slate-600">
-              {dailyHHMM(daily[d] as number | null)}
-            </div>
-          ))}
+        <div className="flex shrink-0">
+          {recent3Dates.map((d, i) => {
+            const val = daily[d] as number | null;
+            const hhmm = dailyHHMM(val);
+            const parts = hhmm.includes(":") ? hhmm.split(":") : null;
+            return (
+              <div key={d} className={`w-[5ch] flex justify-center font-mono text-sm ${dailyColor(val)} ${i < recent3Dates.length - 1 ? "mr-2 border-r border-solid border-slate-300" : ""}`}>
+                {parts ? (
+                  <>
+                    <span className="inline-block w-[2ch] text-right">{parts[0]}</span>
+                    <span>:</span>
+                    <span className="inline-block w-[2ch] text-left">{parts[1]}</span>
+                  </>
+                ) : (
+                  <span className="w-[5ch] text-center">-</span>
+                )}
+              </div>
+            );
+          })}
         </div>
       )}
       {/* 残業バー */}
-      <div className="flex items-center gap-1 flex-1 min-w-0">
+      <div className="flex items-center gap-1 flex-[2] min-w-0">
         <div className="relative flex-1 bg-slate-100 rounded-full h-3 overflow-hidden">
           <div className="absolute top-0 bottom-0 border-r border-amber-300"
             style={{ left: `${(OVERTIME_THRESHOLDS.notice / BAR_MAX) * 100}%` }} />
@@ -186,8 +216,8 @@ function PersonRow({ e }: { e: Emp }) {
             style={{ left: `${(OVERTIME_THRESHOLDS.critical / BAR_MAX) * 100}%` }} />
           <div className={cn("h-full", overtimeAlertBarColor(level))} style={{ width: `${pct}%` }} />
         </div>
-        <span className="text-[9px] font-mono w-9 text-right shrink-0">{ot.toFixed(1)}h</span>
-        <span className={cn("text-[9px] px-1 py-0.5 rounded shrink-0", overtimeAlertColor(level))}>
+        <span className="text-sm font-mono w-12 text-right shrink-0">{ot.toFixed(1)}h</span>
+        <span className={cn("text-sm px-1 py-0.5 rounded shrink-0", overtimeAlertColor(level))}>
           {overtimeAlertShort(level)}
         </span>
       </div>
