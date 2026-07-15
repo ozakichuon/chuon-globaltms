@@ -160,6 +160,16 @@ function PersonRow({ e }: { e: Emp }) {
       <Link href={`/employees/${code}`} className="hover:text-brand-600 truncate flex-1 min-w-0">
         {e.display_name}
       </Link>
+      {/* 直近3日の残業（バーの左・値のみ） */}
+      {recent3Dates.length > 0 && (
+        <div className="flex gap-0.5 shrink-0">
+          {recent3Dates.map((d) => (
+            <div key={d} className="w-10 text-center text-[9px] font-mono text-slate-600">
+              {dailyHHMM(daily[d] as number | null)}
+            </div>
+          ))}
+        </div>
+      )}
       {/* 残業バー */}
       <div className="flex items-center gap-1 flex-1 min-w-0">
         <div className="relative flex-1 bg-slate-100 rounded-full h-3 overflow-hidden">
@@ -176,16 +186,6 @@ function PersonRow({ e }: { e: Emp }) {
           {overtimeAlertShort(level)}
         </span>
       </div>
-      {/* 直近3日の残業（バーの右に値のみ表示） */}
-      {recent3Dates.length > 0 && (
-        <div className="flex gap-0.5 shrink-0">
-          {recent3Dates.map((d) => (
-            <div key={d} className="w-10 text-center text-[9px] font-mono text-slate-600">
-              {dailyHHMM(daily[d] as number | null)}
-            </div>
-          ))}
-        </div>
-      )}
     </div>
   );
 }
