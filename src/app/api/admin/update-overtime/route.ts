@@ -150,7 +150,7 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
   });
 }
 
-export async function POST(req: Request, { params }: { params?: any } = {}) {
+export async function POST(req: Request) {
   const authHeader = req.headers.get("authorization");
   const isCron = authHeader === `Bearer ${process.env.CRON_SECRET}` && !!process.env.CRON_SECRET;
   if (!isCron) {
