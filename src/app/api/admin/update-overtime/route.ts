@@ -44,11 +44,12 @@ async function parsePdfBuffer(buf: Buffer): Promise<{
           if (periodLine) {
             const m = periodLine.text.match(/(\d{4})年(\d{2})月\[(\d{4})年(\d{2})月(\d{2})日.*～(\d{4})年(\d{2})月(\d{2})日/);
             if (m) {
-              monthLabel = `${m[1]}-${m[2]}`;
+              // 期間の開始月を月ラベルとして使用（例：6/21〜7/20は6月分）
+              monthLabel = `${m[3]}-${m[4]}`;
               const s = `${m[3]}-${m[4].padStart(2, "0")}-${m[5].padStart(2, "0")}`;
               const e = `${m[6]}-${m[7].padStart(2, "0")}-${m[8].padStart(2, "0")}`;
               period = `${s}_${e}`;
-              monthStart = `${m[1]}-${m[2]}-01`;
+              monthStart = `${m[3]}-${m[4]}-01`;
             }
           }
         }

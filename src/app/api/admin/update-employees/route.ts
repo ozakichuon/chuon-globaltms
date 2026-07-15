@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { getSessionUserId } from "@/lib/auth";
-import { commitFileToGitHub } from "@/lib/github-commit";
+import { commitFilesToGitHub } from "@/lib/github-commit";
 import fs from "fs";
 import path from "path";
 import https from "https";
@@ -81,13 +81,6 @@ function stableId(base: string) {
   return `${hex.slice(0,8)}-${hex.slice(0,4)}-5${hex.slice(1,4)}-${((parseInt(hex.slice(0,2), 16) & 0x3f) | 0x80).toString(16)}${hex.slice(2,6)}-${hex}${hex.slice(0,4)}`;
 }
 
-async function saveFile(filePath: string, content: string, commitMsg: string) {
-  if (process.env.VERCEL) {
-    await commitFileToGitHub(filePath, content, commitMsg);
-  } else {
-    fs.writeFileSync(path.join(process.cwd(), filePath), content, "utf-8");
-  }
-}
 
 export async function POST(req: Request) {
   const authHeader = req.headers.get("authorization");
@@ -201,11 +194,17 @@ export async function POST(req: Request) {
     }
 
     const now = new Date().toISOString();
-    await Promise.all([
-      saveFile("src/lib/data/employees.json", JSON.stringify(employees, null, 2), `chore: 管理情報自動更新 ${now}`),
-      saveFile("src/lib/data/dormitory_assignments.json", JSON.stringify(assignments, null, 2), `chore: 寮情報自動更新 ${now}`),
-      saveFile("src/lib/data/support_tickets.json", JSON.stringify(tickets, null, 2), `chore: 履歴自動更新 ${now}`),
-    ]);
+    if (process.env.VERCEL) {
+      await commitFilesToGitHub([
+        { filePath: "src/lib/data/employees.json", content: JSON.stringify(employees, null, 2) },
+        { filePath: "src/lib/data/dormitory_assignments.json", content: JSON.stringify(assignments, null, 2) },
+        { filePath: "src/lib/data/support_tickets.json", content: JSON.stringify(tickets, null, 2) },
+      ], `chore: 管理情報自動更新 ${now}`);
+    } else {
+      fs.writeFileSync(path.join(process.cwd(), "src/lib/data/employees.json"), JSON.stringify(employees, null, 2), "utf-8");
+      fs.writeFileSync(path.join(process.cwd(), "src/lib/data/dormitory_assignments.json"), JSON.stringify(assignments, null, 2), "utf-8");
+      fs.writeFileSync(path.join(process.cwd(), "src/lib/data/support_tickets.json"), JSON.stringify(tickets, null, 2), "utf-8");
+    }
 
     return NextResponse.json({
       ok: true,
