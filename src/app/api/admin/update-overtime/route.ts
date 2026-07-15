@@ -75,10 +75,10 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
           return f ? f.text : null;
         };
 
-        // 合計行を探す（「合計」テキストがある行）
-        const goukeiText = texts.find((t: any) => t.text === "合計");
-        const totalY = goukeiText ? goukeiText.y : 29;
-        const totalRow = texts.filter((t: any) => Math.abs(t.y - totalY) < 0.6);
+        // 合計行（y≈29 は実績値・変更しない）
+        const totalRow = texts.filter((t: any) => Math.abs(t.y - 29) < 0.6);
+        // 合計行のy座標（日別フィルタ上限に使用）
+        const totalY = totalRow.length > 0 ? Math.min(...totalRow.map((t: any) => t.y)) : 29;
 
         const hayade   = parseTime(findVal(totalRow, 30.5, 32.5) ?? "");
         const futsu    = parseTime(findVal(totalRow, 32.5, 34.5) ?? "");
