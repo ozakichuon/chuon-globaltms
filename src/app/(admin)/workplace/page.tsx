@@ -316,9 +316,9 @@ export default async function WorkplacePage({
                 <h2 className="font-bold text-lg">{displayName}</h2>
                 <div className="flex items-center gap-4 text-sm">
                   {printDateFull && (
-                    <div className="text-right leading-tight">
-                      <div className="text-xs text-slate-400">残業取込</div>
-                      <div className="text-xs font-mono text-slate-500">{printDateFull}</div>
+                    <div className="text-right">
+                      <div className="text-xs text-slate-500">残業取込</div>
+                      <div className="font-bold text-sm">{printDateFull}</div>
                     </div>
                   )}
                   <div className="text-right">
