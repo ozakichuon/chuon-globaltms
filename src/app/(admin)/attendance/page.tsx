@@ -17,8 +17,51 @@ import {
 import Link from "next/link";
 import { Clock, AlertTriangle, TrendingUp, CalendarRange } from "lucide-react";
 import type { OvertimeAlert } from "@/lib/types";
+import overtimeReal04 from "@/lib/data/overtime_2026_04.json";
+import overtimeReal05 from "@/lib/data/overtime_2026_05.json";
+import overtimeReal06 from "@/lib/data/overtime_2026_06.json";
 
 export const dynamic = "force-dynamic";
+
+// 日別残業マップ
+const allDailyData: Record<string, Record<string, number | null>> = {};
+for (const src of [overtimeReal04, overtimeReal05, overtimeReal06] as any[]) {
+  for (const [code, val] of Object.entries(src.data as Record<string, any>)) {
+    if (!allDailyData[code]) allDailyData[code] = {};
+    if (val.daily) Object.assign(allDailyData[code], val.daily);
+  }
+}
+
+const latestSrc = [overtimeReal06, overtimeReal05, overtimeReal04].find((s) => (s as any).print_date) as any;
+const printDateFull: string = latestSrc?.print_date ?? "";
+const printDateStr: string = printDateFull
+  ? printDateFull.slice(0, 10).replace(/\//g, "-")
+  : new Date().toISOString().slice(0, 10);
+
+const allDatesInDaily = new Set<string>();
+for (const daily of Object.values(allDailyData)) {
+  for (const d of Object.keys(daily)) {
+    if (d < printDateStr) allDatesInDaily.add(d);
+  }
+}
+const recent3Dates = [...allDatesInDaily].sort().slice(-3);
+
+function dailyHHMM(val: number | null | undefined): string {
+  if (val === null || val === undefined) return "-";
+  const totalMin = Math.round(val * 60);
+  const h = Math.floor(totalMin / 60);
+  const m = totalMin % 60;
+  return `${h}:${String(m).padStart(2, "0")}`;
+}
+
+function dailyColor(val: number | null | undefined): string {
+  if (val === null || val === undefined) return "text-slate-400";
+  if (val >= 8)  return "text-red-600";
+  if (val >= 6)  return "text-orange-500";
+  if (val >= 4)  return "text-yellow-500";
+  if (val >= 2)  return "text-green-600";
+  return "text-slate-800";
+}
 
 const BAR_MAX = 100;
 
@@ -293,31 +336,57 @@ export default async function AttendancePage({
 
       {/* 個人別ランキング */}
       <div className="card">
-        <h3 className="font-bold flex items-center gap-2">
-          <CalendarRange size={18} /> 今月の残業ランキング
-        </h3>
-        <p className="text-xs text-slate-500 mt-1">
-          赤・橙ゾーンの従業員は業務分担の見直しを推奨
-        </p>
-        <div className="mt-4 space-y-1.5">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <h3 className="font-bold flex items-center gap-2">
+              <CalendarRange size={18} /> 今月の残業ランキング
+            </h3>
+            <p className="text-xs text-slate-500 mt-1">
+              赤・橙ゾーンの従業員は業務分担の見直しを推奨
+            </p>
+          </div>
+          {printDateFull && (
+            <div className="text-right shrink-0">
+              <div className="text-xs text-slate-500">残業取込</div>
+              <div className="font-bold text-sm">{printDateFull}</div>
+            </div>
+          )}
+        </div>
+        {/* 日付ヘッダー行 */}
+        {recent3Dates.length > 0 && (
+          <div className="flex items-center gap-3 mt-3 mb-1 px-3">
+            <div className="w-6 shrink-0" />
+            <div className="w-[240px] shrink-0" />
+            <div className="flex shrink-0">
+              {recent3Dates.map((d, i) => {
+                const mm = String(parseInt(d.slice(5, 7)));
+                const dd = d.slice(8, 10);
+                return (
+                  <div key={d} className={`w-[5ch] flex justify-center font-mono text-sm font-bold text-slate-800 ${i < recent3Dates.length - 1 ? "mr-2 border-r border-solid border-slate-300" : ""}`}>
+                    <span className="inline-block w-[2ch] text-right">{mm}</span>
+                    <span>/</span>
+                    <span className="inline-block w-[2ch] text-left">{dd}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+        <div className="mt-2 space-y-1.5">
           {filteredTop.map((r, i) => {
             const pct = Math.min((r.overtime_hours / BAR_MAX) * 100, 100);
+            const daily = allDailyData[r.employee_id] ?? {};
             return (
               <div
                 key={r.employee_id}
-                className="grid grid-cols-12 gap-3 items-center py-2 px-3 rounded-lg hover:bg-slate-50"
+                className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50"
               >
-                <div className="col-span-1 text-xs text-slate-400 font-mono">
-                  #{i + 1}
-                </div>
-                <div className="col-span-3">
+                <div className="w-6 shrink-0 text-xs text-slate-400 font-mono">#{i + 1}</div>
+                <div className="w-[240px] shrink-0">
                   <div className="flex items-center gap-2">
                     <MiniAvatar name={r.display_name} nationality={r.nationality} photoUrl={employeePhotoMap.get(r.employee_id)} size={26} />
                     <div className="min-w-0">
-                      <Link
-                        href={`/employees/${r.employee_id}`}
-                        className="font-medium text-sm hover:text-brand-600 block truncate"
-                      >
+                      <Link href={`/employees/${r.employee_id}`} className="font-medium text-sm hover:text-brand-600 block truncate">
                         {r.display_name}
                       </Link>
                       <div className="text-[10px] text-slate-400 truncate">
@@ -326,40 +395,44 @@ export default async function AttendancePage({
                     </div>
                   </div>
                 </div>
-                <div className="col-span-6">
+                {/* 直近3日の残業 */}
+                {recent3Dates.length > 0 && (
+                  <div className="flex shrink-0">
+                    {recent3Dates.map((d, j) => {
+                      const val = daily[d] as number | null;
+                      const hhmm = dailyHHMM(val);
+                      const parts = hhmm.includes(":") ? hhmm.split(":") : null;
+                      return (
+                        <div key={d} className={`w-[5ch] flex justify-center font-mono text-sm ${dailyColor(val)} ${j < recent3Dates.length - 1 ? "mr-2 border-r border-solid border-slate-300" : ""}`}>
+                          {parts ? (
+                            <>
+                              <span className="inline-block w-[2ch] text-right">{parts[0]}</span>
+                              <span>:</span>
+                              <span className="inline-block w-[2ch] text-left">{parts[1]}</span>
+                            </>
+                          ) : (
+                            <span className="w-[5ch] text-center">-</span>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+                {/* バー */}
+                <div className="flex-1 min-w-0">
                   <div className="relative bg-slate-100 rounded-full h-5 overflow-hidden">
-                    {/* 閾値ライン */}
-                    <div
-                      className="absolute top-0 bottom-0 border-r-2 border-amber-300"
-                      style={{ left: `${(OVERTIME_THRESHOLDS.notice / BAR_MAX) * 100}%` }}
-                    />
-                    <div
-                      className="absolute top-0 bottom-0 border-r-2 border-orange-400"
-                      style={{ left: `${(OVERTIME_THRESHOLDS.warning / BAR_MAX) * 100}%` }}
-                    />
-                    <div
-                      className="absolute top-0 bottom-0 border-r-2 border-red-500"
-                      style={{ left: `${(OVERTIME_THRESHOLDS.critical / BAR_MAX) * 100}%` }}
-                    />
-                    <div
-                      className="absolute top-0 bottom-0 border-r-2 border-red-700"
-                      style={{ left: `${(OVERTIME_THRESHOLDS.danger / BAR_MAX) * 100}%` }}
-                    />
-                    <div
-                      className={cn("h-full", overtimeAlertBarColor(r.alert_level))}
-                      style={{ width: `${pct}%` }}
-                    />
+                    <div className="absolute top-0 bottom-0 border-r-2 border-amber-300" style={{ left: `${(OVERTIME_THRESHOLDS.notice / BAR_MAX) * 100}%` }} />
+                    <div className="absolute top-0 bottom-0 border-r-2 border-orange-400" style={{ left: `${(OVERTIME_THRESHOLDS.warning / BAR_MAX) * 100}%` }} />
+                    <div className="absolute top-0 bottom-0 border-r-2 border-red-500" style={{ left: `${(OVERTIME_THRESHOLDS.critical / BAR_MAX) * 100}%` }} />
+                    <div className="absolute top-0 bottom-0 border-r-2 border-red-700" style={{ left: `${(OVERTIME_THRESHOLDS.danger / BAR_MAX) * 100}%` }} />
+                    <div className={cn("h-full", overtimeAlertBarColor(r.alert_level))} style={{ width: `${pct}%` }} />
                     <div className="absolute inset-0 flex items-center justify-end pr-2">
-                      <span className="text-[10px] font-mono font-bold">
-                        {hoursToHHMM(r.overtime_hours)}
-                      </span>
+                      <span className="text-[10px] font-mono font-bold">{hoursToHHMM(r.overtime_hours)}</span>
                     </div>
                   </div>
                 </div>
-                <div className="col-span-2 text-right">
-                  <Badge className={overtimeAlertColor(r.alert_level)}>
-                    {overtimeAlertShort(r.alert_level)}
-                  </Badge>
+                <div className="shrink-0">
+                  <Badge className={overtimeAlertColor(r.alert_level)}>{overtimeAlertShort(r.alert_level)}</Badge>
                 </div>
               </div>
             );
