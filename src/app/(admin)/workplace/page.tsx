@@ -135,14 +135,7 @@ function GenderBox({ label, people, color }: { label: string; people: Emp[]; col
       {recent3Dates.length > 0 && (
         <div className="flex items-center gap-1.5 mb-0.5">
           <div className="shrink-0" style={{ width: 36 }} />
-          <div className="flex-1 min-w-0">
-            {printDateFull && (
-              <div className="flex flex-col leading-tight">
-                <span className="text-[10px] text-slate-400">残業取込</span>
-                <span className="text-[10px] font-mono text-slate-500">{printDateFull}</span>
-              </div>
-            )}
-          </div>
+          <div className="flex-1 min-w-0" />
           <div className="flex shrink-0">
             {recent3Dates.map((d, i) => {
               const mm = d.slice(5, 7);
@@ -321,7 +314,13 @@ export default async function WorkplacePage({
             <div key={workplace} className="card">
               <div className="flex items-start justify-between gap-4 flex-wrap">
                 <h2 className="font-bold text-lg">{displayName}</h2>
-                <div className="flex items-center gap-3 text-sm">
+                <div className="flex items-center gap-4 text-sm">
+                  {printDateFull && (
+                    <div className="text-right leading-tight">
+                      <div className="text-xs text-slate-400">残業取込</div>
+                      <div className="text-xs font-mono text-slate-500">{printDateFull}</div>
+                    </div>
+                  )}
                   <div className="text-right">
                     <div className="text-xs text-slate-500">作業区</div>
                     <div className="font-bold">{sections.length}</div>
