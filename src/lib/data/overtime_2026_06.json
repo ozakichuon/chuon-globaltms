@@ -5,7 +5,7 @@
   "print_date": "2026/07/16",
   "data": {
     "18001402": {
-      "overtime_hours": 50.83,
+      "overtime_hours": 52.83,
       "worked_hours": 170.33,
       "midnight_hours": 2,
       "daily": {
@@ -42,7 +42,7 @@
       }
     },
     "18001403": {
-      "overtime_hours": 51.33,
+      "overtime_hours": 52.33,
       "worked_hours": 169.83,
       "midnight_hours": 1,
       "daily": {
@@ -79,7 +79,7 @@
       }
     },
     "18001404": {
-      "overtime_hours": 42.33,
+      "overtime_hours": 48.83,
       "worked_hours": 158.5,
       "midnight_hours": 2.5,
       "daily": {
@@ -560,7 +560,7 @@
       }
     },
     "07011610": {
-      "overtime_hours": 54,
+      "overtime_hours": 55.5,
       "worked_hours": 180.83,
       "midnight_hours": 1.5,
       "daily": {
@@ -671,7 +671,7 @@
       }
     },
     "07011614": {
-      "overtime_hours": 45.17,
+      "overtime_hours": 46.17,
       "worked_hours": 163.67,
       "midnight_hours": 1,
       "daily": {
@@ -708,7 +708,7 @@
       }
     },
     "07011615": {
-      "overtime_hours": 33.67,
+      "overtime_hours": 34.17,
       "worked_hours": 151.67,
       "midnight_hours": 0.5,
       "daily": {
@@ -745,7 +745,7 @@
       }
     },
     "07013601": {
-      "overtime_hours": 44.5,
+      "overtime_hours": 38,
       "worked_hours": 163.5,
       "midnight_hours": 1.5,
       "daily": {
@@ -782,7 +782,7 @@
       }
     },
     "07013606": {
-      "overtime_hours": 43.5,
+      "overtime_hours": 38.5,
       "worked_hours": 153.17,
       "midnight_hours": 7,
       "daily": {
@@ -819,7 +819,7 @@
       }
     },
     "07013614": {
-      "overtime_hours": 40,
+      "overtime_hours": 47,
       "worked_hours": 153.5,
       "midnight_hours": 7,
       "daily": {
@@ -856,7 +856,7 @@
       }
     },
     "07013615": {
-      "overtime_hours": 48.17,
+      "overtime_hours": 49.17,
       "worked_hours": 166.67,
       "midnight_hours": 1,
       "daily": {
@@ -893,7 +893,7 @@
       }
     },
     "07013621": {
-      "overtime_hours": 28.67,
+      "overtime_hours": 32.17,
       "worked_hours": 149.67,
       "midnight_hours": 3.5,
       "daily": {
@@ -930,7 +930,7 @@
       }
     },
     "07013625": {
-      "overtime_hours": 10.5,
+      "overtime_hours": 0,
       "worked_hours": 73.17,
       "midnight_hours": 0,
       "daily": {
@@ -967,7 +967,7 @@
       }
     },
     "07013629": {
-      "overtime_hours": 37.5,
+      "overtime_hours": 38,
       "worked_hours": 155.5,
       "midnight_hours": 0.5,
       "daily": {
@@ -1004,7 +1004,7 @@
       }
     },
     "07013630": {
-      "overtime_hours": 29.17,
+      "overtime_hours": 30.17,
       "worked_hours": 145.67,
       "midnight_hours": 1,
       "daily": {
@@ -1041,7 +1041,7 @@
       }
     },
     "07013631": {
-      "overtime_hours": 41.67,
+      "overtime_hours": 42.17,
       "worked_hours": 159.67,
       "midnight_hours": 0.5,
       "daily": {
@@ -1115,7 +1115,7 @@
       }
     },
     "07013633": {
-      "overtime_hours": 29.83,
+      "overtime_hours": 30.83,
       "worked_hours": 148.33,
       "midnight_hours": 1,
       "daily": {
@@ -1152,7 +1152,7 @@
       }
     },
     "07013634": {
-      "overtime_hours": 39.5,
+      "overtime_hours": 40.5,
       "worked_hours": 158,
       "midnight_hours": 1,
       "daily": {
@@ -1189,7 +1189,7 @@
       }
     },
     "07013635": {
-      "overtime_hours": 31.5,
+      "overtime_hours": 33,
       "worked_hours": 111.33,
       "midnight_hours": 1.5,
       "daily": {
@@ -1226,7 +1226,7 @@
       }
     },
     "07013637": {
-      "overtime_hours": 37,
+      "overtime_hours": 41,
       "worked_hours": 158.5,
       "midnight_hours": 4,
       "daily": {
@@ -1300,7 +1300,7 @@
       }
     },
     "07013639": {
-      "overtime_hours": 29.33,
+      "overtime_hours": 0,
       "worked_hours": 124.83,
       "midnight_hours": 1.5,
       "daily": {
@@ -1337,7 +1337,7 @@
       }
     },
     "07013640": {
-      "overtime_hours": 46.5,
+      "overtime_hours": 57.5,
       "worked_hours": 164,
       "midnight_hours": 11,
       "daily": {
@@ -1374,7 +1374,7 @@
       }
     },
     "07013641": {
-      "overtime_hours": 48.67,
+      "overtime_hours": 50.17,
       "worked_hours": 159.83,
       "midnight_hours": 1.5,
       "daily": {
@@ -1411,7 +1411,7 @@
       }
     },
     "07013642": {
-      "overtime_hours": 26.67,
+      "overtime_hours": 0,
       "worked_hours": 105.5,
       "midnight_hours": 0.5,
       "daily": {
@@ -1448,7 +1448,7 @@
       }
     },
     "07013643": {
-      "overtime_hours": 46.17,
+      "overtime_hours": 48.17,
       "worked_hours": 165.67,
       "midnight_hours": 2,
       "daily": {
@@ -1485,7 +1485,7 @@
       }
     },
     "07013645": {
-      "overtime_hours": 47.33,
+      "overtime_hours": 49.33,
       "worked_hours": 166.83,
       "midnight_hours": 2,
       "daily": {
@@ -1522,7 +1522,7 @@
       }
     },
     "07013646": {
-      "overtime_hours": 42.33,
+      "overtime_hours": 42.83,
       "worked_hours": 160.33,
       "midnight_hours": 0.5,
       "daily": {
@@ -1559,7 +1559,7 @@
       }
     },
     "07013648": {
-      "overtime_hours": 38.33,
+      "overtime_hours": 38.83,
       "worked_hours": 148.5,
       "midnight_hours": 0.5,
       "daily": {
@@ -1596,7 +1596,7 @@
       }
     },
     "07013650": {
-      "overtime_hours": 46,
+      "overtime_hours": 31.5,
       "worked_hours": 157.17,
       "midnight_hours": 1.5,
       "daily": {
@@ -1633,7 +1633,7 @@
       }
     },
     "07013652": {
-      "overtime_hours": 48.5,
+      "overtime_hours": 63.5,
       "worked_hours": 170.5,
       "midnight_hours": 15,
       "daily": {
@@ -1670,7 +1670,7 @@
       }
     },
     "07013653": {
-      "overtime_hours": 30.17,
+      "overtime_hours": 10.67,
       "worked_hours": 128.67,
       "midnight_hours": 0.5,
       "daily": {
@@ -1707,7 +1707,7 @@
       }
     },
     "07013656": {
-      "overtime_hours": 40.83,
+      "overtime_hours": 42.83,
       "worked_hours": 160.33,
       "midnight_hours": 2,
       "daily": {
@@ -1744,7 +1744,7 @@
       }
     },
     "07013657": {
-      "overtime_hours": 41.17,
+      "overtime_hours": 41.67,
       "worked_hours": 159.17,
       "midnight_hours": 0.5,
       "daily": {
@@ -1781,7 +1781,7 @@
       }
     },
     "07013659": {
-      "overtime_hours": 44.17,
+      "overtime_hours": 44.67,
       "worked_hours": 162.17,
       "midnight_hours": 0.5,
       "daily": {
@@ -1818,7 +1818,7 @@
       }
     },
     "07013660": {
-      "overtime_hours": 48.5,
+      "overtime_hours": 64.5,
       "worked_hours": 171.5,
       "midnight_hours": 16,
       "daily": {
@@ -1855,7 +1855,7 @@
       }
     },
     "07013661": {
-      "overtime_hours": 54.5,
+      "overtime_hours": 56.5,
       "worked_hours": 181.83,
       "midnight_hours": 2,
       "daily": {
@@ -1892,7 +1892,7 @@
       }
     },
     "07013662": {
-      "overtime_hours": 45,
+      "overtime_hours": 38.5,
       "worked_hours": 164,
       "midnight_hours": 1.5,
       "daily": {
@@ -1929,7 +1929,7 @@
       }
     },
     "07013665": {
-      "overtime_hours": 49.17,
+      "overtime_hours": 51.67,
       "worked_hours": 169.17,
       "midnight_hours": 2.5,
       "daily": {
@@ -2003,7 +2003,7 @@
       }
     },
     "07013669": {
-      "overtime_hours": 37.33,
+      "overtime_hours": 39.33,
       "worked_hours": 156.83,
       "midnight_hours": 2,
       "daily": {
@@ -2040,7 +2040,7 @@
       }
     },
     "07013671": {
-      "overtime_hours": 39.67,
+      "overtime_hours": 40.67,
       "worked_hours": 158.17,
       "midnight_hours": 1,
       "daily": {
@@ -2077,7 +2077,7 @@
       }
     },
     "07013672": {
-      "overtime_hours": 39.33,
+      "overtime_hours": 41.83,
       "worked_hours": 158.33,
       "midnight_hours": 2.5,
       "daily": {
@@ -2114,7 +2114,7 @@
       }
     },
     "07013673": {
-      "overtime_hours": 12,
+      "overtime_hours": 0,
       "worked_hours": 43.33,
       "midnight_hours": 0,
       "daily": {
@@ -2151,7 +2151,7 @@
       }
     },
     "07013674": {
-      "overtime_hours": 39.33,
+      "overtime_hours": 41.33,
       "worked_hours": 151,
       "midnight_hours": 2,
       "daily": {
@@ -2188,7 +2188,7 @@
       }
     },
     "07013675": {
-      "overtime_hours": 28,
+      "overtime_hours": 30,
       "worked_hours": 124,
       "midnight_hours": 2,
       "daily": {
@@ -2225,7 +2225,7 @@
       }
     },
     "07013676": {
-      "overtime_hours": 30,
+      "overtime_hours": 0,
       "worked_hours": 96.5,
       "midnight_hours": 0,
       "daily": {
@@ -2262,7 +2262,7 @@
       }
     },
     "07013677": {
-      "overtime_hours": 44.17,
+      "overtime_hours": 45.67,
       "worked_hours": 163.17,
       "midnight_hours": 1.5,
       "daily": {
@@ -2336,7 +2336,7 @@
       }
     },
     "07013680": {
-      "overtime_hours": 52.5,
+      "overtime_hours": 54.5,
       "worked_hours": 172,
       "midnight_hours": 2,
       "daily": {
@@ -2373,7 +2373,7 @@
       }
     },
     "07013681": {
-      "overtime_hours": 49.17,
+      "overtime_hours": 46.17,
       "worked_hours": 171.67,
       "midnight_hours": 1,
       "daily": {
@@ -2410,7 +2410,7 @@
       }
     },
     "07013683": {
-      "overtime_hours": 42.17,
+      "overtime_hours": 43.67,
       "worked_hours": 157.17,
       "midnight_hours": 1.5,
       "daily": {
@@ -2447,7 +2447,7 @@
       }
     },
     "07013687": {
-      "overtime_hours": 45.17,
+      "overtime_hours": 38.17,
       "worked_hours": 159.67,
       "midnight_hours": 1,
       "daily": {
@@ -2484,7 +2484,7 @@
       }
     },
     "07013688": {
-      "overtime_hours": 46.5,
+      "overtime_hours": 50.5,
       "worked_hours": 168,
       "midnight_hours": 4,
       "daily": {
@@ -2521,7 +2521,7 @@
       }
     },
     "07013689": {
-      "overtime_hours": 51,
+      "overtime_hours": 44.5,
       "worked_hours": 170,
       "midnight_hours": 1.5,
       "daily": {
@@ -2558,7 +2558,7 @@
       }
     },
     "07013690": {
-      "overtime_hours": 46.5,
+      "overtime_hours": 50.5,
       "worked_hours": 168,
       "midnight_hours": 4,
       "daily": {
@@ -2595,7 +2595,7 @@
       }
     },
     "07013691": {
-      "overtime_hours": 44.5,
+      "overtime_hours": 38,
       "worked_hours": 155.67,
       "midnight_hours": 1.5,
       "daily": {
@@ -2632,7 +2632,7 @@
       }
     },
     "07017700": {
-      "overtime_hours": 40,
+      "overtime_hours": 40.5,
       "worked_hours": 158,
       "midnight_hours": 0.5,
       "daily": {
@@ -2706,7 +2706,7 @@
       }
     },
     "07018601": {
-      "overtime_hours": 50,
+      "overtime_hours": 50.5,
       "worked_hours": 168,
       "midnight_hours": 0.5,
       "daily": {
@@ -2780,7 +2780,7 @@
       }
     },
     "07018603": {
-      "overtime_hours": 19.83,
+      "overtime_hours": 20.33,
       "worked_hours": 137.83,
       "midnight_hours": 0.5,
       "daily": {
@@ -2817,7 +2817,7 @@
       }
     },
     "07018604": {
-      "overtime_hours": 45.17,
+      "overtime_hours": 47.17,
       "worked_hours": 164.67,
       "midnight_hours": 2,
       "daily": {
@@ -2854,7 +2854,7 @@
       }
     },
     "07018605": {
-      "overtime_hours": 45.5,
+      "overtime_hours": 47,
       "worked_hours": 156.67,
       "midnight_hours": 1.5,
       "daily": {
@@ -2891,7 +2891,7 @@
       }
     },
     "07018606": {
-      "overtime_hours": 48.5,
+      "overtime_hours": 63.5,
       "worked_hours": 170.5,
       "midnight_hours": 15,
       "daily": {
@@ -2928,7 +2928,7 @@
       }
     },
     "07018607": {
-      "overtime_hours": 55,
+      "overtime_hours": 56.5,
       "worked_hours": 181.83,
       "midnight_hours": 1.5,
       "daily": {
@@ -2965,7 +2965,7 @@
       }
     },
     "07018608": {
-      "overtime_hours": 48.17,
+      "overtime_hours": 51.17,
       "worked_hours": 168.67,
       "midnight_hours": 3,
       "daily": {
@@ -3002,7 +3002,7 @@
       }
     },
     "07018609": {
-      "overtime_hours": 51.5,
+      "overtime_hours": 53,
       "worked_hours": 170.5,
       "midnight_hours": 1.5,
       "daily": {
@@ -3039,7 +3039,7 @@
       }
     },
     "07018610": {
-      "overtime_hours": 51.67,
+      "overtime_hours": 54.67,
       "worked_hours": 180,
       "midnight_hours": 3,
       "daily": {
@@ -3076,7 +3076,7 @@
       }
     },
     "07018611": {
-      "overtime_hours": 50.5,
+      "overtime_hours": 54.5,
       "worked_hours": 172,
       "midnight_hours": 4,
       "daily": {
@@ -3113,7 +3113,7 @@
       }
     },
     "07018612": {
-      "overtime_hours": 42,
+      "overtime_hours": 44.5,
       "worked_hours": 162,
       "midnight_hours": 2.5,
       "daily": {
@@ -3150,7 +3150,7 @@
       }
     },
     "07018613": {
-      "overtime_hours": 48.33,
+      "overtime_hours": 49.33,
       "worked_hours": 166.83,
       "midnight_hours": 1,
       "daily": {
@@ -3187,7 +3187,7 @@
       }
     },
     "07018614": {
-      "overtime_hours": 38.5,
+      "overtime_hours": 43,
       "worked_hours": 152.67,
       "midnight_hours": 4.5,
       "daily": {
@@ -3224,7 +3224,7 @@
       }
     },
     "07018615": {
-      "overtime_hours": 56,
+      "overtime_hours": 57.5,
       "worked_hours": 182.83,
       "midnight_hours": 1.5,
       "daily": {
@@ -3261,7 +3261,7 @@
       }
     },
     "07018616": {
-      "overtime_hours": 51.83,
+      "overtime_hours": 52.83,
       "worked_hours": 178.17,
       "midnight_hours": 1,
       "daily": {
@@ -3298,7 +3298,7 @@
       }
     },
     "07018617": {
-      "overtime_hours": 42.5,
+      "overtime_hours": 45,
       "worked_hours": 162.5,
       "midnight_hours": 2.5,
       "daily": {
@@ -3335,7 +3335,7 @@
       }
     },
     "07018618": {
-      "overtime_hours": 49.5,
+      "overtime_hours": 53,
       "worked_hours": 170.5,
       "midnight_hours": 3.5,
       "daily": {
@@ -3372,7 +3372,7 @@
       }
     },
     "07018619": {
-      "overtime_hours": 55,
+      "overtime_hours": 56.5,
       "worked_hours": 181.83,
       "midnight_hours": 1.5,
       "daily": {
@@ -3409,7 +3409,7 @@
       }
     },
     "07018620": {
-      "overtime_hours": 49.5,
+      "overtime_hours": 65,
       "worked_hours": 172,
       "midnight_hours": 15.5,
       "daily": {
@@ -3446,7 +3446,7 @@
       }
     },
     "07018621": {
-      "overtime_hours": 46.5,
+      "overtime_hours": 55.5,
       "worked_hours": 162,
       "midnight_hours": 9,
       "daily": {
@@ -3483,7 +3483,7 @@
       }
     },
     "07018622": {
-      "overtime_hours": 44.5,
+      "overtime_hours": 59.5,
       "worked_hours": 166.5,
       "midnight_hours": 15,
       "daily": {
@@ -3520,7 +3520,7 @@
       }
     },
     "07018623": {
-      "overtime_hours": 40.33,
+      "overtime_hours": 40.83,
       "worked_hours": 153.33,
       "midnight_hours": 0.5,
       "daily": {
@@ -3557,7 +3557,7 @@
       }
     },
     "07018624": {
-      "overtime_hours": 32.83,
+      "overtime_hours": 33.67,
       "worked_hours": 149.33,
       "midnight_hours": 1,
       "daily": {
@@ -3594,7 +3594,7 @@
       }
     },
     "07018625": {
-      "overtime_hours": 43.5,
+      "overtime_hours": 53,
       "worked_hours": 157,
       "midnight_hours": 9.5,
       "daily": {
@@ -3631,7 +3631,7 @@
       }
     },
     "07018626": {
-      "overtime_hours": 47.67,
+      "overtime_hours": 44.17,
       "worked_hours": 161.83,
       "midnight_hours": 0.5,
       "daily": {
@@ -3668,7 +3668,7 @@
       }
     },
     "07018627": {
-      "overtime_hours": 44.5,
+      "overtime_hours": 55.5,
       "worked_hours": 162,
       "midnight_hours": 11,
       "daily": {
@@ -3705,7 +3705,7 @@
       }
     },
     "07018628": {
-      "overtime_hours": 46.33,
+      "overtime_hours": 49.83,
       "worked_hours": 167.33,
       "midnight_hours": 3.5,
       "daily": {
@@ -3742,7 +3742,7 @@
       }
     },
     "07018629": {
-      "overtime_hours": 48,
+      "overtime_hours": 49.5,
       "worked_hours": 167,
       "midnight_hours": 1.5,
       "daily": {
@@ -3779,7 +3779,7 @@
       }
     },
     "07018630": {
-      "overtime_hours": 22.5,
+      "overtime_hours": 0,
       "worked_hours": 85.17,
       "midnight_hours": 0,
       "daily": {
@@ -3816,7 +3816,7 @@
       }
     },
     "07018631": {
-      "overtime_hours": 50.17,
+      "overtime_hours": 51.17,
       "worked_hours": 168.67,
       "midnight_hours": 1,
       "daily": {
@@ -3890,7 +3890,7 @@
       }
     },
     "07018633": {
-      "overtime_hours": 42.17,
+      "overtime_hours": 35.17,
       "worked_hours": 160.67,
       "midnight_hours": 1,
       "daily": {
@@ -3927,7 +3927,7 @@
       }
     },
     "07018634": {
-      "overtime_hours": 54.17,
+      "overtime_hours": 54.67,
       "worked_hours": 180,
       "midnight_hours": 0.5,
       "daily": {
@@ -3964,7 +3964,7 @@
       }
     },
     "07018635": {
-      "overtime_hours": 49,
+      "overtime_hours": 64,
       "worked_hours": 171,
       "midnight_hours": 15,
       "daily": {
@@ -4001,7 +4001,7 @@
       }
     },
     "07018636": {
-      "overtime_hours": 49.67,
+      "overtime_hours": 52.67,
       "worked_hours": 170.17,
       "midnight_hours": 3,
       "daily": {
@@ -4038,7 +4038,7 @@
       }
     },
     "07018637": {
-      "overtime_hours": 56.5,
+      "overtime_hours": 58.5,
       "worked_hours": 183.83,
       "midnight_hours": 2,
       "daily": {
@@ -4075,7 +4075,7 @@
       }
     },
     "07018638": {
-      "overtime_hours": 54.5,
+      "overtime_hours": 56,
       "worked_hours": 181.33,
       "midnight_hours": 1.5,
       "daily": {
@@ -4112,7 +4112,7 @@
       }
     },
     "07018639": {
-      "overtime_hours": 56.17,
+      "overtime_hours": 57.67,
       "worked_hours": 183,
       "midnight_hours": 1.5,
       "daily": {
@@ -4149,7 +4149,7 @@
       }
     },
     "07018640": {
-      "overtime_hours": 55.5,
+      "overtime_hours": 72.5,
       "worked_hours": 179.5,
       "midnight_hours": 17,
       "daily": {
@@ -4186,7 +4186,7 @@
       }
     },
     "07018641": {
-      "overtime_hours": 53.17,
+      "overtime_hours": 53.67,
       "worked_hours": 179,
       "midnight_hours": 0.5,
       "daily": {
@@ -4223,7 +4223,7 @@
       }
     },
     "07018700": {
-      "overtime_hours": 48.67,
+      "overtime_hours": 40.67,
       "worked_hours": 166.17,
       "midnight_hours": 0,
       "daily": {
@@ -4260,7 +4260,7 @@
       }
     },
     "07018701": {
-      "overtime_hours": 36.5,
+      "overtime_hours": 44.5,
       "worked_hours": 151,
       "midnight_hours": 8,
       "daily": {
@@ -4334,7 +4334,7 @@
       }
     },
     "07018703": {
-      "overtime_hours": 35.5,
+      "overtime_hours": 40.5,
       "worked_hours": 158,
       "midnight_hours": 5,
       "daily": {
@@ -4408,7 +4408,7 @@
       }
     },
     "07001613": {
-      "overtime_hours": 72.67,
+      "overtime_hours": 42.67,
       "worked_hours": 160.83,
       "midnight_hours": 2,
       "daily": {
@@ -4445,7 +4445,7 @@
       }
     },
     "07001614": {
-      "overtime_hours": 53,
+      "overtime_hours": 35,
       "worked_hours": 145.17,
       "midnight_hours": 0,
       "daily": {
@@ -4482,7 +4482,7 @@
       }
     },
     "07001615": {
-      "overtime_hours": 36.83,
+      "overtime_hours": 0,
       "worked_hours": 123,
       "midnight_hours": 0,
       "daily": {
@@ -4519,7 +4519,7 @@
       }
     },
     "07001616": {
-      "overtime_hours": 63.5,
+      "overtime_hours": 52,
       "worked_hours": 146.33,
       "midnight_hours": 0.5,
       "daily": {
@@ -4556,7 +4556,7 @@
       }
     },
     "07001619": {
-      "overtime_hours": 66.17,
+      "overtime_hours": 64.17,
       "worked_hours": 189.67,
       "midnight_hours": 2,
       "daily": {
@@ -4593,7 +4593,7 @@
       }
     },
     "07001620": {
-      "overtime_hours": 63.5,
+      "overtime_hours": 33,
       "worked_hours": 151.17,
       "midnight_hours": 1.5,
       "daily": {
@@ -4630,7 +4630,7 @@
       }
     },
     "07001622": {
-      "overtime_hours": 58.17,
+      "overtime_hours": 59.17,
       "worked_hours": 184.5,
       "midnight_hours": 1,
       "daily": {
@@ -4667,7 +4667,7 @@
       }
     },
     "07001623": {
-      "overtime_hours": 56.67,
+      "overtime_hours": 57.67,
       "worked_hours": 183,
       "midnight_hours": 1,
       "daily": {
@@ -4704,7 +4704,7 @@
       }
     },
     "07001624": {
-      "overtime_hours": 59.83,
+      "overtime_hours": 60.83,
       "worked_hours": 178.33,
       "midnight_hours": 1,
       "daily": {
@@ -4741,7 +4741,7 @@
       }
     },
     "07001625": {
-      "overtime_hours": 62.83,
+      "overtime_hours": 63.83,
       "worked_hours": 181.33,
       "midnight_hours": 1,
       "daily": {
@@ -4778,7 +4778,7 @@
       }
     },
     "07001628": {
-      "overtime_hours": 61.67,
+      "overtime_hours": 63.67,
       "worked_hours": 181.17,
       "midnight_hours": 2,
       "daily": {
@@ -4815,7 +4815,7 @@
       }
     },
     "07001629": {
-      "overtime_hours": 69.17,
+      "overtime_hours": 61.67,
       "worked_hours": 179.33,
       "midnight_hours": 0.5,
       "daily": {
@@ -4852,7 +4852,7 @@
       }
     },
     "07001630": {
-      "overtime_hours": 67,
+      "overtime_hours": 69,
       "worked_hours": 178.67,
       "midnight_hours": 2,
       "daily": {
@@ -4889,7 +4889,7 @@
       }
     },
     "07007700": {
-      "overtime_hours": 60.67,
+      "overtime_hours": 62.67,
       "worked_hours": 180.17,
       "midnight_hours": 2,
       "daily": {
@@ -4926,7 +4926,7 @@
       }
     },
     "07007701": {
-      "overtime_hours": 38.5,
+      "overtime_hours": 0,
       "worked_hours": 77.67,
       "midnight_hours": 0,
       "daily": {
@@ -4963,7 +4963,7 @@
       }
     },
     "08001401": {
-      "overtime_hours": 52.83,
+      "overtime_hours": 53.33,
       "worked_hours": 170.83,
       "midnight_hours": 0.5,
       "daily": {
@@ -5000,7 +5000,7 @@
       }
     },
     "08001402": {
-      "overtime_hours": 54.17,
+      "overtime_hours": 55.17,
       "worked_hours": 172.67,
       "midnight_hours": 1,
       "daily": {
@@ -5037,7 +5037,7 @@
       }
     },
     "08001403": {
-      "overtime_hours": 53,
+      "overtime_hours": 55,
       "worked_hours": 172.5,
       "midnight_hours": 2,
       "daily": {
@@ -5074,7 +5074,7 @@
       }
     },
     "08001404": {
-      "overtime_hours": 52.83,
+      "overtime_hours": 53.33,
       "worked_hours": 170.83,
       "midnight_hours": 0.5,
       "daily": {
@@ -5111,7 +5111,7 @@
       }
     },
     "08001405": {
-      "overtime_hours": 50,
+      "overtime_hours": 50.5,
       "worked_hours": 160.17,
       "midnight_hours": 0.5,
       "daily": {
@@ -5148,7 +5148,7 @@
       }
     },
     "08001406": {
-      "overtime_hours": 50.33,
+      "overtime_hours": 52.33,
       "worked_hours": 177.67,
       "midnight_hours": 2,
       "daily": {
@@ -5185,7 +5185,7 @@
       }
     },
     "08001407": {
-      "overtime_hours": 50.83,
+      "overtime_hours": 51.83,
       "worked_hours": 177.17,
       "midnight_hours": 1,
       "daily": {
@@ -5222,7 +5222,7 @@
       }
     },
     "08001408": {
-      "overtime_hours": 48.5,
+      "overtime_hours": 49,
       "worked_hours": 154.17,
       "midnight_hours": 0.5,
       "daily": {
@@ -5259,7 +5259,7 @@
       }
     },
     "08004402": {
-      "overtime_hours": 56.5,
+      "overtime_hours": 58,
       "worked_hours": 183.33,
       "midnight_hours": 1.5,
       "daily": {
@@ -5296,7 +5296,7 @@
       }
     },
     "08004403": {
-      "overtime_hours": 56.67,
+      "overtime_hours": 58.67,
       "worked_hours": 152.67,
       "midnight_hours": 2,
       "daily": {
@@ -5370,7 +5370,7 @@
       }
     },
     "08004406": {
-      "overtime_hours": 53.67,
+      "overtime_hours": 56.17,
       "worked_hours": 173.67,
       "midnight_hours": 2.5,
       "daily": {
@@ -5407,7 +5407,7 @@
       }
     },
     "08004407": {
-      "overtime_hours": 50.33,
+      "overtime_hours": 52.33,
       "worked_hours": 169.83,
       "midnight_hours": 2,
       "daily": {
@@ -5444,7 +5444,7 @@
       }
     },
     "08004408": {
-      "overtime_hours": 50.17,
+      "overtime_hours": 44.17,
       "worked_hours": 169.67,
       "midnight_hours": 2,
       "daily": {
@@ -5481,7 +5481,7 @@
       }
     },
     "08004409": {
-      "overtime_hours": 53.33,
+      "overtime_hours": 55.33,
       "worked_hours": 172.83,
       "midnight_hours": 2,
       "daily": {
