@@ -133,12 +133,12 @@ function GenderBox({ label, people, color }: { label: string; people: Emp[]; col
       <div className="font-semibold mb-1">{label} {people.length}名</div>
       {/* 日付行：PersonRowと同じflex構造 */}
       {recent3Dates.length > 0 && (
-        <div className="flex items-center gap-1.5 mb-0.5">
+        <div className="flex items-center gap-1.5 mb-1.5">
           <div className="shrink-0" style={{ width: 36 }} />
           <div className="flex-1 min-w-0" />
           <div className="flex shrink-0">
             {recent3Dates.map((d, i) => {
-              const mm = d.slice(5, 7);
+              const mm = String(parseInt(d.slice(5, 7)));
               const dd = d.slice(8, 10);
               const color = "text-slate-800";
               return (
