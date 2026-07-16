@@ -128,7 +128,7 @@ function GenderBox({ label, people, color }: { label: string; people: Emp[]; col
   if (people.length === 0) return null;
   const styles = { blue: "border-blue-200 bg-blue-50 text-blue-700", rose: "border-rose-200 bg-rose-50 text-rose-700" };
   return (
-    <div className={`border rounded-lg p-2 text-sm ${styles[color]}`}>
+    <div className={`border rounded-lg p-2 pl-1 text-sm ${styles[color]}`}>
       {/* ラベル行 */}
       <div className="font-semibold mb-1">{label} {people.length}名</div>
       {/* 日付行：PersonRowと同じflex構造 */}
