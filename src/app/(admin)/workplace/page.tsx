@@ -26,10 +26,11 @@ for (const src of [overtimeReal04, overtimeReal05, overtimeReal06] as any[]) {
   }
 }
 
-// 最新のJSONのprint_dateを基準日にする（例: "2026/07/15" → "2026-07-15"）
+// 最新のJSONのprint_dateを基準日にする（例: "2026/07/15 08:08"）
 const latestSrc = [overtimeReal06, overtimeReal05, overtimeReal04].find((s) => (s as any).print_date) as any;
-const printDateStr: string = latestSrc?.print_date
-  ? latestSrc.print_date.replace(/\//g, "-")  // "2026/07/15" → "2026-07-15"
+const printDateFull: string = latestSrc?.print_date ?? ""; // "2026/07/15 08:08"
+const printDateStr: string = printDateFull
+  ? printDateFull.slice(0, 10).replace(/\//g, "-")  // "2026-07-15"
   : new Date().toISOString().slice(0, 10);
 
 const allDatesInDaily = new Set<string>();
@@ -134,7 +135,14 @@ function GenderBox({ label, people, color }: { label: string; people: Emp[]; col
       {recent3Dates.length > 0 && (
         <div className="flex items-center gap-1.5 mb-0.5">
           <div className="shrink-0" style={{ width: 36 }} />
-          <div className="flex-1 min-w-0" />
+          <div className="flex-1 min-w-0">
+            {printDateFull && (
+              <div className="flex flex-col leading-tight">
+                <span className="text-[10px] text-slate-400">残業取込</span>
+                <span className="text-[10px] font-mono text-slate-500">{printDateFull}</span>
+              </div>
+            )}
+          </div>
           <div className="flex shrink-0">
             {recent3Dates.map((d, i) => {
               const mm = d.slice(5, 7);

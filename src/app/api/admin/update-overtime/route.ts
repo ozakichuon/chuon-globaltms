@@ -61,7 +61,7 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
         if (pageIdx === 0) {
           // 右上の印刷日付（例: "2026/07/15 08:08"）
           const printLine = texts.find((t: any) => /^\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/.test(t.text.trim()));
-          if (printLine) printDate = printLine.text.trim().slice(0, 10); // "2026/07/15"
+          if (printLine) printDate = printLine.text.trim(); // "2026/07/15 08:08"
 
           const periodLine = texts.find((t: any) => t.text.includes("～"));
           if (periodLine) {
