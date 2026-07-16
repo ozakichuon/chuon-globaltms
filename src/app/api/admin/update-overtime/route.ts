@@ -86,13 +86,11 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
         // 合計行のy座標（日別フィルタ上限に使用）
         const totalY = totalRow.length > 0 ? Math.min(...totalRow.map((t: any) => t.y)) : 29;
 
-        const hayade   = parseTime(findVal(totalRow, 30.5, 32.5) ?? "");
-        const futsu    = parseTime(findVal(totalRow, 32.5, 34.5) ?? "");
-        const shinyaR  = parseTime(findVal(totalRow, 34.5, 36.5) ?? "");
-        const shinyaJ  = parseTime(findVal(totalRow, 36.5, 38.5) ?? "");
-        const kyujitsu = parseTime(findVal(totalRow, 38.5, 40.5) ?? "");
-        const kyuDeep  = parseTime(findVal(totalRow, 40.5, 42.5) ?? "");
-        const worked   = parseTime(findVal(totalRow, 47.5, 49.5) ?? "");
+        const shinyaR    = parseTime(findVal(totalRow, 34.5, 36.5) ?? "");
+        const shinyaJ    = parseTime(findVal(totalRow, 36.5, 38.5) ?? "");
+        const kyuDeep    = parseTime(findVal(totalRow, 40.5, 42.5) ?? "");
+        const kyuyoJitsu = parseTime(findVal(totalRow, 44.0, 47.5) ?? ""); // 給与実働
+        const worked     = parseTime(findVal(totalRow, 47.5, 51.0) ?? ""); // 実働合計
 
         // 日別残業を抽出
         const dailyMap: Record<string, number | null> = {};
@@ -142,7 +140,7 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
         }
 
         result[empCode] = {
-          overtime_hours: Math.round((hayade + futsu + kyujitsu) * 100) / 100,
+          overtime_hours: Math.round(Math.max(0, worked - kyuyoJitsu) * 100) / 100,
           worked_hours: Math.round(worked * 100) / 100,
           midnight_hours: Math.round((shinyaR + shinyaJ + kyuDeep) * 100) / 100,
           daily: dailyMap,

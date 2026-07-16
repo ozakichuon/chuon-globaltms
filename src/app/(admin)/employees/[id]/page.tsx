@@ -176,7 +176,7 @@ export default async function EmployeeDetailPage({
               </div>
             </div>
             <div>
-              <div className="text-xs text-slate-500">深夜</div>
+              <div className="text-xs text-slate-500">内深夜</div>
               <div className="text-xl font-bold">
                 {hoursToHHMM(currentAttendance.late_night_hours)}
               </div>
