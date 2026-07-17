@@ -75,7 +75,6 @@ export default function DormitoriesClient({ dormitories, assignments, photoMap }
             {g.label}
             <span className="ml-1.5 text-xs text-slate-400">
               {assignments.filter((a) =>
-                filteredDorms.find((d) => d.id === a.dormitory_id) ||
                 dormitories
                   .filter((d) => GROUPS[i].keywords.some((kw) => d.name.includes(kw)))
                   .some((d) => d.id === a.dormitory_id)
