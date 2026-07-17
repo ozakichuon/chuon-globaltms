@@ -6936,5 +6936,39 @@
     "request_note": "皮膚科の再診。飲み薬、塗り薬を処方され様子見とのこと。血液検査結果は来週以降にでる。",
     "responses": [],
     "overall_note": null
+  },
+  {
+    "id": "245",
+    "seq": 245,
+    "date": "2026/07/16",
+    "time": "9:23:02",
+    "recorder": "尾崎",
+    "target_employee_code": "08004402",
+    "target_employee_id": "08004402",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/245.登録画像１－１.002459.jpg",
+    "reg_img2": null,
+    "request_note": null,
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "246",
+    "seq": 246,
+    "date": "2026/07/16",
+    "time": "9:25:01",
+    "recorder": "尾崎",
+    "target_employee_code": "18001402",
+    "target_employee_id": "18001402",
+    "place": null,
+    "kind": null,
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/246.登録画像１－１.002559.jpg",
+    "reg_img2": null,
+    "request_note": null,
+    "responses": [],
+    "overall_note": null
   }
 ]
