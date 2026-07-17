@@ -78,7 +78,7 @@ export default function DeparturesPage() {
   // 退職済み（直近12ヶ月）
   const recentRetired = excelEmployees
     .filter((e) => e.retired && e.retired_at && new Date(e.retired_at) >= oneYearAgo)
-    .sort((a, b) => (b.retired_at ?? "").localeCompare(a.retired_at ?? ""));
+    .sort((a, b) => new Date(b.retired_at ?? 0).getTime() - new Date(a.retired_at ?? 0).getTime());
 
   // 一時帰国中・予定
   const tempReturns = excelEmployees
