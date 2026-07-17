@@ -44,9 +44,9 @@ export default function DeparturesPage() {
   const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
 
   // 退職予定（マーク付き・未退職）
-  const scheduled = excelEmployees.filter(
-    (e) => !e.retired && e.retired_mark === "退職予定"
-  );
+  const scheduled = excelEmployees
+    .filter((e) => !e.retired && e.retired_mark === "退職予定")
+    .sort((a, b) => (a.retired_at ?? "").localeCompare(b.retired_at ?? ""));
 
   // 帰国予定（在籍中で expected_return あり）
   const activeWithReturn = excelEmployees
