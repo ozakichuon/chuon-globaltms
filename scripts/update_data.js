@@ -3,6 +3,12 @@ const fs = require('fs');
 
 const SHEET_ID = '1yGxl2P1PCVTXQC0s-QhSEbJ1HkbUfFpcbWaNclalDcI';
 
+function imgUrl(path, driveMap) {
+  if (!path) return null;
+  const filename = path.split('/').pop();
+  return driveMap[filename] ?? null;
+}
+
 function fetchGviz(sheetName) {
   return new Promise((resolve, reject) => {
     const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json&sheet=${encodeURIComponent(sheetName)}`;
@@ -99,6 +105,22 @@ function stableId(base) {
 }
 
 async function main() {
+  // 生活サポート画像マップ（support_img_map シート）
+  let supportImgMap = {};
+  try {
+    console.log('support_img_mapを取得中...');
+    const imgMapTable = await fetchGviz('support_img_map');
+    for (const row of imgMapTable.rows) {
+      const c = row.c;
+      const filename = c && c[0] ? String(c[0].v ?? '').trim() : '';
+      const url = c && c[1] ? String(c[1].v ?? '').trim() : '';
+      if (filename && url) supportImgMap[filename] = url;
+    }
+    console.log('support_img_map取得完了:', Object.keys(supportImgMap).length, '件');
+  } catch (e) {
+    console.log('support_img_map未作成 → 画像URLスキップ');
+  }
+
   // === 管理表 → employees.json ===
   console.log('管理表を取得中...');
   const empTable = await fetchGviz('管理表');
@@ -264,10 +286,14 @@ async function main() {
         time: time || null,
         responder: responder || null,
         img1: img1 || null,
+        img1_url: imgUrl(img1, supportImgMap),
         img2: img2 || null,
+        img2_url: imgUrl(img2, supportImgMap),
         note: note || null,
       });
     }
+    const ri1 = s(c[8]) || null;
+    const ri2 = s(c[9]) || null;
     tickets.push({
       id: String(v(c[0])),
       seq: v(c[0]),
@@ -279,8 +305,10 @@ async function main() {
       place: s(c[5]) || null,
       kind: s(c[6]) || null,
       status: s(c[7]) || null,
-      reg_img1: s(c[8]) || null,
-      reg_img2: s(c[9]) || null,
+      reg_img1: ri1,
+      reg_img1_url: imgUrl(ri1, supportImgMap),
+      reg_img2: ri2,
+      reg_img2_url: imgUrl(ri2, supportImgMap),
       request_note: s(c[10]) || null,
       responses,
       overall_note: s(c[41]) || null,

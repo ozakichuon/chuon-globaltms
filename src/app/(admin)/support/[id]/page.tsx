@@ -135,15 +135,31 @@ export default async function SupportTicketDetailPage({
       </div>
 
       {/* 登録内容 */}
-      {ticket.request_note && (
+      {(ticket.request_note || (ticket as any).reg_img1_url || (ticket as any).reg_img2_url) && (
         <div className="card">
           <div className="flex items-center gap-2 text-sm font-bold text-slate-700 mb-3">
             <FileHeart size={14} />
             登録内容
           </div>
-          <p className="text-sm text-slate-700 whitespace-pre-wrap leading-relaxed">
-            {ticket.request_note}
-          </p>
+          {ticket.request_note && (
+            <p className="text-sm text-slate-700 whitespace-pre-wrap leading-relaxed mb-3">
+              {ticket.request_note}
+            </p>
+          )}
+          {((ticket as any).reg_img1_url || (ticket as any).reg_img2_url) && (
+            <div className="flex flex-wrap gap-3 mt-2">
+              {(ticket as any).reg_img1_url && (
+                <a href={(ticket as any).reg_img1_url} target="_blank" rel="noopener noreferrer">
+                  <img src={(ticket as any).reg_img1_url} alt="登録画像1" className="max-h-48 rounded-lg border border-slate-200 object-contain cursor-zoom-in" />
+                </a>
+              )}
+              {(ticket as any).reg_img2_url && (
+                <a href={(ticket as any).reg_img2_url} target="_blank" rel="noopener noreferrer">
+                  <img src={(ticket as any).reg_img2_url} alt="登録画像2" className="max-h-48 rounded-lg border border-slate-200 object-contain cursor-zoom-in" />
+                </a>
+              )}
+            </div>
+          )}
         </div>
       )}
 
@@ -182,6 +198,20 @@ export default async function SupportTicketDetailPage({
                     <p className="text-sm text-slate-700 whitespace-pre-wrap leading-relaxed">
                       {r.note}
                     </p>
+                  )}
+                  {((r as any).img1_url || (r as any).img2_url) && (
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      {(r as any).img1_url && (
+                        <a href={(r as any).img1_url} target="_blank" rel="noopener noreferrer">
+                          <img src={(r as any).img1_url} alt="対応画像1" className="max-h-40 rounded-lg border border-slate-200 object-contain cursor-zoom-in" />
+                        </a>
+                      )}
+                      {(r as any).img2_url && (
+                        <a href={(r as any).img2_url} target="_blank" rel="noopener noreferrer">
+                          <img src={(r as any).img2_url} alt="対応画像2" className="max-h-40 rounded-lg border border-slate-200 object-contain cursor-zoom-in" />
+                        </a>
+                      )}
+                    </div>
                   )}
                 </div>
               </div>

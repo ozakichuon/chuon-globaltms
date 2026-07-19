@@ -11,7 +11,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": null,
     "responses": [
       {
@@ -19,7 +21,9 @@
         "time": null,
         "responder": "池内",
         "img1": "履歴_Images/1.対応画像１ー２.015505.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1Xs8ZRt0yfXRwJeUuo7fSDuUe6gLREl8g&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "10.26から体調不良　10.28かどた内科にて受診でコロナ陽性　金曜日まで自宅療養"
       }
     ],
@@ -37,7 +41,9 @@
     "kind": "病院",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "10/29にチンティアから、11/12にどい心療内科へ連れてってほしいと相談。（最近眠れない、涙が出る。などの症状）本人が11：50診察予約している。チンティアのおばが通訳として病院に同行予定。",
     "responses": [
       {
@@ -45,7 +51,9 @@
         "time": "12:20:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "新開工場長より、昨日、タブレット入力ミスを他の実習生に指摘され更衣室で泣いてた。その時に精神科受診の話を聞いた。本日、休み。明日も休むようなら様子を確認すると伝える。11.1_10時自宅にて池内さん尾崎で話し、落ち着いた様子。とりあえず、月曜日から仕事にはいく。ブイにも話しなくていいとのこと。また何かあれば、連絡依頼。11/4に11/3,11/4出勤確認。"
       },
       {
@@ -53,7 +61,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "11/12どい心療内科受診。3か月ほど前から不安症状あり。他人からどう見られているのかとても気にしてしまい過剰に不安になる。失敗するのが怖く、色々考えて集中できない。10日分の薬をもらい11/22に再度受診予定。11月頭の実習生に怒られた件も少しトラウマになっているので、今後のチーム組むときにできれば配慮をしてほしいと工場長に相談した。"
       },
       {
@@ -61,7 +71,9 @@
         "time": null,
         "responder": null,
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "11/22経過観察。インドネシアにいるときにも心療内科かかってたらしい。合う薬模索中。次回12/5 10:00~"
       }
     ],
@@ -79,7 +91,9 @@
     "kind": "帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、2026/3/13より2ヶ月ぐらい、自身の結婚のため帰国の申し出。日程の調整確認依頼",
     "responses": [
       {
@@ -87,7 +101,9 @@
         "time": "10:53:13",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "10/30現在有休残３日、11/29付与12日、合計15日新開工場長へline済み"
       },
       {
@@ -95,7 +111,9 @@
         "time": "12:34:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/3.対応画像２ー１.231248.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1H4KlVDRGIn5gRG7dK85d2YzvF0ccXX-5&sz=w800",
         "img2": "/appsheet/rireki_photo/3.対応画像２－２.231248.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1pGgN9MPx32E2slmrFZCaVmfU3RPeHCXF&sz=w800",
         "note": "3/13結婚のため、一時帰国。5/10頃帰国し在留カード更新手続きを行うと話す。"
       },
       {
@@ -103,7 +121,9 @@
         "time": "9:06:52",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/3.対応画像４ー１.000907.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1uzaQHSRDhVWlm18JxTQ1SB6ZC7zACXqn&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "3/12松山発17:40に変更。インドネシアへはノヴィと一緒"
       }
     ],
@@ -121,7 +141,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ザーラより、LINEにて、12/20を最終出勤日として翌1/5の飛行機で大学に行くため帰国したい申し出。新開工場長へ電話にて報告",
     "responses": [
       {
@@ -129,7 +151,9 @@
         "time": "10:56:15",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "10/30現在有休残４日。付与日は4/29のため、４日で新開工場長へline済"
       },
       {
@@ -137,7 +161,9 @@
         "time": "13:10:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/4.対応画像２ー１.041443.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1OBdNZWhO42DZQfYkxGP_ha7Rf_BJwMxr&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "本人より、12/20退職、12/末現金給与、1/7松山空港発(1/7退寮)、1/10東京発でチケットとった。チケット送付依頼し、そのスケジュールにて進めると伝える。1/10羽田空港11:45発"
       }
     ],
@@ -155,7 +181,9 @@
     "kind": "購入",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/5.登録画像１－１.012008.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=11YTmFj4S0tX3_kI161BXGKe4ns_tMEoU&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/5.登録画像１－２.012009.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1fFWB5ooTdyqDyhgwGKCPhAt7Li76GTqm&sz=w800",
     "request_note": "ヒエンの妹が入社するので、エアコン設置依頼",
     "responses": [
       {
@@ -163,7 +191,9 @@
         "time": "10:38:57",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "竹内空調さんへ11/18までに設置依頼"
       },
       {
@@ -171,7 +201,9 @@
         "time": "10:43:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/5.対応画像２ー１.043834.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1DIJXpcM6r5goYQdU_ch799FFIhgcw5rj&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "竹内空調にて設置済み　三菱エアコン　77,000税別　月末締め翌月OK"
       }
     ],
@@ -189,7 +221,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "コーポ津吉1-6で３日間Wifiが使えない状態の申し出。",
     "responses": [
       {
@@ -197,7 +231,9 @@
         "time": "11:20:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "電源及び配線再起動により稼働、マデ休みにより"
       }
     ],
@@ -215,7 +251,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/7.登録画像１－１.074924.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1rGTNxKnnWqbH3aTuG8CLMXeLkEv5pFsw&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/7.登録画像１－２.074924.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=149uEgTLnL1xomqwtiX9vp1Fa--pytV_C&sz=w800",
     "request_note": "新開工場長より、インドネシア時より、脊髄がまがる病気で重たいもの等をもつ仕事を変更してほしいとの申し出あり。入国前の健康診断でも問題がないため入国ができ、入国後の健康診断でも該当ないため、本人と面談を行う",
     "responses": [
       {
@@ -223,7 +261,9 @@
         "time": "14:30:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "デフィとヤニと４人で牛渕２号館ではなし。病院には行ってない。とりあえず、できるところまでやってみて、ダメになる前に上長へ。新開工場長へ報告済み"
       }
     ],
@@ -241,7 +281,9 @@
     "kind": "妊娠",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エカより、ニマが妊娠13週との連絡あり。今後について、相談すると伝える。",
     "responses": [
       {
@@ -249,7 +291,9 @@
         "time": "8:33:36",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "新開工場長へline連絡"
       },
       {
@@ -257,7 +301,9 @@
         "time": "12:35:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "エカと３人で津吉社長室にて話す。出産予定5/5、つばきウイメンズで出産予定、日本にて産みたい。エカも特定２号受けたい。入社が2025/6/17、転職のため、特定１号の期限が2027/3までのため、入官へ確認"
       },
       {
@@ -265,7 +311,9 @@
         "time": "12:54:43",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/8.対応画像３ー１.235743.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1b48cNDX3TQPnHCQyPa-9tbcyFRIZ5XoC&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "出産を県立中央病院へ変更した。予定通り3/25より産休予定"
       }
     ],
@@ -283,7 +331,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "11/4ヅエンから尾崎さんへ就労証明書発行依頼あり。→恒岡さんへ記入依頼済。出来上がり次第ヅエンへ届ける。",
     "responses": [
       {
@@ -291,7 +341,9 @@
         "time": "11:00:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "本人へ就労証明書と年末調整の書類を渡す。年末調整は後日取りに来ると伝える。"
       },
       {
@@ -299,7 +351,9 @@
         "time": "9:14:20",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "年末調整及び送金明細書回収する"
       }
     ],
@@ -317,7 +371,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "11/6朴さんより宮内工場長へ連絡あり。ディンが4か月ほど生理が来ていないらしく、11/18に中四国が婦人科へ連れていくとのこと。",
     "responses": [
       {
@@ -325,7 +381,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "一応、生理再開したとのことで病院は行かないことになった。"
       }
     ],
@@ -343,7 +401,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/11.登録画像１－１.215912.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=13ty9GDkqirjApUQOo4inTdhfj6T1zS1C&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、２/２０退職、１０日後退寮の申し出あり、確認依頼。",
     "responses": [
       {
@@ -351,7 +411,9 @@
         "time": "13:10:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "2/20退職してインドネシアに帰国する。2/末給料、3/1に松山発の予定。"
       }
     ],
@@ -369,7 +431,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/12.登録画像１－１.231036.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1pRTo3tzRL_3XSxYpq3GXOe8cgYL5DWDr&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長に、皮膚に発疹みたいなものがあり、病院に行きたい申し出あり。11/7、９時に連れていく旨連絡。",
     "responses": [
       {
@@ -377,7 +441,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "二宮皮ふ科受診。全身にかゆみと発疹あり。蕁麻疹と診断。２日前くらいから出ているので、食べ物などのアレルギーではなさそう。免疫低下やストレス？薬飲んで様子見る。"
       }
     ],
@@ -395,7 +461,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "11/17月曜日、子宮筋腫の手術",
     "responses": [
       {
@@ -403,7 +471,9 @@
         "time": "11:44:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "恒岡さんより、デルタ四国の通訳よりTELあり、手術跡が大きく、当初11/30までやすみだったが、12/20ごろまでには出勤すると連絡あり。後日、12/1～の休暇届作成すること"
       },
       {
@@ -411,7 +481,9 @@
         "time": "14:55:04",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "本人と面談。12/3水曜日が通院日。12/20まで傷口が大きいため休暇申出。12/3病院受診時に診断書をもらうとのこと"
       }
     ],
@@ -429,7 +501,9 @@
     "kind": "紛失",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "在留カードが、銀行口座作成してから紛失。探したが見つからず。とりあえず、コピーを渡す。",
     "responses": [
       {
@@ -437,7 +511,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "11/6在留カード紛失の申し出。11/8に南署にて遺失物届を出した。受理番号1669。11/10に入管へ在留カード再発行申請をする予定。"
       },
       {
@@ -445,7 +521,9 @@
         "time": "12:20:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "入官にて在留カード再発行を行い、昼、食堂にて渡す。"
       }
     ],
@@ -463,7 +541,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "２号試験終了後、２月初めから、２ヶ月一時帰国したい申し出あり。水沼さん了承。",
     "responses": [
       {
@@ -471,7 +551,9 @@
         "time": "13:35:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/15.対応画像１ー２.073801.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1ax8OC3rLO4obUfYQDgnLjMKWZNIWJFV1&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "1/24～３/24まで一時帰国。広島空港発着"
       }
     ],
@@ -489,7 +571,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、手が痛いので病院へ連れていってほしいとの依頼あり。以前、尾崎に話してたとのこと。10/4に日曜日に診察できる整形外科の案内があり、南松山病院を案内。その当時、ハクと一緒に行くと行っていたが、実際に診察したかどうかは不明。本日お昼に確認する。",
     "responses": [
       {
@@ -497,7 +581,9 @@
         "time": "12:39:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "手首は痛いが、木曜日か金曜日でOK。新開工場長へ伝え、時間が分かったら連絡依頼。10/4は整形外科の先生がいないため診察しなかった。金澤整形でもOK"
       },
       {
@@ -505,7 +591,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "11.13金澤受診。重いものや手首の曲げで負担かかっている。レントゲンにて、左手首、少し炎症してる。電気治療を何度か行いリハビリで様子見る。次回は11.29リハビリ。イーサンは次回より１人で受診"
       }
     ],
@@ -523,7 +611,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "同部屋のアルバシタから、アイナの体調不良とLINEあり。数日前から声が出なくなっていた。近くのよしおか内科を案内。",
     "responses": [
       {
@@ -531,7 +621,9 @@
         "time": "12:42:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "アルバシタと話す。イナは今日11:30～仕事で熱はなく声が出ない様子。明日、昼からなので、午前中、病院へ行くなら８時までにLINE依頼"
       },
       {
@@ -539,7 +631,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/17.対応画像２ー１.052518.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1D0bL3e-HUsu8N8vLUPT1eATZArwNEOcx&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "11/11　よしおか内科受診。熱はないため検査なし。鼻水・咳・声枯れの症状で薬飲んで様子見。仕事は通常通り勤務する。"
       }
     ],
@@ -557,7 +651,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "2026/2月に退職して帰国したい申し出。新開工場長へ連絡済み。帰りの飛行機代を確認依頼。",
     "responses": [
       {
@@ -565,7 +661,9 @@
         "time": "12:35:00",
         "responder": "尾崎",
         "img1": "履歴_Images/18.対応画像１ー２.025523.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1Plzyi8Zz9ddflUens4duR7wA3rRJZe6t&sz=w800",
         "img2": "/appsheet/rireki_photo/18.対応画像１－２.025523.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1TRUQCTR8_YPzMxeyp8HhrIGCAMaLE1wH&sz=w800",
         "note": "2/14広島空港13:00発チケット、交通手段確認"
       },
       {
@@ -573,7 +671,9 @@
         "time": "12:38:36",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/18.対応画像２－２.065708.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1cueVEqOsvbv2ysH8ufJkkfekjpbRueWj&sz=w800",
         "note": "広島空港までは自分で行くとのこと"
       },
       {
@@ -581,7 +681,9 @@
         "time": "15:53:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/18.対応画像３ー１.065516.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=11iEg88qtLNBylFdAv_0F4DUOySCB0ML7&sz=w800",
         "img2": "/appsheet/rireki_photo/18.対応画像３－２.065516.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1FDHsJDALV3fHLWnpw5PZ2L4zGR30JsZv&sz=w800",
         "note": "銀行及び転出届、広島空港２つ荷物をヤマト運輸持ち込み。保険証回収済み。家の鍵と自転車鍵はハンヘ土曜日に渡すとのこと。"
       }
     ],
@@ -599,7 +701,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/19.登録画像１－１.082907.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=168aTUKbir3Rnna9ULKh7_JBC4a07g8bR&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/19.登録画像１－２.082907.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1cOQQ_5P3SHj8Y-LJy1cb89bK-DAghExG&sz=w800",
     "request_note": "退寮日が変更になった。11/20退職、11/21退寮、11/21の15時頃の飛行機。11/21の9時部屋の立ち会いだが、事前に１８日～２０日までに部屋確認すると伝える",
     "responses": [
       {
@@ -607,7 +711,9 @@
         "time": "10:27:00",
         "responder": "尾崎",
         "img1": "履歴_Images/19.対応画像１ー２.082907.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1QyC5DPiPPu7fTg2gbdtlvLw-6JAePEq5&sz=w800",
         "img2": "/appsheet/rireki_photo/19.対応画像１－２.082910.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1HMUlrKoBAhHBq30WHBFTNk3c452ROqdX&sz=w800",
         "note": "日曜日に掃除とゴミを捨てるよう指示。最終11/21の１０時訪問予定"
       },
       {
@@ -615,7 +721,9 @@
         "time": "10:00:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "退去確認。部屋の鍵、自転車の鍵、保険証預り終了。デルタ四国立会"
       }
     ],
@@ -633,7 +741,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ビレッジ中野さんから、松山南警察地域課高山さん958-0110より自転車が置かれており撤去依頼があったと連絡あり。",
     "responses": [
       {
@@ -641,7 +751,9 @@
         "time": "13:41:35",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "昼休憩にて本人がおり、自転車撤去に向かう。朝、出勤時にアンディ二が自転車でこけてククが自転車で会社に連れて行った。アンディ二の自転車をチャンが乗って行って、チャンの自転車を日野車体の車庫に置いたため、日野車体より警察に連絡が入る。仕事終わりに取りに行く予定だった。"
       },
       {
@@ -649,7 +761,9 @@
         "time": "14:00:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "チャン同席の上、日野車体に訪問し、お詫びし自転車を回収する。結構お怒りモードだったが、ご迷惑おかけしたことお詫びし了承をえる。"
       }
     ],
@@ -667,7 +781,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/21.登録画像１－１.024607.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1KiAcfzzUrGoYuQkzEQgm8onNpAwmbYCe&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/21.登録画像１－２.024607.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1YUywAW6hfZnd47cUx0uRCrmuofHLhcH1&sz=w800",
     "request_note": "昨日から背中が痛いので病院へ行きたいとの申し出あり。",
     "responses": [
       {
@@ -675,7 +791,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "右脇腹あたりが痛む。息するのも痛みがあるため、金澤受診。レントゲンをとり、症状から骨にヒビが入ってる可能性があるとのこと。固定バンドをつけて生活するように言われた。11.20に金澤を受診するよう言われた。１人では不安なので付き添って欲しいとのこと。仕事については、本人の無理のない範囲で行うよう伝えた"
       },
       {
@@ -683,7 +801,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "呼吸時の痛みは治まったが、まだ起き上がるとき辛い。固定バンド外してたので、お風呂以外はバントするよう伝えた。12/4受診予定"
       },
       {
@@ -691,7 +811,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "12/4にて、通院終了"
       }
     ],
@@ -709,7 +831,9 @@
     "kind": "妊娠",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "昨日、病院へ行って妊娠４週ぐらい。まだ小さいため、安定したら再度話す。新開工場長へは連絡済み",
     "responses": [
       {
@@ -717,7 +841,9 @@
         "time": "12:40:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ブイより、流産したと報告あり。タオは本日休み。"
       }
     ],
@@ -735,7 +861,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "藤原さんより、ディンが体調不良なのか、仕事に来てないので部屋に見に行って欲しいとのことで渡部さんに見に行ってもらった。生理痛がひどく寝込んでいた。15日の昼から仕事に行くとのこと。18日には中四国と一緒に婦人科へ受診することになっている→病院行かなくていいとのこと。",
     "responses": [
       {
@@ -743,7 +871,9 @@
         "time": null,
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": null
       }
     ],
@@ -761,7 +891,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/24.登録画像１－１.013658.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=17R97WEIg8jy05a-cKmBG-YdE7vEuJPw-&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エヴィより、手が腫れて病院へ行きたいとの申し出あり。11/15土曜日8:45迎え行くと伝える",
     "responses": [
       {
@@ -769,7 +901,9 @@
         "time": "9:00:00",
         "responder": "尾崎",
         "img1": "履歴_Images/24.対応画像１ー２.013658.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1vEaH5Xy9MNTSau3R1Xf5w0F6Nbon3F7i&sz=w800",
         "img2": "/appsheet/rireki_photo/24.対応画像１－２.013658.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=19OSsxprDzLA3ahsCK2R4q_zMU7GiQALl&sz=w800",
         "note": "金澤整形に受診、新開工場長と相談し、手の固定されてるので11/16休み、11/17病院へ行き、手の固定がどうなるかで勤務するか判断。11/17、11/20に病院へ行くと伝える。11/17金澤整形受診、痛みもまだあり固定器具もはずせないため、11/20受診まで休み、新開工場長へ連絡済み"
       },
       {
@@ -777,7 +911,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/24.対応画像２ー１.005843.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1lqMwwJTOB-dmDWlnHHxaauKwuHOod95Y&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "まだ内出血で腫れている。指を曲げるような仕事は控えるよう言われた。本人が早く仕事復帰したいというので、新開さんへ事情を伝えた上で11/20昼から勤務してみるとのこと。次回11/27受診予定。"
       },
       {
@@ -785,7 +921,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "12/4受診。また来週も来るよう言われたが、本人はもう行かなくても大丈夫と言ってるので、今回で通院終了。"
       }
     ],
@@ -803,7 +941,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長より、アトムマンションに自転車を停めていたところ、紛失したとのこと。本人に詳細確認予定。",
     "responses": [
       {
@@ -811,7 +951,9 @@
         "time": "12:00:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ロンに詳細を確認したところ、11/11(火)の15時頃に買い物に行こうとしたところ無くなっていた。鍵はかけておいていた。代替自転車が必要とのことで、準備が出来し伝える。"
       },
       {
@@ -819,7 +961,9 @@
         "time": "12:00:00",
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/25.対応画像２ー１.054120.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1NDdCUceqa7G5T72I0YgO5QYDHMa3qk0q&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "自転車6656（B-0246656）が準備できたので、ロンに鍵を渡した。"
       }
     ],
@@ -837,7 +981,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "子宮筋腫の手術のため、デルタより病院からの連帯保証人に雇用主様にて対応をお願いしたいとのメールあり。専務に確認したところ弊社で対応する旨了承済み。傷病手当で進めるようにとのこと。",
     "responses": [
       {
@@ -845,7 +991,9 @@
         "time": "20:00:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": null
       },
       {
@@ -853,7 +1001,9 @@
         "time": "10:00:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "病院からの書類をデルタへ渡した。休暇届けをデルタの松岡さんに代筆で記入してもらう。傷病手当の書類を2セット渡し済み。11/20締めで1回目の申請をすると伝えた。"
       },
       {
@@ -861,7 +1011,9 @@
         "time": "10:30:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "デルタ　松岡さんより、傷病手当の書類が揃い次第、持って来られる予定。"
       }
     ],
@@ -879,7 +1031,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車が何かおかしい。中野２に置いている",
     "responses": [
       {
@@ -887,7 +1041,9 @@
         "time": "13:46:00",
         "responder": "尾崎",
         "img1": "履歴_Images/27.対応画像１ー２.044644.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1qAMqwYtgT2Ie5zLgmAOskUm1Myeiuwfs&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "後輪にネジが刺さっていたため、抜いて対応終了"
       }
     ],
@@ -905,7 +1061,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ナウファルより腰が痛いので病院へ連れていってほしいと連絡あり",
     "responses": [
       {
@@ -913,7 +1071,9 @@
         "time": "9:00:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "金澤整形受診。ぎっくり腰のため、次回11/20、痛みがまだあるようなら、11/27受診依頼。次回は自転車で行くよう指示。"
       },
       {
@@ -921,7 +1081,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "痛みほぼ治った。今ある薬飲み切ってもう病院行かなくていいとのこと。"
       }
     ],
@@ -939,7 +1101,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "入社時の健康診断で貧血で要治療判定。専務より、貧血で倒れるといけないので病院を受診するよう言われた。有給がないため、土曜日に受診できる中野クリニックに行く予定。11/29午前中受診予定",
     "responses": [
       {
@@ -947,7 +1111,9 @@
         "time": "9:00:06",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "中野クリニック受診。鉄欠乏性貧血と診断され、1カ月薬を服用し、飲みきったら再度受診し採血の予定。"
       }
     ],
@@ -965,7 +1131,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/30.登録画像１－１.234126.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1lnb3-hI_6pmlHVDE9tdP_-x6qdY0VGlW&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/30.登録画像１－２.001414.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1jyZpqQAML49wnhCxMxx8SJ_NI24uiE_I&sz=w800",
     "request_note": "自転車がパンクしたと申し出あり。月曜日に対応する。カギが必要と伝える。",
     "responses": [
       {
@@ -973,7 +1141,9 @@
         "time": "15:00:00",
         "responder": "尾崎",
         "img1": "履歴_Images/30.対応画像１ー２.065249.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1KcialpWd0YRu2RUFurzstm8yhtdOxY3H&sz=w800",
         "img2": "/appsheet/rireki_photo/30.対応画像１－２.065248.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1vDsDToKxFcHHKS8Wqk_MINU8iKR2NQvR&sz=w800",
         "note": "タイヤ交換、4,000円、鍵を前かごにいれる"
       }
     ],
@@ -991,7 +1161,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "11/17の夜からガスが使えなくなったとの連絡あり。尾崎さんに見に行ってもらう。",
     "responses": [
       {
@@ -999,7 +1171,9 @@
         "time": "9:30:00",
         "responder": "尾崎",
         "img1": "履歴_Images/31.対応画像１ー２.023432.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1eSQrrIBjLxx8MDk7XGlW58j-wteS7XFO&sz=w800",
         "img2": "/appsheet/rireki_photo/31.対応画像１－２.023432.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1VTRc7cLKFUmGR8cj4yPorhOwgaecIfpU&sz=w800",
         "note": "トーカイガス089-932-3351に来てもらい、復旧。ガス欠だった。"
       }
     ],
@@ -1017,7 +1191,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/32.登録画像１－１.215921.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1xHhhv44a5_eiDXmryMyUJmxLlGjb3AZ7&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "健診で大腸がんの健診を受けるよう話す。来週夜勤のため受診可能。",
     "responses": [
       {
@@ -1025,7 +1201,9 @@
         "time": "12:14:06",
         "responder": "尾崎",
         "img1": "履歴_Images/32.対応画像１ー２.074922.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1FvvaM5brXLr28CTqSuGUG9o1G-MsFN72&sz=w800",
         "img2": "/appsheet/rireki_photo/32.対応画像１－２.074922.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1-1PgAsVrYmfrJcRLPLkZmh5zz5h3nozJ&sz=w800",
         "note": "■ 診察予約  【診察日時】2025年11月25日 10:30 【医療機関】眞柴消化器内科クリニック（TEL: 0899681202)　11/28(金)12：00～16:00大腸内視鏡検査　28日は仕事休むこと新開さんへ連絡済"
       },
       {
@@ -1033,7 +1211,9 @@
         "time": "16:20:00",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "検査問題なく終了。異常もなく、結果は問題なし。"
       }
     ],
@@ -1051,7 +1231,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長より2025/12/25～2/3まで一時帰国の申出あり。チケットは中温で取得の要請あり。",
     "responses": [
       {
@@ -1059,7 +1241,9 @@
         "time": "14:44:04",
         "responder": "尾崎",
         "img1": "履歴_Images/33.対応画像１ー２.030953.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1Ca3V0BPP8r9dsfaFuQcRFAsmu--k57ub&sz=w800",
         "img2": "/appsheet/rireki_photo/33.対応画像１－２.030953.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=16Gb-mkcwFbXaWWfF-yA_LlVYSqd-vEAe&sz=w800",
         "note": "関西国際空港　12/25 10:00発　13:30着　ハノイ　2/2　01:05発　06:55着　往復115,800-にてチケット手配"
       }
     ],
@@ -1077,7 +1261,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "11/23に歯が痛く熱もあり病院に行きたいとLINEあり。休日2連休で病院も休診で職員も休日のため、25日まで様子見るとのこと。",
     "responses": [
       {
@@ -1085,7 +1271,9 @@
         "time": "10:06:00",
         "responder": "尾崎",
         "img1": "履歴_Images/34.対応画像１ー２.010745.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1twbxy9WOnJsMMT0cvz2zeMlf8l4FaLtJ&sz=w800",
         "img2": "/appsheet/rireki_photo/34.対応画像１－２.022749.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1WPKGhD9HbVvnjFCj0lIDSQxKT5YhRAJm&sz=w800",
         "note": "11/25、9:30～グリーン歯科予約　11/25右奥歯下が腫れてて抜くしかない。３日分の化膿止めと熱覚ましをもらい、12/2に抜く予定。病院の先生より、疲れと化膿及び熱があるため木曜日まで休み。木曜日に症状連絡依頼→11/27少し腫れているが、痛み治まってきたので11/28から出勤。"
       },
       {
@@ -1093,7 +1281,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/34.対応画像２ー１.022749.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1lqxLdcz8opnrLH_0B-Gk5Om4ZySg78qj&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "12/2抜歯した。12/9　9：30に消毒の為、再受診"
       }
     ],
@@ -1111,7 +1301,9 @@
     "kind": "結婚",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ナナより、デウィマシトと来年結婚する。2026/7/18～9/4まで帰国結婚、中温で２人で住居したい申出。日程については、新開工場長と相談済。",
     "responses": [
       {
@@ -1119,7 +1311,9 @@
         "time": "12:23:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ナナとLINE交換しやり取りすると伝える"
       },
       {
@@ -1127,7 +1321,9 @@
         "time": "12:46:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/35.対応画像２ー１.224711.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=17rhhB4NvUM7-6zKjVndJS_6nGzi-aSec&sz=w800",
         "img2": "/appsheet/rireki_photo/35.対応画像２－２.224710.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1bxh3LPPhiTv4hUOdGdEQUJ4PLkuQX7W9&sz=w800",
         "note": "ナナより、チケットもらう"
       }
     ],
@@ -1145,7 +1341,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/36.登録画像１－１.053858.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1OgQ4GHROo1N11Vcxfmin5vMuhzvUgmPp&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "６、２５、３６、８、１、１２、１５、１４",
     "responses": [
       {
@@ -1153,7 +1351,9 @@
         "time": "14:58:12",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "６の自転車を中野１へ移動"
       }
     ],
@@ -1171,7 +1371,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/37.登録画像１－１.055108.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1te0P_DCxKYtnX4hNCjSyRAT9-pbVZQrX&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "電気が弱い",
     "responses": [
       {
@@ -1179,7 +1381,9 @@
         "time": "14:49:00",
         "responder": "尾崎",
         "img1": "履歴_Images/37.対応画像１ー２.055108.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=11MeN1iN6trfhfmkjTpJ8BQAYbvHzJiDk&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "電球が切れているため、電球交換"
       }
     ],
@@ -1197,7 +1401,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "口の周りが荒れて痛みがあり皮膚科に行きたいと申し出。１人で行くのは不安なので着いてきてほしいとのこと。11/29 9:00八木皮膚科受診予定",
     "responses": [
       {
@@ -1205,7 +1411,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "歯磨き粉や、リップクリームが合わないのかも？ワセリン100パーのものを使うこと、口の周りを拭きすぎないことを指導された。塗り薬を1～2週間使って治らなければ再受診。"
       }
     ],
@@ -1223,7 +1431,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/39.登録画像１－１.112134.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1SrnVaGLypCYu6S9T3Kscjst_N4I19gzH&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "デラよりLINEで退職したい申し出あり。いつ頃退職して帰国したいのかヒアリングする。有給残12日（12月付与）と４時間",
     "responses": [
       {
@@ -1231,7 +1441,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/39.対応画像１ー２.013036.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1Z-GWGaRiC6VQkFKRx2OllpbFOiY_n354&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "デラと話し、退職希望日は1/20だが、1月が厳しいなら2/20でも構わない。とりあえず体調がよくないので帰国したいとのこと。新開さんへLINE済。→新開さんより2/20退職で。とのこと。デラにLINE済"
       }
     ],
@@ -1249,7 +1461,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/40.登録画像１－１.232819.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1mKX1USzbVIu8igb5xeU0zPwXjUXF_aZP&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/40.登録画像１－２.232819.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1-Dw37a0Fti4qAkB7jB1cYNE1yU6WHt4s&sz=w800",
     "request_note": "母親が手術のため、一時帰国を希望、12/14～1/10まで",
     "responses": [
       {
@@ -1257,7 +1471,9 @@
         "time": "19:08:00",
         "responder": "尾崎",
         "img1": "履歴_Images/40.対応画像１ー２.230924.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1AccmADRNzlhcQy6rP_xLUg8vpVQp7B_g&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "新開工場長相談済。12/14～1/10まで。有給等後日と伝える。→12/2有給提出したとのこと"
       },
       {
@@ -1265,7 +1481,9 @@
         "time": "9:04:48",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "松山空港送迎完了"
       }
     ],
@@ -1283,7 +1501,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エヴィより、銀行のキャッシュカードが間違えてロックがかかったとのこと。",
     "responses": [
       {
@@ -1291,7 +1511,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "伊予銀富永様へ確認済。12/2に暗所番号変更手続き書類持ってきてくれる。"
       },
       {
@@ -1299,7 +1521,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "大街道支店にてキャッシュカード即時発行。レギタへカードも渡し完了"
       }
     ],
@@ -1317,7 +1541,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長よりメルヴァ12/15～1/9帰国希望のラインあり。",
     "responses": [
       {
@@ -1325,7 +1551,9 @@
         "time": "12:03:00",
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/42.対応画像１ー２.030538.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1plDL23GmfRCE-1HtfZ7t4srla3PTfwxx&sz=w800",
         "img2": "/appsheet/rireki_photo/42.対応画像１－２.030537.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1trub4MiYw6kuPBzy3Bc22J_rm2Dwh-7c&sz=w800",
         "note": "チケットにて日程確認。12/14～1/10一時帰国"
       },
       {
@@ -1333,7 +1561,9 @@
         "time": "9:03:56",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "松山空港送迎完了"
       }
     ],
@@ -1351,7 +1581,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より昨日掃除中に頭をぶつけ、仕事を続けてたが、その後駐輪場で倒れた。今日休んでおり、昼から男の子より病院へ行きたいと申出があったため、確認依頼。朝一確認すると伝える。",
     "responses": [
       {
@@ -1359,7 +1591,9 @@
         "time": "11:00:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "現在、意識もしっかりしており、ご飯もさっき食べた。朝まではしんどかったが現在は大丈夫とのことで様子を見る。昨日１９時頃頭をぶつけ２２時頃退社。ライハンと一緒に自転車を押してかえった。本日は休みにし何か調子がおかしかったら連絡依頼。新開工場長連絡済。"
       },
       {
@@ -1367,7 +1601,9 @@
         "time": "8:50:02",
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/43.対応画像２ー１.003909.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1fTJvhBJd9tC2_m4lDatTHW1FRn_YrSSP&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "体調は大丈夫と返信もあり、12/3も朝から出勤しているようなので、そのまま様子見。"
       }
     ],
@@ -1385,7 +1621,9 @@
     "kind": "妊娠",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、妊娠したとの申し出あり。",
     "responses": [
       {
@@ -1393,7 +1631,9 @@
         "time": "12:36:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "チカと話す。家族帯同ビザに夫に資格変更してもらう。3/20退職にてスケジュール。出産予定は８月とのこと"
       },
       {
@@ -1401,7 +1641,9 @@
         "time": "13:10:51",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "3/20退職"
       }
     ],
@@ -1419,7 +1661,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "12/3に退職の申し出。帰国し、大学へ通いたいとのこと。本人は、2/20退職希望しているが、新開さんは3/20ではだめかとのこと。（12月に有給12日付与予定で計14日になる予定）",
     "responses": [
       {
@@ -1427,7 +1671,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/45.対応画像１ー２.072915.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1BKA_XE09ihAXpr4a8R_YYWK6kTKFNTqr&sz=w800",
         "img2": "/appsheet/rireki_photo/45.対応画像１－２.013015.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1mtUGDqpci2Yh3Q442FUjv6nQGpZjBS1I&sz=w800",
         "note": "本人は3月には大学が始まるので2月退職を強く希望。新開さんへ了承をもらい、2/20退職で進める。"
       }
     ],
@@ -1445,7 +1691,9 @@
     "kind": "携帯",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エヴィより12/6土曜日に携帯契約したい申し出。",
     "responses": [
       {
@@ -1453,7 +1701,9 @@
         "time": "10:00:00",
         "responder": "尾崎 , 池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "牛渕より楽天へ。契約時、リヴァニ、ギム、ジラも来て契約。"
       }
     ],
@@ -1471,7 +1721,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車パンクして修理の依頼あり。明日対応すると伝える",
     "responses": [
       {
@@ -1479,7 +1731,9 @@
         "time": "15:00:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/47.対応画像１ー２.083045.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1iuNQtqcalVT9VLm7c5Woh8ML7tK6ayAq&sz=w800",
         "img2": "/appsheet/rireki_photo/47.対応画像１－２.083045.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1Z72h7_h9-8IX_Z4_xyJiMd0I__QGEbJw&sz=w800",
         "note": "カドタ自転車にて前輪のブレーキと後輪交換。6,000円"
       }
     ],
@@ -1497,7 +1751,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/48.登録画像１－１.094142.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1PJPjM6idUJkFwQoiLXT3-X7LaK6llfpO&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/48.登録画像１－２.094142.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=16iSqKeGd1CH2sNv0tR2o7uZdyC9S7lL0&sz=w800",
     "request_note": "天井から水が落ちてくる。蛍光灯が切れた",
     "responses": [
       {
@@ -1505,7 +1761,9 @@
         "time": "17:20:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/48.対応画像１ー２.085452.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1YgzREQWLVJZzWHNUmugdNw8ze1J_pui5&sz=w800",
         "img2": "/appsheet/rireki_photo/48.対応画像１－２.085452.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1bjmemLDVpVr3B35YpwqRCyaaoQo7rFtS&sz=w800",
         "note": "蛍光灯交換済。水漏れは行った時には確認できず。"
       }
     ],
@@ -1523,7 +1781,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ビレッジ中野さんより、2-502と4-502の段ボールの出し方の指導依頼。段ボールは縛って出すことになってる。",
     "responses": [
       {
@@ -1531,7 +1791,9 @@
         "time": "12:42:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "アルバシタとプジャにLINEにて部屋の全員へ通知依頼"
       }
     ],
@@ -1549,7 +1811,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "アトム404と604について、カンの出し方の指導依頼。ペットやプラスチックにカンが含まれている",
     "responses": [
       {
@@ -1557,7 +1821,9 @@
         "time": "12:07:13",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "昼礼時に全員に注意喚起"
       }
     ],
@@ -1575,7 +1841,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "石崎さんより、アトム606の人より騒音のクレームあり。注意及び気を付けるよう依頼あり",
     "responses": [
       {
@@ -1583,7 +1851,9 @@
         "time": "12:05:43",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "昼礼後、注意喚起"
       }
     ],
@@ -1601,7 +1871,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/52.登録画像１－１.041311.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1P8d6WyqnizLBcXe3Fl7wx_4mIZeMuIcS&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ナウファルより、レザが頭痛で休むので病院へ連れていってほしいと連絡あり。一人で行けないか確認中",
     "responses": [
       {
@@ -1609,7 +1881,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "風邪ではなく疲れからのようなので、様子見。"
       }
     ],
@@ -1627,7 +1901,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ナウファルより、インドネシアで洪水の災害で、家が浸水したと連絡あり。月曜日に確認すると返信",
     "responses": [
       {
@@ -1635,7 +1911,9 @@
         "time": "12:26:20",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "インドネシアで被害を受け５日間連絡が取れなく被害を受けたが、どうしようもないためとのことで終了"
       }
     ],
@@ -1653,7 +1931,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ククより、妻を2/10～２ヶ月間、短期滞在ビザで呼びたい。一緒に生活したい。申請するために、住民票、納税、課税証明書を取得してほしい申し出。",
     "responses": [
       {
@@ -1661,7 +1941,9 @@
         "time": "12:30:49",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "本人と面談。マンスリーマンションの説明を行い、ククの部屋にいるなら協力すると伝え、別途部屋を用意することはしないと伝える。短期滞在ビザの申請については協力すると伝える。"
       },
       {
@@ -1669,7 +1951,9 @@
         "time": "8:34:39",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "1/19入管へ特定技能１号として申請"
       },
       {
@@ -1677,7 +1961,9 @@
         "time": null,
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "3/27入管より入国許可の通知が届く"
       }
     ],
@@ -1695,7 +1981,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "12/15　最近胃の不調がある。宮内工場長が朴さんへ病院へ連れていくよう連絡済",
     "responses": [
       {
@@ -1703,7 +1991,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "12/17朴さん同行で受診。胃カメラをし、12/23に再受診予定"
       },
       {
@@ -1711,7 +2001,9 @@
         "time": "9:14:47",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "朴さんより、病院に行って診察するも、特に問題なし。本人も納得とのことで終了。"
       }
     ],
@@ -1729,7 +2021,9 @@
     "kind": "購入",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "H＆Cが用意した冷蔵庫が小さすぎるため、全然入れれなくて困っている。大きい冷蔵庫がほしいとのこと。尾崎さんへ相談",
     "responses": [
       {
@@ -1737,7 +2031,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "新しいものを購入するのは難しいが中古のものはあれば優先的に譲る。すぐの対応はできないと伝えている。"
       }
     ],
@@ -1755,7 +2051,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/57.登録画像１－１.231749.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1erW89PQRKIoZR4r8c-VJznxzjpGMbLIU&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/57.登録画像１－２.231749.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1yCMf5obmKhowbvfQliHZvlEuj6kN4CkR&sz=w800",
     "request_note": "頭が痛く、病院へ行きたい申し出あり。よしおか内科へ行けるか確認。１人で行けそうなので、先に行ってもらい、後で駆けつけるとLINE",
     "responses": [
       {
@@ -1763,7 +2061,9 @@
         "time": "10:00:41",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/57.対応画像１ー２.235720.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1anKpDZWTYB1R_YsQ7d-lOjIrZdTosobY&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "よしおか内科受診。現在、36.1度、はなみずのみの症状のため、症状抗生物質をもらい様子見。まだ体調が悪いため、通院予定。"
       }
     ],
@@ -1781,7 +2081,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "12/17　頭痛で早退。薬あるということで、昼に様子見行く",
     "responses": [
       {
@@ -1789,7 +2091,9 @@
         "time": "13:30:29",
         "responder": "池内 , 渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "部屋も見たが不在。"
       }
     ],
@@ -1807,7 +2111,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/59.登録画像１－１.233826.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1KQDTwgiWRvcW7E_x8k5kvKxxwzaE582t&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長より電球交換の依頼。風呂の電球交換",
     "responses": [],
     "overall_note": null
@@ -1824,7 +2130,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "12/16に朴さんと婦人科受診。生理不順の改善が見られないため、12/23に検査結果が出る予定とのこと。引き続き朴さんと連携を取りながら様子見る。",
     "responses": [
       {
@@ -1832,7 +2140,9 @@
         "time": "10:52:10",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "朴さんより、本日病院受診したが、１１月に生理が来てるとのことで、特に問題はないようだとのこと。２月までまだないようなら再度受診予定"
       }
     ],
@@ -1850,7 +2160,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ギムから頭痛と吐き気で休んでいる。と連絡あり。病院は自転車で行くのしんどいから行かないとのこと",
     "responses": [],
     "overall_note": null
@@ -1867,7 +2179,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エヴィより、呼吸が１週間ほどしんどいので、原因がしりたい。土曜日に呼吸器内科受診予定",
     "responses": [
       {
@@ -1875,7 +2189,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "カハリの病院の結果は異常はありませんでした。 ですが、背骨が少し曲がっていて姿勢が悪くなっているので、それのせいで息が苦しくなることがあるのかもしれません。 長時間同じ姿勢にならないように気をつけてみてください。とのこと。"
       },
       {
@@ -1883,7 +2199,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/62.対応画像２ー１.232701.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=15GEcqMWzIa6xYmbzb7qaGU_15IZArXpj&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "ラストノからカハリ良くならない、痛いと言っているとのことで他院受診希望。12/27　11：30　眞柴消化器内科予約"
       },
       {
@@ -1891,7 +2209,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "眞柴消化器内科へ受診。レントゲン、採血異常なし。息苦しさは休みの日にはならない。年末年始の休暇でしっかり体休めるようにつたえた。"
       }
     ],
@@ -1909,7 +2229,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/63.登録画像１－１.121300.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1B2lnmdi42OZ-TL-OZ84OvvkmPQNCdmmQ&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "イナからガス使えなくなったとのこと。連絡来たのが夜なので、翌日20日に対応すると伝えた。",
     "responses": [
       {
@@ -1917,7 +2239,9 @@
         "time": "9:02:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/63.対応画像１ー２.001016.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1pgQ9czqv5BpG3ye-SDUAkwxDsJKfDX9s&sz=w800",
         "img2": "/appsheet/rireki_photo/63.対応画像１－２.001016.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1pINmtk6EthmYrY6qs8QITMIUXuyDOC8C&sz=w800",
         "note": "四国ガス燃料、990-1200へ連絡。ACの表示は長時間ガスを使用したため安全装置が働いて、止まったとのこと。鍵の開けて解除し、復旧。イナに解除方法伝える"
       }
     ],
@@ -1935,7 +2259,9 @@
     "kind": "帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長より、家庭の事情により2026/1/27より一時帰国もしくは退職の予定とのこと。",
     "responses": [
       {
@@ -1943,7 +2269,9 @@
         "time": "13:00:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": null
       },
       {
@@ -1951,7 +2279,9 @@
         "time": "13:53:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "宮内工場長より、1/24退職、1/24給料現金払い、1/25退寮　1/22、23有給使用　最終出勤日1/21 帰りの飛行機代は会社負担になるのか宮内工場長より確認してほしいとのこと。"
       },
       {
@@ -1959,7 +2289,9 @@
         "time": "12:39:50",
         "responder": null,
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "1/25のバスにて関空へ"
       }
     ],
@@ -1977,7 +2309,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/65.登録画像１－１.030930.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1zk2xyFKomVGsTer4xVMmSS3Gu4RIirTg&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "牛渕１のレンジの皿が割れた。皿を交換する",
     "responses": [
       {
@@ -1985,7 +2319,9 @@
         "time": "9:47:44",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "廃棄予定電子レンジより交換にて終了"
       }
     ],
@@ -2003,7 +2339,9 @@
     "kind": "携帯",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "携帯契約したい申し出。12/27午前中に行きたい",
     "responses": [
       {
@@ -2011,7 +2349,9 @@
         "time": "16:46:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "楽天重信　10:00で予約"
       },
       {
@@ -2019,7 +2359,9 @@
         "time": "11:29:19",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "携帯契約で終了　070-9449-6583"
       }
     ],
@@ -2037,7 +2379,9 @@
     "kind": "結婚",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/67.登録画像１－１.075345.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1wmaYr6BjrL7IE1rfcuGzq7VETusm_Z51&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長よりラティフとミャナが7/21～9/20まで結婚のため一時帰国希望のＬＩＮＥあり。",
     "responses": [
       {
@@ -2045,7 +2389,9 @@
         "time": "12:50:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/67.対応画像１ー２.055640.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1YuTmxtXCJZmBpaKb-Df7APBxyoEjp_XI&sz=w800",
         "img2": "/appsheet/rireki_photo/67.対応画像１－２.055640.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1rrQUghlHH_RIDv27xIRadNi7-HQHZpv6&sz=w800",
         "note": "チケット画面"
       }
     ],
@@ -2063,7 +2409,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/68.登録画像１－１.215049.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Jy8RytHo0H5oLkv7n5IsGYHhbhimiqTH&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/68.登録画像１－２.215049.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1SbMt3tgdsAQAD5FNrRXInuHH4WnRiZ8h&sz=w800",
     "request_note": "自転車修理依頼",
     "responses": [
       {
@@ -2071,7 +2419,9 @@
         "time": "10:46:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/68.対応画像１ー２.074701.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1M8Elmry5b2zQrJ5FQgrWWLhAxn55yn8H&sz=w800",
         "img2": "/appsheet/rireki_photo/68.対応画像１－２.074701.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1KW2CS7FSfLG41XQMsdkNT-HhGa-ku8OB&sz=w800",
         "note": "カドタ自転車にて修理。2,600円"
       }
     ],
@@ -2089,7 +2439,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/69.登録画像１－１.233325.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1J8LTi-uGicp32xrOaZ_7sr3_G59L0v6b&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/69.登録画像１－２.233325.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1WthjzMBtsxEHYOwTs9e9GRKpCPIYQ1Zo&sz=w800",
     "request_note": "宮内工場長より昨日自転車で事故したとの報告あり。8:05に相手先に電話するも出ず。8:13朴さんに一報し、本人より事故の状況聞き取り依頼。",
     "responses": [
       {
@@ -2097,7 +2449,9 @@
         "time": "23:45:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/69.対応画像１ー２.075527.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1oACLLlXTfRCU7JR79wuMbq3xPQ5ixblT&sz=w800",
         "img2": "/appsheet/rireki_photo/69.対応画像１－２.081445.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1PXfNXASe3CvNSxXlSUAOsiV5kzK0K5Lz&sz=w800",
         "note": "11:45相手の母親より連絡あり。090-3379-6981、山根さん、担当者などを送付いただいた。"
       },
       {
@@ -2105,7 +2459,9 @@
         "time": "7:49:27",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/69.対応画像２ー１.001324.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1odNjPRGhJCa-T7vOw3AeO06QSVvQ9S8n&sz=w800",
         "img2": "/appsheet/rireki_photo/69.対応画像２－２.053112.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1EpvUHQcy0yT_QUiN32Xc6wyzAd5nXLZ4&sz=w800",
         "note": "シーに聞き取り（ダット通訳）写真の場所にてぶつかった、朴さんより、連絡をとるがシーより連絡がないとのこと。"
       },
       {
@@ -2113,7 +2469,9 @@
         "time": null,
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/69.対応画像３ー１.002148.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=12uJH3gT3wxuvDz4fDfeNueLbLiHuI74L&sz=w800",
         "img2": "/appsheet/rireki_photo/69.対応画像３－２.002148.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1x-qx_tetjVRFU_hoex3RcZ-NadBbd67l&sz=w800",
         "note": "3/25に2,600円の振込を行ったと連絡あり。"
       }
     ],
@@ -2131,7 +2489,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "アトム606の方より、毎日騒音がひどいとのことでアトムへ怒鳴りこんできているとのこと。",
     "responses": [
       {
@@ -2139,7 +2499,9 @@
         "time": "12:45:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ヒエンに気を付けるよう伝えた。ご主人、トゥーにも伝えてもらうようにした。"
       },
       {
@@ -2147,7 +2509,9 @@
         "time": "7:55:39",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ヒエンに聞き取り、夜が遅く料理をしている可能性があるため、再度、注意を依頼"
       }
     ],
@@ -2165,7 +2529,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/71.登録画像１－１.232114.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1y6tjhDvmJVAwEvvNiot_WmRXT3hXMGsu&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "給料について問い合わせあり",
     "responses": [
       {
@@ -2173,7 +2539,9 @@
         "time": "8:21:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/71.対応画像１ー２.232220.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1BM-upFWhFgpK93omawVhPkF1cUgRepvO&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "新開工場長へLINEにて連絡。対応依頼。"
       },
       {
@@ -2181,7 +2549,9 @@
         "time": "12:25:05",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "新開工場長より説明を受け納得したとの回答あり"
       }
     ],
@@ -2199,7 +2569,9 @@
     "kind": "一時帰国 , 結婚",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/72.登録画像１－１.224426.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1YuR4jcvsGcUcTLeIiwP8A_W3RX-Ew0t4&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、LINEにて、2025/4/20～6/3まで、自身の結婚のため一時帰国の申し出あり。また、次の特定２号の試験の申し出ありとのこと",
     "responses": [
       {
@@ -2207,7 +2579,9 @@
         "time": "12:25:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "連番 127 日付 2026/02/19 時間 12:39:07 登録者 尾崎 実習生 コフィファー ヌル コエリヤー View Ref (実習生) 申請区分 一時帰国 完了区分 申請中 登録記事 4/20～6/5帰国。在留カード更新、4/15頃行う"
       },
       {
@@ -2215,7 +2589,9 @@
         "time": "8:34:02",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "3/12入管へ提出"
       }
     ],
@@ -2233,7 +2609,9 @@
     "kind": "携帯",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/73.登録画像１－１.032137.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1kSFGtJzKh59z74LD76WKzkpaaGk6787c&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/73.登録画像１－２.032137.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1S8pozb4BdG8EfCivN6bo800Fbi9hA0bc&sz=w800",
     "request_note": "楽天より弁護士を使ってメールあり、対応してほしいとのこと。市ヶ谷中央法律事務所　05031172527",
     "responses": [
       {
@@ -2241,7 +2619,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "弁護士事務所へ電話したが本人同席でないと対応できないと言われた。後日レザと改めて電話する"
       },
       {
@@ -2249,7 +2629,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "レザ同席の元、弁護士事務所へ連絡。滞納分R7.7～10月分￥13,195。12/25レザからお金を預かり支払い済。"
       }
     ],
@@ -2267,7 +2649,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "スハルより、サエと一緒に別棟に移っていいかの問い合わせ。ウフィック、ウイッティOKとのことで部屋を見て決めたい",
     "responses": [
       {
@@ -2275,7 +2659,9 @@
         "time": "12:21:38",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "別棟へ移動はいやとのことで、食堂の前に移る。ウィックに２名探すよう指示。"
       }
     ],
@@ -2293,7 +2679,9 @@
     "kind": "購入",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/75.登録画像１－１.053631.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=19RfZMEpWOKNI1EW9OW7_NTLsR6tC7FL5&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "中野２の自転車置場が、夜間暗いため電気を設置依頼",
     "responses": [
       {
@@ -2301,7 +2689,9 @@
         "time": "14:35:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/75.対応画像１ー２.053631.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1YsIuf5EvOcl3PZz_8wSYfsjciV-eNLc-&sz=w800",
         "img2": "/appsheet/rireki_photo/75.対応画像１－２.053631.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1Ln1TKwT843iCpRugbGiRv5ljGlEBGKjz&sz=w800",
         "note": "ダイキにて購入し、仮設置"
       },
       {
@@ -2309,7 +2699,9 @@
         "time": "10:21:43",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "12/26にナウファルにて問題ないとの回答。"
       }
     ],
@@ -2327,7 +2719,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "チンや子供で大変なため、育児休暇を延長依頼。確認すると伝える",
     "responses": [
       {
@@ -2335,7 +2729,9 @@
         "time": "14:23:14",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "1/31まで延長にて回答、本人了承"
       }
     ],
@@ -2353,7 +2749,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/77.登録画像１－１.083652.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1YsNUG-G-xMxsopngrvWemCugFd50Ac8c&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/77.登録画像１－２.083652.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=13EbvDmeDX9mbBz3rkbvHdA08VzBlrxY4&sz=w800",
     "request_note": null,
     "responses": [
       {
@@ -2361,7 +2759,9 @@
         "time": "17:33:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/77.対応画像１ー２.083652.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1mtsRhxihNC7Byvmgh6LWnLSFR4Zq8YcO&sz=w800",
         "img2": "/appsheet/rireki_photo/77.対応画像１－２.084647.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1nhMsGEw-F6lir4huEh7bN4_oDD9Dhs63&sz=w800",
         "note": "参加登録はしましたが、１人で参加はむずかしいので確認すること"
       },
       {
@@ -2369,7 +2769,9 @@
         "time": "13:23:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/77.対応画像２ー１.042450.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1kOaUyrs1PYFu-Zo2E1ivofkWXV3FHbqX&sz=w800",
         "img2": "/appsheet/rireki_photo/77.対応画像２－２.042450.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1oV2TLAIdUCDoiEVGTtp9Hc1gyGfieAfr&sz=w800",
         "note": "アイシャーも成人式出席のため、参加登録。東温市役所にも、２名で参加、連絡して問題ない回答"
       }
     ],
@@ -2387,7 +2789,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/78.登録画像１－１.080618.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=175-kgCvXwOcK6KbaDj4ERDSWS1J_8MOn&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/78.登録画像１－２.080618.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1yPibvSKiEeYuN-iRwtWXm0CQijTeeY7z&sz=w800",
     "request_note": "明日、病院へ連れて行ってほしいと連絡あり。熱３８咳と喉が痛い症状。明日、よしおか内科予約し連絡する。朝８時までに症状報告依頼。サニアも同じ症状のため病院へ行きたい",
     "responses": [
       {
@@ -2395,7 +2799,9 @@
         "time": "11:43:29",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "よしおか内科受診、リズキはインフルB、サニアは該当なし。サニアはインフルの薬でていないとのこと。"
       },
       {
@@ -2403,7 +2809,9 @@
         "time": "14:51:18",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "リズキより薬の追加がほしいと連絡あり。よしおか内科に確認。４日分の薬と１０回分の咳止めを処方してもらい840円。"
       }
     ],
@@ -2421,7 +2829,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/79.登録画像１－１.225855.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1PtNO_1Fn8-uMgkCcse8ZwN5hJhKcuG3K&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "アリフより、マヤンとダナンが熱との連絡あり。",
     "responses": [
       {
@@ -2429,7 +2839,9 @@
         "time": "11:46:58",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "本日の病院は雨等により無理とのことで、1/6(火曜日)10:30で再予約"
       },
       {
@@ -2437,7 +2849,9 @@
         "time": "10:30:51",
         "responder": "池内 , 尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "1/6よしおか内科受診。ダナンはインフルA。解熱すれば11日より勤務。マヤングは陰性で熱もないため、昼から勤務。"
       }
     ],
@@ -2455,7 +2869,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/80.登録画像１－１.235023.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=18a6fmzYIw7Rm6PSwpbUzNq--PZUEBHzk&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "給湯器が使用できないとの申し出あり。管理人に確認すると伝える",
     "responses": [
       {
@@ -2463,7 +2879,9 @@
         "time": "11:42:18",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "お湯が出たと報告あり。完了"
       }
     ],
@@ -2481,7 +2899,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "5日くらい前から、頭痛、左胸あたりが痛み苦しくなる。吐き気あり。夜も寝れないなどの症状があり、病院へ行きたいとのこと。",
     "responses": [
       {
@@ -2489,7 +2909,9 @@
         "time": "14:30:12",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "1/6くぼた呼吸器内科へ受診。症状を伝えたが尿検査、血圧測って終了。仮病じゃないかと言われ、吐き気の薬飲み処方。とりあえず、処方された薬飲んで様子見。"
       },
       {
@@ -2497,7 +2919,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "1/17に病状確認。本人的に治ったとのこと。"
       }
     ],
@@ -2515,7 +2939,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/82.登録画像１－１.231529.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1EFn7M0Ll0Wf27IU6a3YR3qmVknPLXX-5&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "一時帰国の申出。3/12に変更～4/10までアンディニと一緒とのこと",
     "responses": [],
     "overall_note": null
@@ -2532,7 +2958,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/83.登録画像１－１.122539.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1H5JnPZPCYxEYFnuD4YDFxwTSaZ_mSekC&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/83.登録画像１－２.123809.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=16JnTjeM6Mh3gfHcYLN89wbHSgZ1mpPzx&sz=w800",
     "request_note": "手がぶつぶつができて痒いので病院へ行きたい申し出あり。新開工場長へLINE連絡済み",
     "responses": [
       {
@@ -2540,7 +2968,9 @@
         "time": "14:30:41",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "1/8八木皮膚科受診。両手の手の甲、両腕、両足にひどめの湿疹でかゆい。乾燥がひどいのが原因。塗り薬多めに貰い様子見てみる。"
       }
     ],
@@ -2558,7 +2988,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/84.登録画像１－１.215241.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1cA4pq-f76eyK_tBPiMGOzLbeQhhJ0x5x&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、月曜日1/5より指が少し腫れていると連絡あり。今週様子見て治らないようなら来週病院へ",
     "responses": [
       {
@@ -2566,7 +2998,9 @@
         "time": "12:02:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/84.対応画像１ー２.080221.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1VrUnZgzSdi17gQuqiIYC3blmOH39bQXa&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "左手中指、右手薬指が痛い、来週痛いようなら再度連絡依頼。→1/24（土）金澤整形受診"
       },
       {
@@ -2574,7 +3008,9 @@
         "time": "10:51:00",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "金澤受診。レントゲンでは異常はないが、リウマチの可能性もあるかもしれないので採血を実施。次回1/31に検査結果とリハビリ予定(ナナと二人で行くとのこと)"
       }
     ],
@@ -2592,7 +3028,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/85.登録画像１－１.002700.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Aldc41SEQ2TarCLq21UrXYPkpP8VTssJ&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "冷蔵庫が冷えない申し出があり、確認に行くと冷蔵が出来ない様子",
     "responses": [
       {
@@ -2600,7 +3038,9 @@
         "time": "10:59:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/85.対応画像１ー２.080138.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1EFceATpuKiCt001NYk_1FEgc8Sf9P3L9&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "冷えないため、専務に相談、2019年8月購入のため、購入相談、OK"
       },
       {
@@ -2608,7 +3048,9 @@
         "time": "14:06:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/85.対応画像２ー１.080702.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1DCVfNOxi1rcz33HjFy_ACO0vpKKenrur&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "ケーズ電気にて購入、1/17土曜日配達"
       },
       {
@@ -2616,7 +3058,9 @@
         "time": "23:51:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ケーズ電気にて購入搬入"
       }
     ],
@@ -2634,7 +3078,9 @@
     "kind": "帰国",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/86.登録画像１－１.055902.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1_Ei6FN5VpG6UMcNJRlq1CTM2iXcvmnET&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長より、ヌーの一時帰国6/15～8/2の連絡あり。（飛行機は6/16　9:20大阪発～8/1　7:50大阪着）",
     "responses": [],
     "overall_note": null
@@ -2651,7 +3097,9 @@
     "kind": "病院",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/87.登録画像１－１.102030.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1MI-Jx19QfT2Z90x9cWgvW5lY67Sexju7&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ミャナより現在しばらくばね指で通院しているが、薬でも改善しないため、手術になるとのこと。1/17の朝に受診予定のために一緒に話を聞きに行くことにする。",
     "responses": [
       {
@@ -2659,7 +3107,9 @@
         "time": "9:23:15",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "金澤より、日赤へ紹介状を送ってもらった。後日、日赤へいつ受診行くかなど連絡来る。引き続き池内対応します。→1/28　13:00～日赤"
       },
       {
@@ -2667,7 +3117,9 @@
         "time": "13:24:06",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "日赤の整形受診。ばね指の症状の、指の引っ掛かりが強い。今回は注射で痛み緩和の処置。1か月後に改善がなければ手術の日程を決めましょうという話になった。次回、2月25日(水)13:10～"
       },
       {
@@ -2675,7 +3127,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "3/17 午前中手術　3/25抜糸　予定。新開工場長と大西さん連絡済み"
       }
     ],
@@ -2693,7 +3147,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/88.登録画像１－１.111237.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1UizbrELqmRQgDI5wDuOQGRPE4GdGrARG&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車のペダル修理依頼",
     "responses": [
       {
@@ -2701,7 +3157,9 @@
         "time": "9:11:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/88.対応画像１ー２.001235.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1NZ_1E8HZjuqTV6W6Nezu-WgU74WngH_m&sz=w800",
         "img2": "/appsheet/rireki_photo/88.対応画像１－２.001235.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1UNBk4ISBG5kGx-NaEM6jNZjaX2pLjuEa&sz=w800",
         "note": null
       },
       {
@@ -2709,7 +3167,9 @@
         "time": "15:49:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "クランプを抜くには特殊な工具が必要なため、門田サイクルへ、月曜日まで預ける"
       },
       {
@@ -2717,7 +3177,9 @@
         "time": "14:39:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/88.対応画像３ー１.054033.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1yz-do8DQAWWx0PXfC9I1ZX5raqJXm9FO&sz=w800",
         "img2": "/appsheet/rireki_photo/88.対応画像３－２.054033.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=175FdE3P9twetr8HzHpRQc9EPLTi0MZwx&sz=w800",
         "note": "古い自転車の部品と交換。工賃2,000円"
       }
     ],
@@ -2735,7 +3197,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/89.登録画像１－１.111450.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Oc9mAL8RWGUVt-mgNy3qgEV9DSSu9YhE&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車のパンク修理依頼。会社にある様子",
     "responses": [
       {
@@ -2743,7 +3207,9 @@
         "time": "12:52:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/89.対応画像１ー２.035224.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1TnawDzGoX15VtMTTsC3SQ4wzYcmeU5J5&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "修理終了"
       }
     ],
@@ -2761,7 +3227,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エカより、1/15午後、ニマを椿ウイメンズに一緒にいってほしいとの話があり。時間を連絡依頼",
     "responses": [
       {
@@ -2769,7 +3237,9 @@
         "time": "19:42:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/90.対応画像１ー２.124350.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1rg5iDntgpaqQcG2I8HOqGz1xkZL_aVO8&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "明日の病院はなし。次回は自分で行くとの申し出"
       }
     ],
@@ -2787,7 +3257,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/91.登録画像１－１.010524.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1NXs629ng74WCMT2yu40ZL-umtG400Wmb&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/91.登録画像１－２.074303.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1lNFYLnySuOGMycq1lA_qGBi86_ZBt7yW&sz=w800",
     "request_note": "おやしらずがいたく歯医者にいくと連絡あり。あとで、病院の予約ずみの様子。グリーン歯科　9:00",
     "responses": [
       {
@@ -2795,7 +3267,9 @@
         "time": "9:39:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "おやしらずを抜く、なにもなければ、終了"
       }
     ],
@@ -2813,7 +3287,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "1/16発熱で早退したと連絡あり。38度くらい。17日(土)に八木耳鼻咽喉科にて発熱外来受けれるようにこちらで病院の手配をする。病院へはインフル、コロナの検査希望をつたえた。予約制ではないので朝8：30～11：00までに受付するように伝えた。",
     "responses": [
       {
@@ -2821,7 +3297,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "インフルA。発症日が1/16(金)で、1/21まで自宅療養。新開さんへ連絡済。特定1号保険は未加入"
       }
     ],
@@ -2839,7 +3317,9 @@
     "kind": "問合せ",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/93.登録画像１－１.135003.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1LzqYFt78Uiu13Wh2pNHNHBi4ju1nGXwp&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/93.登録画像１－２.135003.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1R0n2PxQeY06lEvLU_9XxVQjHxbtEfFvb&sz=w800",
     "request_note": "エヴィより、牛渕に国民年金の紙が来たとのこと。確認すると伝える",
     "responses": [
       {
@@ -2847,7 +3327,9 @@
         "time": "21:30:11",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "アイシャーからとの返事"
       }
     ],
@@ -2865,7 +3347,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/94.登録画像１－１.233403.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1_IXDuqkcvRvq_9_fVGbAT6YCyNHWJ054&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エヴィより連絡あり。",
     "responses": [
       {
@@ -2873,7 +3357,9 @@
         "time": "9:30:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/94.対応画像１ー２.022552.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1_FSLJr2A5enEzz0CB0HQPq162E65DaZW&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "一度取り外す、中野１へ"
       },
       {
@@ -2881,7 +3367,9 @@
         "time": "11:24:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/94.対応画像２ー１.022552.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1T-XNSWghlXsaAzt9lA9pDoDp3e1GMUwY&sz=w800",
         "img2": "/appsheet/rireki_photo/94.対応画像２－２.022552.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1QUOhcl6FeV_agtLty8hcfDajt0y4QxA2&sz=w800",
         "note": "4-507ヒダヤットの部屋の分と交換する"
       },
       {
@@ -2889,7 +3377,9 @@
         "time": "16:46:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/94.対応画像３ー１.094705.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1RQdCezWjVyJTnyiLdTxPLG_3cKLKQP26&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "パイプに穴が開いたため、パイプ交換"
       }
     ],
@@ -2907,7 +3397,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/95.登録画像１－１.011729.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1tR2d9CeUdnBD4vqRHPHsTYInARSET-Fq&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/95.登録画像１－２.011729.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1io3H-Ou2e4M3sRQyE-9DiDWBcpluINfc&sz=w800",
     "request_note": "アトム６０６の谷森さんより騒音についての問い合わせあり。",
     "responses": [
       {
@@ -2915,7 +3407,9 @@
         "time": "10:51:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "谷森さんへ連絡して確認。現在のところ、穏やかな日々を送っているとのこと。何かあれば、連絡を依頼。"
       }
     ],
@@ -2933,7 +3427,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "21時頃、ジラより電話があり、ベリが外で倒れ気絶したとのこと。ジラがコーポ津吉まで連れて帰った。新開工場長へ連絡をし、様子を見に行っていただく。",
     "responses": [
       {
@@ -2941,7 +3437,9 @@
         "time": "22:30:00",
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/96.対応画像１ー２.133221.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1hH0q4Yt9Bu3JA5wqPuxyv0ZtJjIUUlx3&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "新開工場長よりべリの様子を見に行っていただき、意識あり、熱無し。薬飲ませて対応していただきました。翌朝、べリの様子を見に行き報告すると伝えました"
       },
       {
@@ -2949,7 +3447,9 @@
         "time": "17:00:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/96.対応画像２ー１.225707.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1OayuaRzEOAmhA-V_i7ZlBj_QjsoOm9cD&sz=w800",
         "img2": "/appsheet/rireki_photo/96.対応画像２－２.225706.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=12AKhvKKnUOPwNIoTgZxQ2d2aETelG7NA&sz=w800",
         "note": "平成脳神経外科受診、MRI、血液検査共に問題なし。血圧102/56で血圧が低いため、脳に血液が送られるにが低下したため、脳低血圧による失神ではないかとのこと。脱水症状もあるため、水分及び食事をきちんととるよう指示。専務より、２日は休んで体調整えるよう指示あり。山本統括にも報告済み"
       },
       {
@@ -2957,7 +3457,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "1/23より勤務している"
       }
     ],
@@ -2975,7 +3477,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/97.登録画像１－１.040204.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=11n9ycrqCYYXpM6FXNYOeMLgP3MYgGHDP&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "レギタより、オリフェアとノビと３人で下の部屋に移動したいと申請あり。",
     "responses": [
       {
@@ -2983,7 +3487,9 @@
         "time": "12:36:54",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "３人が移動したと報告あり"
       }
     ],
@@ -3001,7 +3507,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/98.登録画像１－１.003330.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1hmdLCr8LDwz_uMCMoKCi6rnbP0_fj0l8&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長より、ヌーの一時帰国2/5～3/7の連絡あり。（飛行機は2/5　13：30広島発～3/7　12:00広島着）",
     "responses": [],
     "overall_note": null
@@ -3018,7 +3526,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "3/1～家の建築のため一時帰国したい申出。新開工場長へ報告済みだが、本人より伝えるよう伝える。",
     "responses": [
       {
@@ -3026,7 +3536,9 @@
         "time": "9:57:40",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/99.対応画像１ー２.010017.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1cLXqYBeLqWA8MKr88QroQDsI3kLPKh0Y&sz=w800",
         "img2": "/appsheet/rireki_photo/99.対応画像１－２.012048.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1hsA1p_pH2hEMx4nKFtzJMeKOnVON8Kfw&sz=w800",
         "note": "飛行機チケット受領。2/26～4/14の飛行機（広島発着）2/25最終出勤、4/15勤務開始"
       }
     ],
@@ -3044,7 +3556,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/100.登録画像１－１.230839.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1ilaAP08BTlEstIThsGZr8L6pHe9g6Lqn&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車の鍵が折れた。自分でやってみて出来なければ連絡依頼",
     "responses": [
       {
@@ -3052,7 +3566,9 @@
         "time": "14:06:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/100.対応画像１ー２.050334.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1m1hAm8i8srIXdgmUznTdhDDJ6n8KO4YZ&sz=w800",
         "img2": "/appsheet/rireki_photo/100.対応画像１－２.050334.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1HdiVm56idVrnvphVUnVCKxFF4Z3rxytw&sz=w800",
         "note": "鍵を取り出す"
       }
     ],
@@ -3070,7 +3586,9 @@
     "kind": "一時帰国",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/101.登録画像１－１.231049.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1H-3HMErtNzQPUjhQXtrAapcrOJPpi9mI&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、5/6～6/6まで一時帰国のメールあり。",
     "responses": [],
     "overall_note": null
@@ -3087,7 +3605,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/102.登録画像１－１.013055.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1KSI-X4foEAiUoiF7gQBTKQ_JyIpeM2yk&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/102.登録画像１－２.013055.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1NvLuCPlE9kY525eoHMEtHaSZv7LstPbF&sz=w800",
     "request_note": "1/25 11時過ぎ頃寮を出る予定。自転車と寮の鍵はホンへ渡すとのこと。1/26に回収予定。自転車の確認済。エレベーター付近の駐輪場へ停めている。NO.7919",
     "responses": [
       {
@@ -3095,7 +3615,9 @@
         "time": "10:20:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": null
       },
       {
@@ -3103,7 +3625,9 @@
         "time": "15:37:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/102.対応画像２ー１.013816.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1UA9U_BRTP_GhSOYllHJiYKel0QiJu0DK&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "中野２へ"
       }
     ],
@@ -3121,7 +3645,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/103.登録画像１－１.091523.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1FkHjNW-dRW4WdccrzUdxE6LWGJtUvm0R&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "足に痛みがあり、病院へ行きたいとLINEあり。",
     "responses": [
       {
@@ -3129,7 +3655,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/103.対応画像１ー２.032103.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=13rvd0Jl5r4DRXo5B-dpk6SpaS9o9Zc0l&sz=w800",
         "img2": "/appsheet/rireki_photo/103.対応画像１－２.032103.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1y9cUsXOxT7nTXHBAkb4VHnkhSC22Vx_4&sz=w800",
         "note": "自転車で転倒した際に怪我した。膝から足首にかけて打撲しており内出血しているため、足を引きずっている状態。金澤整形にて受診。骨折や筋肉の損傷はないが痛みが引くまで無理しない様にとのこと。２月１週目に再受診させる予定。（仕事終わり18時頃に行くように伝えた）"
       },
       {
@@ -3137,7 +3665,9 @@
         "time": "13:15:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "足の怪我も治ったとのこと"
       }
     ],
@@ -3155,7 +3685,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/104.登録画像１－１.235827.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Zk1AuCKhOlYXvPM641GfNOBz1IBzvxqm&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "藤原副工場長より、ロンが目に出来物ができて病院へ行きたいと申し出があり。近くの病院に空きがないため、直接行くと伝える",
     "responses": [
       {
@@ -3163,7 +3695,9 @@
         "time": "9:56:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "あおば眼科受診。石が発生しているため、取る。まだ、下に石がありそれが表面に出てくることがあり、表面に出てきたら取るしかないとのこと。今回石を取るので出血してるので１時間ぐらい痛みがある。３日間目薬を処方し終了。"
       },
       {
@@ -3171,7 +3705,9 @@
         "time": "8:52:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "再度、痛みが発生したため再受診。目をさわったことにより、めいぼができた。飲み薬を処方し様子を見る"
       }
     ],
@@ -3189,7 +3725,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/105.登録画像１－１.232527.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1FgSKC3SPUmXZwSCUsPxDKjZRgEkmPflu&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車の調子が悪いと連絡あり。男の子が直してくれたので一旦は大丈夫そうとのことだが、また修理依頼が来るかもしれません",
     "responses": [],
     "overall_note": null
@@ -3206,7 +3744,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/106.登録画像１－１.014345.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=11BJnZka0bDhBwTWFzRPKL2g-qn2OpFJo&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/106.登録画像１－２.014345.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1g431DLV-wcMGLn5MCIWOisRHYm9uPHK2&sz=w800",
     "request_note": "ホンより、４０１の台所の排水が漏れると連絡あり。アトム石崎さんへ連絡。1/27火曜日9:30に予約が取れたと連絡あり。",
     "responses": [
       {
@@ -3214,7 +3754,9 @@
         "time": "11:03:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "石崎さんより業者手配し完了"
       }
     ],
@@ -3232,7 +3774,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/107.登録画像１－１.230157.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1nnGOen9dR9jWskHWvTBlSZiGJ-iiIcVG&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/107.登録画像１－２.230157.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1WTqu3R_Su6Yxbemc1f2mS97ieqcxNt-K&sz=w800",
     "request_note": "６０２の風呂の水漏れ、石崎さんへLINE済",
     "responses": [
       {
@@ -3240,7 +3784,9 @@
         "time": "11:02:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "石崎さん対応済み"
       }
     ],
@@ -3258,7 +3804,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/108.登録画像１－１.230839.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Ejj0b1IPpQg5k_K1CwIDKKxnx8e6-9Qs&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "洗濯機の給水のところが合わない。",
     "responses": [
       {
@@ -3266,7 +3814,9 @@
         "time": "11:01:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/108.対応画像１ー２.020230.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1KRtSowOS-wNpb4cvcHqTl2ajblsRinhs&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "ダイキにて部品購入し、設置"
       }
     ],
@@ -3284,7 +3834,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/109.登録画像１－１.230846.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1QYV7IFmHutbHxoRfzxzYkUM2vF_lRLWJ&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/109.登録画像１－２.230846.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1nPTUjZSbOxgKN1oW4uXuIcFqBRIz9vni&sz=w800",
     "request_note": "エカより、駐車場契約について相談あり。明日、確認して連絡すると伝える。",
     "responses": [
       {
@@ -3292,7 +3844,9 @@
         "time": "13:41:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/109.対応画像１ー２.000903.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=10y0yHEolPuj_G9MTY8nfaz82DzY2eho5&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "ビレッジへ契約対応中"
       },
       {
@@ -3300,7 +3854,9 @@
         "time": "16:04:56",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ビレッジより許可証等届いたため、エカへＬＩＮＥ及び津吉印刷し本人へ"
       }
     ],
@@ -3318,7 +3874,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/110.登録画像１－１.035110.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1V-8ZTbM52zxT31KqEON60O3y9AckPmts&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エヴィより、タラユニの自転車がパンクで修理依頼。明日、行うと通知",
     "responses": [
       {
@@ -3326,7 +3884,9 @@
         "time": "15:40:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/110.対応画像１ー２.064330.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1V3hlhMeq9EsPIuMEiugQ1SgppeJLBRMe&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "現在パンクしていないため、大西工場長代理に連絡。エヴィに確認及び本人より、空気をいれてしばらくすると抜けてるとのこと。現在のところパンクしていないので様子を見てと伝える"
       }
     ],
@@ -3344,7 +3904,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/111.登録画像１－１.044838.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1S2vhHSphO7cfiP2F4pVKj-2lOPh79pBB&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ロパから、鼻水が止まらない。夜も寝れないので、病院でアレルギー検査を受けたいとのこと。アレルギー検査できる病院を探すと伝えている。→1/31㈯　8:15～よしおか内科へ。一人で行く。何かあったら池内へ電話かかってくるので対応する。",
     "responses": [
       {
@@ -3352,7 +3914,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/111.対応画像１ー２.041911.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1ICTJUZvDmWYrekhx4AY8ztu07Xoyk1Yp&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "検査結果は異常なく、たまねぎのアレルギーはなし。"
       }
     ],
@@ -3370,7 +3934,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/112.登録画像１－１.222237.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1JZ11DCz_wNKWHHHp8XCcyN8Rv5JsNdpb&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、リリスが昨日手を怪我したと連絡あり。病院へはいっており、月曜日も行くとの報告あり。",
     "responses": [
       {
@@ -3378,7 +3944,9 @@
         "time": "12:14:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/112.対応画像１ー２.231514.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=17-WIMCWgfO9XfMjLBnDs6yQqFNv5zJwX&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "デュアナからも連絡あり。"
       },
       {
@@ -3386,7 +3954,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/112.対応画像２ー１.120842.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1wjlTvqeUE1tNbOtRmLYT6YkpQTsuCcLT&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "中川病院にて1/31と2/2に処置してもらった。2/3も受診予定。2/4から出勤したいとのこと"
       }
     ],
@@ -3404,7 +3974,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/113.登録画像１－１.225737.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1tpSq8BH6KDQeOzLE4sNiq-pEQa4Z96jo&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/113.登録画像１－２.225737.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1JT67hIK-zvQ9K2WCBJObEOZV_aV9k7SA&sz=w800",
     "request_note": "チンより、出産一時金の用紙について、問い合わせあり。近く訪問するので、そのときに記入する。",
     "responses": [
       {
@@ -3412,7 +3984,9 @@
         "time": "10:49:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/113.対応画像１ー２.031004.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1sf1h2OAblDVjxE6G41y2ehz2UR58KVmJ&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "書類作成し、提出依頼"
       }
     ],
@@ -3430,7 +4004,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/114.登録画像１－１.225804.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1iNQYIt0YrAjWVUNWn9RLrNRt013Hbi2Z&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "退職後の書類の依頼があり。",
     "responses": [
       {
@@ -3438,7 +4014,9 @@
         "time": "9:13:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/114.対応画像１ー２.001445.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1Xmh1gzG5f7t39JmjE78pSKE_zR-yQbvi&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "資格取得証明書送付、後は、退職後、送付予定"
       }
     ],
@@ -3456,7 +4034,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/115.登録画像１－１.001516.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1REtFP6mFW8LCbNXSeXAm8BNhn9SOVzTW&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "2/2～体調不良で休んでいる。頭が痛いので病院へ行きたいとのこと。八木耳鼻咽喉科へ連絡",
     "responses": [
       {
@@ -3464,7 +4044,9 @@
         "time": "15:00:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "八木病院へ受診。コロナ、インフル陰性。風邪薬もらう"
       }
     ],
@@ -3482,7 +4064,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "日本にいる友達を中温に転職の依頼。履歴書、在留カード、パスポート、A2、飲食資格を送るよう伝える",
     "responses": [
       {
@@ -3490,7 +4074,9 @@
         "time": "15:58:29",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "3人対応中"
       }
     ],
@@ -3508,7 +4094,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/117.登録画像１－１.044532.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Y0TnosuFwc24hiiU3oKd18OG5iTahhe7&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/117.登録画像１－２.044531.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1TuCiuD74V-mD6b1G1YEpFmtgeucnc8LN&sz=w800",
     "request_note": "2/5　マヤングより足が痛い、かゆくて我慢できない。靴履くのもつらく病院へ連れていってほしいとのこと。尾崎さんが津吉付近にいるので病院同行お願いした。同日同時間にデヴィメルヴァも八木病院へ行くことになっていたので、一緒に。",
     "responses": [
       {
@@ -3516,7 +4104,9 @@
         "time": "14:59:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "八木皮膚科受診。しもやけ。寒いため、靴下などで温くする。薬をもらい様子を見る"
       }
     ],
@@ -3534,7 +4124,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "アトム石崎さんより、５０２の人が来て、昨日、洗面台の上から水が雨のように降ってきたとのこと。現地確認すると、洗濯機の排水と台所の排水が悪いとのことで、石崎さんへ伝える。本日、13:30に現地確認予定",
     "responses": [
       {
@@ -3542,7 +4134,9 @@
         "time": "11:12:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "アトム石崎さんより、昨日、配管を交換したが、詰まりが直ってない様子。月曜日、業者手配し連絡しますとのこと。"
       },
       {
@@ -3550,7 +4144,9 @@
         "time": "10:36:00",
         "responder": null,
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "作業終了の連絡あり"
       }
     ],
@@ -3568,7 +4164,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/119.登録画像１－１.061120.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=10x5L91hZVrH_dHXjfNkcRhjbWPcH_P3Y&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "外の配水管が詰まってるのでは？と問い合わせ。明日、確認すると返信",
     "responses": [
       {
@@ -3576,7 +4174,9 @@
         "time": "15:51:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/119.対応画像１ー２.065217.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1LgkXti58oorMDmR34-aB3zvv-sDWp3oJ&sz=w800",
         "img2": "/appsheet/rireki_photo/119.対応画像１－２.065217.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1tTMbbUN1jc1McHUEQ23hltCXdXzlFlOx&sz=w800",
         "note": "保険の福岡さんへ、保険適応できないか確認依頼。"
       },
       {
@@ -3584,7 +4184,9 @@
         "time": "16:01:30",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/119.対応画像２ー１.051108.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1yaRj2Xwttv5yYtBhpjQTXhEASAFQ7bdf&sz=w800",
         "img2": "/appsheet/rireki_photo/119.対応画像２－２.051103.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1rb9OkDyTEBLMbKX4_5H82IhJ9QVhz_ua&sz=w800",
         "note": "福岡さんより保険の対象外。アベレージ社長へ確認を依頼。コスモ技研さんかどや技研にて確認。シャワー室下にて詰まりや温水より水漏れしてる様子。明日、１４時以降対応"
       },
       {
@@ -3592,7 +4194,9 @@
         "time": "18:31:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "かどや設備西村さんにて、対応済み"
       },
       {
@@ -3600,7 +4204,9 @@
         "time": "13:38:00",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "かどや設備にて再度修理"
       }
     ],
@@ -3618,7 +4224,9 @@
     "kind": "病院",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/120.登録画像１－１.034840.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1HB_qyXlqurGteGMQxNFcfd09R9oa5jBf&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/120.登録画像１－２.034840.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1JblRuKkWi7lxsptzfNp4wGvTigWbsn_0&sz=w800",
     "request_note": "エヴィより連絡あり。２週間前から小指が痛いので病院へ行きたい",
     "responses": [
       {
@@ -3626,7 +4234,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "炎症しているのか腫れている。骨は異常なし。痛み止めと湿布で様子見。2/20に再度受診予定。"
       },
       {
@@ -3634,7 +4244,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "まだ痛む。次回2/27　仕事終わり17：00以降に自分で行くよう指示"
       }
     ],
@@ -3652,7 +4264,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ヒダヤットより、洗濯機が壊れたと連絡あり。",
     "responses": [
       {
@@ -3660,7 +4274,9 @@
         "time": "10:33:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/121.対応画像１ー２.013531.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1HhOlDpD7Ro2y4FHYBNrU7nB7230Mzw_y&sz=w800",
         "img2": "/appsheet/rireki_photo/121.対応画像１－２.013531.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1tHlidjAJ0PnRhViphsfF5NuHhxqLTriF&sz=w800",
         "note": "これだけの洗濯物が絡んでた"
       },
       {
@@ -3668,7 +4284,9 @@
         "time": "10:34:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/121.対応画像２ー１.013531.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=14zt4w0VjSFGcbUSCu_W-IxOKyKra1PAS&sz=w800",
         "img2": "/appsheet/rireki_photo/121.対応画像２－２.014155.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=12zzSqM0Bk1nk3V0eiLMRU1u5892210ER&sz=w800",
         "note": "全ての洗濯物を撤去。稼働確認"
       }
     ],
@@ -3686,7 +4304,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "Wifiが繋がらない",
     "responses": [
       {
@@ -3694,7 +4314,9 @@
         "time": "14:39:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/122.対応画像１ー２.053948.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1YANNbxV96OYyysDIQGr__-P3hhOn1S8L&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "再起動し、接続確認"
       }
     ],
@@ -3712,7 +4334,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/123.登録画像１－１.063604.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1YkI9fsX_Ag7mPOSEDe8HGzT6CF-wK_WR&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/123.登録画像１－２.063603.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1GW6DZUwZEmMCrCyI2S3jbcj7UV1H9CoZ&sz=w800",
     "request_note": "電気がつかない",
     "responses": [
       {
@@ -3720,7 +4344,9 @@
         "time": "14:34:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/123.対応画像１ー２.063604.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1jkha5psWlTn2L4ca4vuskiKkt46LGRs7&sz=w800",
         "img2": "/appsheet/rireki_photo/123.対応画像１－２.063606.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=16ANQg0RXjCjf_TStRSHkKYH2UTKldh2S&sz=w800",
         "note": "廃棄分より同じサイズの分を一時的に取り付け"
       }
     ],
@@ -3738,7 +4364,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/124.登録画像１－１.225453.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1XJvz2Jh4OBICRkwWi-uD9uL3PC0rfuXv&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/124.登録画像１－２.225454.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1C-mNWGBipLrQUjYPtoM-20qofOIvpuOk&sz=w800",
     "request_note": "一時帰国したい申し出。祖母の調子が悪いとのことだが、3/10～８月までは長すぎるし、在留カードが更新できない。検討中",
     "responses": [
       {
@@ -3746,7 +4374,9 @@
         "time": "12:51:00",
         "responder": "尾崎",
         "img1": "履歴_Images/124.対応画像１ー１.085723.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "帰国までに在留カード更新を条件に帰国。新開工場長連絡済み"
       },
       {
@@ -3754,7 +4384,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/124.対応画像２ー１.041845.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1m16TD8EZLyZBz0EQ9gHUBO254CQtLDmx&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "帰国3/10～5/22でチケット確定"
       }
     ],
@@ -3772,7 +4404,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/125.登録画像１－１.231105.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1hl8914Vvc1ZAtlNmyfrSI4DwWh6iQd8O&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車後ろタイヤパンク",
     "responses": [
       {
@@ -3780,7 +4414,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/125.対応画像１ー２.045311.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1cfVc1FOw63lZ9o7GmjQzbBo8HBGlVJCs&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "タイヤが避けていたのでタイヤとチューブ交換。4000円立て替え。"
       }
     ],
@@ -3798,7 +4434,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/126.登録画像１－１.052732.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1oAApxqWvZTxLlssJp8Iyl41d_oqTfHOt&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/126.登録画像１－２.052732.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1jXBsJbEIYgm1JowFbIgMSBKPCXvJkvFT&sz=w800",
     "request_note": "シンクの水が溢れるとのことで、石崎さんに対応依頼。",
     "responses": [
       {
@@ -3806,7 +4444,9 @@
         "time": "15:50:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "石崎さんより完了報告あり"
       }
     ],
@@ -3824,7 +4464,9 @@
     "kind": "クレーム",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/127.登録画像１－１.072027.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1QDyclTCSVsvfnVvpE0SIg1SeEME1QQ9u&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/127.登録画像１－２.072027.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1600zSGXnl6sqIb08TOYVjR-9nvZ8q219&sz=w800",
     "request_note": "管理人さんより通路に放置してたので、上に上げた。改造もしているとのこと。本人に戻すよう指示。",
     "responses": [],
     "overall_note": null
@@ -3841,7 +4483,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/128.登録画像１－１.103448.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=14kzh0G_WkCFO2VP6WCthY8EmKVHKWzMg&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/128.登録画像１－２.103449.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1Vd6bABF4mz_Bi8MryGPAFnOJHnVNkFk3&sz=w800",
     "request_note": "自転車置き場の屋根のトタンが外れて危険",
     "responses": [
       {
@@ -3849,7 +4493,9 @@
         "time": "13:33:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/128.対応画像１ー２.103449.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1lCw-gia4qEbnkmThA1Ob6aoa6GKbOkIu&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "ダイキにて購入して修理"
       }
     ],
@@ -3867,7 +4513,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/129.登録画像１－１.132936.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1d6KmCpVAomhKgyWsLm1XhF30iFQKoJ5K&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "デルタ四国松岡さんより、子宮筋腫の手術に伴い体調が優れない為、業務量の少ない業種へ転職を希望  退職日希望日 2026年3月24日  退寮希望日 未定",
     "responses": [
       {
@@ -3875,7 +4523,9 @@
         "time": "10:17:00",
         "responder": "尾崎",
         "img1": "履歴_Images/129.対応画像１ー１.085840.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "有給４日、カット勤務のため、3/12最終出勤。3/20退職。3/31給料は組合へ渡す"
       }
     ],
@@ -3893,7 +4543,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ブイより、タオが妊娠。出産予定９月１８日で、西条に夫婦で行く予定のため、病院で迷っている。現在ツバキウイメンズ。後日相談。",
     "responses": [
       {
@@ -3901,7 +4553,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "2/25　ブイから、今後の子育てのことなどを踏まえ、松山に残るか西条に行くかもう一度検討したい。と相談があった。新開工場長へ伝えブイと話してもらう。"
       }
     ],
@@ -3919,7 +4573,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/131.登録画像１－１.033957.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1zEr2quRlXX-Am3R2LEHVzM3XvyDIJZ2Q&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/131.登録画像１－２.063855.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1feYviRrK3TS7LeTeKEcBwtB1GeeqnECU&sz=w800",
     "request_note": "シンクの給湯器が使用できないと連絡あり",
     "responses": [
       {
@@ -3927,7 +4583,9 @@
         "time": "9:57:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/131.対応画像１－２.005818.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=14-SSPgFLJSCht_RiRTprVtoRiLWa_owT&sz=w800",
         "note": null
       },
       {
@@ -3935,7 +4593,9 @@
         "time": "15:36:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/131.対応画像２ー１.070639.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1WfnpEZschb_foc1WU_BhPfuGotN-wjsr&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "電池交換して動作確認。終了"
       }
     ],
@@ -3953,7 +4613,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/132.登録画像１－１.063536.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1f7tftcSq8q8fySvmSZNcB5tBFKWdhqHe&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車の鍵を紛失して、交換依頼",
     "responses": [
       {
@@ -3961,7 +4623,9 @@
         "time": null,
         "responder": null,
         "img1": "履歴_Images/132.対応画像１ー１.015541.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/132.対応画像１－２.021931.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1y4NZrfqrt0boz7VwjI_KJdZPgQZooK-K&sz=w800",
         "note": "予備のカギが合わないため、検討依頼"
       },
       {
@@ -3969,7 +4633,9 @@
         "time": "16:29:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "かどた自転車に確認。自転車のカギ番号が分からなければ無理。購入したところに確認依頼"
       }
     ],
@@ -3987,7 +4653,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/133.登録画像１－１.063802.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1l7yXbzMaAJ53t-8wfbVu4CyV1NxAZ8mW&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "5/2～6/2まで一時帰国予定、チケット送付依頼",
     "responses": [
       {
@@ -3995,7 +4663,9 @@
         "time": "15:46:00",
         "responder": "尾崎",
         "img1": "履歴_Images/133.対応画像１ー１.094658.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "チケット"
       }
     ],
@@ -4013,7 +4683,9 @@
     "kind": null,
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "朝、賞味期限切れの食パンを食べて、吐いている。新開工場長と相談し、退社し後で確認しに行くと伝える",
     "responses": [
       {
@@ -4021,7 +4693,9 @@
         "time": "16:00:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "１６時頃、頭が痛いとのことでしたが、１２時頃よりは体調はいいとのことで、何かあれば連絡をもらうようにしてます。"
       },
       {
@@ -4029,7 +4703,9 @@
         "time": "12:53:11",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "お昼食堂にて、大丈夫との返事"
       }
     ],
@@ -4047,7 +4723,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/135.登録画像１－１.230351.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1UZTAtzDdT8UFY-x3VGssNsw-ILFOCsnN&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/135.登録画像１－２.230351.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1rNK8SrkX_SQrdLTq1OqlTgKhX5VuIYrv&sz=w800",
     "request_note": "アリより、一時帰国申し出",
     "responses": [
       {
@@ -4055,7 +4733,9 @@
         "time": "8:21:25",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "3/14～4/21帰国にてチケット済"
       }
     ],
@@ -4073,7 +4753,9 @@
     "kind": "一時帰国",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長より、ロン5月頃帰国したいとのこと。在留カード期限５/２９のため日程確認",
     "responses": [
       {
@@ -4081,7 +4763,9 @@
         "time": null,
         "responder": "池内",
         "img1": "履歴_Images/136.対応画像１ー１.002835.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "在留カード更新書類は提出済み。5/6～6/9まで帰国。チケット有。"
       }
     ],
@@ -4099,7 +4783,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ビレッジハウス管理人中野さんより、段ボール等片付け依頼。インドネシアリーダーへLINE。",
     "responses": [],
     "overall_note": null
@@ -4116,7 +4802,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/138.登録画像１－１.012546.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Q2I7yJxoTMqDz5gXi27Xaf4LS1c-SqW0&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/138.登録画像１－２.012546.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1M63jZ-KW5I-L5TTIX3MUk-wtrz6cVLhD&sz=w800",
     "request_note": "新開工場長から、アユサ３９度発熱と連絡あり。本人に症状聞き取りし、よしおか内科へ行く手配した。アユサ１人で受診。",
     "responses": [
       {
@@ -4124,7 +4812,9 @@
         "time": "12:51:00",
         "responder": "尾崎",
         "img1": "履歴_Images/138.対応画像１ー１.085223.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/138.対応画像１－２.085223.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1J9lkccBqgVgWjzIDr3Z9YK5RLXUjwjTi&sz=w800",
         "note": "領収書預かる"
       }
     ],
@@ -4142,7 +4832,9 @@
     "kind": "一時帰国",
     "status": "申請中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "宮内工場長から、ロアン一時帰国５月～２か月くらい希望とのこと。在留カード期限9/29",
     "responses": [],
     "overall_note": null
@@ -4159,7 +4851,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": null,
     "responses": [
       {
@@ -4167,7 +4861,9 @@
         "time": "10:30:00",
         "responder": "渡部",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "宮内工場長より、専門級試験の学科の結果が合格点数に達してなかったため、5月に実習2号終了で退職となる旨を工場長から本人へ伝えたとのことです。"
       }
     ],
@@ -4185,7 +4881,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "大西工場長代理より、２日前から熱で休んでおり現在も３７.２とのことで、病院へ行きたいとのこと。明日は休みとのことで、、明日、確認しに行くと伝える。",
     "responses": [
       {
@@ -4193,7 +4891,9 @@
         "time": "9:10:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ギムと会うも、現在、熱もなく様子を見るでいいとのこと"
       }
     ],
@@ -4211,7 +4911,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/142.登録画像１－１.230534.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1pV5xZNNqIW71S3jdoUIokIT6bzlMhuD5&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エヴィより、自転車パンク修理依頼",
     "responses": [
       {
@@ -4219,7 +4921,9 @@
         "time": "10:59:00",
         "responder": "尾崎",
         "img1": "履歴_Images/142.対応画像１ー１.015948.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "パンク修理終了 元の場所に戻しました"
       }
     ],
@@ -4237,7 +4941,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車パンク修理依頼",
     "responses": [
       {
@@ -4245,7 +4951,9 @@
         "time": "15:33:00",
         "responder": "尾崎",
         "img1": "履歴_Images/143.対応画像１ー１.063420.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ユニタの自転車。タイヤ、チューブ交換"
       }
     ],
@@ -4263,7 +4971,9 @@
     "kind": "問合せ",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/144.登録画像１－１.022012.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=13HKDm2LsxO3df5T6OT8v4weJB5Nohvzn&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/144.登録画像１－２.022012.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=17TAQV5pIAZENOKUmO9NHIT1vuLoK3hz6&sz=w800",
     "request_note": "市県民税について支払いの相談あり。後日、支払いの確認必要。反映に時間がかかる、及び",
     "responses": [
       {
@@ -4271,7 +4981,9 @@
         "time": null,
         "responder": null,
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "姫路の納税証明書必要"
       }
     ],
@@ -4289,7 +5001,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/145.登録画像１－１.025717.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1vX-FljkBLNi9Kx-_epB0ElF-0DgmEIMk&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/145.登録画像１－２.025717.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1pcaDQBhe6WnBpXK6kJzTnrY8F78z6vVg&sz=w800",
     "request_note": "楽天モバイルの支払について連絡あり。",
     "responses": [
       {
@@ -4297,7 +5011,9 @@
         "time": "11:36:00",
         "responder": "尾崎",
         "img1": "履歴_Images/145.対応画像１ー１.025717.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "コンビニの用紙あるか確認依頼"
       },
       {
@@ -4305,7 +5021,9 @@
         "time": "15:23:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/145.対応画像２ー１.002433.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1Cy1CxdH_26Ou_HjQUVyaN4HJ7LAQzBRj&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "3/2、食堂にて対応予定"
       },
       {
@@ -4313,7 +5031,9 @@
         "time": null,
         "responder": "池内",
         "img1": "/appsheet/rireki_photo/145.対応画像３ー１.141943.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1oWXpVfwrxM2oO4nnP_aqm7qIbIFKu0j2&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "尾崎さんが立て替えて支払いしたが、まだ利用できないと連絡あり。週明けの対応にする。→翌日使用できたとのこと"
       }
     ],
@@ -4331,7 +5051,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/146.登録画像１－１.050426.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1FtlQXFh9xv12bIcaOJLAmL153qyKyHtN&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "Wifiが使用できない",
     "responses": [
       {
@@ -4339,7 +5061,9 @@
         "time": "7:49:00",
         "responder": "尾崎",
         "img1": "履歴_Images/146.対応画像１ー１.224945.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "出来たと連絡あり"
       }
     ],
@@ -4357,7 +5081,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "土曜日朝より、お腹の左側が痛いので、病院へ行きたい申出",
     "responses": [
       {
@@ -4365,7 +5091,9 @@
         "time": "8:53:00",
         "responder": "尾崎",
         "img1": "履歴_Images/147.対応画像１ー１.002026.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/147.対応画像１－２.002026.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1-344vAt9eeW1MjlB2qmnLCfmzW882qnQ&sz=w800",
         "note": "遠藤内科受診。痛みや症状より、県病院にて受診を進められる。"
       },
       {
@@ -4373,7 +5101,9 @@
         "time": "9:20:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/147.対応画像２ー１.032119.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1GI6ZZkSZTXeBE27w0e7eq3BivbypKLIW&sz=w800",
         "img2": "/appsheet/rireki_photo/147.対応画像２－２.032300.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1ZhOauItzJccUdMiWtwfqFqEFWV1rXhIE&sz=w800",
         "note": "すぐにとのことで、県病院へ"
       },
       {
@@ -4381,7 +5111,9 @@
         "time": "12:21:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/147.対応画像３ー１.032300.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1SwRXhXtkE9sz3KPsVwKCZkbqDfVYGa4H&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "けいしつえんとの診断。本日と明日は休み"
       }
     ],
@@ -4399,7 +5131,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/148.登録画像１－１.014854.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1JKckQrJPMhVXqvBkaXTQGA-ybPIXkWVZ&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/148.登録画像１－２.014854.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1AtnU5v5Km0Wy6PpDuZQBzuY9zGK3HCJo&sz=w800",
     "request_note": "弁護士より、楽天モバイルの督促あり",
     "responses": [
       {
@@ -4407,7 +5141,9 @@
         "time": "14:06:00",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "コンビニで支払いができた。とのこと。"
       }
     ],
@@ -4425,7 +5161,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/149.登録画像１－１.050902.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=15ZOqVoNbagVeBKXkHjg9NgFwe0inOTqB&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車の前輪タイヤゴム外れて走行不可。自転車屋にて修理",
     "responses": [],
     "overall_note": null
@@ -4442,7 +5180,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/150.登録画像１－１.234721.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1MWdEIhouo3DZ-JDYLp8c5SW1j7neMQgI&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/150.登録画像１－２.234721.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1Sw-PjYohCmyX6ZYwy4laSoAqN_Je3gDe&sz=w800",
     "request_note": "郵便の不在通知が分からず、在留カード受け取り期限過ぎた。再配達可能か問い合わせる。",
     "responses": [
       {
@@ -4450,7 +5190,9 @@
         "time": "11:00:38",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "東京入管　おだいば分室へ問合せし、申請番号や本人情報を記載した紙と、簡易書留分の切手を貼った返信用封筒を同封し、速達で再発送依頼をした。"
       }
     ],
@@ -4468,7 +5210,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/151.登録画像１－１.234657.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1sIiwAEDi9AK75POvNxlyRDJYjDLJOE8D&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "昨日から腹痛で欠勤している。病院行くか聞き取り中",
     "responses": [
       {
@@ -4476,7 +5220,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "3/4復帰していたので、完了とする"
       }
     ],
@@ -4494,7 +5240,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/152.登録画像１－１.023435.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1C14h5GKrolZWCF4tONFKoT1nznOohEcU&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/152.登録画像１－２.023435.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1iqZitgf7gzDySBnnKKhTiEy-4qddal4h&sz=w800",
     "request_note": "5/10チケット購入",
     "responses": [
       {
@@ -4502,7 +5250,9 @@
         "time": "9:05:14",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "5/10 9:30関西国際空港発　ダナン12:25着　50,450円"
       }
     ],
@@ -4520,7 +5270,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/153.登録画像１－１.073453.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=18qKr_XqdeCtiAPamJp-x-jpVNduSfiCT&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "洗濯機の脱水がエラーが出てできない",
     "responses": [
       {
@@ -4528,7 +5280,9 @@
         "time": "14:10:00",
         "responder": "尾崎",
         "img1": "履歴_Images/153.対応画像１ー１.121238.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/153.対応画像１－２.121238.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1Qyombi4thbPObVpFCbfW4z8Isv6Wr6gq&sz=w800",
         "note": "脱水で止まる、ハイアール担当者、基盤が壊れてるようで、１万前後かかりそうとのこと"
       },
       {
@@ -4536,7 +5290,9 @@
         "time": "14:12:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/153.対応画像２ー１.231715.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1OXAahdxdy1Bsjvme0JvZ_-nAtfYqQA3a&sz=w800",
         "img2": "/appsheet/rireki_photo/153.対応画像２－２.231715.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1EGhssSwgOJ9hqVJE2acJXsmqqnMNMlpc&sz=w800",
         "note": "ビレッジ2-507のJW-U55HK（C7MAT0013）を中野２へ。牛渕２の洗濯機JW-U55HK（C7NBT0204）を入れ替え"
       }
     ],
@@ -4554,7 +5310,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "牛渕にて退職相談。大学卒業して技人国で在留したいが勉強する時間がないので、転職。山梨の会社に５月より勤務予定。",
     "responses": [
       {
@@ -4562,7 +5320,9 @@
         "time": "12:28:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "退職については、まだ、内密にとの依頼"
       }
     ],
@@ -4580,7 +5340,9 @@
     "kind": "問合せ",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/155.登録画像１－１.045628.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1we6FUgZmaL_gqN7M_nVxWn3kaCQ16LFm&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "使ってない部屋に移動したいとのこと。尾崎さんへ確認して返事すると回答",
     "responses": [],
     "overall_note": null
@@ -4597,7 +5359,9 @@
     "kind": "病院",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ニル―から眼科へ行きたいと申し出。目がずっと赤く痛みがある。インドネシアの眼科やほかの眼科で手術を勧められたことがある。3/28㈯9:00～まえおか眼科。",
     "responses": [
       {
@@ -4605,7 +5369,9 @@
         "time": "9:01:52",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "まえおか眼科受診。白目の細胞が黒めに侵食してきている。放置していると黒目全部に膜が張ったように白目の細胞が増殖するので、今の時点で手術したほうがいい。とのこと。紹介状を用意してもらい、4/14(火)10:00～愛大付属受診予定。そこで今後の手術のスケジュールを確認する。手術は日帰りでできる。"
       }
     ],
@@ -4623,7 +5389,9 @@
     "kind": "一時帰国",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、レイハンとジェシカが5/26～6/26一時帰国の話あり。",
     "responses": [
       {
@@ -4631,7 +5399,9 @@
         "time": "12:45:00",
         "responder": "尾崎",
         "img1": "履歴_Images/157.対応画像１ー１.074647.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/157.対応画像１－２.074647.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1ShLINia7yXFKDQ6bonmWZIK-vUkVyiKt&sz=w800",
         "note": "レイハンよりチケット購入した送付あり。国内線確認中"
       }
     ],
@@ -4649,7 +5419,9 @@
     "kind": "一時帰国",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、レイハンとジェシカが5/26～6/26一時帰国の話あり。",
     "responses": [
       {
@@ -4657,7 +5429,9 @@
         "time": "12:46:59",
         "responder": "尾崎",
         "img1": "履歴_Images/158.対応画像１ー１.074723.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/158.対応画像１－２.074723.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1go8UY2l9iVgKSzjon05w84YpdwG7g4dq&sz=w800",
         "note": "レイハンよりチケット購入した送付あり。国内線確認中"
       }
     ],
@@ -4675,7 +5449,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "3/11退職希望の申し出。体調もあまり良くないため残業の少ない仕事をしたい。5月～山梨へ転職する。新開さんへLINEした。",
     "responses": [],
     "overall_note": null
@@ -4692,7 +5468,9 @@
     "kind": "一時帰国",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、一時帰国の期間が4月中旬まで伸びそう。帰国理由が旦那との離婚だったが、警察？との話で延びそうとの連絡あり。離婚については、内密にとの依頼",
     "responses": [
       {
@@ -4700,7 +5478,9 @@
         "time": "8:57:00",
         "responder": "尾崎",
         "img1": "履歴_Images/160.対応画像１ー１.235838.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "3/20付退職扱い。日本へ来る日がわかったら、連絡を依頼"
       }
     ],
@@ -4718,7 +5498,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ウフィクの後の部屋に入りたいとの申し出。他にもいると伝え相談扱い",
     "responses": [
       {
@@ -4726,7 +5508,9 @@
         "time": "12:37:20",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ウフィクの後に、ティアラとカハリの２名で住みたいとのことで、他の人もOKとのことで了承"
       }
     ],
@@ -4744,7 +5528,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/162.登録画像１－１.192710.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1ocRLIObmtRctMaONWh9j0x6wNPwWA4yB&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、退職したロチの勤務証明書がほしいとの連絡",
     "responses": [
       {
@@ -4752,7 +5538,9 @@
         "time": "8:55:09",
         "responder": "尾崎",
         "img1": "履歴_Images/162.対応画像１ー１.235601.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "535-0003 大阪府大阪市旭区中宮3丁目15-15ジョイテル3-301へ郵送"
       }
     ],
@@ -4770,7 +5558,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/163.登録画像１－１.233358.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1acytKzE3uu5yylceIzsOI1SyZvlWjy6F&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "3/23入国予定のリンダ(妻)の入国が中止になった。おそらく4/:頃になるかと思われる",
     "responses": [
       {
@@ -4778,7 +5568,9 @@
         "time": "8:19:07",
         "responder": "尾崎",
         "img1": "履歴_Images/163.対応画像１ー１.232816.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "4/4入国"
       }
     ],
@@ -4796,7 +5588,9 @@
     "kind": "問合せ",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/164.登録画像１－１.032349.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1IXUSP6ur91RlYkvYH658BY8QEmrpJICZ&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ラティサより、デア、スラストリの３人でアパートへ住みたい申請あり。",
     "responses": [],
     "overall_note": null
@@ -4813,7 +5607,9 @@
     "kind": "退職",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/165.登録画像１－１.072343.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=13t3MV5OgjbfU7mOwqYfcOdXbmzoNXB3J&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "4/20退職の申し出あり。10/29入社",
     "responses": [
       {
@@ -4821,7 +5617,9 @@
         "time": null,
         "responder": "池内",
         "img1": "履歴_Images/165.対応画像１ー１.065310.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/165.対応画像１－２.065355.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=10dFhvxQIX_QG4RQv5IqTdeX-j0HeuXb1&sz=w800",
         "note": "5/1退寮　チケット済"
       }
     ],
@@ -4839,7 +5637,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/166.登録画像１－１.004749.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1-jopNNb6z41aGWiJQw0N3L31e3zd__nq&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/166.登録画像１－２.004749.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1LK5lW86fXgVrOXyHFf1RbNVpYkl_QasO&sz=w800",
     "request_note": "段ボールの出し方と騒音、においについて中野さんより連絡あり",
     "responses": [
       {
@@ -4847,7 +5647,9 @@
         "time": "9:46:00",
         "responder": "尾崎",
         "img1": "履歴_Images/166.対応画像１ー１.004749.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/166.対応画像１－２.004751.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1yaqWJbNXlhHhEA363OZ6ikHFMDNiEf9y&sz=w800",
         "note": "インドネシア全体と、サニア、ハク、ナウファルに送付"
       }
     ],
@@ -4865,7 +5667,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "手首が湿疹でかゆい。薬ほしい。3/21土に自分で受診。小国皮膚科に連絡済",
     "responses": [],
     "overall_note": null
@@ -4882,7 +5686,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/168.登録画像１－１.113126.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1ZG5YEzJSymSNZkWgS8-DRyfz6q1SEl2Q&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "帰りに知らない男性に自転車のライトが弱いと怒られた。名前、住所、会社名を聞かれ警察に連絡すると言われたそう。自転車のライトは確認してから取り替え等の対応をする。警察や男性から連絡来たらこちらで対応するとハクに伝えている",
     "responses": [
       {
@@ -4890,7 +5696,9 @@
         "time": "12:30:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "自転車の補助（ハンドルにつけるタイプ）の電池がなかったので、取り替えした。それで、大丈夫とのこと"
       }
     ],
@@ -4908,7 +5716,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ビレッジハウス中野さんより、3-401の人より２３時頃3-501がベランダの出入りがうるさいとクレームあり。",
     "responses": [
       {
@@ -4916,7 +5726,9 @@
         "time": "12:34:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "昨日、23時には寝てたが気を付けるよう３人に伝えてもらうて"
       }
     ],
@@ -4934,7 +5746,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/170.登録画像１－１.060043.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=19aMu_yVC02opPT4MNcmmLyGFKiVj2E98&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ビレッジハウス中野さんより、段ボールが自転車置場に置いてありクレームとなっている。",
     "responses": [
       {
@@ -4942,7 +5756,9 @@
         "time": "14:03:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "チャンの自転車だったため、中野さんに送るまで待ってほしいと依頼"
       }
     ],
@@ -4960,7 +5776,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/171.登録画像１－１.075837.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=115EANXxoG0OkOMBx5Cd8LqNWW6QgFT-b&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/171.登録画像１－２.075837.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1wZ6nWZW7lAZXm48a4w7vmciSTBD4rnC5&sz=w800",
     "request_note": "電気の大きいやつと豆電気が付かない",
     "responses": [
       {
@@ -4968,7 +5786,9 @@
         "time": "10:42:00",
         "responder": "尾崎",
         "img1": "履歴_Images/171.対応画像１ー１.014312.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "電気交換"
       }
     ],
@@ -4986,7 +5806,9 @@
     "kind": null,
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/172.登録画像１－１.080000.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1LXieyGNUEu2GnFMHZWoT2RANGYKwFPxv&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "大家さんへ連絡し、修理可能か連絡。後日、確認するとのこと",
     "responses": [
       {
@@ -4994,7 +5816,9 @@
         "time": "13:01:01",
         "responder": "尾崎",
         "img1": "履歴_Images/172.対応画像１ー１.234652.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "大家さんより、3/28 13:00業者が確認に入る"
       },
       {
@@ -5002,7 +5826,9 @@
         "time": "9:52:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "大家さんより、4/19.26に修理に入りたい申し出"
       }
     ],
@@ -5020,7 +5846,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "日曜日から体調不良で病院へ行きたい申し出。よしおか内科へ連絡済。自分で行く。",
     "responses": [],
     "overall_note": null
@@ -5037,7 +5865,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/174.登録画像１－１.040231.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=18JGiQLHXaowrdcRBxtbFr6zNoKFnfjI3&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "病院へ行きたい申出",
     "responses": [
       {
@@ -5045,7 +5875,9 @@
         "time": "9:50:00",
         "responder": "尾崎",
         "img1": "履歴_Images/174.対応画像１ー１.010323.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/174.対応画像１－２.010323.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1sZ6mqRm8DSOFlRoA-Gd6jVfs5ZxFrfkC&sz=w800",
         "note": "カビが発生とのことで、塗り薬を処方"
       }
     ],
@@ -5063,7 +5895,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "希望７/20～9/1　広島→ハノイ",
     "responses": [
       {
@@ -5071,7 +5905,9 @@
         "time": "14:58:09",
         "responder": "尾崎",
         "img1": "履歴_Images/175.対応画像１ー１.230058.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "飛行機の便の関係で、広島⇔ハノイ7/21～9/1　フオンと一緒　@71,965 ２人で143,930-"
       }
     ],
@@ -5089,7 +5925,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/176.登録画像１－１.080319.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1e5INWQz6DvS-XfLoxYGvJvGl_w21dnl4&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "歯医者に行きたい申し出。4/3　9:00～グリーン歯科予約",
     "responses": [],
     "overall_note": null
@@ -5106,7 +5944,9 @@
     "kind": "結婚",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "２月に結婚した、妻が宮城から昨日から泊まっている。明日帰る。事前に伝えるよう伝える。また、部屋内でタバコ吸ってるため指導。室内で吸わないこと伝える。",
     "responses": [],
     "overall_note": null
@@ -5123,7 +5963,9 @@
     "kind": "一時帰国",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/178.登録画像１－１.002557.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=13E0JoqhK9ZTDkTGmV5PUpwaHWmAFKWWa&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "アユサより、7/12～8/11まで一時帰国の申し出",
     "responses": [
       {
@@ -5131,7 +5973,9 @@
         "time": "16:40:25",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "新開工場長より了承のため、アユサへOKの連絡しチケットを送付依頼"
       }
     ],
@@ -5149,7 +5993,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/179.登録画像１－１.072712.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=10d0-5aB5yiY1ocvUo_UrHUg3ttyXsqJM&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/179.登録画像１－２.072712.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1Lk-5Fon2uvm2WFYsv_YIKuBe6ZKOwGia&sz=w800",
     "request_note": "牛渕１の別棟の冷蔵庫が２つとも故障している。２人入居するため冷蔵庫がほしい",
     "responses": [
       {
@@ -5157,7 +6003,9 @@
         "time": "16:13:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "専務に相談し、中野１の使ってない１台を持っていって、新たに入居するときに購入を依頼し了承を得る"
       },
       {
@@ -5165,7 +6013,9 @@
         "time": "17:09:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "中野１の冷蔵庫を持っていった"
       }
     ],
@@ -5183,7 +6033,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "グエンより7月にヴァンと同じ日程でハノイに広島より、帰りたい申し出。",
     "responses": [
       {
@@ -5191,7 +6043,9 @@
         "time": "14:01:15",
         "responder": "尾崎",
         "img1": "履歴_Images/180.対応画像１ー１.230152.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "飛行機の便の関係で、広島⇔ハノイ7/21～9/1　ヴァンと一緒　@71,965 ２人で143,930-"
       }
     ],
@@ -5209,7 +6063,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "藤原副工場長より、体が痒く内科に連れていったが、明日、皮膚科に連れていって、津吉へ連れていってほしい申し出",
     "responses": [
       {
@@ -5217,7 +6073,9 @@
         "time": "9:11:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "小国皮膚科受診。昨日、南松山病院へ行ってることなど伝え、じんましん。カニアレルギーかどうかは不明。10日分の飲み薬にて様子を見るとのこと。"
       }
     ],
@@ -5235,7 +6093,9 @@
     "kind": "紛失",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "3/29 15:00~高島屋近くの駐輪場に自転車をとめて飲みに行きタクシーで帰宅。4/3　17：30～自転車を取りに行ったら無かった。鍵はかけていた。とのこと。自転車盗難2回目なので厳重注意。",
     "responses": [
       {
@@ -5243,7 +6103,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "松山市都市生活サービス課へ連絡し撤去されてないか確認したが市では回収してないので警察へ盗難届を提出する予定。"
       },
       {
@@ -5251,7 +6113,9 @@
         "time": null,
         "responder": null,
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "東署にて盗難届提出済み"
       },
       {
@@ -5259,7 +6123,9 @@
         "time": "9:54:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/182.対応画像３ー１.012026.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1xLDOEUfZDcDO9tVmnEEAEloUl9XIlP0s&sz=w800",
         "img2": "/appsheet/rireki_photo/182.対応画像３－２.012026.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1_3t5yX6zhkCyIJTsWhK9vwFioDFyjRSn&sz=w800",
         "note": "和泉自転車保管所より、自転車回収のハガキが届く"
       },
       {
@@ -5267,7 +6133,9 @@
         "time": "9:19:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/182.対応画像４ー１.012026.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=17Y3lS8M9yfiYl_cTjo7Ir_zyprkhO_lW&sz=w800",
         "img2": "/appsheet/rireki_photo/182.対応画像４－２.012028.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1IHPCmUvUk0Xa3KAfV1U647LTGZ6f3Kq8&sz=w800",
         "note": "自転車回収、回収費用２,000円は本人負担"
       },
       {
@@ -5275,7 +6143,9 @@
         "time": "11:24:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "東警察署、刑事3課にて取り下げの依頼するも、届け出が出ていないとの回答、ロンに返却する"
       }
     ],
@@ -5293,7 +6163,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "8/10～9/25一時帰国希望",
     "responses": [
       {
@@ -5301,7 +6173,9 @@
         "time": "7:55:00",
         "responder": "尾崎",
         "img1": "履歴_Images/183.対応画像１ー１.225706.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "8/11広島⇔ハノイ9/24チケット購入"
       }
     ],
@@ -5319,7 +6193,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "愛媛銀行　滝川様より、帰国期間が長いため不正利用防止のためホアンの口座を一時的に停止すると連絡あり。ホアンが戻ってきたら解除の手続きする。",
     "responses": [],
     "overall_note": null
@@ -5336,7 +6212,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/185.登録画像１－１.225052.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1LCPf11gDm184Rx1hdCPs1CJFjhSzGTLG&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車パンク修理依頼",
     "responses": [
       {
@@ -5344,7 +6222,9 @@
         "time": "13:15:00",
         "responder": "尾崎",
         "img1": "履歴_Images/185.対応画像１ー１.041620.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/185.対応画像１－２.041620.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=18Db9ww0Wi5IGwBKKRdXrLotCu1dF8k82&sz=w800",
         "note": "パンク修理代1,000円、鍵は手袋内に入れる"
       },
       {
@@ -5352,7 +6232,9 @@
         "time": "12:30:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "代金回収"
       }
     ],
@@ -5370,7 +6252,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "洗面台の排水が流れない",
     "responses": [
       {
@@ -5378,7 +6262,9 @@
         "time": "15:55:00",
         "responder": "尾崎",
         "img1": "履歴_Images/186.対応画像１ー１.043238.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ビレッジにて借りて対応。"
       }
     ],
@@ -5396,7 +6282,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "平山さんより、金曜日から発熱、昼から病院を手配してほしい",
     "responses": [
       {
@@ -5404,7 +6292,9 @@
         "time": "8:50:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "遠藤内科、発熱外来14:30～、着いたら連絡をするよう本人に伝える。"
       },
       {
@@ -5412,7 +6302,9 @@
         "time": "14:44:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/187.対応画像２ー１.074444.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1BscA9tPfCnV5pfHwHinnew-Pc2ZCcR_N&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "病院にて薬をもらったと連絡あり"
       }
     ],
@@ -5430,7 +6322,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/188.登録画像１－１.001648.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1E596Nhxqjf8DoWwNLvgDp3KfSd5JyVW-&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "4/16に前日から微熱、頭痛、吐き気、下痢があり休んだと連絡あり。疲れで体調が悪いとのこと。ギムに関しては体調不良が多い印象があるため面談にて話す。病院は行かず市販の薬を買うとのこと。",
     "responses": [],
     "overall_note": null
@@ -5447,7 +6341,9 @@
     "kind": "帰国 , 妊娠",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "4/17　妊娠してるとのこと。",
     "responses": [
       {
@@ -5455,7 +6351,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "4/28退職　5/2退寮"
       }
     ],
@@ -5473,7 +6371,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/190.登録画像１－１.234426.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1bwaRPI4gHzqQFLPVK-D5rJuV7u_Xn14L&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "パンク修理依頼",
     "responses": [
       {
@@ -5481,7 +6381,9 @@
         "time": "13:58:00",
         "responder": "尾崎",
         "img1": "履歴_Images/190.対応画像１ー１.045908.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "パンク修理代1,000円"
       }
     ],
@@ -5499,7 +6401,9 @@
     "kind": "問合せ",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/191.登録画像１－１.024828.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1gZEsGzuFMjUmYKCJhIYsetg5ovL2itzE&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "大阪の曽根崎警察署のケイムカ、和田さんよりアトムの石崎さんへ入居者アトムの４０３についての問い合わせがあり。電話では内容について答えれないと伝えてるとのこと。03-6315-1234、内線481,482でつなげてくれるとのこと",
     "responses": [
       {
@@ -5507,7 +6411,9 @@
         "time": "16:14:00",
         "responder": "尾崎",
         "img1": "履歴_Images/191.対応画像１ー１.230241.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/191.対応画像１－２.230241.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1coiCSMP8jb76aGatAQe4YsypK0XV4-BA&sz=w800",
         "note": "グエン　ミン　チーのパスポートを預かっているため、警察の人が後日、受け取りに来る。同席の上、署名をしてほしいとのこと。明日以降に連絡をもらう。該当者は在留カードの期限が切れており、不法滞在のため。"
       },
       {
@@ -5515,7 +6421,9 @@
         "time": "16:05:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "工場長とチャンと同席の上、山崎さんに連絡。本人が大阪へ行けないので、再度、愛媛へ来てほしいと依頼。検討して連絡依頼"
       },
       {
@@ -5523,7 +6431,9 @@
         "time": "14:01:26",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "曽根崎警察署来社。"
       }
     ],
@@ -5541,7 +6451,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "トイレの電気が電球変えてもつかない",
     "responses": [
       {
@@ -5549,7 +6461,9 @@
         "time": "14:05:00",
         "responder": "尾崎",
         "img1": "履歴_Images/192.対応画像１ー１.050628.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "イーサンがいて、明日、電球持参し、確認する。"
       },
       {
@@ -5557,7 +6471,9 @@
         "time": "10:12:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/192.対応画像２ー１.011303.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=13KugoGNMT8r-37Uw4t4daaYvoIIBpRNM&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "電球交換にて終了"
       }
     ],
@@ -5575,7 +6491,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より連絡あり。ディアから副鼻腔炎のため夜勤できないと言われた。インドネシアで副鼻腔炎手術を受けていたが入国時にそのような申告もなかったので、夜勤残業できない理由にはならない。再発しているなら病院へ行くように伝えたので、ディアに病院行ったか確認してほしいとのこと。",
     "responses": [
       {
@@ -5583,7 +6501,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "カハリ、4/25(土)12:00～　おかだ耳鼻咽喉科へ連れていく"
       },
       {
@@ -5591,7 +6511,9 @@
         "time": "11:52:57",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "今回は副鼻腔炎ではなく、普通の鼻炎とのこと。２週間分の薬で様子みる。新開工場長へＬＩＮＥ済。"
       }
     ],
@@ -5609,7 +6531,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ユニから病院に行きたい申し出。婦人科受診予定。ユニの意向により詳細は控える。池内対応。4/22　11：00～受診予定",
     "responses": [
       {
@@ -5617,7 +6541,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "病院にて薬もらい帰宅。治りかけているので、ほぼ心配ない。"
       }
     ],
@@ -5635,7 +6561,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "4/21　藤原副工場長より、ウエンがめまいがするとのことで、病院へ連れていってほしいとのこと。遠藤内科へいき、おそらく片頭痛ではないかと診断。鎮痛剤をもらい帰宅。",
     "responses": [],
     "overall_note": null
@@ -5652,7 +6580,9 @@
     "kind": "問合せ",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "山本統括より、地域清掃について参加依頼。牛渕のこを何人か連れて交渉依頼",
     "responses": [
       {
@@ -5660,7 +6590,9 @@
         "time": "13:35:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ディアナ、デフィに参加者を募ってほしいと依頼"
       }
     ],
@@ -5678,7 +6610,9 @@
     "kind": "問合せ",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "オーナーの池田さんより、立会の依頼、4/22、15時訪問",
     "responses": [
       {
@@ -5686,7 +6620,9 @@
         "time": "15:15:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "山本統括と同行、ドアノブや各設備の付属品が無いため修理し、費用を請求するとのこと。専務に話済"
       },
       {
@@ -5694,7 +6630,9 @@
         "time": "9:00:23",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "池田夫婦と業者にて、ノアノブ交換。後日、また対応必要"
       }
     ],
@@ -5712,7 +6650,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車パンク修理依頼",
     "responses": [
       {
@@ -5720,7 +6660,9 @@
         "time": "14:17:00",
         "responder": "尾崎",
         "img1": "履歴_Images/198.対応画像１ー１.211810.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/198.対応画像１－２.211810.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1yHhBNfVdfZpRAdJ67ELSdVMySZ1kmBMr&sz=w800",
         "note": "修理代1000円"
       }
     ],
@@ -5738,7 +6680,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "4/22　ディアナより婦人科受診したいと申し出あり。女性特有の症状のため池内対応。4/27　10:30　パールレディースクリニック予約",
     "responses": [
       {
@@ -5746,7 +6690,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "異常なし。"
       }
     ],
@@ -5764,7 +6710,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "火曜日から歯茎が腫れて痛いため歯医者希望。4/25　15：00受診予定",
     "responses": [
       {
@@ -5772,7 +6720,9 @@
         "time": "15:49:55",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "右下　親知らずが埋まっており、それが原因で腫れているよう。いまは薬で抑えるが、痛みが繰り返すなら手術で抜歯の可能性もある。5/2　15：00再受診予定"
       }
     ],
@@ -5790,7 +6740,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/201.登録画像１－１.071343.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Y6M_Zyn7Y146hiVydwXdELGxkIEcOuE3&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/201.登録画像１－２.221509.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1MUkKjlLrC5A5K-n32rQsdsfks7AWZe71&sz=w800",
     "request_note": "ベリーからスラストリの自転車パンクのため修理依頼、牛渕１にあり",
     "responses": [
       {
@@ -5798,7 +6750,9 @@
         "time": "16:25:00",
         "responder": "尾崎",
         "img1": "履歴_Images/201.対応画像１ー１.072646.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/201.対応画像１－２.072646.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1etk9T3xE9u7RVpnxgsEWQmIfH3vIwaOM&sz=w800",
         "note": "修理部品代　800円"
       }
     ],
@@ -5816,7 +6770,9 @@
     "kind": "病院",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/202.登録画像１－１.025950.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1f0VqwxynpuxkAxMFujPMAG553rNns-L8&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/202.登録画像１－２.030052.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1A4KTmwLxg_pn2auLKJceC4-n4WMdDytJ&sz=w800",
     "request_note": "ジェシカから連絡があり、アナが手が痒いらしく病院に行きたいとの事。水ぶくれもあり、早めに受診希望",
     "responses": [
       {
@@ -5824,7 +6780,9 @@
         "time": null,
         "responder": "池内",
         "img1": "履歴_Images/202.対応画像１ー１.051349.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/202.対応画像１－２.051349.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1hP2E9W9YDMhMsAaS3Sz3EDDyG99ICAqF&sz=w800",
         "note": "5/2砥部病院　皮膚科受診。仕事で水に濡れた状態で手袋をつけているのが原因？新開工場長に相談し、しばらく青野菜からはなれて倉庫業務とする。"
       }
     ],
@@ -5842,7 +6800,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/203.登録画像１－１.062741.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1IiEyImZMAtXxZHKbTQs6p5yth_Q0Rind&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "風呂場の修理依頼",
     "responses": [
       {
@@ -5850,7 +6810,9 @@
         "time": "15:23:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ビレッジハウス相談センターに連絡、業者より連絡する。業者より連絡があり連絡があり、5/2の11時に立会"
       },
       {
@@ -5858,7 +6820,9 @@
         "time": "9:56:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/203.対応画像２ー１.075728.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1B6rR8zxUTx_S8ojvWtt39bycmbQlaKv9&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "ビレッジ中野さんと業者が立会、後日見積もり"
       },
       {
@@ -5866,7 +6830,9 @@
         "time": "13:26:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "実際の工事業者が下見。"
       },
       {
@@ -5874,7 +6840,9 @@
         "time": "9:21:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "6/13土曜日に工事との連絡、エヴィから部屋へ伝えてもらう"
       },
       {
@@ -5882,7 +6850,9 @@
         "time": "14:43:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/203.対応画像５ー１.054414.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1FWd6-VzwT8xTxPvDFjQzTXlqNys37nEh&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "ビレッジハウス中野さんより、工事完了の連絡あり"
       }
     ],
@@ -5900,7 +6870,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/204.登録画像１－１.215106.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=11TgAFAekyRiFo90rObcKigUPiJzoQ0Rk&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "池内さんより自転車修理依頼",
     "responses": [
       {
@@ -5908,7 +6880,9 @@
         "time": null,
         "responder": "尾崎",
         "img1": "履歴_Images/204.対応画像１ー１.215106.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "エヴィから再度ウィディの自転車修理依頼"
       }
     ],
@@ -5926,7 +6900,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/205.登録画像１－１.215441.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1E-Cko9Ql5sEP95z2E2iSCF3X4NnZhQKl&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エカより、ニマが入院したため、書類記入依頼。5/7対応",
     "responses": [
       {
@@ -5934,7 +6910,9 @@
         "time": "18:26:00",
         "responder": "尾崎",
         "img1": "履歴_Images/205.対応画像１ー１.092755.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/205.対応画像１－２.092755.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1E9HKmufJ8SW4EfTaGQaWW7DgJgsBnzFB&sz=w800",
         "note": "本日、女の子が産まれた。明日、１７時に本社にて対応"
       }
     ],
@@ -5952,7 +6930,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/206.登録画像１－１.123730.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Tqt42OpqFK8RXRlYXBCoCriL9g6NU7dP&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/206.登録画像１－２.123730.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=19_IDZ1kCtmePNpbJoIN7PnQuYhta1ftB&sz=w800",
     "request_note": "5/5GW中、歯が痛いとLINEあり。土曜日に歯医者へ行きたいとの事で5/9 15:30グリーン歯科予約",
     "responses": [
       {
@@ -5960,7 +6940,9 @@
         "time": "15:56:00",
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "虫歯が神経まで到達。歯の汚れもひどい。6～7回通院して歯の神経を抜く"
       }
     ],
@@ -5978,7 +6960,9 @@
     "kind": "支払",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/207.登録画像１－１.221643.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1mKc_Xw3UIF-ChhsrqFcQUlFGZeWGogtr&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "楽天モバイルの支払いが未納",
     "responses": [
       {
@@ -5986,7 +6970,9 @@
         "time": "12:14:00",
         "responder": "尾崎",
         "img1": "履歴_Images/207.対応画像１ー１.031616.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/207.対応画像１－２.031616.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1JB1NGETy4SkuVZWw33OPRi5g9KcZ0lIu&sz=w800",
         "note": "本人のポイントにて対応"
       }
     ],
@@ -6004,7 +6990,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/208.登録画像１－１.131553.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=193_GLMWwKcr0EUDoxy2rLOdPjzCM6Joo&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ロパ、高熱のため病院に行きたいとの事。11日は、一緒に行けるものが居ないため、近くのよしおか内科へ一人で行ってもらう。",
     "responses": [],
     "overall_note": null
@@ -6021,7 +7009,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/209.登録画像１－１.001829.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1BbTOPgr0tsaahziIMDxuiQdYvjCNm_zJ&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ビレッジハウス管理人中野さんより、プラゴミの分別が出来てないと連絡があり。本人へはLINEにて連絡済。今回はゴミの分別を中野さんにて対応したとのこと",
     "responses": [],
     "overall_note": null
@@ -6038,7 +7028,9 @@
     "kind": "問合せ",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "エカより、ニマの育児休暇について要望あり。5/10,11は有給。5/20までは残業なしで出勤、5/21～6/20まで育児休暇、6/21より出勤の要望あり",
     "responses": [
       {
@@ -6046,7 +7038,9 @@
         "time": "18:02:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "新開工場長にエカの要望について了承を得る。明日、専務に伝えて正式に伝える"
       },
       {
@@ -6054,7 +7048,9 @@
         "time": "16:59:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "5/21～6/21日曜日まで育児休暇、6/22月曜日～出勤で書類作成"
       }
     ],
@@ -6072,7 +7068,9 @@
     "kind": "クレーム",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/211.登録画像１－１.024738.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1ozVAYWJrBHFBc_4vWLxI1lDQryCTzJym&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ビレッジハウス管理人より連絡あり",
     "responses": [
       {
@@ -6080,7 +7078,9 @@
         "time": "11:46:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "ビレッジハウス、タオに連絡注意"
       }
     ],
@@ -6098,7 +7098,9 @@
     "kind": "退職",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/212.登録画像１－１.132816.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1VpVW8XJ4Xe9BAhRSyrief98jmROnH8Vc&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "LINEにてサラーから6/20退職の申し出。新開工場長へ連絡済み。",
     "responses": [],
     "overall_note": null
@@ -6115,7 +7117,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "トイレのドアノブが壊れた",
     "responses": [
       {
@@ -6123,7 +7127,9 @@
         "time": "9:43:00",
         "responder": "尾崎",
         "img1": "履歴_Images/213.対応画像１ー１.204512.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/213.対応画像１－２.204512.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1cZJp_TrwwhHe5fQn1RRonjcrWJx5eEKx&sz=w800",
         "note": "分解してもダメだったので、アトム石崎さんへ連絡し対応依頼"
       },
       {
@@ -6131,7 +7137,9 @@
         "time": "15:57:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "石崎さんより対応済の連絡あり"
       }
     ],
@@ -6149,7 +7157,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "キッチンの排水が溢れる",
     "responses": [
       {
@@ -6157,7 +7167,9 @@
         "time": "9:45:00",
         "responder": "尾崎",
         "img1": "履歴_Images/214.対応画像１ー１.204615.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/214.対応画像１－２.204615.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1yzl5LkyPSCxi_V-KuDuGGcC8DvXelCMM&sz=w800",
         "note": "アトム石崎さんへ対応依頼"
       },
       {
@@ -6165,7 +7177,9 @@
         "time": "15:56:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "石崎さんより対応済の連絡あり"
       }
     ],
@@ -6183,7 +7197,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/215.登録画像１－１.020003.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1s1RwL2U-RpGbiY0Y2ybS056aB_MXeBUg&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "洗濯機の排水が出来ない",
     "responses": [
       {
@@ -6191,7 +7207,9 @@
         "time": "10:59:00",
         "responder": "尾崎",
         "img1": "履歴_Images/215.対応画像１ー１.020003.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "2022年5月購入の４年落ち"
       },
       {
@@ -6199,7 +7217,9 @@
         "time": "11:46:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/215.対応画像２ー１.204744.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1OMyu_ybLGf6xkXRSEGNZ1l_5FLr4gx4R&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "ダイキにて32,780円　７k"
       },
       {
@@ -6207,7 +7227,9 @@
         "time": "16:44:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/215.対応画像３ー１.055645.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1YmPl0Q12MYgyjkdbwmUMLHe9s1PnfHC9&sz=w800",
         "img2": "/appsheet/rireki_photo/215.対応画像３－２.055645.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1WubTOd4glxcyHDS_mK0H_ZiKWn4XgnHr&sz=w800",
         "note": "ダイキにて洗濯機購入し設置"
       }
     ],
@@ -6225,7 +7247,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/216.登録画像１－１.035139.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1nZDXcMJ-Dmz58KPI8Y0GvzOw36E7FegY&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "部屋のドアノブが壊れた",
     "responses": [
       {
@@ -6233,7 +7257,9 @@
         "time": "17:55:00",
         "responder": "尾崎",
         "img1": "履歴_Images/216.対応画像１ー１.085629.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/216.対応画像１－２.085629.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1LWi-owcEj4dG9U8qIdLaLgwZgSt9V8-e&sz=w800",
         "note": "応急処置して明日対応"
       },
       {
@@ -6241,7 +7267,9 @@
         "time": "13:56:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/216.対応画像２ー１.045730.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1UK71KjTdR3Qil2Ft1OZaz5MBuQelQJUb&sz=w800",
         "img2": "/appsheet/rireki_photo/216.対応画像２－２.045730.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1JCFoC3Sx0DgI3edLASdqlG17BZbG9LpP&sz=w800",
         "note": "修理完了"
       }
     ],
@@ -6259,7 +7287,9 @@
     "kind": "退職",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/217.登録画像１－１.071447.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1R-7EtfNEky1naw5dyGq32oTK13ChCCPO&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ギムより、宮城の妻が妊娠したため、妻と一緒に暮らすため宮城へ転職したい。7月の退職希望とのこと。新開さんへ連絡済。",
     "responses": [],
     "overall_note": null
@@ -6276,7 +7306,9 @@
     "kind": "退職",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/218.登録画像１－１.044034.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1CaRCDqvWhdYjh9T1oVsiWfnZqNqXd1TR&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "6月で退職したいと申し出あり。詳細は面談にて聞く。新開さんへ連絡済み",
     "responses": [
       {
@@ -6284,7 +7316,9 @@
         "time": null,
         "responder": "池内",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "新開さんに相談。退職希望日まで1か月切っており、急すぎるため7月20日退職にしてほしいとのこと。リヴァンに一度、新開工場長と話すよう伝えた。う"
       }
     ],
@@ -6302,7 +7336,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "虫歯で葉が溶けている。5/29　13：30　グリーン歯科",
     "responses": [],
     "overall_note": null
@@ -6319,7 +7355,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "虫歯で痛みが強い。5/29　10:00グリーン歯科",
     "responses": [],
     "overall_note": null
@@ -6336,7 +7374,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車パンク　修理依頼",
     "responses": [],
     "overall_note": null
@@ -6353,7 +7393,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "右ひざが1週間前から痛いので病院へ行きたいとのこと。",
     "responses": [],
     "overall_note": null
@@ -6370,7 +7412,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "部屋の鍵紛失。合鍵作成する。費用は本人負担",
     "responses": [],
     "overall_note": null
@@ -6387,7 +7431,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/224.登録画像１－１.215802.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Z4w653YZV4hol9kz13ZeUTXUGlGYRzef&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/224.登録画像１－２.215802.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1fS9etxxzzg6HZC88umiT6rh0Sijm2GQ-&sz=w800",
     "request_note": "病院へ行きたい連絡あり。新開工場長へ確認し、明日休むよう指示、本人と面談し病院へ行くか判断。",
     "responses": [
       {
@@ -6395,7 +7441,9 @@
         "time": "9:07:00",
         "responder": "尾崎",
         "img1": "履歴_Images/224.対応画像１ー１.011042.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "レントゲンも撮っており、憩室炎との診断。腸にガスがたまって痛みを伴う。５日分追加で処方され飲みきるよう指示、仕事には支障なしだが、本日休んで明日から勤務"
       }
     ],
@@ -6413,7 +7461,9 @@
     "kind": "修理",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/225.登録画像１－１.010704.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1oGCrG8UkA2lB6ajkJA_IBGB6vRpa0sbr&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "脱水が出来ないとの連絡があり確認、E3のエラーで排水が出来ない",
     "responses": [
       {
@@ -6421,7 +7471,9 @@
         "time": "18:49:00",
         "responder": "尾崎",
         "img1": "履歴_Images/225.対応画像１ー１.095036.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "DCMダイキにて購入"
       }
     ],
@@ -6439,7 +7491,9 @@
     "kind": "携帯",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/226.登録画像１－１.224040.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1sVhdoRkiPEnmvskYn3ZqsNDs2OXZR7fi&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "退職にともない、docomoに行ったが出来ないと連絡あり、catvに連絡しMNP番号と、口座変更を依頼、携帯変更は行ってから行う、転出届必要",
     "responses": [
       {
@@ -6447,7 +7501,9 @@
         "time": null,
         "responder": "尾崎",
         "img1": "履歴_Images/226.対応画像１ー１.220511.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "自分で切り替え対応にて終了"
       }
     ],
@@ -6465,7 +7521,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "6/17　早朝4時に息苦しくて心臓が痛いと連絡あり。17日は尾崎さんも池内も終日、動けないため、自分で病院に行けるか返信したが返事なし",
     "responses": [],
     "overall_note": null
@@ -6482,7 +7540,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/228.登録画像１－１.014141.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=17uYDWf9zV3pm1yQiu1eBU5rupYb1VctT&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "風呂場の電球交換依頼",
     "responses": [
       {
@@ -6490,7 +7550,9 @@
         "time": "10:42:00",
         "responder": "尾崎",
         "img1": "履歴_Images/228.対応画像１ー１.014322.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "電球交換"
       }
     ],
@@ -6508,7 +7570,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/229.登録画像１－１.200640.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=173zLPADGJd-CoM2znxkzzhCbHrdTqaVx&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "自転車パンク修理依頼",
     "responses": [
       {
@@ -6516,7 +7580,9 @@
         "time": "16:07:00",
         "responder": "尾崎",
         "img1": "履歴_Images/229.対応画像１ー１.072814.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/229.対応画像１－２.072814.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1lMYXrSFoQKthX9WySASOr6NTOgfhUq_Z&sz=w800",
         "note": null
       }
     ],
@@ -6534,7 +7600,9 @@
     "kind": "退職",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "6/22　アルルより国内にて転職するため退職の申し出あり。新開さんへ伝え8/20退職で了承済。",
     "responses": [],
     "overall_note": null
@@ -6551,7 +7619,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/231.登録画像１－１.113835.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1BHbqvT4oyg9qjn7SQrz3oDF2wNdFagCe&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": null,
     "responses": [],
     "overall_note": null
@@ -6568,7 +7638,9 @@
     "kind": "一時帰国",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/232.登録画像１－１.114018.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1RVpbY1nxJXmyPCD9g2YalHJgSskJKJ8g&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、一時帰国の申請あり",
     "responses": [
       {
@@ -6576,7 +7648,9 @@
         "time": "23:09:00",
         "responder": "尾崎",
         "img1": "履歴_Images/232.対応画像１ー１.101006.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "池内さんよりチケット入手"
       }
     ],
@@ -6594,7 +7668,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "めまいがするため、病院行きたいと連絡あり。",
     "responses": [
       {
@@ -6602,7 +7678,9 @@
         "time": "14:44:00",
         "responder": "丹下",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "八木耳鼻咽喉科受診"
       },
       {
@@ -6610,7 +7688,9 @@
         "time": "16:02:00",
         "responder": "丹下",
         "img1": "/appsheet/rireki_photo/233.対応画像２ー１.071048.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1L2FT5cFd7tycyADI4w1WBONfCNWofg97&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "受診後、今週はお休みをとるとのこと。1週間後再診察、それまでに同じ症状が出た場合はすぐに病院へ行くこと。新開工場長には連絡済み。"
       },
       {
@@ -6618,7 +7698,9 @@
         "time": "9:04:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/233.対応画像３ー１.060653.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1hpB1vkHfshWfx5LBfhZ4G9W9GO4EL5Ur&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "朝、めまいがするとのことで、再受診。薬がなくなる来週、受診すること"
       },
       {
@@ -6626,7 +7708,9 @@
         "time": "9:00:38",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "再診察。調子もいいため終了"
       }
     ],
@@ -6644,7 +7728,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/234.登録画像１－１.102303.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1BVidprKgOnM0rNvjRuneaj2QjYjo82pL&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/234.登録画像１－２.102303.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=13IoGl-6LPyqDixgd34gOaIjtrW4O9rLx&sz=w800",
     "request_note": "新開工場長より、逆流性胃腸炎か何かで、ふらついたりで、家に連れて帰った。以前、病院へ行ったことがあるよう。4/25の件伝え、土日で様子を見ると伝える",
     "responses": [
       {
@@ -6652,7 +7738,9 @@
         "time": "10:59:00",
         "responder": "尾崎",
         "img1": "履歴_Images/234.対応画像１ー１.020038.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "八木耳鼻咽喉科に受診、7/6午前中再受診"
       },
       {
@@ -6660,7 +7748,9 @@
         "time": "9:49:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/234.対応画像２ー１.005159.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1kAQNr5CKMvfw0BRe677uSeilMB1ajOOT&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "頭の痛みも解消。病院より就労可能で昼～勤務"
       },
       {
@@ -6668,7 +7758,9 @@
         "time": null,
         "responder": null,
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": null
       }
     ],
@@ -6686,7 +7778,9 @@
     "kind": "紛失",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/235.登録画像１－１.024437.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1thM-d5LMks5xjBDr5oleKNaHHRpRL578&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/235.登録画像１－２.024437.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1MqND36mc52j3H_80LEhN3TnmV7W2WgQo&sz=w800",
     "request_note": "財布を紛失したと連絡あり",
     "responses": [
       {
@@ -6694,7 +7788,9 @@
         "time": "11:55:00",
         "responder": "尾崎",
         "img1": "履歴_Images/235.対応画像１ー１.030808.jpg",
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "松山南警察署に調べてもらうも、届いてない。明日、会計課へ電話で紛失の届け出を確認してほしいとのこと"
       },
       {
@@ -6702,7 +7798,9 @@
         "time": "10:31:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/235.対応画像２ー１.013223.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=132nQongt760t5SU6tajPZwXU91nYhSgj&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "重信交番に紛失届出"
       },
       {
@@ -6710,7 +7808,9 @@
         "time": "15:06:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "入官への再発行手続き書類に記入"
       }
     ],
@@ -6728,7 +7828,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/236.登録画像１－１.190307.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1RUt1-1JXXSTSAf7Rvf9fqaqzgGmnEDIo&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ヌルルより、１階の天井から水漏れの連絡",
     "responses": [
       {
@@ -6736,7 +7838,9 @@
         "time": "10:30:00",
         "responder": "尾崎",
         "img1": "履歴_Images/236.対応画像１ー１.001829.jpg",
+        "img1_url": null,
         "img2": "/appsheet/rireki_photo/236.対応画像１－２.001829.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1tbEgh7nBMvBUPKc8XUvkSeNgtikFQxE6&sz=w800",
         "note": "配管ではなく、ホースがダメ。丹生谷さんへ連絡し対応しますとのことで、7/7、9時に水道屋さん対応予定"
       },
       {
@@ -6744,7 +7848,9 @@
         "time": "9:17:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "藤本配管さん、7/8、15時に工事対応"
       },
       {
@@ -6752,7 +7858,9 @@
         "time": "17:04:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/236.対応画像３ー１.180554.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1E31oKewt_-p3llVtEcpJYEAMGepBU66p&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "交換にて工事完了、費用は丹生谷さん対応"
       }
     ],
@@ -6770,7 +7878,9 @@
     "kind": "一時帰国",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/237.登録画像１－１.230105.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=13fRcESYnV40S1I63TbMsWSebXaFlr5-v&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "7/7～チンとタオ、一時帰国の連絡あり、帰国日未定",
     "responses": [],
     "overall_note": null
@@ -6787,7 +7897,9 @@
     "kind": "一時帰国",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "新開工場長より、病院へ行きたいため、一時帰国の申し出あり。日本の病院を進めるが、帰国希望。新開工場長と相談し１０日以内条件",
     "responses": [
       {
@@ -6795,7 +7907,9 @@
         "time": "12:11:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "本人と面談。10日上限で帰国許可。チケットを送付依頼"
       },
       {
@@ -6803,7 +7917,9 @@
         "time": "16:09:00",
         "responder": "尾崎",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "専務にホアンの件相談し了承を得る"
       }
     ],
@@ -6821,7 +7937,9 @@
     "kind": "一時帰国",
     "status": "対応中",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "ベトナムにいる子どもが骨折したため、急遽7/9～アインと一時帰国。戻り未定。",
     "responses": [],
     "overall_note": null
@@ -6838,7 +7956,9 @@
     "kind": "クレーム",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/240.登録画像１－１.142050.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1a7tF3_VScSYwGNLtMsw_W4CNlg-IzZiO&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/240.登録画像１－２.142238.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1f_yUxKjTCdnY-_OYv0XgGDenqYxVnm9d&sz=w800",
     "request_note": "佐伯さんより、他の農業３名より、不平不満の申し出あり。",
     "responses": [],
     "overall_note": null
@@ -6855,7 +7975,9 @@
     "kind": "病院",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/241.登録画像１－１.002145.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1a13AzISLwK46siYeO7O7Qb9PZP8crZ5s&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "以前から目が腫れており、7/10に砥部病院の眼科を受診させていたが、7/12朝にチンティアから再受診したい申し出。目がひどく腫れ、顔に湿疹のようなものが出ている。貰った塗り薬が原因？早急に受診させたい",
     "responses": [],
     "overall_note": null
@@ -6872,7 +7994,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/242.登録画像１－１.211728.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=15kbqHZcyPkhiLHgawcFH1ZcWyLTvL0qt&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/242.登録画像１－２.211728.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=13iyfboXxQNMabbQ94glAnJSrU_Sv1JmN&sz=w800",
     "request_note": "佐伯さんより、朝、階段上がったところでこけて眉毛の上を１センチ程度切った。現在、出血は止まったが、救急車呼ぶかどうか問い合わせ。現在、病院は開いていないため、９時まで待てるか、救急車呼ぶか本人に確認依頼",
     "responses": [
       {
@@ -6880,7 +8004,9 @@
         "time": "22:57:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/242.対応画像１ー１.035917.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1Njr2ZcYeT6FvpbBWpy7_0iWIcgQN6g9g&sz=w800",
         "img2": null,
+        "img2_url": null,
         "note": "今井クリニック整形外科受診、レントゲンするも問題なし、本日、休みとして明日から出勤"
       }
     ],
@@ -6898,7 +8024,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "木曜日から体調不良(熱、咳、鼻水、喉の痛み)良くならないため病院への申し出あり。",
     "responses": [
       {
@@ -6906,7 +8034,9 @@
         "time": null,
         "responder": null,
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "よしおか内科"
       },
       {
@@ -6914,7 +8044,9 @@
         "time": "10:30:11",
         "responder": "丹下",
         "img1": null,
+        "img1_url": null,
         "img2": null,
+        "img2_url": null,
         "note": "コロナ、インフル陰性。処方された薬で様子見とする。"
       }
     ],
@@ -6932,7 +8064,9 @@
     "kind": "病院",
     "status": "完了",
     "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": "皮膚科の再診。飲み薬、塗り薬を処方され様子見とのこと。血液検査結果は来週以降にでる。",
     "responses": [],
     "overall_note": null
@@ -6949,7 +8083,9 @@
     "kind": "一時帰国",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/245.登録画像１－１.002459.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1LygYReAprTi7cvVrQKGdXnjtmrgWje4t&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": null,
     "responses": [],
     "overall_note": null
@@ -6963,11 +8099,51 @@
     "target_employee_code": "18001402",
     "target_employee_id": "18001402",
     "place": null,
-    "kind": null,
+    "kind": "一時帰国",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/246.登録画像１－１.002559.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1WhP6lR7CfzoOW7YxpEk2NMcVaW3qQxzC&sz=w800",
     "reg_img2": null,
+    "reg_img2_url": null,
     "request_note": null,
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "247",
+    "seq": 247,
+    "date": "2026/07/19",
+    "time": "12:35:52",
+    "recorder": "尾崎",
+    "target_employee_code": "07018620",
+    "target_employee_id": "07018620",
+    "place": "牛渕１",
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/247.登録画像１－１.033634.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1estMsTtib7EyASMiuG1PvJA6WIX46tHu&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車修理依頼",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "248",
+    "seq": 248,
+    "date": "2026/07/20",
+    "time": "7:48:40",
+    "recorder": "尾崎",
+    "target_employee_code": "07013631",
+    "target_employee_id": "07013631",
+    "place": null,
+    "kind": "問合せ",
+    "status": "申請中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "愛媛銀行のキャッシュカードが利用できないため、確認依頼",
     "responses": [],
     "overall_note": null
   }
