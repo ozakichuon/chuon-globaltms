@@ -39,18 +39,37 @@ const RETURN_GROUPS = [
 
 type GroupKey = typeof RETURN_GROUPS[number]["key"];
 
-export default function DeparturesPage() {
+const SITE_FILTERS = [
+  { key: "小栗工場", workplaces: ["本社", "小栗"] },
+  { key: "津吉工場", workplaces: ["津吉"] },
+  { key: "西条工場", workplaces: ["西条"] },
+];
+
+function matchSite(workplace: string | null | undefined, site: string): boolean {
+  if (!site) return true;
+  const wp = workplace ?? "";
+  const filter = SITE_FILTERS.find((f) => f.key === site);
+  if (!filter) return true;
+  return filter.workplaces.some((kw) => wp.includes(kw));
+}
+
+export default function DeparturesPage({
+  searchParams,
+}: {
+  searchParams?: { site?: string };
+}) {
+  const site = searchParams?.site ?? "";
   const now = new Date();
   const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
 
   // 退職予定（マーク付き・未退職）
   const scheduled = excelEmployees
-    .filter((e) => !e.retired && e.retired_mark === "退職予定")
+    .filter((e) => !e.retired && e.retired_mark === "退職予定" && matchSite(e.workplace, site))
     .sort((a, b) => (a.retired_at ?? "").localeCompare(b.retired_at ?? ""));
 
   // 帰国予定（在籍中で expected_return あり）
   const activeWithReturn = excelEmployees
-    .filter((e) => !e.retired && e.expected_return)
+    .filter((e) => !e.retired && e.expected_return && matchSite(e.workplace, site))
     .map((e) => {
       const d = parseYearMonth(e.expected_return);
       const months = d ? monthsFromNow(d) : null;
@@ -77,7 +96,7 @@ export default function DeparturesPage() {
 
   // 退職済み（直近12ヶ月）
   const recentRetired = excelEmployees
-    .filter((e) => e.retired && e.retired_at && new Date(e.retired_at) >= oneYearAgo)
+    .filter((e) => e.retired && e.retired_at && new Date(e.retired_at) >= oneYearAgo && matchSite(e.workplace, site))
     .sort((a, b) => new Date(b.retired_at ?? 0).getTime() - new Date(a.retired_at ?? 0).getTime());
 
   // 一時帰国：複数（改行区切り）対応・To経過後3日まで表示
@@ -106,7 +125,7 @@ export default function DeparturesPage() {
   }
 
   const tempReturns = excelEmployees
-    .filter((e) => !e.retired && hasActiveTrip(e.temporary_return_from, e.temporary_return_to))
+    .filter((e) => !e.retired && matchSite(e.workplace, site) && hasActiveTrip(e.temporary_return_from, e.temporary_return_to))
     .sort((a, b) => {
       const aTrips = parseTripDates(a.temporary_return_from, a.temporary_return_to);
       const bTrips = parseTripDates(b.temporary_return_from, b.temporary_return_to);
@@ -142,6 +161,24 @@ export default function DeparturesPage() {
         <p className="text-sm text-slate-500 mt-1">
           在籍者の帰国・退職スケジュールを一元管理。人員補充計画に活用してください。
         </p>
+      </div>
+
+      {/* 工場フィルター */}
+      <div className="flex items-center gap-2 flex-wrap">
+        <span className="text-sm text-slate-500">工場：</span>
+        {[{ key: "", label: "すべて" }, ...SITE_FILTERS.map((f) => ({ key: f.key, label: f.key }))].map((tab) => (
+          <Link
+            key={tab.key}
+            href={tab.key ? `/departures?site=${encodeURIComponent(tab.key)}` : "/departures"}
+            className={`px-3 py-1 rounded-full text-sm border transition-colors ${
+              site === tab.key
+                ? "bg-sky-600 text-white border-sky-600"
+                : "bg-white text-slate-600 border-slate-200 hover:border-sky-400"
+            }`}
+          >
+            {tab.label}
+          </Link>
+        ))}
       </div>
 
       {/* KPI */}
@@ -241,9 +278,6 @@ export default function DeparturesPage() {
         <h2 className="font-bold text-lg flex items-center gap-2 mb-4">
           <PlaneTakeoff size={18} className="text-sky-500" />
           帰国予定タイムライン
-          <span className="text-sm font-normal text-slate-500">
-            （在籍者 {activeWithReturn.length}名）
-          </span>
         </h2>
 
         {RETURN_GROUPS.map((g) => {
