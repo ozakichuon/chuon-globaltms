@@ -203,6 +203,19 @@ async function main() {
       section: s(c[0]),
       workplace: s(c[2]),
       residence_card_procedure: s(c[24]),
+      // 書類画像
+      doc_residence_card: imgUrl(s(c[44]) || null, supportImgMap),
+      doc_passport: imgUrl(s(c[45]) || null, supportImgMap),
+      doc_insurance_policy: imgUrl(s(c[46]) || null, supportImgMap),
+      doc_bankbook: imgUrl(s(c[47]) || null, supportImgMap),
+      doc_health_insurance: imgUrl(s(c[48]) || null, supportImgMap),
+      doc_jlpt_pass: imgUrl(s(c[49]) || null, supportImgMap),
+      doc_ss2_pass: imgUrl(s(c[50]) || null, supportImgMap),
+      doc_license: imgUrl(s(c[51]) || null, supportImgMap),
+      doc_other1_photo: imgUrl(s(c[52]) || null, supportImgMap),
+      doc_other2_photo: imgUrl(s(c[53]) || null, supportImgMap),
+      doc_other1_file: imgUrl(s(c[54]) || null, supportImgMap),
+      doc_other2_file: imgUrl(s(c[55]) || null, supportImgMap),
     });
   }
   fs.writeFileSync('src/lib/data/employees.json', JSON.stringify(employees, null, 2), 'utf8');

@@ -395,36 +395,6 @@ export default async function EmployeeDetailPage({
             </section>
           )}
 
-          {/* 生活サポート履歴 */}
-          {supportTickets.length > 0 && (
-            <section className="card">
-              <h3 className="font-bold">生活サポート履歴 ({supportTickets.length})</h3>
-              <div className="mt-3 space-y-2">
-                {supportTickets.slice(0, 5).map((t) => (
-                  <div key={t.id} className="bg-slate-50 rounded-lg p-2 text-xs">
-                    <div className="flex items-center gap-2 mb-1">
-                      <Badge className="bg-white text-slate-700 border border-slate-200">
-                        {t.kind}
-                      </Badge>
-                      <span className="text-slate-500">{formatDate(t.date)}</span>
-                      {t.status && <span className="text-slate-400">{t.status}</span>}
-                    </div>
-                    {t.request_note && (
-                      <div className="text-slate-700 line-clamp-2">
-                        {t.request_note}
-                      </div>
-                    )}
-                  </div>
-                ))}
-                {supportTickets.length > 5 && (
-                  <div className="text-xs text-center text-slate-500">
-                    他 {supportTickets.length - 5} 件
-                  </div>
-                )}
-              </div>
-            </section>
-          )}
-
           {/* 備考 */}
           {excelFull?.note && (
             <section className="card">
@@ -530,10 +500,78 @@ export default async function EmployeeDetailPage({
               <div className="mt-3 text-sm text-slate-500">—</div>
             )}
           </section>
+
+          {/* 書類画像 */}
+          {(() => {
+            const docs = [
+              { label: "在留カード表裏", url: (excelFull as any)?.doc_residence_card },
+              { label: "パスポート", url: (excelFull as any)?.doc_passport },
+              { label: "特定保険証券", url: (excelFull as any)?.doc_insurance_policy },
+              { label: "通帳", url: (excelFull as any)?.doc_bankbook },
+              { label: "保険証", url: (excelFull as any)?.doc_health_insurance },
+              { label: "日本語合格", url: (excelFull as any)?.doc_jlpt_pass },
+              { label: "特定２号合格", url: (excelFull as any)?.doc_ss2_pass },
+              { label: "免許関係", url: (excelFull as any)?.doc_license },
+              { label: "その他１（写真）", url: (excelFull as any)?.doc_other1_photo },
+              { label: "その他２（写真）", url: (excelFull as any)?.doc_other2_photo },
+              { label: "その他１（ファイル）", url: (excelFull as any)?.doc_other1_file },
+              { label: "その他２（ファイル）", url: (excelFull as any)?.doc_other2_file },
+            ].filter((d) => d.url);
+            if (docs.length === 0) return null;
+            return (
+              <section className="card">
+                <h3 className="font-bold mb-3">書類</h3>
+                <div className="flex flex-wrap gap-3">
+                  {docs.map((d) => (
+                    <div key={d.label} className="flex flex-col items-center gap-1">
+                      <a href={d.url} target="_blank" rel="noopener noreferrer">
+                        <img
+                          src={d.url}
+                          alt={d.label}
+                          className="max-h-40 max-w-[160px] rounded-lg border border-slate-200 object-contain cursor-zoom-in"
+                        />
+                      </a>
+                      <span className="text-xs text-slate-500">{d.label}</span>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            );
+          })()}
         </div>
 
-        {/* 右：キャリア進捗 */}
+        {/* 右：生活サポート履歴・キャリア進捗 */}
         <div className="lg:col-span-1 space-y-6">
+          {/* 生活サポート履歴 */}
+          {supportTickets.length > 0 && (
+            <section className="card">
+              <h3 className="font-bold">生活サポート履歴 ({supportTickets.length})</h3>
+              <div className="mt-3 space-y-2">
+                {supportTickets.slice(0, 5).map((t) => (
+                  <div key={t.id} className="bg-slate-50 rounded-lg p-2 text-xs">
+                    <div className="flex items-center gap-2 mb-1">
+                      <Badge className="bg-white text-slate-700 border border-slate-200">
+                        {t.kind}
+                      </Badge>
+                      <span className="text-slate-500">{formatDate(t.date)}</span>
+                      {t.status && <span className="text-slate-400">{t.status}</span>}
+                    </div>
+                    {t.request_note && (
+                      <div className="text-slate-700 line-clamp-2">
+                        {t.request_note}
+                      </div>
+                    )}
+                  </div>
+                ))}
+                {supportTickets.length > 5 && (
+                  <div className="text-xs text-center text-slate-500">
+                    他 {supportTickets.length - 5} 件
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
+
           <section className="card">
             <h3 className="font-bold flex items-center gap-2">
               <GraduationCap size={18} /> キャリア進捗

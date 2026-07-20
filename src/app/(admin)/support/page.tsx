@@ -48,23 +48,44 @@ const COLUMNS: { key: StatusKey; color: string; ring: string; head: string }[] =
 
 type ViewMode = "board" | "list";
 
+const SITE_FILTERS = [
+  { key: "小栗工場", workplaces: ["本社", "小栗"] },
+  { key: "津吉工場", workplaces: ["津吉"] },
+  { key: "西条工場", workplaces: ["西条"] },
+];
+
+function getTicketSite(t: SupportTicket): string | null {
+  if (!t.target_employee_code) return null;
+  const emp = empByCode.get(t.target_employee_code);
+  if (!emp) return null;
+  const wp = (emp as any).workplace ?? "";
+  for (const sf of SITE_FILTERS) {
+    if (sf.workplaces.some((w) => wp.includes(w))) return sf.key;
+  }
+  return null;
+}
+
 export default async function SupportPage({
   searchParams,
 }: {
-  searchParams?: Promise<{ kind?: string; status?: string; view?: string }>;
+  searchParams?: Promise<{ kind?: string; status?: string; view?: string; site?: string }>;
 }) {
   const params = (await searchParams) ?? {};
   const view: ViewMode = params.view === "list" ? "list" : "board";
 
-  // kindフィルタだけ適用（statusはBoardの時は不要、Listの時のみ）
-  const base = excelSupportTickets.filter((t) =>
-    params.kind ? t.kind === params.kind : true
-  );
+  // kind・siteフィルタ適用
+  const base = excelSupportTickets.filter((t) => {
+    if (params.kind && t.kind !== params.kind) return false;
+    if (params.site && getTicketSite(t) !== params.site) return false;
+    return true;
+  });
 
   const kindCounts: Record<string, number> = {};
-  excelSupportTickets.forEach((t) => {
-    if (t.kind) kindCounts[t.kind] = (kindCounts[t.kind] ?? 0) + 1;
-  });
+  excelSupportTickets
+    .filter((t) => !params.site || getTicketSite(t) === params.site)
+    .forEach((t) => {
+      if (t.kind) kindCounts[t.kind] = (kindCounts[t.kind] ?? 0) + 1;
+    });
 
   // 状態別グループ
   const grouped: Record<StatusKey, SupportTicket[]> = {
@@ -81,9 +102,9 @@ export default async function SupportPage({
   });
 
   const totalCounts = {
-    未着手: excelSupportTickets.filter((t) => normalizeStatus(t.status) === "未着手").length,
-    対応中: excelSupportTickets.filter((t) => normalizeStatus(t.status) === "対応中").length,
-    完了: excelSupportTickets.filter((t) => normalizeStatus(t.status) === "完了").length,
+    未着手: base.filter((t) => normalizeStatus(t.status) === "未着手").length,
+    対応中: base.filter((t) => normalizeStatus(t.status) === "対応中").length,
+    完了: base.filter((t) => normalizeStatus(t.status) === "完了").length,
   };
 
   const filteredList = base
@@ -125,33 +146,59 @@ export default async function SupportPage({
         </div>
       </div>
 
-      {/* カテゴリフィルタ */}
-      <div className="card">
-        <div className="flex items-center gap-2 text-xs font-bold mb-3">
-          <Filter size={14} /> カテゴリ
-        </div>
-        <div className="flex flex-wrap gap-2">
+      {/* フィルタ */}
+      <div className="card space-y-3">
+        {/* 工場フィルタ */}
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-xs font-bold shrink-0">工場</span>
           <Link
-            href={withParams({ view }, "kind", null)}
-            className={`badge ${!params.kind ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-700 border border-slate-200"}`}
+            href={withParams({ view, ...(params.kind ? { kind: params.kind } : {}), ...(params.status ? { status: params.status } : {}) }, "site", null)}
+            className={`badge ${!params.site ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-700 border border-slate-200"}`}
           >
-            すべて {excelSupportTickets.length}
+            すべて
           </Link>
-          {Object.entries(kindCounts)
-            .sort((a, b) => b[1] - a[1])
-            .map(([k, v]) => (
+          {SITE_FILTERS.map((sf) => {
+            const count = excelSupportTickets.filter((t) => getTicketSite(t) === sf.key && (!params.kind || t.kind === params.kind)).length;
+            return (
               <Link
-                key={k}
-                href={withParams({ view, ...(params.status ? { status: params.status } : {}) }, "kind", k)}
-                className={`badge ${
-                  params.kind === k
-                    ? "bg-brand-600 text-white"
-                    : KIND_STYLES[k] ?? "bg-slate-100 text-slate-700"
-                }`}
+                key={sf.key}
+                href={withParams({ view, ...(params.kind ? { kind: params.kind } : {}), ...(params.status ? { status: params.status } : {}) }, "site", sf.key)}
+                className={`badge ${params.site === sf.key ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-700 border border-slate-200"}`}
               >
-                {k} {v}
+                {sf.key} {count}
               </Link>
-            ))}
+            );
+          })}
+        </div>
+
+        {/* カテゴリフィルタ */}
+        <div>
+          <div className="flex items-center gap-2 text-xs font-bold mb-2">
+            <Filter size={14} /> カテゴリ
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <Link
+              href={withParams({ view, ...(params.site ? { site: params.site } : {}) }, "kind", null)}
+              className={`badge ${!params.kind ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-700 border border-slate-200"}`}
+            >
+              すべて {excelSupportTickets.filter((t) => !params.site || getTicketSite(t) === params.site).length}
+            </Link>
+            {Object.entries(kindCounts)
+              .sort((a, b) => b[1] - a[1])
+              .map(([k, v]) => (
+                <Link
+                  key={k}
+                  href={withParams({ view, ...(params.status ? { status: params.status } : {}), ...(params.site ? { site: params.site } : {}) }, "kind", k)}
+                  className={`badge ${
+                    params.kind === k
+                      ? "bg-brand-600 text-white"
+                      : KIND_STYLES[k] ?? "bg-slate-100 text-slate-700"
+                  }`}
+                >
+                  {k} {v}
+                </Link>
+              ))}
+          </div>
         </div>
       </div>
 

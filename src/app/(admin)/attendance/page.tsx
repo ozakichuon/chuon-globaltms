@@ -67,11 +67,11 @@ const BAR_MAX = 100;
 
 const SITE_TABS = [
   { key: "", label: "すべて" },
-  { key: "津吉", label: "津吉" },
   { key: "小栗工場", label: "小栗工場" },
+  { key: "協同本社", label: "協同本社" },
+  { key: "津吉", label: "津吉" },
   { key: "西条工場", label: "西条工場" },
   { key: "西条ファーム", label: "西条ファーム" },
-  { key: "協同本社", label: "協同本社" },
 ] as const;
 
 const SITE_TO_ORG: Record<string, string> = {
