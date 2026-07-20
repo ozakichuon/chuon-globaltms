@@ -80,10 +80,40 @@ export default function DeparturesPage() {
     .filter((e) => e.retired && e.retired_at && new Date(e.retired_at) >= oneYearAgo)
     .sort((a, b) => new Date(b.retired_at ?? 0).getTime() - new Date(a.retired_at ?? 0).getTime());
 
-  // 一時帰国中・予定
+  // 一時帰国：複数（改行区切り）対応・To経過後3日まで表示
+  const threeDaysAgo = new Date(now);
+  threeDaysAgo.setDate(threeDaysAgo.getDate() - 3);
+
+  function parseTripDates(from: string | null, to: string | null) {
+    const froms = (from ?? "").split(/[\n,]/).map((s) => s.trim()).filter(Boolean);
+    const tos = (to ?? "").split(/[\n,]/).map((s) => s.trim()).filter(Boolean);
+    const count = Math.max(froms.length, tos.length, 1);
+    return Array.from({ length: count }, (_, i) => ({
+      from: froms[i] ?? null,
+      to: tos[i] ?? null,
+    }));
+  }
+
+  function hasActiveTrip(from: string | null, to: string | null): boolean {
+    const trips = parseTripDates(from, to);
+    return trips.some(({ from: f, to: t }) => {
+      const toDate = t ? new Date(t.replace(/\//g, "-")) : null;
+      const fromDate = f ? new Date(f.replace(/\//g, "-")) : null;
+      if (toDate) return toDate >= threeDaysAgo;
+      if (fromDate) return fromDate >= threeDaysAgo;
+      return false;
+    });
+  }
+
   const tempReturns = excelEmployees
-    .filter((e) => !e.retired && (e.temporary_return_from || e.temporary_return_to))
-    .sort((a, b) => (a.temporary_return_from ?? "").localeCompare(b.temporary_return_from ?? ""));
+    .filter((e) => !e.retired && hasActiveTrip(e.temporary_return_from, e.temporary_return_to))
+    .sort((a, b) => {
+      const aTrips = parseTripDates(a.temporary_return_from, a.temporary_return_to);
+      const bTrips = parseTripDates(b.temporary_return_from, b.temporary_return_to);
+      const aFirst = aTrips[0]?.from ?? "";
+      const bFirst = bTrips[0]?.from ?? "";
+      return aFirst.localeCompare(bFirst);
+    });
 
   return (
     <div className="space-y-8">
@@ -283,10 +313,7 @@ export default function DeparturesPage() {
               </thead>
               <tbody>
                 {tempReturns.map((e) => {
-                  const from = e.temporary_return_from ? new Date(e.temporary_return_from) : null;
-                  const to = e.temporary_return_to ? new Date(e.temporary_return_to) : null;
-                  const isOngoing = from && from <= now && (!to || to >= now);
-                  const isUpcoming = from && from > now;
+                  const trips = parseTripDates(e.temporary_return_from, e.temporary_return_to);
                   return (
                     <tr key={e.id} className="border-b last:border-0 hover:bg-slate-50">
                       <td className="py-2.5 px-2 font-mono text-xs">{e.employee_code}</td>
@@ -302,16 +329,36 @@ export default function DeparturesPage() {
                         {nationalityFlag(e.nationality)} {e.nationality}
                       </td>
                       <td className="py-2.5 px-2 text-xs">{visaLabel(e.visa_status)}</td>
-                      <td className="py-2.5 px-2 text-xs">{formatDate(e.temporary_return_from)}</td>
-                      <td className="py-2.5 px-2 text-xs">{formatDate(e.temporary_return_to)}</td>
+                      <td className="py-2.5 px-2 text-xs">
+                        {trips.map((t, i) => (
+                          <div key={i}>{t.from ? formatDate(t.from.replace(/\//g, "-")) : "—"}</div>
+                        ))}
+                      </td>
+                      <td className="py-2.5 px-2 text-xs">
+                        {trips.map((t, i) => (
+                          <div key={i}>{t.to ? formatDate(t.to.replace(/\//g, "-")) : "—"}</div>
+                        ))}
+                      </td>
                       <td className="py-2.5 px-2">
-                        {isOngoing ? (
-                          <Badge className="bg-indigo-100 text-indigo-700 border border-indigo-200">帰国中</Badge>
-                        ) : isUpcoming ? (
-                          <Badge className="bg-sky-100 text-sky-700 border border-sky-200">予定</Badge>
-                        ) : (
-                          <Badge className="bg-slate-100 text-slate-500 border border-slate-200">完了</Badge>
-                        )}
+                        <div className="flex flex-col gap-1">
+                          {trips.map((t, i) => {
+                            const fromDate = t.from ? new Date(t.from.replace(/\//g, "-")) : null;
+                            const toDate = t.to ? new Date(t.to.replace(/\//g, "-")) : null;
+                            const isOngoing = fromDate && fromDate <= now && (!toDate || toDate >= now);
+                            const isUpcoming = fromDate && fromDate > now;
+                            return (
+                              <span key={i}>
+                                {isOngoing ? (
+                                  <Badge className="bg-indigo-100 text-indigo-700 border border-indigo-200">帰国中</Badge>
+                                ) : isUpcoming ? (
+                                  <Badge className="bg-sky-100 text-sky-700 border border-sky-200">予定</Badge>
+                                ) : (
+                                  <Badge className="bg-slate-100 text-slate-500 border border-slate-200">完了</Badge>
+                                )}
+                              </span>
+                            );
+                          })}
+                        </div>
                       </td>
                     </tr>
                   );
