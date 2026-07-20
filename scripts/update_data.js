@@ -5,6 +5,12 @@ const SHEET_ID = '1yGxl2P1PCVTXQC0s-QhSEbJ1HkbUfFpcbWaNclalDcI';
 
 function imgUrl(path, driveMap) {
   if (!path) return null;
+  // Google Drive URLからFILE_IDを直接抽出してサムネイルURL生成
+  const m1 = path.match(/\/d\/([a-zA-Z0-9_-]{25,})/);
+  if (m1) return `https://drive.google.com/thumbnail?id=${m1[1]}&sz=w800`;
+  const m2 = path.match(/[?&]id=([a-zA-Z0-9_-]{25,})/);
+  if (m2) return `https://drive.google.com/thumbnail?id=${m2[1]}&sz=w800`;
+  // ファイル名でmap検索（既存の動作）
   const filename = path.split('/').pop();
   return driveMap[filename] ?? null;
 }

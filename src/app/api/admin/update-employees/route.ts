@@ -26,6 +26,12 @@ function v(cell: any) { return cell ? (cell.v !== undefined && cell.v !== null ?
 function s(cell: any) { return cell ? (cell.f || String(cell.v ?? "")) : ""; }
 function imgUrl(p: string | null, driveMap: Record<string, string>): string | null {
   if (!p) return null;
+  // Google Drive URLからFILE_IDを直接抽出してサムネイルURL生成
+  const m1 = p.match(/\/d\/([a-zA-Z0-9_-]{25,})/);
+  if (m1) return `https://drive.google.com/thumbnail?id=${m1[1]}&sz=w800`;
+  const m2 = p.match(/[?&]id=([a-zA-Z0-9_-]{25,})/);
+  if (m2) return `https://drive.google.com/thumbnail?id=${m2[1]}&sz=w800`;
+  // ファイル名でmap検索（既存の動作）
   const filename = p.split("/").pop() ?? "";
   return driveMap[filename] ?? null;
 }
