@@ -548,7 +548,7 @@ export default async function EmployeeDetailPage({
               <h3 className="font-bold">生活サポート履歴 ({supportTickets.length})</h3>
               <div className="mt-3 space-y-2">
                 {supportTickets.slice(0, 5).map((t) => (
-                  <div key={t.id} className="bg-slate-50 rounded-lg p-2 text-xs">
+                  <Link key={t.id} href={`/support/${t.id}`} className="block bg-slate-50 rounded-lg p-2 text-xs hover:bg-slate-100 transition-colors">
                     <div className="flex items-center gap-2 mb-1">
                       <Badge className="bg-white text-slate-700 border border-slate-200">
                         {t.kind}
@@ -561,7 +561,7 @@ export default async function EmployeeDetailPage({
                         {t.request_note}
                       </div>
                     )}
-                  </div>
+                  </Link>
                 ))}
                 {supportTickets.length > 5 && (
                   <div className="text-xs text-center text-slate-500">
