@@ -53,12 +53,13 @@ function matchSite(workplace: string | null | undefined, site: string): boolean 
   return filter.workplaces.some((kw) => wp.includes(kw));
 }
 
-export default function DeparturesPage({
+export default async function DeparturesPage({
   searchParams,
 }: {
-  searchParams?: { site?: string };
+  searchParams?: Promise<{ site?: string }>;
 }) {
-  const site = searchParams?.site ?? "";
+  const params = await searchParams;
+  const site = params?.site ?? "";
   const now = new Date();
   const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
 
