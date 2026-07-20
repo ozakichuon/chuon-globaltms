@@ -24,6 +24,11 @@ function fetchGviz(sheetName: string): Promise<any> {
 
 function v(cell: any) { return cell ? (cell.v !== undefined && cell.v !== null ? cell.v : "") : ""; }
 function s(cell: any) { return cell ? (cell.f || String(cell.v ?? "")) : ""; }
+function imgUrl(p: string | null, driveMap: Record<string, string>): string | null {
+  if (!p) return null;
+  const filename = p.split("/").pop() ?? "";
+  return driveMap[filename] ?? null;
+}
 
 function toVisaStatus(jp: string) {
   if (!jp) return "other";
@@ -93,11 +98,21 @@ export async function POST(req: Request) {
   }
 
   try {
-    const [empTable, photoTable, tickTable] = await Promise.all([
+    const [empTable, photoTable, imgMapTable, tickTable] = await Promise.all([
       fetchGviz("管理表"),
       fetchGviz("photo_map"),
+      fetchGviz("support_img_map"),
       fetchGviz("履歴"),
     ]);
+
+    // support_img_map
+    const supportImgMap: Record<string, string> = {};
+    for (const row of imgMapTable.rows) {
+      const c = row.c;
+      const filename = c && c[0] ? String(c[0].v ?? "").trim() : "";
+      const url = c && c[1] ? String(c[1].v ?? "").trim() : "";
+      if (filename && url) supportImgMap[filename] = url;
+    }
 
     // photo_map
     const photoMapByFilename: Record<string, string> = {};
@@ -135,12 +150,27 @@ export async function POST(req: Request) {
         address_jp: s(c[17]) || null, room_type: s(c[18]) || null, rent_burden: null,
         residence_card_no: s(c[23]) || null, residence_card_expires_at: s(c[21]) || null,
         employment_insurance_no: null, jlpt_level: s(c[29]) || null, department_head: null,
-        temporary_retirement_date: null, temporary_return_from: null, temporary_return_to: null,
-        rejoined: null, retired: retireStatus.trim() === "退職", retired_mark: retireStatus || null,
+        temporary_retirement_date: s(c[31]) || null,
+        temporary_return_from: s(c[32]) || null,
+        temporary_return_to: s(c[33]) || null,
+        rejoined: s(c[34]) || null,
+        retired: retireStatus.trim() === "退職", retired_mark: retireStatus || null,
         retired_at: s(c[36]) || null, return_cost: null, ss1_insurance: null,
         ss1_entry_date: null, ss1_insurance_period: null, salary_account: null, note: null,
         photo_path: null, photo_url: photoUrl,
         section: s(c[0]), workplace: s(c[2]), residence_card_procedure: s(c[24]),
+        doc_residence_card: imgUrl(s(c[44]) || null, supportImgMap),
+        doc_passport: imgUrl(s(c[45]) || null, supportImgMap),
+        doc_insurance_policy: imgUrl(s(c[46]) || null, supportImgMap),
+        doc_bankbook: imgUrl(s(c[47]) || null, supportImgMap),
+        doc_health_insurance: imgUrl(s(c[48]) || null, supportImgMap),
+        doc_jlpt_pass: imgUrl(s(c[49]) || null, supportImgMap),
+        doc_ss2_pass: imgUrl(s(c[50]) || null, supportImgMap),
+        doc_license: imgUrl(s(c[51]) || null, supportImgMap),
+        doc_other1_photo: imgUrl(s(c[52]) || null, supportImgMap),
+        doc_other2_photo: imgUrl(s(c[53]) || null, supportImgMap),
+        doc_other1_file: imgUrl(s(c[54]) || null, supportImgMap),
+        doc_other2_file: imgUrl(s(c[55]) || null, supportImgMap),
       });
     }
 
@@ -182,13 +212,22 @@ export async function POST(req: Request) {
         const base = 11 + i * 6;
         const date = s(c[base]), time = s(c[base + 1]), responder = s(c[base + 2]);
         const img1 = s(c[base + 3]), img2 = s(c[base + 4]), note = s(c[base + 5]);
-        if (date || responder || note) responses.push({ date: date || null, time: time || null, responder: responder || null, img1: img1 || null, img2: img2 || null, note: note || null });
+        if (date || responder || note) responses.push({
+          date: date || null, time: time || null, responder: responder || null,
+          img1: img1 || null, img1_url: imgUrl(img1, supportImgMap),
+          img2: img2 || null, img2_url: imgUrl(img2, supportImgMap),
+          note: note || null,
+        });
       }
+      const ri1 = s(c[8]) || null;
+      const ri2 = s(c[9]) || null;
       tickets.push({
         id: String(v(c[0])), seq: v(c[0]), date: s(c[1]) || null, time: s(c[2]) || null,
         recorder: s(c[3]) || null, target_employee_code: empCode || null,
         target_employee_id: empCode || null, place: s(c[5]) || null, kind: s(c[6]) || null,
-        status: s(c[7]) || null, reg_img1: s(c[8]) || null, reg_img2: s(c[9]) || null,
+        status: s(c[7]) || null,
+        reg_img1: ri1, reg_img1_url: imgUrl(ri1, supportImgMap),
+        reg_img2: ri2, reg_img2_url: imgUrl(ri2, supportImgMap),
         request_note: s(c[10]) || null, responses, overall_note: s(c[41]) || null,
       });
     }
