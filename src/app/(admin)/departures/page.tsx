@@ -115,6 +115,23 @@ export default function DeparturesPage() {
       return aFirst.localeCompare(bFirst);
     });
 
+  // 帰国中（fromDate <= now && toDate >= now）の人数
+  const ongoingCount = tempReturns.filter((e) =>
+    parseTripDates(e.temporary_return_from, e.temporary_return_to).some(({ from: f, to: t }) => {
+      const fromDate = f ? new Date(f.replace(/\//g, "-")) : null;
+      const toDate = t ? new Date(t.replace(/\//g, "-")) : null;
+      return fromDate && fromDate <= now && (!toDate || toDate >= now);
+    })
+  ).length;
+
+  // 一時帰国予定（fromDate > now）の人数
+  const upcomingCount = tempReturns.filter((e) =>
+    parseTripDates(e.temporary_return_from, e.temporary_return_to).some(({ from: f }) => {
+      const fromDate = f ? new Date(f.replace(/\//g, "-")) : null;
+      return fromDate && fromDate > now;
+    })
+  ).length;
+
   return (
     <div className="space-y-8">
       <div>
@@ -136,17 +153,17 @@ export default function DeparturesPage() {
             <span className="text-sm font-normal text-slate-500 ml-1">名</span>
           </div>
         </div>
-        <div className="rounded-xl border bg-orange-50 border-orange-200 p-4">
-          <div className="text-xs text-slate-500">3ヶ月以内の帰国予定</div>
-          <div className="text-3xl font-bold text-orange-700 mt-1">
-            {grouped["3m"].length + grouped.past.length}
+        <div className="rounded-xl border bg-indigo-50 border-indigo-200 p-4">
+          <div className="text-xs text-slate-500">帰国中</div>
+          <div className="text-3xl font-bold text-indigo-700 mt-1">
+            {ongoingCount}
             <span className="text-sm font-normal text-slate-500 ml-1">名</span>
           </div>
         </div>
-        <div className="rounded-xl border bg-amber-50 border-amber-200 p-4">
-          <div className="text-xs text-slate-500">1年以内の帰国予定</div>
-          <div className="text-3xl font-bold text-amber-700 mt-1">
-            {grouped.past.length + grouped["3m"].length + grouped["6m"].length + grouped["1y"].length}
+        <div className="rounded-xl border bg-sky-50 border-sky-200 p-4">
+          <div className="text-xs text-slate-500">一時帰国予定</div>
+          <div className="text-3xl font-bold text-sky-700 mt-1">
+            {upcomingCount}
             <span className="text-sm font-normal text-slate-500 ml-1">名</span>
           </div>
         </div>
