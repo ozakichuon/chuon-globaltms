@@ -8157,13 +8157,24 @@
     "target_employee_id": "07018612",
     "place": null,
     "kind": "紛失",
-    "status": "申請中",
+    "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/249.登録画像１－１.000948.jpg",
     "reg_img1_url": null,
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "銀行のキャッシュカードを紛失したと連絡あり",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/07/20",
+        "time": "10:21:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/249.対応画像１ー１.012332.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/249.対応画像１－２.012332.jpg",
+        "img2_url": null,
+        "note": "7/23に対応予定"
+      }
+    ],
     "overall_note": null
   }
 ]
