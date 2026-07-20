@@ -288,33 +288,6 @@ export default async function EmployeeDetailPage({
             </dl>
           </section>
 
-          {/* 在留カード詳細 */}
-          {excelFull?.residence_card_no && (
-            <section className="card">
-              <h3 className="font-bold flex items-center gap-2">
-                <Home size={18} /> 在留カード情報
-              </h3>
-              <dl className="mt-3 text-sm space-y-2">
-                <Row
-                  label="カード番号"
-                  value={<span className="font-mono text-xs">{excelFull.residence_card_no}</span>}
-                />
-                <Row
-                  label="カード期限"
-                  value={formatDate(excelFull.residence_card_expires_at)}
-                />
-                {excelFull.employment_insurance_no && (
-                  <Row
-                    label="雇用保険番号"
-                    value={<span className="font-mono text-xs">{excelFull.employment_insurance_no}</span>}
-                  />
-                )}
-                {excelFull.ss1_entry_date && (
-                  <Row label="特定1号入国日" value={formatDate(excelFull.ss1_entry_date)} />
-                )}
-              </dl>
-            </section>
-          )}
 
           {/* 寮・住居 */}
           {dormAssigns.length > 0 && (
@@ -431,6 +404,12 @@ export default async function EmployeeDetailPage({
                   label="現行資格"
                   value={emp.visa_type_jp ?? visaLabel(emp.current_visa_status)}
                 />
+                {excelFull?.residence_card_no && (
+                  <Row
+                    label="カード番号"
+                    value={<span className="font-mono text-base">{excelFull.residence_card_no}</span>}
+                  />
+                )}
                 <Row
                   label="期限"
                   value={
