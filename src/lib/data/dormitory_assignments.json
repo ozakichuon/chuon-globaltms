@@ -28,7 +28,7 @@
     "rent_burden": null,
     "workplace": "本社",
     "nationality": "ベトナム",
-    "visa_type": "技能実習2号",
+    "visa_type": "特定技能１号",
     "gender": "女"
   },
   {
@@ -60,7 +60,7 @@
     "rent_burden": null,
     "workplace": "本社",
     "nationality": "ベトナム",
-    "visa_type": "技能実習2号",
+    "visa_type": "特定技能１号",
     "gender": "女"
   },
   {
@@ -2336,14 +2336,14 @@
     "gender": "女"
   },
   {
-    "id": "3ae7dc08-3ae7-5ae7-bae7dc-3ae7dc083ae7",
+    "id": "48b3dfeb-48b3-58b3-88b3df-48b3dfeb48b3",
     "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
     "dormitory_name": "アトム",
     "room_id": "6b325d58-6b32-5b32-ab325d-6b325d586b32",
     "room_no": "401",
     "resident_name": "グエン ティ ホン",
-    "employee_id": "3ae7dc08-3ae7-5ae7-bae7dc-3ae7dc083ae7",
-    "employee_code": "07001626",
+    "employee_id": "48b3dfeb-48b3-58b3-88b3df-48b3dfeb48b3",
+    "employee_code": "07001631",
     "photo_url": "https://drive.google.com/thumbnail?id=15qsVF8R-6DQCJ_FOVBx-vkpO3KXvZeJ0&sz=w800",
     "rent_burden": null,
     "workplace": "本社",

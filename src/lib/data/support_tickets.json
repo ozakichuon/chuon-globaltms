@@ -7973,13 +7973,24 @@
     "target_employee_id": "07013675",
     "place": null,
     "kind": "病院",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/241.登録画像１－１.002145.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1a13AzISLwK46siYeO7O7Qb9PZP8crZ5s&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "以前から目が腫れており、7/10に砥部病院の眼科を受診させていたが、7/12朝にチンティアから再受診したい申し出。目がひどく腫れ、顔に湿疹のようなものが出ている。貰った塗り薬が原因？早急に受診させたい",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/07/15",
+        "time": "10:30:25",
+        "responder": "丹下",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "皮膚科の再診。飲み薬、塗り薬を処方され様子見とのこと。血液検査結果は来週以降に出る。"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -8055,19 +8066,19 @@
   {
     "id": "244",
     "seq": 244,
-    "date": "2026/07/15",
-    "time": "10:30:16",
-    "recorder": "丹下",
-    "target_employee_code": "07013675",
-    "target_employee_id": "07013675",
+    "date": null,
+    "time": null,
+    "recorder": null,
+    "target_employee_code": null,
+    "target_employee_id": null,
     "place": null,
-    "kind": "病院",
-    "status": "完了",
+    "kind": null,
+    "status": null,
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
     "reg_img2_url": null,
-    "request_note": "皮膚科の再診。飲み薬、塗り薬を処方され様子見とのこと。血液検査結果は来週以降にでる。",
+    "request_note": null,
     "responses": [],
     "overall_note": null
   },
@@ -8119,13 +8130,24 @@
     "target_employee_id": "07018620",
     "place": "牛渕１",
     "kind": "修理",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/247.登録画像１－１.033634.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1estMsTtib7EyASMiuG1PvJA6WIX46tHu&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "自転車修理依頼",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/07/21",
+        "time": "14:58:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/247.対応画像１ー１.085931.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1umdPUkRTJBYrCovxSIv8sH8fwi3tLW_q&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "カドタにて修理、4,700円"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -8138,13 +8160,24 @@
     "target_employee_id": "07013631",
     "place": null,
     "kind": "問合せ",
-    "status": "申請中",
+    "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/248.登録画像１－１.224700.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1pOAloRVRE8gCf4pMmW1RjtjAMtkuEHrU&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "愛媛銀行のキャッシュカードが利用できないため、確認依頼",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/07/21",
+        "time": "12:00:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "7/23の９時ぐらいから再発行処理"
+      }
+    ],
     "overall_note": null
   },
   {
