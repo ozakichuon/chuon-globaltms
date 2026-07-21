@@ -1,6 +1,7 @@
 import { KpiCard } from "@/components/KpiCard";
 import { DailyMemo } from "@/components/DailyMemo";
 import { TodayAutoTasks } from "@/components/TodayAutoTasks";
+import { CybozuSchedule } from "@/components/CybozuSchedule";
 import {
   getKpiSnapshot,
   getTopOvertimeCurrentMonth,
@@ -69,9 +70,10 @@ export default async function DashboardPage() {
       </div>
 
       {/* 今日のタスク */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <TodayAutoTasks />
         <DailyMemo />
+        <CybozuSchedule />
       </div>
 
       {/* KPI群 */}

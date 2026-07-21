@@ -5,6 +5,7 @@ import type { AttendanceDay, AttendanceMonthly, OvertimeAlert } from "./types";
 import overtimeReal04 from "./data/overtime_2026_04.json";
 import overtimeReal05 from "./data/overtime_2026_05.json";
 import overtimeReal06 from "./data/overtime_2026_06.json";
+import overtimeReal07 from "./data/overtime_2026_07.json";
 
 const employeesMock = getAllEmployeesAsSummary();
 
@@ -54,7 +55,7 @@ type RealEntry = {
 };
 // 実績データ: month_start → { code → RealEntry }
 const realDataByMonth: Record<string, Record<string, RealEntry>> = {};
-for (const src of [overtimeReal04, overtimeReal05, overtimeReal06] as any[]) {
+for (const src of [overtimeReal04, overtimeReal05, overtimeReal06, overtimeReal07] as any[]) {
   const monthStart: string = src.month_start;
   const map: Record<string, RealEntry> = {};
   for (const [code, val] of Object.entries(src.data as Record<string, RealEntry>)) {
