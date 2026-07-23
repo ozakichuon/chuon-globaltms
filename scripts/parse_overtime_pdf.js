@@ -50,11 +50,12 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
       if (periodLine) {
         const m = periodLine.text.match(/(\d{4})年(\d{2})月\[(\d{4})年(\d{2})月(\d{2})日.*～(\d{4})年(\d{2})月(\d{2})日/);
         if (m) {
-          monthLabel = `${m[1]}-${m[2]}`;
+          // 期間開始日の年月を使う（PDFタイトルの月ではなく）
+          monthLabel = `${m[3]}-${m[4].padStart(2,'0')}`;
           const s = `${m[3]}-${m[4].padStart(2,'0')}-${m[5].padStart(2,'0')}`;
           const e = `${m[6]}-${m[7].padStart(2,'0')}-${m[8].padStart(2,'0')}`;
           period = `${s}_${e}`;
-          monthStart = `${m[1]}-${m[2]}-01`;
+          monthStart = `${m[3]}-${m[4].padStart(2,'0')}-01`;
         }
       }
     }
