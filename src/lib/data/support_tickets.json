@@ -8066,19 +8066,19 @@
   {
     "id": "244",
     "seq": 244,
-    "date": null,
-    "time": null,
-    "recorder": null,
-    "target_employee_code": null,
-    "target_employee_id": null,
+    "date": "2026/07/15",
+    "time": "10:30:16",
+    "recorder": "丹下",
+    "target_employee_code": "07013675",
+    "target_employee_id": "07013675",
     "place": null,
-    "kind": null,
-    "status": null,
+    "kind": "病院",
+    "status": "完了",
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
     "reg_img2_url": null,
-    "request_note": null,
+    "request_note": "皮膚科の再診。飲み薬、塗り薬を処方され様子見とのこと。血液検査結果は来週以降にでる。",
     "responses": [],
     "overall_note": null
   },
@@ -8160,7 +8160,7 @@
     "target_employee_id": "07013631",
     "place": null,
     "kind": "問合せ",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/248.登録画像１－１.224700.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1pOAloRVRE8gCf4pMmW1RjtjAMtkuEHrU&sz=w800",
     "reg_img2": null,
@@ -8176,6 +8176,16 @@
         "img2": null,
         "img2_url": null,
         "note": "7/23の９時ぐらいから再発行処理"
+      },
+      {
+        "date": "2026/07/23",
+        "time": "9:51:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "愛媛銀行森松にて、機械で再設定可能とのことで、窓口からATMにて処理にて終了"
       }
     ],
     "overall_note": null
@@ -8190,7 +8200,7 @@
     "target_employee_id": "07018612",
     "place": null,
     "kind": "紛失",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/249.登録画像１－１.000948.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1dNDNN1opIXrycLXPcWvO0sy51qSQHBqy&sz=w800",
     "reg_img2": null,
@@ -8206,6 +8216,26 @@
         "img2": "/appsheet/rireki_photo/249.対応画像１－２.012332.jpg",
         "img2_url": "https://drive.google.com/thumbnail?id=11lIZdVhN1gqauEfarCBastJjTkWhCkq_&sz=w800",
         "note": "7/23に対応予定"
+      },
+      {
+        "date": "2026/07/23",
+        "time": "10:41:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/249.対応画像２ー１.021449.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1qcmCjNJS0Fpe8JU9iiUSpiVKPQBHmGWy&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "牛渕交番にて紛失届"
+      },
+      {
+        "date": "2026/07/23",
+        "time": "11:15:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "伊予銀行牛渕にて、カード再発行。手数料1,100円即日発行"
       }
     ],
     "overall_note": null

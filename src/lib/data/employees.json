@@ -2414,8 +2414,8 @@
     "doc_jlpt_pass": null,
     "doc_ss2_pass": null,
     "doc_license": null,
-    "doc_other1_photo": null,
-    "doc_other2_photo": null,
+    "doc_other1_photo": "https://drive.google.com/thumbnail?id=1i19IVmm8pBZBMCJp4yfooYzda3LZjwJr&sz=w800",
+    "doc_other2_photo": "https://drive.google.com/thumbnail?id=1NDzdrhlAFtfyjwhPVaJ4TAmX1a28X16l&sz=w800",
     "doc_other1_file": null,
     "doc_other2_file": null
   },
