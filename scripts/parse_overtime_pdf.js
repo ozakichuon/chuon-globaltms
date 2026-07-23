@@ -59,8 +59,10 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
       }
     }
 
-    // Find 合計行 (y ≈ 29)
-    const totalRow = texts.filter(t => Math.abs(t.y - 29) < 0.6);
+    // Find 合計行：左端（x<3）の「合計」テキストのY座標を基準に検索
+    const totalLabel = texts.find(t => t.text === '合計' && t.x < 3);
+    const totalY = totalLabel ? totalLabel.y : 29;
+    const totalRow = texts.filter(t => Math.abs(t.y - totalY) < 0.6);
 
     // Column mapping based on x positions:
     // x≈31.6: 早出残業, x≈33.4: 普通残業, x≈35.2: 深夜残業
@@ -92,10 +94,41 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
     // midnight = 深夜残業 + 深夜時間 + 休日深夜
     const midnight = Math.round((shinyaR + shinyaJ + kyūDeep) * 100) / 100;
 
+    // 日別残業データを抽出
+    // ヘッダー行のy（x<3に「合計」がある行より前の、「月/日」行）を特定
+    const headerY = texts.find(t => t.text === '月/日')?.y ?? 6;
+    const daily = {};
+    // 日付行: x≈2 に MM/DD 形式のテキストがある行
+    const dateRows = texts.filter(t => t.x < 3 && /^\d{2}\/\d{2}$/.test(t.text) && t.y > headerY && t.y < totalY);
+    // 期間の年を推定（periodから取得）
+    const periodYear = period ? period.slice(0, 4) : new Date().getFullYear().toString();
+    for (const dateCell of dateRows) {
+      const [mm, dd] = dateCell.text.split('/');
+      // 月をまたぐ場合（07/21〜08/20など）: mmで年を決める
+      const rowY = dateCell.y;
+      const rowTexts = texts.filter(t => Math.abs(t.y - rowY) < 0.4);
+      function rowVal(xMin, xMax) {
+        const found = rowTexts.find(t => t.x >= xMin && t.x <= xMax);
+        return found ? found.text : null;
+      }
+      const dHayade   = parseTime(rowVal(30.5, 32.5));
+      const dFutsū    = parseTime(rowVal(32.5, 34.5));
+      const dKyūjitsu = parseTime(rowVal(38.5, 40.5));
+      const dailyOt = Math.round((dHayade + dFutsū + dKyūjitsu) * 100) / 100;
+      if (dailyOt > 0) {
+        // 月のまたぎ判定
+        const startMm = period ? parseInt(period.slice(5, 7)) : parseInt(mm);
+        const yr = parseInt(mm) >= startMm ? periodYear : String(parseInt(periodYear) + 1);
+        const dateKey = `${yr}-${mm}-${dd}`;
+        daily[dateKey] = dailyOt;
+      }
+    }
+
     result[empCode] = {
       overtime_hours: overtime,
       worked_hours: Math.round(worked * 100) / 100,
       midnight_hours: midnight,
+      ...(Object.keys(daily).length > 0 ? { daily } : {}),
     };
   });
 
