@@ -7895,7 +7895,7 @@
     "target_employee_id": "07011615",
     "place": null,
     "kind": "一時帰国",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
@@ -7921,6 +7921,16 @@
         "img2": null,
         "img2_url": null,
         "note": "専務にホアンの件相談し了承を得る"
+      },
+      {
+        "date": "2026/07/21",
+        "time": "12:24:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/238.対応画像３ー１.002556.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1xYrcBiovfWT0ZY50iOR4Pp8taQIUSNld&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "8/2～8/13まで帰国。10日以上のため、注意勧告"
       }
     ],
     "overall_note": null
@@ -7954,13 +7964,34 @@
     "target_employee_id": "06626001",
     "place": null,
     "kind": "クレーム",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/240.登録画像１－１.142050.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1a7tF3_VScSYwGNLtMsw_W4CNlg-IzZiO&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/240.登録画像１－２.142238.jpg",
     "reg_img2_url": "https://drive.google.com/thumbnail?id=1f_yUxKjTCdnY-_OYv0XgGDenqYxVnm9d&sz=w800",
     "request_note": "佐伯さんより、他の農業３名より、不平不満の申し出あり。",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/07/01",
+        "time": "13:20:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "資料作成し指導"
+      },
+      {
+        "date": "2026/07/23",
+        "time": "16:16:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "再度指導を行う"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -8236,6 +8267,174 @@
         "img2": null,
         "img2_url": null,
         "note": "伊予銀行牛渕にて、カード再発行。手数料1,100円即日発行"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "250",
+    "seq": 250,
+    "date": "2026/07/23",
+    "time": "15:12:06",
+    "recorder": "池内",
+    "target_employee_code": "07001628",
+    "target_employee_id": "07001628",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "宮内工場長よりヌーが腰痛を訴えているため、病院へ連れてい行ってほしいとのこと",
+    "responses": [
+      {
+        "date": "2026/07/24",
+        "time": null,
+        "responder": "池内",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "7/24こうの整形外科受診。MRI撮ったが、とくに異常はない。ただ神経が少し押されているかもしれないので飲み薬2週間服用して様子見。薬は慣れるまで眠気やめまいが起こりうる可能性があるとのこと。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "251",
+    "seq": 251,
+    "date": "2026/07/23",
+    "time": "19:31:24",
+    "recorder": "池内",
+    "target_employee_code": "07018627",
+    "target_employee_id": "07018627",
+    "place": null,
+    "kind": "病院",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/251.登録画像１－１.103235.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1dUieLPMgCxwYZ1K-SCpwsYJ9szVtkD2T&sz=w800",
+    "reg_img2": "/appsheet/rireki_photo/251.登録画像１－２.103235.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1kqIm5-Ryi45jnVAnqzO_2hIthfv1d8QF&sz=w800",
+    "request_note": "ティアラより、足の痛みがあるので受診したいとのこと。尾崎さんへ同行依頼済み",
+    "responses": [
+      {
+        "date": "2026/07/24",
+        "time": "9:07:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "金澤整形外科受診、脊髄からの痛みなので、レントゲンを撮る。両足、脊髄共に問題ないため、本日、電気治療を行い、痛み止め、湿布を処方し１週間たっても改善しない場合は再受診"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "252",
+    "seq": 252,
+    "date": "2026/07/24",
+    "time": "12:55:36",
+    "recorder": "尾崎",
+    "target_employee_code": "07018607",
+    "target_employee_id": "07018607",
+    "place": "牛渕２",
+    "kind": null,
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/252.登録画像１－１.040032.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=15F3_x3683BppbAdSWGBwaSfyUOZfV583&sz=w800",
+    "reg_img2": "/appsheet/rireki_photo/252.登録画像１－２.040032.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1sQj1Y4oksVoR9x5zlb9hJsrZS7GcebxR&sz=w800",
+    "request_note": "ディアナより、デラヤニが体調が悪くて病院へ行ったと報告あり。エンゼルが休みで３人で病院へ行った。熱中症とのこと。点滴をしてもらって、今は家にいる。家にいるこに、面倒を見るように伝えてもらう",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "253",
+    "seq": 253,
+    "date": "2026/07/24",
+    "time": "16:18:29",
+    "recorder": "池内",
+    "target_employee_code": "07013691",
+    "target_employee_id": "07013691",
+    "place": "中野３",
+    "kind": "退職",
+    "status": "申請中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "退職についての相談があった。詳しい話は7/27に聞き取りする。8/31付希望だが。。。",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "254",
+    "seq": 254,
+    "date": "2026/07/25",
+    "time": "10:34:00",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "牛渕１",
+    "kind": "修理",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/254.登録画像１－１.063619.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1iq_PQ8ZbdK6mNrQKXKroOjaWyX_JIz9e&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "エヴィより、牛渕１のエアコンが水漏れの連絡あり",
+    "responses": [
+      {
+        "date": "2026/07/25",
+        "time": "12:11:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/254.対応画像１ー１.063619.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1DvOpuzptxxUq183J1FIAR_A8eFEK8uu6&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "フィルター掃除して様子見"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "255",
+    "seq": 255,
+    "date": "2026/07/25",
+    "time": "14:12:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013678",
+    "target_employee_id": "07013678",
+    "place": "コーポ津吉1-6",
+    "kind": "病院",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/255.登録画像１－１.065901.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1PVCO5RUpx0p_kcaX2uvd3tCUdH5Rk7G5&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "ラストノより体調が悪いとラインがあり",
+    "responses": [
+      {
+        "date": "2026/07/25",
+        "time": "14:37:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "本人へ連絡するもでないため、マデに、連絡を取り対応を依頼"
+      },
+      {
+        "date": "2026/07/25",
+        "time": "16:03:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/255.対応画像２ー１.070403.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1m5_7t0b6Vzj8i5WZ0GDgy4nU8A0xrocb&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "訪問し、熱を測ると熱が39.1のため、アクエリアスと解熱剤３回分を渡して様子を見るように指示。マデにも協力を依頼"
       }
     ],
     "overall_note": null
