@@ -8375,8 +8375,8 @@
     "date": "2026/07/25",
     "time": "10:34:00",
     "recorder": "尾崎",
-    "target_employee_code": null,
-    "target_employee_id": null,
+    "target_employee_code": "07018609",
+    "target_employee_id": "07018609",
     "place": "牛渕１",
     "kind": "修理",
     "status": "対応中",
@@ -8435,8 +8435,67 @@
         "img2": null,
         "img2_url": null,
         "note": "訪問し、熱を測ると熱が39.1のため、アクエリアスと解熱剤３回分を渡して様子を見るように指示。マデにも協力を依頼"
+      },
+      {
+        "date": "2026/07/25",
+        "time": "21:13:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/255.対応画像３ー１.121423.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=16O8F2ekkT9OTKwJB-MlgrWaIhoFPLD_H&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "現在の状況報告あり、現在37.6"
       }
     ],
+    "overall_note": null
+  },
+  {
+    "id": "256",
+    "seq": 256,
+    "date": "2026/07/25",
+    "time": "21:15:13",
+    "recorder": "尾崎",
+    "target_employee_code": "07013641",
+    "target_employee_id": "07013641",
+    "place": null,
+    "kind": "クレーム",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/256.登録画像１－１.123527.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=16qBqOAsyoFvVczLiL6KB9g74VzE5n9zK&sz=w800",
+    "reg_img2": "/appsheet/rireki_photo/256.登録画像１－２.123527.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1rbLK23YppMha--RjkKYjlIaZ2NV0B2Mg&sz=w800",
+    "request_note": "夫婦で、住めないことについて、クレームあり",
+    "responses": [
+      {
+        "date": "2026/07/25",
+        "time": "21:17:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/256.対応画像１ー１.123527.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1gorvX41LBhfsTYMVnxK95rI1HeGnL2DB&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "来週一度話し合いを行うと伝える"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "257",
+    "seq": 257,
+    "date": "2026/07/26",
+    "time": "7:34:18",
+    "recorder": "尾崎",
+    "target_employee_code": "07013687",
+    "target_employee_id": "07013687",
+    "place": null,
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車修理依頼",
+    "responses": [],
     "overall_note": null
   }
 ]
