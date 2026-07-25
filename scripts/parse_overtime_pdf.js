@@ -91,9 +91,10 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
     const worked   = parseTime(workedStr);
 
     // overtime = 早出 + 普通 + 深夜残業 + 休日時間 + 休日深夜
-    const overtime = Math.round((hayade + futsū + shinyaR + kyūjitsu + kyūDeep) * 100) / 100;
+    let overtime = Math.round((hayade + futsū + shinyaR + kyūjitsu + kyūDeep) * 100) / 100;
     // midnight = 深夜残業 + 深夜時間 + 休日深夜
-    const midnight = Math.round((shinyaR + shinyaJ + kyūDeep) * 100) / 100;
+    let midnight = Math.round((shinyaR + shinyaJ + kyūDeep) * 100) / 100;
+    let workedTotal = Math.round(worked * 100) / 100;
 
     // 日別残業データを抽出
     // ヘッダー行のy（x<3に「合計」がある行より前の、「月/日」行）を特定
@@ -103,6 +104,9 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
     const dateRows = texts.filter(t => t.x < 3 && /^\d{2}\/\d{2}$/.test(t.text) && t.y > headerY && t.y < totalY);
     // 期間の年を推定（periodから取得）
     const periodYear = period ? period.slice(0, 4) : new Date().getFullYear().toString();
+    let dailyOtSum = 0;
+    let dailyWorkedSum = 0;
+    let dailyMidnightSum = 0;
     for (const dateCell of dateRows) {
       const [mm, dd] = dateCell.text.split('/');
       // 月をまたぐ場合（07/21〜08/20など）: mmで年を決める
@@ -115,9 +119,15 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
       const dHayade   = parseTime(rowVal(30.5, 32.5));
       const dFutsū    = parseTime(rowVal(32.5, 34.5));
       const dShinyaR  = parseTime(rowVal(34.5, 36.5));
+      const dShinyaJ  = parseTime(rowVal(36.5, 38.5));
       const dKyūjitsu = parseTime(rowVal(38.5, 40.5));
       const dKyūDeep  = parseTime(rowVal(40.5, 42.5));
+      const dWorked   = parseTime(rowVal(47.5, 49.5));
       const dailyOt = Math.round((dHayade + dFutsū + dShinyaR + dKyūjitsu + dKyūDeep) * 100) / 100;
+      const dailyMidnight = Math.round((dShinyaR + dShinyaJ + dKyūDeep) * 100) / 100;
+      dailyOtSum += dailyOt;
+      dailyWorkedSum += dWorked;
+      dailyMidnightSum += dailyMidnight;
       if (dailyOt > 0) {
         // 月のまたぎ判定
         const startMm = period ? parseInt(period.slice(5, 7)) : parseInt(mm);
@@ -127,9 +137,14 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
       }
     }
 
+    // 合計行が見つからない/未記入の場合は日別データの合計値で代替
+    if (overtime === 0 && dailyOtSum > 0) overtime = Math.round(dailyOtSum * 100) / 100;
+    if (midnight === 0 && dailyMidnightSum > 0) midnight = Math.round(dailyMidnightSum * 100) / 100;
+    if (workedTotal === 0 && dailyWorkedSum > 0) workedTotal = Math.round(dailyWorkedSum * 100) / 100;
+
     result[empCode] = {
       overtime_hours: overtime,
-      worked_hours: Math.round(worked * 100) / 100,
+      worked_hours: workedTotal,
       midnight_hours: midnight,
       ...(Object.keys(daily).length > 0 ? { daily } : {}),
     };

@@ -81,10 +81,12 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
           return f ? f.text : null;
         };
 
-        // 合計行（y≈29 は実績値・変更しない）
-        const totalRow = texts.filter((t: any) => Math.abs(t.y - 29) < 0.6);
+        // 合計行：左端（x<3）の「合計」ラベルのY座標を基準に検索（PDFレイアウトにより29〜30の間でズレるため動的に特定）
+        const totalLabel = texts.find((t: any) => t.text === "合計" && t.x < 3);
+        const totalLabelY = totalLabel ? totalLabel.y : 29;
+        const totalRow = texts.filter((t: any) => Math.abs(t.y - totalLabelY) < 0.6);
         // 合計行のy座標（日別フィルタ上限に使用）
-        const totalY = totalRow.length > 0 ? Math.min(...totalRow.map((t: any) => t.y)) : 29;
+        const totalY = totalRow.length > 0 ? Math.min(...totalRow.map((t: any) => t.y)) : totalLabelY;
 
         const shinyaR    = parseTime(findVal(totalRow, 34.5, 36.5) ?? "");
         const shinyaJ    = parseTime(findVal(totalRow, 36.5, 38.5) ?? "");
