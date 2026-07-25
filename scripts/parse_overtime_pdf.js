@@ -90,8 +90,8 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
     const kyūDeep  = parseTime(kyūDeepStr);
     const worked   = parseTime(workedStr);
 
-    // overtime = 早出 + 普通 + 休日
-    const overtime = Math.round((hayade + futsū + kyūjitsu) * 100) / 100;
+    // overtime = 早出 + 普通 + 深夜残業 + 休日時間 + 休日深夜
+    const overtime = Math.round((hayade + futsū + shinyaR + kyūjitsu + kyūDeep) * 100) / 100;
     // midnight = 深夜残業 + 深夜時間 + 休日深夜
     const midnight = Math.round((shinyaR + shinyaJ + kyūDeep) * 100) / 100;
 
@@ -114,8 +114,10 @@ pdfParser.on('pdfParser_dataReady', pdfData => {
       }
       const dHayade   = parseTime(rowVal(30.5, 32.5));
       const dFutsū    = parseTime(rowVal(32.5, 34.5));
+      const dShinyaR  = parseTime(rowVal(34.5, 36.5));
       const dKyūjitsu = parseTime(rowVal(38.5, 40.5));
-      const dailyOt = Math.round((dHayade + dFutsū + dKyūjitsu) * 100) / 100;
+      const dKyūDeep  = parseTime(rowVal(40.5, 42.5));
+      const dailyOt = Math.round((dHayade + dFutsū + dShinyaR + dKyūjitsu + dKyūDeep) * 100) / 100;
       if (dailyOt > 0) {
         // 月のまたぎ判定
         const startMm = period ? parseInt(period.slice(5, 7)) : parseInt(mm);
