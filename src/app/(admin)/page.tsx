@@ -13,6 +13,7 @@ import {
   excelSupportTickets,
   employeePhotoMap,
 } from "@/lib/excel-data";
+import { latestOvertimePrintDate } from "@/lib/mock-attendance";
 import { alertColor, formatDate, nationalityFlag, hoursToHHMM } from "@/lib/utils";
 import {
   overtimeAlertColor,
@@ -155,12 +156,20 @@ export default async function DashboardPage() {
               36協定上限（45h/月）と過労死ライン（80h/月）を監視
             </p>
           </div>
-          <Link
-            href="/attendance"
-            className="text-sm text-brand-600 hover:text-brand-700 flex items-center gap-1"
-          >
-            勤怠管理を開く <ArrowRight size={14} />
-          </Link>
+          <div className="flex items-center gap-4">
+            {latestOvertimePrintDate && (
+              <div className="text-right">
+                <div className="text-xs text-slate-500">残業取込</div>
+                <div className="font-bold text-sm">{latestOvertimePrintDate}</div>
+              </div>
+            )}
+            <Link
+              href="/attendance"
+              className="text-sm text-brand-600 hover:text-brand-700 flex items-center gap-1"
+            >
+              勤怠管理を開く <ArrowRight size={14} />
+            </Link>
+          </div>
         </div>
         <div className="space-y-2">
           {overtimeTop.slice(0, 5).map((r) => {

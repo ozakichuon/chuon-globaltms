@@ -64,6 +64,10 @@ for (const src of [overtimeReal04, overtimeReal05, overtimeReal06, overtimeReal0
   realDataByMonth[monthStart] = map;
 }
 
+// 最新の残業取込日時（print_date）
+export const latestOvertimePrintDate: string =
+  ([overtimeReal07, overtimeReal06, overtimeReal05, overtimeReal04] as any[]).find((s) => s.print_date)?.print_date ?? "";
+
 // 管理表の社員コードが「旧\n新」の形式の場合、両方で検索
 function findOvertime(employeeCode: string, monthStart: string): RealEntry | undefined {
   const map = realDataByMonth[monthStart];
