@@ -8341,13 +8341,24 @@
     "target_employee_id": "07018607",
     "place": "牛渕２",
     "kind": null,
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/252.登録画像１－１.040032.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=15F3_x3683BppbAdSWGBwaSfyUOZfV583&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/252.登録画像１－２.040032.jpg",
     "reg_img2_url": "https://drive.google.com/thumbnail?id=1sQj1Y4oksVoR9x5zlb9hJsrZS7GcebxR&sz=w800",
     "request_note": "ディアナより、デラヤニが体調が悪くて病院へ行ったと報告あり。エンゼルが休みで３人で病院へ行った。熱中症とのこと。点滴をしてもらって、今は家にいる。家にいるこに、面倒を見るように伝えてもらう",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/07/25",
+        "time": "12:07:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "牛渕訪問、だいぶよくなったと確認"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -8445,6 +8456,26 @@
         "img2": null,
         "img2_url": null,
         "note": "現在の状況報告あり、現在37.6"
+      },
+      {
+        "date": "2026/07/26",
+        "time": "7:58:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/255.対応画像４ー１.015856.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=19qC-hZehgK0fh45CNsiNNNPD3kRU9SaW&sz=w800",
+        "img2": "/appsheet/rireki_photo/255.対応画像４－２.015856.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=11gAMBUV3Jh4QSF96sx59aB8FlN1-ahG9&sz=w800",
+        "note": "朝、39.1と連絡あり"
+      },
+      {
+        "date": "2026/07/26",
+        "time": "11:00:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/255.対応画像５ー１.020141.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1ubzD7YMeIJYkdugIny5e-eeCIhv1DzY_&sz=w800",
+        "img2": "/appsheet/rireki_photo/255.対応画像５－２.020141.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1fVP4j--9GePKFLr6XvjifPV2L_kiSb1c&sz=w800",
+        "note": "カハリより、救急車で赤十字病院へ運ばれて受診中と連絡あり"
       }
     ],
     "overall_note": null
@@ -8490,8 +8521,8 @@
     "place": null,
     "kind": "修理",
     "status": "申請中",
-    "reg_img1": null,
-    "reg_img1_url": null,
+    "reg_img1": "/appsheet/rireki_photo/257.登録画像１－１.204246.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1VbMn-zin4qfI9jJETLLJSROAbOA9_ldg&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "自転車修理依頼",
