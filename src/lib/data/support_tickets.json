@@ -8095,25 +8095,6 @@
     "overall_note": null
   },
   {
-    "id": "244",
-    "seq": 244,
-    "date": "2026/07/15",
-    "time": "10:30:16",
-    "recorder": "丹下",
-    "target_employee_code": "07013675",
-    "target_employee_id": "07013675",
-    "place": null,
-    "kind": "病院",
-    "status": "完了",
-    "reg_img1": null,
-    "reg_img1_url": null,
-    "reg_img2": null,
-    "reg_img2_url": null,
-    "request_note": "皮膚科の再診。飲み薬、塗り薬を処方され様子見とのこと。血液検査結果は来週以降にでる。",
-    "responses": [],
-    "overall_note": null
-  },
-  {
     "id": "245",
     "seq": 245,
     "date": "2026/07/16",
@@ -8420,7 +8401,7 @@
     "target_employee_id": "07013678",
     "place": "コーポ津吉1-6",
     "kind": "病院",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/255.登録画像１－１.065901.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1PVCO5RUpx0p_kcaX2uvd3tCUdH5Rk7G5&sz=w800",
     "reg_img2": null,
@@ -8478,7 +8459,7 @@
         "note": "カハリより、救急車で赤十字病院へ運ばれて受診中と連絡あり"
       }
     ],
-    "overall_note": null
+    "overall_note": "7/27,11:30コーポ津吉訪問、熱も37度ぐらいとのことで、今日様子みて、、よかったら明日から働くとのこと"
   },
   {
     "id": "256",
@@ -8523,9 +8504,39 @@
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/257.登録画像１－１.204246.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1VbMn-zin4qfI9jJETLLJSROAbOA9_ldg&sz=w800",
+    "reg_img2": "/appsheet/rireki_photo/257.登録画像１－２.022649.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1q8xPc7BSpVJi43WLH3BXNm2DpJNDvSrV&sz=w800",
+    "request_note": "自転車修理依頼",
+    "responses": [
+      {
+        "date": "2026/07/27",
+        "time": "11:24:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/257.対応画像１ー１.022440.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1P3oTG_1P8cIFKYWmJrxLSVVlQvdl5RFp&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "臨時休業のため、明日、対応"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "259",
+    "seq": 259,
+    "date": "2026/07/27",
+    "time": "9:15:07",
+    "recorder": "池内",
+    "target_employee_code": "07013683",
+    "target_employee_id": "07013683",
+    "place": null,
+    "kind": "退職",
+    "status": "申請中",
+    "reg_img1": null,
+    "reg_img1_url": null,
     "reg_img2": null,
     "reg_img2_url": null,
-    "request_note": "自転車修理依頼",
+    "request_note": "転職の為、退職したいとのこと。西条の件もあるため8/20で退職するか確認",
     "responses": [],
     "overall_note": null
   }
