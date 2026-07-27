@@ -7285,7 +7285,7 @@
     "target_employee_id": "07018630",
     "place": null,
     "kind": "退職",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/217.登録画像１－１.071447.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1R-7EtfNEky1naw5dyGq32oTK13ChCCPO&sz=w800",
     "reg_img2": null,
@@ -7304,7 +7304,7 @@
     "target_employee_id": "07013673",
     "place": null,
     "kind": "退職",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/218.登録画像１－１.044034.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1CaRCDqvWhdYjh9T1oVsiWfnZqNqXd1TR&sz=w800",
     "reg_img2": null,
@@ -7945,13 +7945,24 @@
     "target_employee_id": "07007701",
     "place": null,
     "kind": "一時帰国",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "ベトナムにいる子どもが骨折したため、急遽7/9～アインと一時帰国。戻り未定。",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/07/21",
+        "time": null,
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "帰国済"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -8371,7 +8382,7 @@
     "target_employee_id": "07018609",
     "place": "牛渕１",
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/254.登録画像１－１.063619.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1iq_PQ8ZbdK6mNrQKXKroOjaWyX_JIz9e&sz=w800",
     "reg_img2": null,
@@ -8471,7 +8482,7 @@
     "target_employee_id": "07013641",
     "place": null,
     "kind": "クレーム",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/256.登録画像１－１.123527.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=16qBqOAsyoFvVczLiL6KB9g74VzE5n9zK&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/256.登録画像１－２.123527.jpg",
@@ -8487,6 +8498,16 @@
         "img2": null,
         "img2_url": null,
         "note": "来週一度話し合いを行うと伝える"
+      },
+      {
+        "date": "2026/07/27",
+        "time": "12:30:45",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "津吉工場事務所にて話。西条工場完成し人が動くまで我慢するとのこと。"
       }
     ],
     "overall_note": null
@@ -8501,7 +8522,7 @@
     "target_employee_id": "07013687",
     "place": null,
     "kind": "修理",
-    "status": "申請中",
+    "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/257.登録画像１－１.204246.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1VbMn-zin4qfI9jJETLLJSROAbOA9_ldg&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/257.登録画像１－２.022649.jpg",
@@ -8538,36 +8559,6 @@
     "reg_img2_url": null,
     "request_note": "転職の為、退職したいとのこと。西条の件もあるため8/20で退職するか確認",
     "responses": [],
-    "overall_note": null
-  },
-  {
-    "id": "260",
-    "seq": 260,
-    "date": "2026/07/27",
-    "time": "15:21:01",
-    "recorder": "尾崎",
-    "target_employee_code": "07013678",
-    "target_employee_id": "07013678",
-    "place": null,
-    "kind": "病院",
-    "status": "申請中",
-    "reg_img1": "/appsheet/rireki_photo/260.登録画像１－１.062147.jpg",
-    "reg_img1_url": "https://drive.google.com/thumbnail?id=1QZsbUg24kNOAASfNWUJqy8RNeKuKi6fX&sz=w800",
-    "reg_img2": null,
-    "reg_img2_url": null,
-    "request_note": "病院へ",
-    "responses": [
-      {
-        "date": "2026/07/27",
-        "time": "15:22:00",
-        "responder": "尾崎",
-        "img1": "/appsheet/rireki_photo/260.対応画像１ー１.062234.jpg",
-        "img1_url": "https://drive.google.com/thumbnail?id=1PpCy3Y47AldbWQdpNu6jfzbG8rM5ri47&sz=w800",
-        "img2": null,
-        "img2_url": null,
-        "note": "対応"
-      }
-    ],
     "overall_note": null
   }
 ]
