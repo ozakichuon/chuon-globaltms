@@ -8538,6 +8538,16 @@
         "img2": null,
         "img2_url": null,
         "note": "臨時休業のため、明日、対応"
+      },
+      {
+        "date": "2026/07/28",
+        "time": "8:32:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/257.対応画像２ー１.233335.jpg",
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "特殊なチューブのため、注文になり、しばらくかかる。できたら、連絡依頼"
       }
     ],
     "overall_note": null
@@ -8558,6 +8568,25 @@
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "転職の為、退職したいとのこと。西条の件もあるため8/20で退職するか確認",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "260",
+    "seq": 260,
+    "date": "2026/07/28",
+    "time": "9:16:18",
+    "recorder": "池内",
+    "target_employee_code": "07013674",
+    "target_employee_id": "07013674",
+    "place": null,
+    "kind": "退職",
+    "status": "申請中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "退職申し出。8/20希望とのことだが、一気に8/20退職されると難しいのでヒアリングする",
     "responses": [],
     "overall_note": null
   }
