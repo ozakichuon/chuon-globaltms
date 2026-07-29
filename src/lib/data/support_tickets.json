@@ -8522,7 +8522,7 @@
     "target_employee_id": "07013687",
     "place": null,
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/257.登録画像１－１.204246.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1VbMn-zin4qfI9jJETLLJSROAbOA9_ldg&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/257.登録画像１－２.022649.jpg",
@@ -8548,6 +8548,16 @@
         "img2": null,
         "img2_url": null,
         "note": "特殊なチューブのため、注文になり、しばらくかかる。できたら、連絡依頼"
+      },
+      {
+        "date": "2026/07/29",
+        "time": "14:31:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/257.対応画像３ー１.053347.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1sCZpRQV5OHRkV_a3sCeo1Za-hohAYF6Y&sz=w800",
+        "img2": "/appsheet/rireki_photo/257.対応画像３－２.053347.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1Oern8gA5s-RkJZBzy_jOSWDimQLj82Cv&sz=w800",
+        "note": "チューブ交換　3,000円"
       }
     ],
     "overall_note": null
@@ -8645,6 +8655,36 @@
     "reg_img2_url": "https://drive.google.com/thumbnail?id=1t9Cpwd6uKmV19kSzzFHbupVqToGhhWet&sz=w800",
     "request_note": "気仙沼の生活応援支援金の申請",
     "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "264",
+    "seq": 264,
+    "date": "2026/07/29",
+    "time": "12:41:05",
+    "recorder": "尾崎",
+    "target_employee_code": "07013680",
+    "target_employee_id": "07013680",
+    "place": null,
+    "kind": "退職",
+    "status": "申請中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "更新確認時、妻のいる神奈川に",
+    "responses": [
+      {
+        "date": null,
+        "time": null,
+        "responder": null,
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "転職を行う予定で、9/20退職の申し出"
+      }
+    ],
     "overall_note": null
   }
 ]
