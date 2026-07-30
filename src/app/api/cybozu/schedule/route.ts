@@ -1,103 +1,112 @@
 import { NextResponse } from "next/server";
-import https from "https";
 
-const SUBDOMAIN = process.env.CYBOZU_SUBDOMAIN ?? "";
-const LOGIN = process.env.CYBOZU_LOGIN ?? "";
-const PASSWORD = process.env.CYBOZU_PASSWORD ?? "";
+const ICAL_URL = process.env.CYBOZU_ICAL_URL ?? "";
 
-function toISO(d: Date) {
-  const pad = (n: number) => String(n).padStart(2, "0");
-  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}+09:00`;
-}
+type CybozuEvent = {
+  id: string;
+  title: string;
+  start: string; // "2026-07-28" or "2026-07-28T13:00:00"
+  end: string;
+  allDay: boolean;
+  location: string;
+  memo: string;
+};
 
-function postXml(body: string): Promise<string> {
-  return new Promise((resolve, reject) => {
-    const auth = Buffer.from(`${LOGIN}:${PASSWORD}`).toString("base64");
-    const url = `https://${SUBDOMAIN}.cybozu.com/office/api.cgi`;
-    const parsed = new URL(url);
-    const options = {
-      hostname: parsed.hostname,
-      path: parsed.pathname,
-      method: "POST",
-      headers: {
-        "Content-Type": "text/xml; charset=UTF-8",
-        "X-Cybozu-Authorization": auth,
-        "Content-Length": Buffer.byteLength(body, "utf8"),
-      },
-    };
-    const req = https.request(options, (res) => {
-      const chunks: Buffer[] = [];
-      res.on("data", (c) => chunks.push(c));
-      res.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
-    });
-    req.on("error", reject);
-    req.write(body, "utf8");
-    req.end();
-  });
-}
-
-function parseEvents(xml: string): { id: string; title: string; start: string; end: string; allDay: boolean; location: string; memo: string }[] {
-  const events: { id: string; title: string; start: string; end: string; allDay: boolean; location: string; memo: string }[] = [];
-  const eventMatches = xml.matchAll(/<schedule_event[^>]*id="([^"]*)"[^>]*>([\s\S]*?)<\/schedule_event>/g);
-  for (const m of eventMatches) {
-    const id = m[1];
-    const inner = m[2];
-    const title = (inner.match(/<title>([\s\S]*?)<\/title>/) ?? [])[1] ?? "";
-    const location = (inner.match(/<location>([\s\S]*?)<\/location>/) ?? [])[1] ?? "";
-    const memo = (inner.match(/<memo>([\s\S]*?)<\/memo>/) ?? [])[1] ?? "";
-    // when要素
-    const whenStart = (inner.match(/<when>[\s\S]*?<start>([\s\S]*?)<\/start>/) ?? [])[1] ?? "";
-    const whenEnd = (inner.match(/<when>[\s\S]*?<end>([\s\S]*?)<\/end>/) ?? [])[1] ?? "";
-    // allday
-    const dateStart = (inner.match(/<date start="([^"]*)"/) ?? [])[1] ?? "";
-    const allDay = !!dateStart;
-    events.push({
-      id,
-      title: title.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&"),
-      start: dateStart || whenStart,
-      end: whenEnd || dateStart,
-      allDay,
-      location: location.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&"),
-      memo: memo.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&"),
-    });
+function unfold(ics: string): string[] {
+  // ICS の折り返し行（次行が半角スペース/タブで始まる）を結合
+  const rawLines = ics.split(/\r\n|\n|\r/);
+  const lines: string[] = [];
+  for (const line of rawLines) {
+    if ((line.startsWith(" ") || line.startsWith("\t")) && lines.length > 0) {
+      lines[lines.length - 1] += line.slice(1);
+    } else {
+      lines.push(line);
+    }
   }
+  return lines;
+}
+
+function unescapeText(s: string): string {
+  return s
+    .replace(/\\n/gi, "\n")
+    .replace(/\\,/g, ",")
+    .replace(/\\;/g, ";")
+    .replace(/\\\\/g, "\\");
+}
+
+// "20260728" → "2026-07-28"　/ "20260728T130000" → "2026-07-28T13:00:00"
+function toIsoLike(raw: string): { value: string; allDay: boolean } {
+  const dateOnly = /^(\d{4})(\d{2})(\d{2})$/;
+  const dateTime = /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z?$/;
+  let m = raw.match(dateTime);
+  if (m) {
+    return { value: `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}`, allDay: false };
+  }
+  m = raw.match(dateOnly);
+  if (m) {
+    return { value: `${m[1]}-${m[2]}-${m[3]}`, allDay: true };
+  }
+  return { value: raw, allDay: false };
+}
+
+function parseIcs(ics: string): CybozuEvent[] {
+  const lines = unfold(ics);
+  const events: CybozuEvent[] = [];
+  let cur: Record<string, string> | null = null;
+  let idx = 0;
+
+  for (const line of lines) {
+    if (line === "BEGIN:VEVENT") {
+      cur = {};
+      continue;
+    }
+    if (line === "END:VEVENT") {
+      if (cur) {
+        const startRaw = cur["DTSTART"] ?? "";
+        const endRaw = cur["DTEND"] ?? startRaw;
+        const start = toIsoLike(startRaw);
+        const end = toIsoLike(endRaw);
+        events.push({
+          id: cur["UID"] ?? `ev-${idx++}`,
+          title: unescapeText(cur["SUMMARY"] ?? "(無題)"),
+          start: start.value,
+          end: end.value,
+          allDay: start.allDay,
+          location: unescapeText(cur["LOCATION"] ?? ""),
+          memo: unescapeText(cur["DESCRIPTION"] ?? ""),
+        });
+      }
+      cur = null;
+      continue;
+    }
+    if (!cur) continue;
+
+    const colonIdx = line.indexOf(":");
+    if (colonIdx === -1) continue;
+    const rawKey = line.slice(0, colonIdx);
+    const value = line.slice(colonIdx + 1);
+    // "DTSTART;VALUE=DATE" や "DTSTART;TZID=Asia/Tokyo" のようなパラメータ付きキーに対応
+    const key = rawKey.split(";")[0].toUpperCase();
+    if (["DTSTART", "DTEND", "SUMMARY", "LOCATION", "DESCRIPTION", "UID"].includes(key)) {
+      cur[key] = value;
+    }
+  }
+
   return events;
 }
 
 export async function GET() {
-  if (!SUBDOMAIN || !LOGIN || !PASSWORD) {
-    return NextResponse.json({ error: "CYBOZU_* 環境変数が未設定です" }, { status: 500 });
+  if (!ICAL_URL) {
+    return NextResponse.json({ error: "CYBOZU_ICAL_URL 環境変数が未設定です" }, { status: 500 });
   }
 
-  const now = new Date();
-  // JSTで当日0時
-  const jstOffset = 9 * 60 * 60 * 1000;
-  const todayJST = new Date(Math.floor((now.getTime() + jstOffset) / 86400000) * 86400000 - jstOffset);
-  // 30日後
-  const endDate = new Date(todayJST.getTime() + 30 * 24 * 60 * 60 * 1000);
-
-  const startStr = toISO(todayJST);
-  const endStr = toISO(endDate);
-
-  const body = `<?xml version="1.0" encoding="UTF-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <soap:Body>
-    <ScheduleGetEvents>
-      <parameters>
-        <start>${startStr}</start>
-        <end>${endStr}</end>
-      </parameters>
-    </ScheduleGetEvents>
-  </soap:Body>
-</soap:Envelope>`;
-
   try {
-    const xml = await postXml(body);
-    if (xml.includes("Fault") || xml.includes("error")) {
-      return NextResponse.json({ error: xml.slice(0, 500) }, { status: 500 });
+    const res = await fetch(ICAL_URL, { cache: "no-store" });
+    if (!res.ok) {
+      return NextResponse.json({ error: `iCalendar取得エラー: ${res.status}` }, { status: 500 });
     }
-    const events = parseEvents(xml);
-    // 開始日順にソート
+    const ics = await res.text();
+    const events = parseIcs(ics);
     events.sort((a, b) => a.start.localeCompare(b.start));
     return NextResponse.json({ events });
   } catch (e: any) {

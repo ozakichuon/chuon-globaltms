@@ -1,9 +1,10 @@
 import { NextResponse } from "next/server";
 import { getSessionUserId } from "@/lib/auth";
+import { getCredentials, getRole, canUpdateData } from "@/lib/credentials-store";
 
 export async function POST() {
   const userId = await getSessionUserId();
-  if (userId !== "admin") {
+  if (!canUpdateData(getRole(userId, getCredentials()))) {
     return NextResponse.json({ error: "権限がありません" }, { status: 403 });
   }
 

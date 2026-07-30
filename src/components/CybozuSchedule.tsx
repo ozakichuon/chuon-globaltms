@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { CalendarDays, MapPin, RefreshCw } from "lucide-react";
+import { CalendarDays, RefreshCw } from "lucide-react";
 
 type CybozuEvent = {
   id: string;
@@ -13,24 +13,20 @@ type CybozuEvent = {
   memo: string;
 };
 
-function formatEventDate(dateStr: string, allDay: boolean): string {
-  if (!dateStr) return "";
-  // ISO日時 or YYYY-MM-DD
-  const d = new Date(dateStr);
-  if (isNaN(d.getTime())) return dateStr;
-  const mm = d.getMonth() + 1;
-  const dd = d.getDate();
-  if (allDay) return `${mm}/${dd}`;
-  const hh = String(d.getHours()).padStart(2, "0");
-  const min = String(d.getMinutes()).padStart(2, "0");
-  return `${mm}/${dd} ${hh}:${min}`;
+const WEEKDAY_JA = ["日", "月", "火", "水", "木", "金", "土"];
+
+function toDateOnly(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
-function isToday(dateStr: string): boolean {
-  if (!dateStr) return false;
-  const d = new Date(dateStr);
-  const now = new Date();
-  return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
+function eventDateKey(ev: CybozuEvent): string {
+  return ev.start.slice(0, 10);
+}
+
+function eventTimeLabel(ev: CybozuEvent): string {
+  if (ev.allDay) return "";
+  const t = ev.start.slice(11, 16);
+  return t;
 }
 
 export function CybozuSchedule() {
@@ -54,6 +50,19 @@ export function CybozuSchedule() {
   }
 
   useEffect(() => { load(); }, []);
+
+  const today = new Date();
+  const days = Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(today.getFullYear(), today.getMonth(), today.getDate() + i);
+    return d;
+  });
+
+  const eventsByDate: Record<string, CybozuEvent[]> = {};
+  for (const ev of events) {
+    const key = eventDateKey(ev);
+    if (!eventsByDate[key]) eventsByDate[key] = [];
+    eventsByDate[key].push(ev);
+  }
 
   return (
     <div className="card">
@@ -79,35 +88,45 @@ export function CybozuSchedule() {
         <div className="text-sm text-red-500 py-4 text-center">{error}</div>
       )}
 
-      {!loading && !error && events.length === 0 && (
-        <div className="text-sm text-slate-400 py-4 text-center">予定はありません</div>
-      )}
-
-      {!loading && !error && events.length > 0 && (
-        <div className="space-y-1.5 max-h-72 overflow-y-auto pr-1">
-          {events.map((ev) => {
-            const today = isToday(ev.start);
+      {!loading && !error && (
+        <div className="grid grid-cols-7 gap-1.5">
+          {days.map((d) => {
+            const key = toDateOnly(d);
+            const dow = d.getDay();
+            const isToday = key === toDateOnly(today);
+            const dayEvents = eventsByDate[key] ?? [];
+            const bg = isToday
+              ? "bg-sky-50 border-sky-300"
+              : dow === 0
+              ? "bg-rose-50 border-rose-100"
+              : dow === 6
+              ? "bg-sky-50/40 border-sky-100"
+              : "bg-white border-slate-200";
             return (
-              <div
-                key={ev.id}
-                className={`flex gap-3 p-2 rounded-lg text-sm ${today ? "bg-sky-50 border border-sky-100" : "hover:bg-slate-50"}`}
-              >
-                <div className={`w-16 shrink-0 font-mono text-xs pt-0.5 ${today ? "text-sky-600 font-bold" : "text-slate-400"}`}>
-                  {formatEventDate(ev.start, ev.allDay)}
+              <div key={key} className={`border rounded-lg p-1.5 min-h-[140px] ${bg}`}>
+                <div
+                  className={`text-xs font-bold mb-1 ${
+                    isToday ? "text-sky-700" : dow === 0 ? "text-rose-500" : dow === 6 ? "text-sky-500" : "text-slate-600"
+                  }`}
+                >
+                  {d.getDate()}（{WEEKDAY_JA[dow]}）
                 </div>
-                <div className="flex-1 min-w-0">
-                  <div className={`font-medium truncate ${today ? "text-sky-800" : "text-slate-700"}`}>
-                    {today && <span className="mr-1 text-xs bg-sky-500 text-white rounded px-1 py-0.5">今日</span>}
-                    {ev.title}
-                  </div>
-                  {ev.location && (
-                    <div className="flex items-center gap-1 text-xs text-slate-400 mt-0.5">
-                      <MapPin size={10} /> {ev.location}
+                <div className="space-y-1">
+                  {dayEvents.length === 0 && (
+                    <div className="text-[11px] text-slate-300">-</div>
+                  )}
+                  {dayEvents.map((ev) => (
+                    <div
+                      key={ev.id}
+                      className="text-[11px] leading-tight bg-emerald-50 border border-emerald-100 rounded px-1 py-0.5 text-emerald-800 truncate"
+                      title={`${ev.title}${ev.location ? " @" + ev.location : ""}`}
+                    >
+                      {eventTimeLabel(ev) && (
+                        <span className="text-slate-400 mr-1">{eventTimeLabel(ev)}</span>
+                      )}
+                      {ev.title}
                     </div>
-                  )}
-                  {ev.memo && (
-                    <div className="text-xs text-slate-400 truncate mt-0.5">{ev.memo}</div>
-                  )}
+                  ))}
                 </div>
               </div>
             );

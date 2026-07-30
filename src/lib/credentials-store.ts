@@ -2,8 +2,31 @@ import initialCredentials from "./data/credentials.json";
 import fs from "fs";
 import path from "path";
 
-type User = { id: string; password_hash: string; must_change?: boolean };
+export type Role = "admin" | "data_manager" | "user_manager" | "viewer";
+export const ROLE_LABELS: Record<Role, string> = {
+  admin: "管理者",
+  data_manager: "情報管理者",
+  user_manager: "ユーザー管理者",
+  viewer: "閲覧",
+};
+
+type User = { id: string; password_hash: string; must_change?: boolean; role?: Role };
 type Creds = { users: User[] };
+
+export function getRole(id: string | null | undefined, creds: Creds): Role {
+  if (!id) return "viewer";
+  if (id === "admin") return "admin";
+  const u = creds.users.find((x) => x.id === id);
+  return u?.role ?? "viewer";
+}
+
+export function canUpdateData(role: Role): boolean {
+  return role === "admin" || role === "data_manager";
+}
+
+export function canManageUsers(role: Role): boolean {
+  return role === "admin" || role === "user_manager";
+}
 
 // Vercel本番は /tmp に書き込み、ローカルは src/lib/data に書き込む
 const CREDS_PATH = process.env.VERCEL

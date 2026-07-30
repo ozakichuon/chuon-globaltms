@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getSessionUserId } from "@/lib/auth";
+import { getCredentials, getRole, canUpdateData } from "@/lib/credentials-store";
 import { commitFileToGitHub } from "@/lib/github-commit";
 import fs from "fs";
 import path from "path";
@@ -160,7 +161,7 @@ export async function POST(req: Request) {
   const isCron = authHeader === `Bearer ${process.env.CRON_SECRET}` && !!process.env.CRON_SECRET;
   if (!isCron) {
     const userId = await getSessionUserId();
-    if (userId !== "admin") {
+    if (!canUpdateData(getRole(userId, getCredentials()))) {
       return NextResponse.json({ error: "権限がありません" }, { status: 403 });
     }
   }

@@ -2,11 +2,21 @@
 import { useState, useEffect } from "react";
 import { Plus, Trash2, KeyRound, Users, X, RefreshCw } from "lucide-react";
 
-type User = { id: string; must_change: boolean };
+type Role = "admin" | "data_manager" | "user_manager" | "viewer";
+const ROLE_LABELS: Record<Role, string> = {
+  admin: "管理者",
+  data_manager: "情報管理者",
+  user_manager: "ユーザー管理者",
+  viewer: "閲覧",
+};
+const ROLE_OPTIONS: Role[] = ["admin", "data_manager", "user_manager", "viewer"];
+
+type User = { id: string; must_change: boolean; role: Role };
 
 export function UserManagement() {
   const [newId, setNewId] = useState("");
   const [newPw, setNewPw] = useState("");
+  const [newRole, setNewRole] = useState<Role>("viewer");
   const [addError, setAddError] = useState("");
   const [addOk, setAddOk] = useState(false);
   const [showList, setShowList] = useState(false);
@@ -43,12 +53,21 @@ export function UserManagement() {
     const res = await fetch("/api/auth/change-password", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id: newId, password: newPw }),
+      body: JSON.stringify({ id: newId, password: newPw, role: newRole }),
     });
     const data = await res.json();
     if (!res.ok) { setAddError(data.error); return; }
-    setNewId(""); setNewPw(""); setAddOk(true);
+    setNewId(""); setNewPw(""); setNewRole("viewer"); setAddOk(true);
     fetchUsers();
+  }
+
+  async function changeRole(id: string, role: Role) {
+    const res = await fetch("/api/auth/change-password", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, role }),
+    });
+    if (res.ok) fetchUsers();
   }
 
   async function deleteUser(id: string) {
@@ -93,7 +112,7 @@ export function UserManagement() {
         <div className="text-sm font-medium flex items-center gap-1">
           <Plus size={14} /> ユーザーを追加
         </div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-3 gap-3">
           <div>
             <label className="block text-xs text-slate-600 mb-1">ログインID</label>
             <input type="text" value={newId} onChange={(e) => setNewId(e.target.value)}
@@ -103,6 +122,15 @@ export function UserManagement() {
             <label className="block text-xs text-slate-600 mb-1">初期パスワード</label>
             <input type="password" value={newPw} onChange={(e) => setNewPw(e.target.value)}
               className="w-full border rounded px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+          </div>
+          <div>
+            <label className="block text-xs text-slate-600 mb-1">権限</label>
+            <select value={newRole} onChange={(e) => setNewRole(e.target.value as Role)}
+              className="w-full border rounded px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+              {ROLE_OPTIONS.map((r) => (
+                <option key={r} value={r}>{ROLE_LABELS[r]}</option>
+              ))}
+            </select>
           </div>
         </div>
         {addError && <p className="text-xs text-red-600">{addError}</p>}
@@ -155,6 +183,21 @@ export function UserManagement() {
                     )}
                   </div>
                   <div className="flex items-center gap-2">
+                    {u.id === "admin" ? (
+                      <span className="badge bg-slate-100 text-slate-700 border border-slate-200 text-[10px]">
+                        {ROLE_LABELS[u.role]}
+                      </span>
+                    ) : (
+                      <select
+                        value={u.role}
+                        onChange={(e) => changeRole(u.id, e.target.value as Role)}
+                        className="text-[11px] border rounded px-1 py-0.5 text-slate-600 focus:outline-none focus:ring-2 focus:ring-brand-500"
+                      >
+                        {ROLE_OPTIONS.map((r) => (
+                          <option key={r} value={r}>{ROLE_LABELS[r]}</option>
+                        ))}
+                      </select>
+                    )}
                     <button
                       onClick={() => { setChangingId(u.id); setPw1(""); setPw2(""); setChangeError(""); setChangeOk(false); }}
                       className="flex items-center gap-1 text-xs px-2 py-1 rounded border border-slate-200 text-slate-600 hover:border-brand-300 hover:text-brand-600 transition-colors"

@@ -2,11 +2,18 @@ import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { Settings, Database, CheckCircle2, XCircle, Users } from "lucide-react";
 import { UserManagement } from "./UserManagement";
 import DataUpdateButtons from "./DataUpdateButtons";
+import { getSessionUserId } from "@/lib/auth";
+import { getCredentials, getRole, canUpdateData, canManageUsers, ROLE_LABELS } from "@/lib/credentials-store";
 
 export const dynamic = "force-dynamic";
 
-export default function AdminPage() {
+export default async function AdminPage() {
   const configured = isSupabaseConfigured();
+  const userId = await getSessionUserId();
+  const role = getRole(userId, getCredentials());
+  const showDataUpdate = canUpdateData(role);
+  const showUserManagement = canManageUsers(role);
+
   return (
     <div className="space-y-6">
       <div>
@@ -14,21 +21,29 @@ export default function AdminPage() {
           <Settings size={22} /> 管理設定
         </h1>
         <p className="text-sm text-slate-500 mt-1">
-          システム設定・データ接続・マスタ管理
+          システム設定・データ接続・マスタ管理（あなたの権限: {ROLE_LABELS[role]}）
         </p>
       </div>
 
-      <DataUpdateButtons />
+      {showDataUpdate && <DataUpdateButtons />}
 
-      <section className="card">
-        <h3 className="font-bold flex items-center gap-2">
-          <Users size={18} /> ユーザー管理
-        </h3>
-        <p className="text-xs text-slate-500 mt-1">
-          ログインIDとパスワードを管理します。
-        </p>
-        <UserManagement />
-      </section>
+      {showUserManagement && (
+        <section className="card">
+          <h3 className="font-bold flex items-center gap-2">
+            <Users size={18} /> ユーザー管理
+          </h3>
+          <p className="text-xs text-slate-500 mt-1">
+            ログインID・パスワード・権限を管理します。
+          </p>
+          <UserManagement />
+        </section>
+      )}
+
+      {!showDataUpdate && !showUserManagement && (
+        <div className="card text-sm text-slate-500">
+          閲覧権限のみのため、操作可能な設定項目はありません。
+        </div>
+      )}
 
       <section className="card">
         <h3 className="font-bold flex items-center gap-2">
