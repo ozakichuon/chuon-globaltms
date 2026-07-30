@@ -8672,17 +8672,57 @@
     "reg_img1_url": null,
     "reg_img2": null,
     "reg_img2_url": null,
-    "request_note": "更新確認時、妻のいる神奈川に",
+    "request_note": "更新確認時、妻のいる神奈川に転職を行う予定で、9/20退職の申し出",
     "responses": [
       {
-        "date": null,
-        "time": null,
-        "responder": null,
+        "date": "2026/07/30",
+        "time": "12:31:00",
+        "responder": "尾崎",
         "img1": null,
         "img1_url": null,
         "img2": null,
         "img2_url": null,
-        "note": "転職を行う予定で、9/20退職の申し出"
+        "note": "8月退職にできないかと話あり、とりあえず、本人より工場長へ相談を依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "265",
+    "seq": 265,
+    "date": "2026/07/30",
+    "time": "12:33:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018614",
+    "target_employee_id": "07018614",
+    "place": "中野１",
+    "kind": "修理",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/265.登録画像１－１.063817.jpg",
+    "reg_img1_url": null,
+    "reg_img2": "/appsheet/rireki_photo/265.登録画像１－２.063817.jpg",
+    "reg_img2_url": null,
+    "request_note": "２台のエアコンのリモコンが使用できない",
+    "responses": [
+      {
+        "date": "2026/07/30",
+        "time": "15:36:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/265.対応画像１ー１.063816.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/265.対応画像１－２.063819.jpg",
+        "img2_url": null,
+        "note": "汎用品購入にて対応"
+      },
+      {
+        "date": "2026/07/30",
+        "time": "15:37:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/265.対応画像２ー１.063820.jpg",
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": null
       }
     ],
     "overall_note": null
