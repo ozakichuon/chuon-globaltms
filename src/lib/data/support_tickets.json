@@ -8699,9 +8699,9 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/265.登録画像１－１.063817.jpg",
-    "reg_img1_url": null,
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1_hfTKg3OMCqbOGtWm4TffRlxot7E9r-e&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/265.登録画像１－２.063817.jpg",
-    "reg_img2_url": null,
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=17pJyI0ysl330V7mXpvCemUaNOw2h4fjE&sz=w800",
     "request_note": "２台のエアコンのリモコンが使用できない",
     "responses": [
       {
@@ -8709,9 +8709,9 @@
         "time": "15:36:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/265.対応画像１ー１.063816.jpg",
-        "img1_url": null,
+        "img1_url": "https://drive.google.com/thumbnail?id=1Zie7fU6VXH_GNiuTmJInNEq4N0MKOzkA&sz=w800",
         "img2": "/appsheet/rireki_photo/265.対応画像１－２.063819.jpg",
-        "img2_url": null,
+        "img2_url": "https://drive.google.com/thumbnail?id=1fGIomoXZpK9QbTlI0Bs-XwVy8bZWG1IS&sz=w800",
         "note": "汎用品購入にて対応"
       },
       {
@@ -8719,7 +8719,7 @@
         "time": "15:37:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/265.対応画像２ー１.063820.jpg",
-        "img1_url": null,
+        "img1_url": "https://drive.google.com/thumbnail?id=1JlJ9vfBhPU4-hUwhT5PBU7qzL3MwKynD&sz=w800",
         "img2": null,
         "img2_url": null,
         "note": null
