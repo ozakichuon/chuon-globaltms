@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { CalendarDays, RefreshCw } from "lucide-react";
+import { CalendarDays, RefreshCw, ChevronLeft, ChevronRight } from "lucide-react";
+
+const VISIBLE_DAYS = 3;
 
 type CybozuEvent = {
   id: string;
@@ -33,6 +35,8 @@ export function CybozuSchedule() {
   const [events, setEvents] = useState<CybozuEvent[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [dayOffset, setDayOffset] = useState(0);
+  const [expandedId, setExpandedId] = useState<string | null>(null);
 
   async function load() {
     setLoading(true);
@@ -52,8 +56,8 @@ export function CybozuSchedule() {
   useEffect(() => { load(); }, []);
 
   const today = new Date();
-  const days = Array.from({ length: 7 }, (_, i) => {
-    const d = new Date(today.getFullYear(), today.getMonth(), today.getDate() + i);
+  const days = Array.from({ length: VISIBLE_DAYS }, (_, i) => {
+    const d = new Date(today.getFullYear(), today.getMonth(), today.getDate() + dayOffset + i);
     return d;
   });
 
@@ -70,14 +74,38 @@ export function CybozuSchedule() {
         <h2 className="font-bold text-lg flex items-center gap-2">
           <CalendarDays size={18} /> サイボウズ スケジュール
         </h2>
-        <button
-          onClick={load}
-          disabled={loading}
-          className="text-slate-400 hover:text-slate-600 transition-colors"
-          title="更新"
-        >
-          <RefreshCw size={15} className={loading ? "animate-spin" : ""} />
-        </button>
+        <div className="flex items-center gap-1">
+          <button
+            onClick={() => setDayOffset((o) => o - 1)}
+            className="p-1 text-slate-400 hover:text-slate-600 transition-colors"
+            title="前の日"
+          >
+            <ChevronLeft size={16} />
+          </button>
+          {dayOffset !== 0 && (
+            <button
+              onClick={() => setDayOffset(0)}
+              className="text-xs text-brand-600 hover:text-brand-700 px-1"
+            >
+              今日
+            </button>
+          )}
+          <button
+            onClick={() => setDayOffset((o) => o + 1)}
+            className="p-1 text-slate-400 hover:text-slate-600 transition-colors"
+            title="次の日"
+          >
+            <ChevronRight size={16} />
+          </button>
+          <button
+            onClick={load}
+            disabled={loading}
+            className="ml-1 text-slate-400 hover:text-slate-600 transition-colors"
+            title="更新"
+          >
+            <RefreshCw size={15} className={loading ? "animate-spin" : ""} />
+          </button>
+        </div>
       </div>
 
       {loading && (
@@ -89,7 +117,7 @@ export function CybozuSchedule() {
       )}
 
       {!loading && !error && (
-        <div className="grid grid-cols-7 gap-1.5">
+        <div className="grid grid-cols-3 gap-2">
           {days.map((d) => {
             const key = toDateOnly(d);
             const dow = d.getDay();
@@ -103,9 +131,9 @@ export function CybozuSchedule() {
               ? "bg-sky-50/40 border-sky-100"
               : "bg-white border-slate-200";
             return (
-              <div key={key} className={`border rounded-lg p-1.5 min-h-[140px] ${bg}`}>
+              <div key={key} className={`border rounded-lg p-1.5 min-h-[220px] ${bg}`}>
                 <div
-                  className={`text-xs font-bold mb-1 ${
+                  className={`text-base font-bold mb-1 ${
                     isToday ? "text-sky-700" : dow === 0 ? "text-rose-500" : dow === 6 ? "text-sky-500" : "text-slate-600"
                   }`}
                 >
@@ -113,20 +141,28 @@ export function CybozuSchedule() {
                 </div>
                 <div className="space-y-1">
                   {dayEvents.length === 0 && (
-                    <div className="text-[11px] text-slate-300">-</div>
+                    <div className="text-sm text-slate-300">-</div>
                   )}
-                  {dayEvents.map((ev) => (
-                    <div
-                      key={ev.id}
-                      className="text-[11px] leading-tight bg-emerald-50 border border-emerald-100 rounded px-1 py-0.5 text-emerald-800 truncate"
-                      title={`${ev.title}${ev.location ? " @" + ev.location : ""}`}
-                    >
-                      {eventTimeLabel(ev) && (
-                        <span className="text-slate-400 mr-1">{eventTimeLabel(ev)}</span>
-                      )}
-                      {ev.title}
-                    </div>
-                  ))}
+                  {dayEvents.map((ev) => {
+                    const expanded = expandedId === ev.id;
+                    return (
+                      <div
+                        key={ev.id}
+                        onClick={() => setExpandedId(expanded ? null : ev.id)}
+                        className={`text-sm leading-snug bg-emerald-50 border border-emerald-100 rounded px-1.5 py-1 text-emerald-800 cursor-pointer ${
+                          expanded ? "whitespace-normal break-words" : "truncate"
+                        }`}
+                      >
+                        {eventTimeLabel(ev) && (
+                          <span className="text-slate-400 mr-1">{eventTimeLabel(ev)}</span>
+                        )}
+                        {ev.title}
+                        {expanded && ev.location && (
+                          <div className="text-slate-500 mt-0.5">@{ev.location}</div>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             );

@@ -32,7 +32,8 @@
       "Bash(pdftotext -layout \"C:/Users/ozaki/Downloads/ilovepdf_merged \\(1\\).pdf\" -)",
       "Bash(grep -E \"CD\\\\d{8}|^\\\\s+\\\\d+/\\\\d+\")",
       "Bash(node -e \"const data = require\\('./src/lib/data/support_tickets.json'\\); console.log\\(JSON.stringify\\(data[1], null, 2\\)\\);\")",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "mcp__claude-in-chrome__computer"
     ]
   }
 }
