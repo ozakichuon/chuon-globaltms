@@ -8726,5 +8726,114 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "266",
+    "seq": 266,
+    "date": "2026/07/31",
+    "time": "14:44:34",
+    "recorder": "尾崎",
+    "target_employee_code": "07013615",
+    "target_employee_id": "07013615",
+    "place": null,
+    "kind": "購入",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/266.登録画像１－１.054542.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1EQxIUJLfO1kHH2jJxGeF-z4ObMmurUKf&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "炊飯器故障連絡",
+    "responses": [
+      {
+        "date": "2026/07/31",
+        "time": "14:45:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "恒岡さんへ購入依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "267",
+    "seq": 267,
+    "date": "2026/08/01",
+    "time": "16:53:46",
+    "recorder": "尾崎",
+    "target_employee_code": "07018614",
+    "target_employee_id": "07018614",
+    "place": "中野１",
+    "kind": "修理",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/267.登録画像１－１.075433.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=16dj_9yBO2oQmiGFbRRWT8dPkl6GY1IiG&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "トイレの電気交換依頼",
+    "responses": [
+      {
+        "date": "2026/08/01",
+        "time": "16:58:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "とりあえず、他の電球と交換依頼"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "268",
+    "seq": 268,
+    "date": "2026/08/01",
+    "time": "16:56:06",
+    "recorder": "尾崎",
+    "target_employee_code": "07018611",
+    "target_employee_id": "07018611",
+    "place": null,
+    "kind": "問合せ",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/268.登録画像１－１.075710.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1VYFycwo2m0PkZO0rWe5x6ZP9CJI3m14J&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "ビレッジのプジャと一緒の部屋に引っ越ししたい",
+    "responses": [
+      {
+        "date": "2026/08/01",
+        "time": "16:57:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/268.対応画像１ー１.075804.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1a31B6HinQSwquzYMGo5vv-exnVBY-foJ&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "近々、引越の確認すると返信"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "269",
+    "seq": 269,
+    "date": "2026/08/03",
+    "time": "6:39:36",
+    "recorder": "尾崎",
+    "target_employee_code": "07018624",
+    "target_employee_id": "07018624",
+    "place": null,
+    "kind": "問合せ",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/269.登録画像１－１.214033.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=17OwCyA45a9CqH6aWoM-_VFxeU-a3863z&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "ゆうちょ銀行の作成と、病院の相談",
+    "responses": [],
+    "overall_note": null
   }
 ]
