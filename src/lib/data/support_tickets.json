@@ -8753,6 +8753,16 @@
         "img2": null,
         "img2_url": null,
         "note": "恒岡さんへ購入依頼"
+      },
+      {
+        "date": "2026/08/05",
+        "time": "8:21:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/266.対応画像２ー１.232218.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1QAt8S1Y7SNUOOzkLNwuDKUZGx38gD8Pj&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "本日持っていく予定"
       }
     ],
     "overall_note": null
@@ -8789,9 +8799,9 @@
         "time": "12:09:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/267.対応画像２ー１.030952.jpg",
-        "img1_url": null,
+        "img1_url": "https://drive.google.com/thumbnail?id=1K4xZii_NcO4BJC3YOXUoEDC_w8AYU6gi&sz=w800",
         "img2": "/appsheet/rireki_photo/267.対応画像２－２.030952.jpg",
-        "img2_url": null,
+        "img2_url": "https://drive.google.com/thumbnail?id=17PcHqZ8YyGvX-NGjAWdadMADz1opJ9wU&sz=w800",
         "note": "１７系交換"
       }
     ],
@@ -8869,7 +8879,7 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/270.登録画像１－１.230028.jpg",
-    "reg_img1_url": null,
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1QXtBKhXF56EjCo9W1ZsgPDp6MNtZ4Xw9&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "ナウファルより、ユニタの自転車修理依頼",
@@ -8879,7 +8889,7 @@
         "time": "15:34:00",
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/270.対応画像１ー１.063633.jpg",
-        "img1_url": null,
+        "img1_url": "https://drive.google.com/thumbnail?id=1f7PkK2hruhtC3TaPTr6IKwpCy5qWT5sF&sz=w800",
         "img2": null,
         "img2_url": null,
         "note": null
