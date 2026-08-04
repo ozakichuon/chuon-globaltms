@@ -1526,7 +1526,7 @@
     "section": "製造二課",
     "workplace": "本社",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1MD2QiTtsJplhfXvOZThZ4_ZkGzT1kq-l&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=19o1D999koiRmbIz2nm7O5Ya0vuZ5shTu&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": null,
@@ -3234,7 +3234,7 @@
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1umznrdt7vRfLbQtNcL8EQZvedIRYGz_4&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
-    "doc_bankbook": null,
+    "doc_bankbook": "https://drive.google.com/thumbnail?id=1qxq58pMnYzFdTjDthFLCT-HUZz7NK8BU&sz=w800",
     "doc_health_insurance": null,
     "doc_jlpt_pass": null,
     "doc_ss2_pass": null,
@@ -7755,8 +7755,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "08004402",
-    "employee_code": "08004402",
+    "id": "07007601",
+    "employee_code": "07007601",
     "display_name": "NGUYEN THAO VAN",
     "furigana": "グエン タオ ヴァン",
     "nickname": "ヴァン",
@@ -7810,8 +7810,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "08004403",
-    "employee_code": "08004403",
+    "id": "07007602",
+    "employee_code": "07007602",
     "display_name": "NGUYEN THI CHUC ANH",
     "furigana": "グエン ティ チュク アイン",
     "nickname": "アイン",
@@ -7920,8 +7920,8 @@
     "doc_other2_file": "https://drive.google.com/thumbnail?id=19EddTlzGZ_wjv4_tJV4H-tdsLDGk2z8o&sz=w800"
   },
   {
-    "id": "08004405",
-    "employee_code": "08004405",
+    "id": "07007603",
+    "employee_code": "07007603",
     "display_name": "PHAM THAI PHUONG UYEN",
     "furigana": "ファム ターイ フォン ウエン",
     "nickname": "ウエン",
@@ -7975,8 +7975,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "08004406",
-    "employee_code": "08004406",
+    "id": "07007604",
+    "employee_code": "07007604",
     "display_name": "CAO THI TRANG",
     "furigana": "カオ ティ チャン",
     "nickname": "カオ",
@@ -8027,7 +8027,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": "https://drive.google.com/thumbnail?id=1aM2W2LBZa3RAMWRI7dfiKetGoade3n9R&sz=w800",
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1CK9pay422x9ZxGaemyjPRulbjVlyTtUd&sz=w800"
   },
   {
     "id": "18001401",
@@ -11041,7 +11041,7 @@
     "section": "二課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": null,
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1eOWp7szfBoOCjMb6FWAqkl8esaU0pzTV&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": null,
@@ -11096,7 +11096,7 @@
     "section": "製造一課",
     "workplace": "本社",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1DApCPMDEH-5UElVN3J65K8_MTK6bl1JE&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1Pff1XHjDkxd0wEAfINw0-kB2I4cYrfdS&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": null,
@@ -11151,7 +11151,7 @@
     "section": "二課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": null,
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1YHnVK_Z_Evdo7nX2phEoQocURSHtwTTO&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": "https://drive.google.com/thumbnail?id=1fPV-SJlFVq2BEKAPGnai6sfpIUeWIP7R&sz=w800",
     "doc_bankbook": null,
@@ -11261,7 +11261,7 @@
     "section": "一課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": null,
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1S1xjKqDloYlZUR7_8Mobj1HAdb0C_i74&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": null,
@@ -11316,7 +11316,7 @@
     "section": "一課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1KUDZgVl9l0rJYVH52fYXLIdiMaJ_APC9&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1z4VVBjTZWwRWk36X-in5Lh0mqg8yokKi&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": null,
@@ -11371,7 +11371,7 @@
     "section": "四課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1obPMy4H3xl0aZcgNd47zZZs1em6NPhe2&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1lgVxf85E2SBqyVLsJ44ZVypmxWz-I2B_&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": null,
@@ -11591,7 +11591,7 @@
     "section": "製品・原料管理課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": null,
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1kdD7QK_3yfiL-l0OY1f2wA8ryulMslwN&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": "https://drive.google.com/thumbnail?id=1JKCPZOCVl7lua64VC_ST02UooPKIH69K&sz=w800",
     "doc_bankbook": null,
@@ -11646,7 +11646,7 @@
     "section": "四課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": null,
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1LcIz9KCcC0EHf4gN7WjlqOuEYqlX_2Lz&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": "https://drive.google.com/thumbnail?id=1u5H1OiVlGjfyVXTGGe309wwvLA4LVVtd&sz=w800",
@@ -11701,7 +11701,7 @@
     "section": "四課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1Zy-XoZmNjf8YyQxNn0FHx7lGD_c5jHPh&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1XIFuSMWdzu9RkwyvT91XtacRiiD8j0TB&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": "https://drive.google.com/thumbnail?id=1iLmW2dcgsEkYJIPCqe0PYGy5xqz4jjaU&sz=w800",
@@ -11756,7 +11756,7 @@
     "section": "製品・原料管理課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1DWB8aBzSRv8_T7f_-fzsvILSGEYogamz&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1TrVBdeetd_zjlEDezqaXfhLn0Dkw65jb&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": "https://drive.google.com/thumbnail?id=1g3SFupYD8_KQ88QkCnZ2DDctgBN3Is1G&sz=w800",
@@ -11811,7 +11811,7 @@
     "section": "二課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1uRmjMPSGmLD-BCW4J-vA1eN1PthU9nzs&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1pJVHOy8dr7Zblc5-E9iUHZ-W8pOk2zgK&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": "https://drive.google.com/thumbnail?id=1uDlVqMfxNVAUOpkGd5baTONnHyySPRcw&sz=w800",
@@ -11866,7 +11866,7 @@
     "section": "四課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1EnJaulgYEGvafjI60S1zeEqgOQR1Itd9&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1EqEO9cRDgf-xa0zDdhW0Zxnq-sxeB4DL&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": "https://drive.google.com/thumbnail?id=1LpMg131uX-4qwYdAl-5AvkQJ1LiKrX5W&sz=w800",
@@ -11921,7 +11921,7 @@
     "section": "一課",
     "workplace": "津吉",
     "residence_card_procedure": "入管許可",
-    "doc_residence_card": "https://drive.google.com/thumbnail?id=1SEl_aZdoXJ-HFEjqCm-P0pHC-UhSxTdR&sz=w800",
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=10jwxDR05JS0JbQDH7gTNRjix57gvfTjY&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
     "doc_bankbook": "https://drive.google.com/thumbnail?id=1gfNtLRdngdkNjI85VZfYe4fkjoqeawpA&sz=w800",
@@ -12815,8 +12815,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "08001407",
-    "employee_code": "08001407",
+    "id": "07007605",
+    "employee_code": "07007605",
     "display_name": "VU THI THAO",
     "furigana": "ヴー ティ タオ",
     "nickname": "ヴータオ",
@@ -13472,7 +13472,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1lg17wWNDh5-g5ammR2hXEFFOQXLzG-Hh&sz=w800"
   },
   {
     "id": "06626002",
@@ -13527,7 +13527,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=15q4OzCfZXaIqe6zIe7XNCBtuZnC83B5u&sz=w800"
   },
   {
     "id": "06626003",
@@ -13582,7 +13582,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1dIo9jOocwAeMOc7f6p8qykPtsbTVg3rx&sz=w800"
   },
   {
     "id": "06626004",
@@ -13637,7 +13637,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1GyCVgCzOMK7qGt8J7cdmKbphx353z0Fr&sz=w800"
   },
   {
     "id": "06036001",
@@ -13692,7 +13692,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1uB9-Z4zm5CiQ-2povhoFDNyrwtIKbN37&sz=w800"
   },
   {
     "id": "06036002",
@@ -13747,7 +13747,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1xuQbePlrCcksdH9uiYKWNPijcNL-pTZK&sz=w800"
   },
   {
     "id": "06036003",
@@ -13802,7 +13802,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=12kr0g7j3TvRKmr7rcT_7Y-eIlEXdYpoN&sz=w800"
   },
   {
     "id": "06036004",
@@ -13857,7 +13857,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1B33Xjwy4OqoFtfkUPlDW-o7ritJbp0l5&sz=w800"
   },
   {
     "id": "06036005",
@@ -13912,7 +13912,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1C3mrQDFaNmxhSpuAPXpMhEBeAdO71Oua&sz=w800"
   },
   {
     "id": "06036006",
@@ -13967,7 +13967,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1un-N19RWjoLNOnlxo27IJgWL4KyZIO_l&sz=w800"
   },
   {
     "id": "06036007",
@@ -14022,7 +14022,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1bYIoRwo2fDglDjRO_KVU1FKEx7nEBF8n&sz=w800"
   },
   {
     "id": "06036008",
@@ -14077,7 +14077,7 @@
     "doc_other1_photo": null,
     "doc_other2_photo": null,
     "doc_other1_file": null,
-    "doc_other2_file": null
+    "doc_other2_file": "https://drive.google.com/thumbnail?id=1blcc-Jjax8Ezn0qJvuJ4jcZSGGjlqdki&sz=w800"
   },
   {
     "id": "07018642",
@@ -14208,7 +14208,7 @@
     "address_jp": "松山市上野町774番地ビレッジハウス松山上野3-108",
     "room_type": null,
     "rent_burden": null,
-    "residence_card_no": null,
+    "residence_card_no": "LJ52586959PC",
     "residence_card_expires_at": null,
     "employment_insurance_no": null,
     "jlpt_level": null,

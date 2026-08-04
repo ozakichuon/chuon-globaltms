@@ -8837,13 +8837,24 @@
     "target_employee_id": "07018624",
     "place": null,
     "kind": "問合せ",
-    "status": "申請中",
+    "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/269.登録画像１－１.214033.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=17OwCyA45a9CqH6aWoM-_VFxeU-a3863z&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "ゆうちょ銀行の作成と、病院の相談",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/08/03",
+        "time": "15:06:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "ゆうちょに関しては自分でやってみる。手の怪我に関しては、1号保険は使えないと伝えてどうするか考え中"
+      }
+    ],
     "overall_note": null
   },
   {
