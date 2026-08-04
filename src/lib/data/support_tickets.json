@@ -8767,7 +8767,7 @@
     "target_employee_id": "07018614",
     "place": "中野１",
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/267.登録画像１－１.075433.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=16dj_9yBO2oQmiGFbRRWT8dPkl6GY1IiG&sz=w800",
     "reg_img2": null,
@@ -8783,6 +8783,16 @@
         "img2": null,
         "img2_url": null,
         "note": "とりあえず、他の電球と交換依頼"
+      },
+      {
+        "date": "2026/08/03",
+        "time": "12:09:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/267.対応画像２ー１.030952.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/267.対応画像２－２.030952.jpg",
+        "img2_url": null,
+        "note": "１７系交換"
       }
     ],
     "overall_note": null
@@ -8834,6 +8844,36 @@
     "reg_img2_url": null,
     "request_note": "ゆうちょ銀行の作成と、病院の相談",
     "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "270",
+    "seq": 270,
+    "date": "2026/08/03",
+    "time": "7:59:29",
+    "recorder": "尾崎",
+    "target_employee_code": "07013624",
+    "target_employee_id": "07013624",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/270.登録画像１－１.230028.jpg",
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "ナウファルより、ユニタの自転車修理依頼",
+    "responses": [
+      {
+        "date": "2026/08/03",
+        "time": "15:34:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/270.対応画像１ー１.063633.jpg",
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": null
+      }
+    ],
     "overall_note": null
   }
 ]
