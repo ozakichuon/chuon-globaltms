@@ -1,7 +1,7 @@
 import { Badge } from "@/components/Badge";
 import { Avatar } from "@/components/Avatar";
 import { excelSupportTickets, excelEmployees, employeePhotoMap } from "@/lib/excel-data";
-import { formatDate, cn } from "@/lib/utils";
+import { formatDate, cn, ageAt } from "@/lib/utils";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, FileHeart, MapPin, User, MessageSquare, StickyNote } from "lucide-react";
@@ -106,7 +106,22 @@ export default async function SupportTicketDetailPage({
               <div className="text-xs text-slate-400 font-mono mt-0.5">
                 #{emp.employee_code}
               </div>
-              <div className="text-xs text-slate-500 mt-0.5">{emp.nationality}</div>
+              <div className="text-xs text-slate-500 mt-0.5 flex flex-wrap gap-x-3 gap-y-0.5">
+                <span>{emp.nationality}</span>
+                {(emp as any).gender && (
+                  <span>{(emp as any).gender === "male" ? "男性" : "女性"}</span>
+                )}
+                {(emp as any).birth_date && (
+                  <span>
+                    {(emp as any).birth_date}
+                    {ageAt((emp as any).birth_date) != null && `（${ageAt((emp as any).birth_date)}歳）`}
+                  </span>
+                )}
+                {(emp as any).visa_type_jp && <span>{(emp as any).visa_type_jp}</span>}
+                {(emp as any).workplace && <span>勤務地: {(emp as any).workplace}</span>}
+                {(emp as any).hired_at && <span>入社日: {(emp as any).hired_at}</span>}
+                {(emp as any).address_jp && <span>住所: {(emp as any).address_jp}</span>}
+              </div>
             </div>
           </div>
         ) : ticket.target_employee_code ? (
@@ -116,18 +131,12 @@ export default async function SupportTicketDetailPage({
           </div>
         ) : null}
 
-        {/* 場所・記録者 */}
+        {/* 場所・受付時刻 */}
         <div className="mt-4 flex flex-wrap gap-4 text-xs text-slate-500">
           {ticket.place && (
             <span className="flex items-center gap-1">
               <MapPin size={12} />
               {ticket.place}
-            </span>
-          )}
-          {ticket.recorder && (
-            <span className="flex items-center gap-1">
-              <User size={12} />
-              記録者: {ticket.recorder}
             </span>
           )}
           {ticket.time && <span>受付時刻: {ticket.time}</span>}
@@ -145,6 +154,12 @@ export default async function SupportTicketDetailPage({
             <p className="text-sm text-slate-700 whitespace-pre-wrap leading-relaxed mb-3">
               {ticket.request_note}
             </p>
+          )}
+          {ticket.recorder && (
+            <div className="flex items-center gap-1 text-xs text-slate-500 mb-3">
+              <User size={12} />
+              登録者: {ticket.recorder}
+            </div>
           )}
           {((ticket as any).reg_img1_url || (ticket as any).reg_img2_url) && (
             <div className="flex flex-wrap gap-3 mt-2">
@@ -186,6 +201,7 @@ export default async function SupportTicketDetailPage({
                 <div className="bg-slate-50 rounded-xl p-3">
                   <div className="flex items-center gap-3 mb-2 text-xs text-slate-500">
                     {r.date && <span className="font-medium text-slate-700">{formatDate(r.date)}</span>}
+                    {r.time && <span className="text-slate-400">{r.time}</span>}
                     {r.responder && (
                       <span className="flex items-center gap-1">
                         <User size={10} />
