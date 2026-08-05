@@ -8896,5 +8896,35 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "271",
+    "seq": 271,
+    "date": "2026/08/05",
+    "time": "19:49:28",
+    "recorder": "尾崎",
+    "target_employee_code": "06036001",
+    "target_employee_id": "06036001",
+    "place": "西条寮",
+    "kind": "購入",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/271.登録画像１－１.105040.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1TirjQd-ZnnANPPBN-7ng7v-XhtpjTNv3&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "エアコンの冷房が効かない。確認依頼",
+    "responses": [
+      {
+        "date": "2026/08/06",
+        "time": "6:00:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "佐伯さんへ、時間があれば確認を依頼"
+      }
+    ],
+    "overall_note": null
   }
 ]
