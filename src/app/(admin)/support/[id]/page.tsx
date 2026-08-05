@@ -131,16 +131,15 @@ export default async function SupportTicketDetailPage({
           </div>
         ) : null}
 
-        {/* 場所・受付時刻 */}
-        <div className="mt-4 flex flex-wrap gap-4 text-xs text-slate-500">
-          {ticket.place && (
+        {/* 場所 */}
+        {ticket.place && (
+          <div className="mt-4 flex flex-wrap gap-4 text-xs text-slate-500">
             <span className="flex items-center gap-1">
               <MapPin size={12} />
               {ticket.place}
             </span>
-          )}
-          {ticket.time && <span>受付時刻: {ticket.time}</span>}
-        </div>
+          </div>
+        )}
       </div>
 
       {/* 登録内容 */}
@@ -150,16 +149,22 @@ export default async function SupportTicketDetailPage({
             <FileHeart size={14} />
             登録内容
           </div>
+          {(ticket.date || ticket.time || ticket.recorder) && (
+            <div className="flex flex-wrap items-center gap-3 text-xs text-slate-500 mb-3">
+              {ticket.date && <span>{formatDate(ticket.date)}</span>}
+              {ticket.time && <span>受付時刻: {ticket.time}</span>}
+              {ticket.recorder && (
+                <span className="flex items-center gap-1">
+                  <User size={12} />
+                  登録者: {ticket.recorder}
+                </span>
+              )}
+            </div>
+          )}
           {ticket.request_note && (
             <p className="text-sm text-slate-700 whitespace-pre-wrap leading-relaxed mb-3">
               {ticket.request_note}
             </p>
-          )}
-          {ticket.recorder && (
-            <div className="flex items-center gap-1 text-xs text-slate-500 mb-3">
-              <User size={12} />
-              登録者: {ticket.recorder}
-            </div>
           )}
           {((ticket as any).reg_img1_url || (ticket as any).reg_img2_url) && (
             <div className="flex flex-wrap gap-3 mt-2">
@@ -201,11 +206,11 @@ export default async function SupportTicketDetailPage({
                 <div className="bg-slate-50 rounded-xl p-3">
                   <div className="flex items-center gap-3 mb-2 text-xs text-slate-500">
                     {r.date && <span className="font-medium text-slate-700">{formatDate(r.date)}</span>}
-                    {r.time && <span className="text-slate-400">{r.time}</span>}
+                    {r.time && <span>対応時刻: {r.time}</span>}
                     {r.responder && (
                       <span className="flex items-center gap-1">
                         <User size={10} />
-                        {r.responder}
+                        対応者: {r.responder}
                       </span>
                     )}
                     <span className="ml-auto text-slate-400">対応 {i + 1}</span>
