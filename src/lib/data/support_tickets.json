@@ -8906,8 +8906,8 @@
     "target_employee_code": "06036001",
     "target_employee_id": "06036001",
     "place": "西条寮",
-    "kind": "購入",
-    "status": "対応中",
+    "kind": "修理",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/271.登録画像１－１.105040.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1TirjQd-ZnnANPPBN-7ng7v-XhtpjTNv3&sz=w800",
     "reg_img2": null,
@@ -8923,6 +8923,76 @@
         "img2": null,
         "img2_url": null,
         "note": "佐伯さんへ、時間があれば確認を依頼"
+      },
+      {
+        "date": "2026/08/06",
+        "time": "15:17:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "佐伯さん対応、室外機に空き缶袋が絡まっていた。除去し冷房確認。"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "272",
+    "seq": 272,
+    "date": "2026/08/07",
+    "time": "22:17:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07001622",
+    "target_employee_id": "07001622",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/272.登録画像１－１.201721.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1fdI3yz9sCfqzLMLZcqrUxow9Bs0iGiVW&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "親知らずが痛く歯医者に行きたい申し出",
+    "responses": [
+      {
+        "date": "2026/08/08",
+        "time": "8:44:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "堀内歯科にて治療"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "273",
+    "seq": 273,
+    "date": "2026/08/09",
+    "time": "11:28:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018614",
+    "target_employee_id": "07018614",
+    "place": "中野１",
+    "kind": "修理",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/273.登録画像１－１.082356.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1_n07SzMttTAv9g2tTPCEeAP9hrhL36On&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "Wifiが全員使えないと連絡あり",
+    "responses": [
+      {
+        "date": "2026/08/09",
+        "time": "17:52:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/273.対応画像１ー１.215350.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1FhkbTWYt_QHTh3FEi95MTC6vunSpIp7L&sz=w800",
+        "img2": "/appsheet/rireki_photo/273.対応画像１－２.215350.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1ykYfKNYHWBQkkbD0p-um5DFco4i5ncAs&sz=w800",
+        "note": "部屋で使えないようなので、確認予定"
       }
     ],
     "overall_note": null
