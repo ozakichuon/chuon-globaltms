@@ -7,8 +7,12 @@
  *   スプレッドシート > 拡張機能 > Apps Script にこのコードを貼り付け
  *   → 「TMS ツール」メニューから実行
  *     - 画像マップを更新（新規のみ）: 通常運用。マップ未登録のファイルだけDrive検索するので高速
- *     - 画像マップを完全再スキャン: ファイルを同名で差し替えた等、既存分のURLも更新したいとき用（時間がかかる場合あり）
+ *     - 画像マップを完全再スキャン: ファイルを同名で差し替えた等、既存分のURLも更新したいとき用
+ *       （時間切れで中断しても、次回実行時は続きから再開します。最初からやり直したい場合は
+ *        「完全再スキャンをリセット」を実行してください）
  */
+
+const PROP_PREFIX = 'IMG_MAP_PROGRESS_';
 
 function updateImageMapsIncremental() {
   updateImageMaps_(false);
@@ -18,8 +22,15 @@ function updateImageMapsFull() {
   updateImageMaps_(true);
 }
 
+function resetImageMapsFullProgress() {
+  PropertiesService.getScriptProperties().deleteProperty(PROP_PREFIX + 'full');
+  SpreadsheetApp.getUi().alert('完全再スキャンの進捗をリセットしました。次回実行時は最初から処理します。');
+}
+
 function updateImageMaps_(full) {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const props = PropertiesService.getScriptProperties();
+  const progressKey = PROP_PREFIX + (full ? 'full' : 'incremental');
 
   // ===== support_img_map の既存エントリを読み込む =====
   const imgSheet = ss.getSheetByName('support_img_map');
@@ -89,43 +100,63 @@ function updateImageMaps_(full) {
   }
 
   // full=false: マップ未登録の新規ファイルのみDrive検索（高速）
-  // full=true : 全件をDrive再検索し、差し替えられたファイルのURLも更新（時間がかかる場合あり）
-  const supportTargets = full ? [...supportFilenames] : [...supportFilenames].filter((fn) => !imgMap[fn]);
-  const photoTargets = full ? [...photoFilenames] : [...photoFilenames].filter((fn) => !photoMap[fn]);
+  // full=true : 全件をDrive再検索し、差し替えられたファイルのURLも更新
+  const supportTargets = (full ? [...supportFilenames] : [...supportFilenames].filter((fn) => !imgMap[fn])).sort();
+  const photoTargets = (full ? [...photoFilenames] : [...photoFilenames].filter((fn) => !photoMap[fn])).sort();
+
+  // ===== 前回の続きがあれば再開（対象件数が同じ場合のみ有効） =====
+  let supportIndex = 0, photoIndex = 0;
+  let cumSupportAdded = 0, cumSupportUpdated = 0, cumPhotoAdded = 0, cumPhotoUpdated = 0;
+  const savedRaw = props.getProperty(progressKey);
+  if (savedRaw) {
+    try {
+      const saved = JSON.parse(savedRaw);
+      if (saved.supportTotal === supportTargets.length && saved.photoTotal === photoTargets.length) {
+        supportIndex = saved.supportIndex || 0;
+        photoIndex = saved.photoIndex || 0;
+        cumSupportAdded = saved.supportAdded || 0;
+        cumSupportUpdated = saved.supportUpdated || 0;
+        cumPhotoAdded = saved.photoAdded || 0;
+        cumPhotoUpdated = saved.photoUpdated || 0;
+      }
+    } catch (e) {
+      // 壊れていた場合は無視して最初から
+    }
+  }
 
   const TIME_LIMIT_MS = 5 * 60 * 1000; // 5分でDrive検索を打ち切る（トリガー上限は6分）
   const startTime = Date.now();
   let timedOut = false;
 
-  let supportAdded = 0, supportUpdated = 0;
-  let photoAdded = 0, photoUpdated = 0;
   const supportNewRows = []; // 新規追加分（末尾に一括追加）
   const photoNewRows = [];
 
-  for (const filename of supportTargets) {
+  for (; supportIndex < supportTargets.length; supportIndex++) {
     if (Date.now() - startTime > TIME_LIMIT_MS) { timedOut = true; break; }
+    const filename = supportTargets[supportIndex];
     const url = findDriveUrl(filename);
     if (!url) continue;
     if (imgMap[filename]) {
       imgSheet.getRange(imgMap[filename], 2).setValue(url);
-      supportUpdated++;
+      cumSupportUpdated++;
     } else {
       supportNewRows.push([filename, url]);
-      supportAdded++;
+      cumSupportAdded++;
     }
   }
 
   if (!timedOut) {
-    for (const filename of photoTargets) {
+    for (; photoIndex < photoTargets.length; photoIndex++) {
       if (Date.now() - startTime > TIME_LIMIT_MS) { timedOut = true; break; }
+      const filename = photoTargets[photoIndex];
       const url = findDriveUrl(filename);
       if (!url) continue;
       if (photoMap[filename]) {
         photoSheet.getRange(photoMap[filename], 3).setValue(url);
-        photoUpdated++;
+        cumPhotoUpdated++;
       } else {
         photoNewRows.push([filename, '', url]);
-        photoAdded++;
+        cumPhotoAdded++;
       }
     }
   }
@@ -140,11 +171,32 @@ function updateImageMaps_(full) {
     photoSheet.getRange(startRow, 1, photoNewRows.length, 3).setValues(photoNewRows);
   }
 
-  SpreadsheetApp.getUi().alert(
-    (timedOut ? '⚠ 時間切れのため途中で中断しました。もう一度メニューから実行してください。\n\n' : '完了！\n') +
-    `support_img_map: ${supportAdded}件追加 / ${supportUpdated}件更新\n` +
-    `photo_map: ${photoAdded}件追加 / ${photoUpdated}件更新`
-  );
+  if (timedOut) {
+    // 続きから再開できるよう進捗を保存
+    props.setProperty(progressKey, JSON.stringify({
+      supportTotal: supportTargets.length,
+      photoTotal: photoTargets.length,
+      supportIndex, photoIndex,
+      supportAdded: cumSupportAdded, supportUpdated: cumSupportUpdated,
+      photoAdded: cumPhotoAdded, photoUpdated: cumPhotoUpdated,
+    }));
+    const doneCount = supportIndex + photoIndex;
+    const totalCount = supportTargets.length + photoTargets.length;
+    SpreadsheetApp.getUi().alert(
+      `⚠ 時間切れのため中断しました（${doneCount}/${totalCount}件処理済み）。\n` +
+      `もう一度メニューから実行すると続きから再開します。\n\n` +
+      `ここまでの結果 — support_img_map: ${cumSupportAdded}件追加 / ${cumSupportUpdated}件更新\n` +
+      `photo_map: ${cumPhotoAdded}件追加 / ${cumPhotoUpdated}件更新`
+    );
+  } else {
+    // 完了したので進捗をクリア
+    props.deleteProperty(progressKey);
+    SpreadsheetApp.getUi().alert(
+      `完了！\n` +
+      `support_img_map: ${cumSupportAdded}件追加 / ${cumSupportUpdated}件更新\n` +
+      `photo_map: ${cumPhotoAdded}件追加 / ${cumPhotoUpdated}件更新`
+    );
+  }
 }
 
 /** セル値からファイル名を抽出して Set に追加 */
@@ -179,5 +231,6 @@ function onOpen() {
     .createMenu('TMS ツール')
     .addItem('画像マップを更新（新規のみ）', 'updateImageMapsIncremental')
     .addItem('画像マップを完全再スキャン（差し替え反映）', 'updateImageMapsFull')
+    .addItem('完全再スキャンをリセット', 'resetImageMapsFullProgress')
     .addToUi();
 }
