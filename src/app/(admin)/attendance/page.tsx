@@ -134,12 +134,14 @@ export default async function AttendancePage({
   };
   currentMonth.forEach((r) => counts[r.alert_level]++);
 
-  const violations = filteredMonthly.filter(
-    (r) =>
-      r.month_start === thisMonth &&
-      (r.overtime_hours >= 80 ||
-        (r.overtime_hours_3m_avg !== null && r.overtime_hours_3m_avg >= 80))
-  );
+  const violations = filteredMonthly
+    .filter(
+      (r) =>
+        r.month_start === thisMonth &&
+        (r.overtime_hours >= 80 ||
+          (r.overtime_hours_3m_avg !== null && r.overtime_hours_3m_avg >= 80))
+    )
+    .sort((a, b) => b.overtime_hours - a.overtime_hours);
 
   // 月別推移（過去3ヶ月）
   const months = Array.from(
