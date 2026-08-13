@@ -8635,8 +8635,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "07011612",
-    "employee_code": "07011612",
+    "id": "07017703",
+    "employee_code": "07017703",
     "display_name": "HOANG THI HAN",
     "furigana": "ホアン ティ ハン",
     "nickname": "ハン",
@@ -14341,8 +14341,8 @@
     "section": "",
     "workplace": "津吉",
     "residence_card_procedure": "",
-    "doc_residence_card": null,
-    "doc_passport": null,
+    "doc_residence_card": "https://drive.google.com/thumbnail?id=1DLx0rOA0TS7mgNFUr_hbacLyqw1x3vZu&sz=w800",
+    "doc_passport": "https://drive.google.com/thumbnail?id=15o5mi3oIBJ6s_JDU9aVi2BikbFqJjJt0&sz=w800",
     "doc_insurance_policy": null,
     "doc_bankbook": null,
     "doc_health_insurance": null,
