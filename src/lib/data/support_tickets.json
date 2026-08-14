@@ -8996,5 +8996,24 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "274",
+    "seq": 274,
+    "date": "2026/08/14",
+    "time": "11:02:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018616",
+    "target_employee_id": "07018616",
+    "place": null,
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/274.登録画像１－１.220329.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1qe66Nkhc2LdMr9yBzvsoGkKXpmF9alqG&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車パンク修理依頼",
+    "responses": [],
+    "overall_note": null
   }
 ]
