@@ -188,24 +188,24 @@ export function UserManagement() {
           <div className="divide-y">
             {users.map((u) => (
               <div key={u.id} className="px-4 py-3">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span className="font-mono text-sm font-medium">{u.id}</span>
+                <div className="flex items-center gap-3">
+                  <span className="font-mono text-sm font-medium w-24 shrink-0">{u.id}</span>
+                  <span className="w-24 shrink-0">
                     {u.must_change && (
                       <span className="badge bg-amber-50 text-amber-700 border border-amber-200 text-[10px]">
                         初回変更待ち
                       </span>
                     )}
-                    <input
-                      type="email"
-                      defaultValue={u.email}
-                      key={u.email}
-                      placeholder="メール未設定（OTPなしでログイン）"
-                      onBlur={(e) => { if (e.target.value !== u.email) changeEmail(u.id, e.target.value); }}
-                      className="text-[11px] border rounded px-1.5 py-0.5 text-slate-600 w-56 focus:outline-none focus:ring-2 focus:ring-brand-500"
-                    />
-                  </div>
-                  <div className="flex items-center gap-2">
+                  </span>
+                  <input
+                    type="email"
+                    defaultValue={u.email}
+                    key={u.email}
+                    placeholder="メール未設定（OTPなしでログイン）"
+                    onBlur={(e) => { if (e.target.value !== u.email) changeEmail(u.id, e.target.value); }}
+                    className="text-[11px] border rounded px-1.5 py-0.5 text-slate-600 w-56 shrink-0 focus:outline-none focus:ring-2 focus:ring-brand-500"
+                  />
+                  <div className="flex items-center gap-2 ml-auto">
                     {u.id === "admin" ? (
                       <span className="badge bg-slate-100 text-slate-700 border border-slate-200 text-[10px]">
                         {ROLE_LABELS[u.role]}
