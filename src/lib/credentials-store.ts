@@ -10,8 +10,16 @@ export const ROLE_LABELS: Record<Role, string> = {
   viewer: "閲覧",
 };
 
-type User = { id: string; password_hash: string; must_change?: boolean; role?: Role };
-type Creds = { users: User[] };
+export type User = {
+  id: string;
+  password_hash: string;
+  must_change?: boolean;
+  role?: Role;
+  email?: string;
+  otp_hash?: string;
+  otp_expires?: number;
+};
+export type Creds = { users: User[] };
 
 export function getRole(id: string | null | undefined, creds: Creds): Role {
   if (!id) return "viewer";

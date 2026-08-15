@@ -11,12 +11,13 @@ const ROLE_LABELS: Record<Role, string> = {
 };
 const ROLE_OPTIONS: Role[] = ["admin", "data_manager", "user_manager", "viewer"];
 
-type User = { id: string; must_change: boolean; role: Role };
+type User = { id: string; must_change: boolean; role: Role; email: string };
 
 export function UserManagement() {
   const [newId, setNewId] = useState("");
   const [newPw, setNewPw] = useState("");
   const [newRole, setNewRole] = useState<Role>("viewer");
+  const [newEmail, setNewEmail] = useState("");
   const [addError, setAddError] = useState("");
   const [addOk, setAddOk] = useState(false);
   const [showList, setShowList] = useState(false);
@@ -53,11 +54,11 @@ export function UserManagement() {
     const res = await fetch("/api/auth/change-password", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id: newId, password: newPw, role: newRole }),
+      body: JSON.stringify({ id: newId, password: newPw, role: newRole, email: newEmail || undefined }),
     });
     const data = await res.json();
     if (!res.ok) { setAddError(data.error); return; }
-    setNewId(""); setNewPw(""); setNewRole("viewer"); setAddOk(true);
+    setNewId(""); setNewPw(""); setNewRole("viewer"); setNewEmail(""); setAddOk(true);
     fetchUsers();
   }
 
@@ -66,6 +67,15 @@ export function UserManagement() {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ id, role }),
+    });
+    if (res.ok) fetchUsers();
+  }
+
+  async function changeEmail(id: string, email: string) {
+    const res = await fetch("/api/auth/change-password", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, email }),
     });
     if (res.ok) fetchUsers();
   }
@@ -112,7 +122,7 @@ export function UserManagement() {
         <div className="text-sm font-medium flex items-center gap-1">
           <Plus size={14} /> ユーザーを追加
         </div>
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-4 gap-3">
           <div>
             <label className="block text-xs text-slate-600 mb-1">ログインID</label>
             <input type="text" value={newId} onChange={(e) => setNewId(e.target.value)}
@@ -121,6 +131,11 @@ export function UserManagement() {
           <div>
             <label className="block text-xs text-slate-600 mb-1">初期パスワード</label>
             <input type="password" value={newPw} onChange={(e) => setNewPw(e.target.value)}
+              className="w-full border rounded px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+          </div>
+          <div>
+            <label className="block text-xs text-slate-600 mb-1">メールアドレス（任意・OTP用）</label>
+            <input type="email" value={newEmail} onChange={(e) => setNewEmail(e.target.value)}
               className="w-full border rounded px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
           </div>
           <div>
@@ -181,6 +196,14 @@ export function UserManagement() {
                         初回変更待ち
                       </span>
                     )}
+                    <input
+                      type="email"
+                      defaultValue={u.email}
+                      key={u.email}
+                      placeholder="メール未設定（OTPなしでログイン）"
+                      onBlur={(e) => { if (e.target.value !== u.email) changeEmail(u.id, e.target.value); }}
+                      className="text-[11px] border rounded px-1.5 py-0.5 text-slate-600 w-56 focus:outline-none focus:ring-2 focus:ring-brand-500"
+                    />
                   </div>
                   <div className="flex items-center gap-2">
                     {u.id === "admin" ? (

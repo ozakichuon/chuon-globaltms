@@ -8,7 +8,7 @@ export async function GET() {
   if (!canManageUsers(getRole(userId, creds))) {
     return NextResponse.json({ error: "権限がありません" }, { status: 403 });
   }
-  const users = creds.users.map(({ id, must_change, role }) => ({ id, must_change: must_change ?? false, role: role ?? "viewer" }));
+  const users = creds.users.map(({ id, must_change, role, email }) => ({ id, must_change: must_change ?? false, role: role ?? "viewer", email: email ?? "" }));
   return NextResponse.json({ users });
 }
 
@@ -59,7 +59,7 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ error: "権限がありません" }, { status: 403 });
   }
 
-  const { id, password, role } = await req.json();
+  const { id, password, role, email } = await req.json();
   if (!id || !password) {
     return NextResponse.json({ error: "IDとパスワードを入力してください" }, { status: 400 });
   }
@@ -69,7 +69,13 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ error: "そのIDは既に存在します" }, { status: 409 });
   }
 
-  creds.users.push({ id, password_hash: await sha256(password), must_change: true, role: newRole });
+  creds.users.push({
+    id,
+    password_hash: await sha256(password),
+    must_change: true,
+    role: newRole,
+    ...(email ? { email } : {}),
+  });
   saveCredentials(creds);
   return NextResponse.json({ ok: true });
 }
@@ -81,20 +87,26 @@ export async function PATCH(req: NextRequest) {
     return NextResponse.json({ error: "権限がありません" }, { status: 403 });
   }
 
-  const { id, role } = await req.json();
-  if (id === "admin") {
-    return NextResponse.json({ error: "adminの権限は変更できません" }, { status: 400 });
-  }
-  if (!VALID_ROLES.includes(role)) {
-    return NextResponse.json({ error: "不正な権限です" }, { status: 400 });
-  }
-
+  const { id, role, email } = await req.json();
   const userIdx = creds.users.findIndex((u) => u.id === id);
   if (userIdx === -1) {
     return NextResponse.json({ error: "ユーザーが見つかりません" }, { status: 404 });
   }
 
-  creds.users[userIdx].role = role;
+  if (role !== undefined) {
+    if (id === "admin") {
+      return NextResponse.json({ error: "adminの権限は変更できません" }, { status: 400 });
+    }
+    if (!VALID_ROLES.includes(role)) {
+      return NextResponse.json({ error: "不正な権限です" }, { status: 400 });
+    }
+    creds.users[userIdx].role = role;
+  }
+
+  if (email !== undefined) {
+    creds.users[userIdx].email = email || undefined;
+  }
+
   saveCredentials(creds);
   return NextResponse.json({ ok: true });
 }
