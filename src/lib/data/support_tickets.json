@@ -8977,7 +8977,7 @@
     "target_employee_id": "07018614",
     "place": "中野１",
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/273.登録画像１－１.082356.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1_n07SzMttTAv9g2tTPCEeAP9hrhL36On&sz=w800",
     "reg_img2": null,
@@ -8993,6 +8993,16 @@
         "img2": "/appsheet/rireki_photo/273.対応画像１－２.215350.jpg",
         "img2_url": "https://drive.google.com/thumbnail?id=1ykYfKNYHWBQkkbD0p-um5DFco4i5ncAs&sz=w800",
         "note": "部屋で使えないようなので、確認予定"
+      },
+      {
+        "date": "2026/08/10",
+        "time": "11:33:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/273.対応画像２ー１.213353.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1m8wW28H0Hx287HZpOONGA9c3UbKXRPXD&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "2.4Gでするように指示"
       }
     ],
     "overall_note": null
@@ -9007,13 +9017,24 @@
     "target_employee_id": "07018616",
     "place": null,
     "kind": "修理",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/274.登録画像１－１.220329.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1qe66Nkhc2LdMr9yBzvsoGkKXpmF9alqG&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "自転車パンク修理依頼",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/08/15",
+        "time": "12:37:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/274.対応画像１ー１.043821.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1fQbk9AsbGqW1ZsKW4DRjeldltp60XB_H&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "自分で直したと連絡あり"
+      }
+    ],
     "overall_note": null
   }
 ]
