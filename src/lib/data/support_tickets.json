@@ -9036,5 +9036,64 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "275",
+    "seq": 275,
+    "date": "2026/08/17",
+    "time": "12:52:36",
+    "recorder": "尾崎",
+    "target_employee_code": "07018604",
+    "target_employee_id": "07018604",
+    "place": null,
+    "kind": null,
+    "status": "申請中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "エアコンの確認依頼、冷たい風がでない",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "276",
+    "seq": 276,
+    "date": "2026/08/17",
+    "time": "14:06:39",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "西条寮",
+    "kind": "購入",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/276.登録画像１－１.051017.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1daiEZI_4BYnsM8fzBg0Spy1exUJnUbp2&sz=w800",
+    "reg_img2": "/appsheet/rireki_photo/276.登録画像１－２.051017.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1DncJ9AIyhfbFVsa1UqoPsS1sfwlWMStP&sz=w800",
+    "request_note": null,
+    "responses": [
+      {
+        "date": "2026/08/17",
+        "time": "14:08:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/276.対応画像１ー１.051017.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1v0VQSmS90EuRkUeo501aOG2hT-5CEUag&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "カードにて、3,080,600."
+      },
+      {
+        "date": null,
+        "time": null,
+        "responder": null,
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "ケーズデンキ家電品支払い、カードにて、3,080,600、1,207,600、162,000"
+      }
+    ],
+    "overall_note": null
   }
 ]
