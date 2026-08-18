@@ -9126,5 +9126,35 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "277",
+    "seq": 277,
+    "date": "2026/08/18",
+    "time": "13:06:35",
+    "recorder": "尾崎",
+    "target_employee_code": "07013601",
+    "target_employee_id": "07013601",
+    "place": null,
+    "kind": "退職",
+    "status": "対応中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "来年2/27で退職し、3/10頃に帰国したい。帰国チケットに関しては、中温が購入するが希望するチケットは難しいかもしれない。差額を出すのか確認中。新開工場長へ報告済。特定２号は諦めるとのこと",
+    "responses": [
+      {
+        "date": "2026/08/18",
+        "time": "16:27:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "専務に相談、帰国費用は通常の分は会社が負担、本人希望は差額分を負担するならOK"
+      }
+    ],
+    "overall_note": null
   }
 ]
