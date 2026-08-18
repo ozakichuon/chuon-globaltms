@@ -3076,13 +3076,24 @@
     "target_employee_id": "07001628",
     "place": "アトム402",
     "kind": "帰国",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/86.登録画像１－１.055902.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1_Ei6FN5VpG6UMcNJRlq1CTM2iXcvmnET&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "宮内工場長より、ヌーの一時帰国6/15～8/2の連絡あり。（飛行機は6/16　9:20大阪発～8/1　7:50大阪着）",
-    "responses": [],
+    "responses": [
+      {
+        "date": null,
+        "time": "9:27:03",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "帰国中止"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -6578,7 +6589,7 @@
     "target_employee_id": "07013653",
     "place": "牛渕１ , 牛渕１別棟 , 牛渕２",
     "kind": "問合せ",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
@@ -6608,7 +6619,7 @@
     "target_employee_id": null,
     "place": "コーポ津吉1-2",
     "kind": "問合せ",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
@@ -7776,7 +7787,7 @@
     "target_employee_id": "07018620",
     "place": "牛渕１",
     "kind": "紛失",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/235.登録画像１－１.024437.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1thM-d5LMks5xjBDr5oleKNaHHRpRL578&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/235.登録画像１－２.024437.jpg",
@@ -7812,6 +7823,16 @@
         "img2": null,
         "img2_url": null,
         "note": "入官への再発行手続き書類に記入"
+      },
+      {
+        "date": "2026/08/14",
+        "time": "9:14:36",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "保険証も再発行して対応済"
       }
     ],
     "overall_note": null
@@ -8737,7 +8758,7 @@
     "target_employee_id": "07013615",
     "place": null,
     "kind": "購入",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/266.登録画像１－１.054542.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1EQxIUJLfO1kHH2jJxGeF-z4ObMmurUKf&sz=w800",
     "reg_img2": null,
@@ -8763,6 +8784,16 @@
         "img2": null,
         "img2_url": null,
         "note": "本日持っていく予定"
+      },
+      {
+        "date": "2026/08/05",
+        "time": "11:13:27",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "納品済"
       }
     ],
     "overall_note": null
