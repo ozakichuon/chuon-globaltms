@@ -9078,13 +9078,24 @@
     "target_employee_id": "07018604",
     "place": null,
     "kind": "修理",
-    "status": "申請中",
+    "status": "対応中",
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "エアコンの確認依頼、冷たい風がでない",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/08/18",
+        "time": "10:52:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/275.対応画像１ー１.075411.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/275.対応画像１－２.075411.jpg",
+        "img2_url": null,
+        "note": "室外機掃除し、室内の掃除を依頼し確認中"
+      }
+    ],
     "overall_note": null
   },
   {
