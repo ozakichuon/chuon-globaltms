@@ -9167,5 +9167,24 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "278",
+    "seq": 278,
+    "date": "2026/08/24",
+    "time": "20:45:39",
+    "recorder": "池内",
+    "target_employee_code": "07018644",
+    "target_employee_id": "07018644",
+    "place": null,
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/278.登録画像１－１.114627.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1fczFqRP-DQCeroSBQVvk1TFiHRCgGPlW&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車の前輪壊れる。",
+    "responses": [],
+    "overall_note": null
   }
 ]
