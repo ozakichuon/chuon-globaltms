@@ -9178,13 +9178,24 @@
     "target_employee_id": "07018644",
     "place": null,
     "kind": "修理",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/278.登録画像１－１.114627.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1fczFqRP-DQCeroSBQVvk1TFiHRCgGPlW&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "自転車の前輪壊れる。",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/08/26",
+        "time": "23:30:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/278.対応画像１ー１.063231.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/278.対応画像１－２.063231.jpg",
+        "img2_url": null,
+        "note": "ベルも壊れてたため、修理。代換えのため修理1,000円、雑収とする"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -9235,13 +9246,24 @@
     "target_employee_id": "07013656",
     "place": null,
     "kind": "修理",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/281.登録画像１－１.205514.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=14F6BePHWgem_B-MzYJNTBi_kJrv__FRp&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "自転車パンク。修理依頼",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/08/26",
+        "time": "13:33:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/281.対応画像１ー１.063443.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/281.対応画像１－２.063443.jpg",
+        "img2_url": null,
+        "note": "修理代5,700円、４号棟に置く"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -9360,6 +9382,16 @@
         "img2": null,
         "img2_url": null,
         "note": "アリへ治ったと連絡、レスより治ったと連絡あり"
+      },
+      {
+        "date": "2026/08/26",
+        "time": "15:07:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "アリからまた使用できないと連絡あり"
       }
     ],
     "overall_note": null
