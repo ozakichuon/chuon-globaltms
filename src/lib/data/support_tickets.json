@@ -9425,5 +9425,54 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "286",
+    "seq": 286,
+    "date": "2026/09/01",
+    "time": "16:51:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018603",
+    "target_employee_id": "07018603",
+    "place": "西条寮",
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/286.登録画像１－１.095202.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=19qtEruKsO_SI7AYAIP5PCYg09DvzzJ5I&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "新規購入した冷蔵庫が冷えない",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "287",
+    "seq": 287,
+    "date": "2026/08/31",
+    "time": "19:52:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07001618",
+    "target_employee_id": "07001618",
+    "place": "西条寮",
+    "kind": "修理",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/287.登録画像１－１.095412.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=16YSDSuB3QhYpUpkaaW0rlJntNhFqtY-e&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "トイレの水が止まらない",
+    "responses": [
+      {
+        "date": "2026/09/01",
+        "time": "12:52:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "自分で対応したとのこと"
+      }
+    ],
+    "overall_note": null
   }
 ]
