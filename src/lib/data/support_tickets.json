@@ -9442,7 +9442,28 @@
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "新規購入した冷蔵庫が冷えない",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/09/02",
+        "time": "16:30:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/286.対応画像１ー１.073131.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/286.対応画像１－２.073131.jpg",
+        "img2_url": null,
+        "note": "冷凍、野菜室は問題ないが、冷蔵庫がダメ、予備を置く"
+      },
+      {
+        "date": "2026/09/02",
+        "time": "19:03:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/286.対応画像２ー１.100451.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/286.対応画像２－２.100451.jpg",
+        "img2_url": null,
+        "note": "修理依頼FAX"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -9471,6 +9492,16 @@
         "img2": null,
         "img2_url": null,
         "note": "自分で対応したとのこと"
+      },
+      {
+        "date": "2026/09/02",
+        "time": "13:31:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "再度、業者がきて対応。現在問題ない"
       }
     ],
     "overall_note": null
