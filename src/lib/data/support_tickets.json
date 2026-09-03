@@ -9462,6 +9462,16 @@
         "img2": "/appsheet/rireki_photo/286.対応画像２－２.100451.jpg",
         "img2_url": "https://drive.google.com/thumbnail?id=10ajpuiWbQ_lAI6f5Ow8WOVb8i4dhs1_Y&sz=w800",
         "note": "修理依頼FAX"
+      },
+      {
+        "date": "2026/09/03",
+        "time": "19:11:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/286.対応画像３ー１.101220.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1s6cdfsatZRXxDz382veJdRaIfuhUKHhi&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "後日、新品交換"
       }
     ],
     "overall_note": null
@@ -9502,6 +9512,36 @@
         "img2": null,
         "img2_url": null,
         "note": "再度、業者がきて対応。現在問題ない"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "288",
+    "seq": 288,
+    "date": "2026/09/03",
+    "time": "16:12:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013687",
+    "target_employee_id": "07013687",
+    "place": null,
+    "kind": "病院",
+    "status": "対応中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "救急車で運ばれたと平岡さんより連絡あり",
+    "responses": [
+      {
+        "date": "2026/09/03",
+        "time": "19:00:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "山本統括がまどんな病院へ行って、ウイルス生との診断で、様子を見るしかない"
       }
     ],
     "overall_note": null
