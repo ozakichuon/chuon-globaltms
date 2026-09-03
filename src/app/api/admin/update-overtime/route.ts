@@ -142,8 +142,15 @@ async function parsePdfBuffer(buf: Buffer, debug = false): Promise<{
           }
         }
 
+        // 合計行から求めた残業時間と、日別残業の合計値を突き合わせ、大きくズレる場合は日別合計を採用
+        // （まれに合計行の列がPDFレイアウトのずれで誤検出され、二重集計されることがあるため）
+        const totalRowOvertime = Math.round(Math.max(0, worked - kyuyoJitsu) * 100) / 100;
+        const dailyValues = Object.values(dailyMap).filter((v): v is number => v != null);
+        const dailySum = dailyValues.length > 0 ? Math.round(dailyValues.reduce((a, b) => a + b, 0) * 100) / 100 : null;
+        const overtimeHours = dailySum !== null && Math.abs(totalRowOvertime - dailySum) > 0.5 ? dailySum : totalRowOvertime;
+
         result[empCode] = {
-          overtime_hours: Math.round(Math.max(0, worked - kyuyoJitsu) * 100) / 100,
+          overtime_hours: overtimeHours,
           worked_hours: Math.round(worked * 100) / 100,
           midnight_hours: Math.round((shinyaR + shinyaJ + kyuDeep) * 100) / 100,
           daily: dailyMap,
