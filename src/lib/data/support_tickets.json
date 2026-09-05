@@ -9578,7 +9578,7 @@
     "kind": "修理",
     "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/289.登録画像１－１.012026.jpg",
-    "reg_img1_url": null,
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1ZMW5P1PEWkbuIFoDVs3a96aHJE7igGEY&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "E棟２階のWifiが使用できない、HUBからの供給ができてない",
@@ -9592,6 +9592,36 @@
         "img2": null,
         "img2_url": null,
         "note": "9/4の18時に修理対応"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "290",
+    "seq": 290,
+    "date": "2026/09/05",
+    "time": "15:41:55",
+    "recorder": "尾崎",
+    "target_employee_code": "07018642",
+    "target_employee_id": "07018642",
+    "place": "中野２",
+    "kind": "問合せ",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/290.登録画像１－１.064505.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1o0INaGAb1Ps7pGICoYTfE38k8Ktri8Un&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "２日に手をはさんで腫れてると連絡あり",
+    "responses": [
+      {
+        "date": "2026/09/05",
+        "time": "15:43:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "平岡さんに連絡することがあり、対応を依頼、山本統括対応して貰い、土曜日なので月曜日まで湿布対応"
       }
     ],
     "overall_note": null
