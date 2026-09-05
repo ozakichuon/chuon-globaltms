@@ -9306,7 +9306,7 @@
     "target_employee_id": "07018702",
     "place": "西条寮",
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/283.登録画像１－１.213339.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=10xZ19khyFM8DZu5ygKesj8314CzFPzGr&sz=w800",
     "reg_img2": null,
@@ -9322,6 +9322,16 @@
         "img2": null,
         "img2_url": null,
         "note": "ミライズさん来てくれて対応したが直らないため後日対応"
+      },
+      {
+        "date": "2026/08/26",
+        "time": "13:37:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "設置業者が再度来てくれて対応し完了"
       }
     ],
     "overall_note": null
@@ -9436,7 +9446,7 @@
     "target_employee_id": "07018603",
     "place": "西条寮",
     "kind": "修理",
-    "status": "申請中",
+    "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/286.登録画像１－１.095202.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=19qtEruKsO_SI7AYAIP5PCYg09DvzzJ5I&sz=w800",
     "reg_img2": null,
@@ -9472,6 +9482,16 @@
         "img2": null,
         "img2_url": null,
         "note": "後日、新品交換"
+      },
+      {
+        "date": "2026/09/04",
+        "time": "16:39:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "9/19の午後に交換予定"
       }
     ],
     "overall_note": null
@@ -9542,6 +9562,36 @@
         "img2": null,
         "img2_url": null,
         "note": "山本統括がまどんな病院へ行って、ウイルス生との診断で、様子を見るしかない"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "289",
+    "seq": 289,
+    "date": "2026/09/03",
+    "time": "16:17:00",
+    "recorder": "尾崎",
+    "target_employee_code": "99999984",
+    "target_employee_id": "99999984",
+    "place": "西条寮",
+    "kind": "修理",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/289.登録画像１－１.012026.jpg",
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "E棟２階のWifiが使用できない、HUBからの供給ができてない",
+    "responses": [
+      {
+        "date": "2026/09/03",
+        "time": "20:19:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "9/4の18時に修理対応"
       }
     ],
     "overall_note": null
