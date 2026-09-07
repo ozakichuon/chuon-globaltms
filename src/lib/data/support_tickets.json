@@ -9625,5 +9625,54 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "291",
+    "seq": 291,
+    "date": "2026/09/06",
+    "time": "14:18:42",
+    "recorder": "尾崎",
+    "target_employee_code": "07013643",
+    "target_employee_id": "07013643",
+    "place": null,
+    "kind": "購入",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/291.登録画像１－１.052037.jpg",
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "２人引越済み連絡と電子レンジ交換要請",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "292",
+    "seq": 292,
+    "date": "2026/09/07",
+    "time": "12:40:28",
+    "recorder": "尾崎",
+    "target_employee_code": "07013643",
+    "target_employee_id": "07013643",
+    "place": null,
+    "kind": "修理",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/292.登録画像１－１.034113.jpg",
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車パンク修理依頼",
+    "responses": [
+      {
+        "date": "2026/09/07",
+        "time": "17:45:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "カドタ自転車へ修理依頼。明日完成"
+      }
+    ],
+    "overall_note": null
   }
 ]
