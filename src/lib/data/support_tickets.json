@@ -9638,7 +9638,7 @@
     "kind": "購入",
     "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/291.登録画像１－１.052037.jpg",
-    "reg_img1_url": null,
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1impODKVI4nNDVR8PZ4KtQimSCfBv0Q6W&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "２人引越済み連絡と電子レンジ交換要請",
@@ -9655,9 +9655,9 @@
     "target_employee_id": "07013643",
     "place": null,
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/292.登録画像１－１.034113.jpg",
-    "reg_img1_url": null,
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=14taP9A5KYkehhyEhZfbadg2CEC3Ifyjw&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "自転車パンク修理依頼",
@@ -9671,6 +9671,16 @@
         "img2": null,
         "img2_url": null,
         "note": "カドタ自転車へ修理依頼。明日完成"
+      },
+      {
+        "date": "2026/09/08",
+        "time": "8:55:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/292.対応画像２ー１.235551.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=18M_wM5pJL23yS_TaC8FLpp-KXCS7WFSg&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "修理1000円"
       }
     ],
     "overall_note": null
