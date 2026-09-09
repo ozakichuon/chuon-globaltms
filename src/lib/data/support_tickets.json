@@ -9684,5 +9684,24 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "293",
+    "seq": 293,
+    "date": "2026/09/09",
+    "time": "12:43:32",
+    "recorder": "尾崎",
+    "target_employee_code": "07018624",
+    "target_employee_id": "07018624",
+    "place": null,
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/293.登録画像１－１.034414.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1VjtCUYR4tk3PmUDKs0t1zGAKbhC_Zcay&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "パンク修理依頼",
+    "responses": [],
+    "overall_note": null
   }
 ]
