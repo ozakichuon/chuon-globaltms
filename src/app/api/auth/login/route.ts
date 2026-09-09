@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { sha256, createSessionToken, COOKIE_NAME } from "@/lib/auth";
-import { getCredentials, saveCredentials } from "@/lib/credentials-store";
+import { sha256, createSessionToken, signPayload, COOKIE_NAME } from "@/lib/auth";
+import { getCredentials } from "@/lib/credentials-store";
 import { generateOtpCode, hashOtp, sendOtpEmail, otpTtlMs } from "@/lib/otp";
 
 export async function POST(req: NextRequest) {
@@ -37,11 +37,12 @@ export async function POST(req: NextRequest) {
   }
 
   // ワンタイムパスワードを発行してメール送信
+  // サーバーレス環境ではインスタンス間でファイルが共有されないため、
+  // コードのハッシュと有効期限を署名付きチケットとしてクライアントに持たせる（サーバー側には保存しない）
   const code = generateOtpCode();
-  const userIdx = creds.users.findIndex((u) => u.id === id);
-  creds.users[userIdx].otp_hash = await hashOtp(code);
-  creds.users[userIdx].otp_expires = Date.now() + otpTtlMs();
-  saveCredentials(creds);
+  const otpHash = await hashOtp(code);
+  const expires = Date.now() + otpTtlMs();
+  const ticket = await signPayload(`${id}:${otpHash}:${expires}`);
 
   try {
     await sendOtpEmail(user.email, code);
@@ -49,5 +50,5 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: e?.message ?? "メール送信に失敗しました" }, { status: 500 });
   }
 
-  return NextResponse.json({ otp_required: true, must_change: mustChange });
+  return NextResponse.json({ otp_required: true, must_change: mustChange, ticket });
 }

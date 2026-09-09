@@ -16,8 +16,6 @@ export type User = {
   must_change?: boolean;
   role?: Role;
   email?: string;
-  otp_hash?: string;
-  otp_expires?: number;
 };
 export type Creds = { users: User[] };
 

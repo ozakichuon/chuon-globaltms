@@ -7,6 +7,7 @@ export default function LoginPage() {
   const [id, setId] = useState("");
   const [password, setPassword] = useState("");
   const [code, setCode] = useState("");
+  const [ticket, setTicket] = useState("");
   const [step, setStep] = useState<"password" | "otp">("password");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -38,6 +39,7 @@ export default function LoginPage() {
       }
       if (data.otp_required) {
         setMustChange(!!data.must_change);
+        setTicket(data.ticket);
         setStep("otp");
       } else {
         goNext(data);
@@ -57,7 +59,7 @@ export default function LoginPage() {
       const res = await fetch("/api/auth/verify-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id, code }),
+        body: JSON.stringify({ id, code, ticket }),
       });
       const data = await res.json();
       if (!res.ok) {

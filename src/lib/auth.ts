@@ -31,6 +31,25 @@ async function verify(payload: string, sig: string): Promise<boolean> {
   return expected === sig;
 }
 
+// 汎用の署名付きトークン作成・検証（サーバー側にファイル保存できない環境向け）
+export async function signPayload(payload: string): Promise<string> {
+  const sig = await sign(payload);
+  return Buffer.from(`${payload}:${sig}`).toString("base64url");
+}
+
+export async function verifyPayload(token: string): Promise<string | null> {
+  try {
+    const decoded = Buffer.from(token, "base64url").toString("utf8");
+    const lastColon = decoded.lastIndexOf(":");
+    const payload = decoded.slice(0, lastColon);
+    const sig = decoded.slice(lastColon + 1);
+    if (!(await verify(payload, sig))) return null;
+    return payload;
+  } catch {
+    return null;
+  }
+}
+
 export async function createSessionToken(userId: string): Promise<string> {
   const payload = `${userId}:${Date.now()}`;
   const sig = await sign(payload);
