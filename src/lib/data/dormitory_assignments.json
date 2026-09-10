@@ -2480,6 +2480,22 @@
     "gender": "女"
   },
   {
+    "id": "eccbf7a0-eccb-5ccb-accbf7-eccbf7a0eccb",
+    "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
+    "dormitory_name": "HAPPINESS",
+    "room_id": "ad426bf5-ad42-5d42-ad426b-ad426bf5ad42",
+    "room_no": "C103",
+    "resident_name": "モハ アディヨノ",
+    "employee_id": "eccbf7a0-eccb-5ccb-accbf7-eccbf7a0eccb",
+    "employee_code": "07038630",
+    "photo_url": "https://drive.google.com/thumbnail?id=1nA4AZ2gdfbObgA1m6NGC8Ws2Nzu1Hz3k&sz=w800",
+    "rent_burden": null,
+    "workplace": "西条",
+    "nationality": "インドネシア",
+    "visa_type": "特定技能１号",
+    "gender": "男"
+  },
+  {
     "id": "61e4811e-61e4-51e4-a1e481-61e4811e61e4",
     "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
     "dormitory_name": "HAPPINESS",
