@@ -9546,7 +9546,7 @@
     "target_employee_id": "07013687",
     "place": null,
     "kind": "病院",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
@@ -9562,6 +9562,16 @@
         "img2": null,
         "img2_url": null,
         "note": "山本統括がまどんな病院へ行って、ウイルス生との診断で、様子を見るしかない"
+      },
+      {
+        "date": "2026/09/10",
+        "time": "8:49:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "統括へ確認。お金は本人が払った。"
       }
     ],
     "overall_note": null
@@ -9695,13 +9705,24 @@
     "target_employee_id": "07018624",
     "place": null,
     "kind": "修理",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/293.登録画像１－１.034414.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1VjtCUYR4tk3PmUDKs0t1zGAKbhC_Zcay&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "パンク修理依頼",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/09/10",
+        "time": "15:14:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/293.対応画像１ー１.061508.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=10BxfwxCQK982i2nqs_1nIROTq2qPYz9f&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "チューブ交換にて２５００円"
+      }
+    ],
     "overall_note": null
   }
 ]
