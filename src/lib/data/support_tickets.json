@@ -9582,8 +9582,8 @@
     "date": "2026/09/03",
     "time": "16:17:00",
     "recorder": "尾崎",
-    "target_employee_code": "99999984",
-    "target_employee_id": "99999984",
+    "target_employee_code": null,
+    "target_employee_id": null,
     "place": "西条寮",
     "kind": "修理",
     "status": "完了",
@@ -9616,7 +9616,7 @@
     "target_employee_id": "07018642",
     "place": "中野２",
     "kind": "問合せ",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/290.登録画像１－１.064505.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1o0INaGAb1Ps7pGICoYTfE38k8Ktri8Un&sz=w800",
     "reg_img2": null,
@@ -9632,6 +9632,16 @@
         "img2": null,
         "img2_url": null,
         "note": "平岡さんに連絡することがあり、対応を依頼、山本統括対応して貰い、土曜日なので月曜日まで湿布対応"
+      },
+      {
+        "date": "2026/09/14",
+        "time": "8:25:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "本日より勤務すると連絡あり"
       }
     ],
     "overall_note": null
@@ -9721,6 +9731,46 @@
         "img2": null,
         "img2_url": null,
         "note": "チューブ交換にて２５００円"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "294",
+    "seq": 294,
+    "date": "2026/09/12",
+    "time": "22:52:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018633",
+    "target_employee_id": "07018633",
+    "place": "西条寮",
+    "kind": "病院",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/294.登録画像１－１.015319.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Z1MUBmkyA0knbESNBKGgaWSjJDStDWkK&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "ナウファルより連絡があり、ユニタが腹痛とのことで救急車を呼ぶ",
+    "responses": [
+      {
+        "date": "2026/09/12",
+        "time": "23:13:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/294.対応画像１ー１.021646.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1jtz0NLjcMXWUXypebMX34SIgninUM00u&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "検査の結果、異状なしとのことで、点滴と痛み止をもらう。5,000円預けて後日精算"
+      },
+      {
+        "date": "2026/09/14",
+        "time": "11:15:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/294.対応画像２ー１.021646.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1PrhIhBp5sg_lWlmtXduxVe2U5B5QmwCz&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "済生会西条病院へ支払。15,220円"
       }
     ],
     "overall_note": null
