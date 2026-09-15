@@ -9774,5 +9774,45 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "295",
+    "seq": 295,
+    "date": "2026/09/15",
+    "time": "12:23:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018605",
+    "target_employee_id": "07018605",
+    "place": null,
+    "kind": "病院",
+    "status": "対応中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "体調が悪いとのことで、家まで連れて帰る。熱は36.5、病院へ行きたい申し出",
+    "responses": [
+      {
+        "date": "2026/09/15",
+        "time": "15:07:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "ふじさわ内科クリニックへ受診。熱36.9、点滴を受け様子を見る"
+      },
+      {
+        "date": "2026/09/15",
+        "time": "15:38:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/295.対応画像２ー１.063917.jpg",
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "薬なし、点滴のみで終了"
+      }
+    ],
+    "overall_note": null
   }
 ]
