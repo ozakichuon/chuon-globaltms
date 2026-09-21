@@ -2784,14 +2784,14 @@
     "gender": "男"
   },
   {
-    "id": "066e8c10-066e-566e-866e8c-066e8c10066e",
+    "id": "8de5098e-8de5-5de5-8de509-8de5098e8de5",
     "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
     "dormitory_name": "HAPPINESS",
     "room_id": "1c3c18e8-1c3c-5c3c-9c3c18-1c3c18e81c3c",
     "room_no": "B206",
     "resident_name": "ムハマド ユヌス",
-    "employee_id": "066e8c10-066e-566e-866e8c-066e8c10066e",
-    "employee_code": "０",
+    "employee_id": "8de5098e-8de5-5de5-8de509-8de5098e8de5",
+    "employee_code": "99999979",
     "photo_url": null,
     "rent_burden": null,
     "workplace": "西条",
@@ -3164,7 +3164,7 @@
     "rent_burden": null,
     "workplace": "西条",
     "nationality": "ベトナム",
-    "visa_type": "技能実習2号",
+    "visa_type": "特定技能１号",
     "gender": "女"
   },
   {
