@@ -2,16 +2,16 @@
   "period": "2026-09-21_2026-10-20",
   "month_label": "2026-09",
   "month_start": "2026-09-01",
-  "print_date": "2026/09/23 07:41",
+  "print_date": "2026/09/24 07:37",
   "data": {
     "10000002": {
-      "overtime_hours": 5,
-      "worked_hours": 22,
+      "overtime_hours": 7,
+      "worked_hours": 32.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2.5,
         "2026-09-22": 2.5,
-        "2026-09-23": null,
+        "2026-09-23": 2,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -79,13 +79,13 @@
       }
     },
     "10110001": {
-      "overtime_hours": 1.5,
-      "worked_hours": 18.5,
+      "overtime_hours": 4.5,
+      "worked_hours": 30,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 3,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -154,12 +154,12 @@
     },
     "13000002": {
       "overtime_hours": 0,
-      "worked_hours": 8,
+      "worked_hours": 12,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -191,12 +191,12 @@
     },
     "13000003": {
       "overtime_hours": 0,
-      "worked_hours": 8,
+      "worked_hours": 12,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -228,12 +228,12 @@
     },
     "13000010": {
       "overtime_hours": 0,
-      "worked_hours": 4,
+      "worked_hours": 8,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
-        "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-22": 0,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -265,12 +265,12 @@
     },
     "13000801": {
       "overtime_hours": 0,
-      "worked_hours": 4,
+      "worked_hours": 8,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -302,12 +302,12 @@
     },
     "13000802": {
       "overtime_hours": 0,
-      "worked_hours": 16,
+      "worked_hours": 24,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -339,12 +339,12 @@
     },
     "13000821": {
       "overtime_hours": 0,
-      "worked_hours": 8,
+      "worked_hours": 16,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -376,12 +376,12 @@
     },
     "13000829": {
       "overtime_hours": 0,
-      "worked_hours": 16,
+      "worked_hours": 24,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -413,12 +413,12 @@
     },
     "13000830": {
       "overtime_hours": 0,
-      "worked_hours": 16,
+      "worked_hours": 24,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -487,12 +487,12 @@
     },
     "13000832": {
       "overtime_hours": 0,
-      "worked_hours": 0,
+      "worked_hours": 8,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -524,12 +524,12 @@
     },
     "13000833": {
       "overtime_hours": 0,
-      "worked_hours": 7,
+      "worked_hours": 10.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -561,12 +561,12 @@
     },
     "13000834": {
       "overtime_hours": 0,
-      "worked_hours": 7,
+      "worked_hours": 10.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -598,12 +598,12 @@
     },
     "13010004": {
       "overtime_hours": 0.33,
-      "worked_hours": 14.83,
+      "worked_hours": 21.83,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0.33,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -634,13 +634,13 @@
       }
     },
     "18001403": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -708,13 +708,13 @@
       }
     },
     "00000001": {
-      "overtime_hours": 2.5,
-      "worked_hours": 19.5,
+      "overtime_hours": 3.5,
+      "worked_hours": 29,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -746,12 +746,12 @@
     },
     "00000002": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 23,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -782,13 +782,13 @@
       }
     },
     "00000005": {
-      "overtime_hours": 3.5,
-      "worked_hours": 20.5,
+      "overtime_hours": 6,
+      "worked_hours": 31.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 2,
-        "2026-09-23": null,
+        "2026-09-23": 2.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -819,13 +819,13 @@
       }
     },
     "00000006": {
-      "overtime_hours": 2,
-      "worked_hours": 19,
+      "overtime_hours": 5.5,
+      "worked_hours": 31,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 3.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -856,13 +856,13 @@
       }
     },
     "00000007": {
-      "overtime_hours": 5,
-      "worked_hours": 22,
+      "overtime_hours": 6.5,
+      "worked_hours": 32,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 3.5,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -931,12 +931,12 @@
     },
     "00000009": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -968,12 +968,12 @@
     },
     "00000011": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1005,12 +1005,12 @@
     },
     "00000013": {
       "overtime_hours": 0,
-      "worked_hours": 16.5,
+      "worked_hours": 25,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1042,12 +1042,12 @@
     },
     "00000014": {
       "overtime_hours": 2.5,
-      "worked_hours": 19.5,
+      "worked_hours": 28,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2.5,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1078,13 +1078,13 @@
       }
     },
     "00000015": {
-      "overtime_hours": 2,
-      "worked_hours": 10.5,
+      "overtime_hours": 4,
+      "worked_hours": 29.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2,
-        "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-22": 0,
+        "2026-09-23": 2,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1115,12 +1115,49 @@
       }
     },
     "00000019": {
-      "overtime_hours": 1.5,
-      "worked_hours": 10,
+      "overtime_hours": 3,
+      "worked_hours": 20,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 1.5,
+        "2026-09-23": 1.5,
+        "2026-09-24": null,
+        "2026-09-25": null,
+        "2026-09-26": null,
+        "2026-09-27": null,
+        "2026-09-28": null,
+        "2026-09-29": null,
+        "2026-09-30": null,
+        "2026-10-01": null,
+        "2026-10-02": null,
+        "2026-10-03": null,
+        "2026-10-04": null,
+        "2026-10-05": null,
+        "2026-10-06": null,
+        "2026-10-07": null,
+        "2026-10-08": null,
+        "2026-10-09": null,
+        "2026-10-10": null,
+        "2026-10-11": null,
+        "2026-10-12": null,
+        "2026-10-13": null,
+        "2026-10-14": null,
+        "2026-10-15": null,
+        "2026-10-16": null,
+        "2026-10-17": null,
+        "2026-10-18": null,
+        "2026-10-19": null,
+        "2026-10-20": null
+      }
+    },
+    "00000021": {
+      "overtime_hours": 0,
+      "worked_hours": 0,
+      "midnight_hours": 0,
+      "daily": {
+        "2026-09-21": 0,
+        "2026-09-22": 0,
         "2026-09-23": null,
         "2026-09-24": null,
         "2026-09-25": null,
@@ -1152,13 +1189,13 @@
       }
     },
     "00000022": {
-      "overtime_hours": 6.83,
-      "worked_hours": 19.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 8.33,
+      "worked_hours": 29.83,
+      "midnight_hours": 5.5,
       "daily": {
         "2026-09-21": 1.5,
-        "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-22": 0.5,
+        "2026-09-23": 6.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1189,13 +1226,13 @@
       }
     },
     "00000025": {
-      "overtime_hours": 1,
-      "worked_hours": 18,
+      "overtime_hours": 1.5,
+      "worked_hours": 27,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1226,13 +1263,13 @@
       }
     },
     "00000031": {
-      "overtime_hours": 1,
-      "worked_hours": 18,
+      "overtime_hours": 3.5,
+      "worked_hours": 29,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 2.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1263,13 +1300,13 @@
       }
     },
     "00000032": {
-      "overtime_hours": 2.5,
-      "worked_hours": 19.5,
+      "overtime_hours": 5.5,
+      "worked_hours": 31,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2.5,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 3,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1300,13 +1337,13 @@
       }
     },
     "00000033": {
-      "overtime_hours": 2.5,
-      "worked_hours": 19.5,
+      "overtime_hours": 4.5,
+      "worked_hours": 30,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 2,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1337,13 +1374,13 @@
       }
     },
     "00010001": {
-      "overtime_hours": 0,
-      "worked_hours": 17,
+      "overtime_hours": 1,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1374,13 +1411,13 @@
       }
     },
     "00010002": {
-      "overtime_hours": 3,
-      "worked_hours": 18.5,
-      "midnight_hours": 3,
+      "overtime_hours": 4.5,
+      "worked_hours": 27,
+      "midnight_hours": 4.5,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 2.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1411,13 +1448,13 @@
       }
     },
     "00010004": {
-      "overtime_hours": 2,
-      "worked_hours": 19,
+      "overtime_hours": 3,
+      "worked_hours": 28.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1448,13 +1485,13 @@
       }
     },
     "00010006": {
-      "overtime_hours": 2.5,
-      "worked_hours": 19.5,
+      "overtime_hours": 3,
+      "worked_hours": 28.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 2.5,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1485,13 +1522,13 @@
       }
     },
     "00010008": {
-      "overtime_hours": 2.5,
-      "worked_hours": 19.5,
+      "overtime_hours": 3,
+      "worked_hours": 28.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 2.5,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1522,13 +1559,13 @@
       }
     },
     "00010009": {
-      "overtime_hours": 1.5,
-      "worked_hours": 16.5,
-      "midnight_hours": 4.5,
+      "overtime_hours": 4,
+      "worked_hours": 24.5,
+      "midnight_hours": 8.5,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 2.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1559,13 +1596,13 @@
       }
     },
     "00010010": {
-      "overtime_hours": 7.33,
-      "worked_hours": 10.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 15.67,
+      "worked_hours": 22.67,
+      "midnight_hours": 8,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 8.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1596,13 +1633,13 @@
       }
     },
     "00010011": {
-      "overtime_hours": 4,
-      "worked_hours": 21,
+      "overtime_hours": 10.33,
+      "worked_hours": 35.83,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 2.5,
-        "2026-09-23": null,
+        "2026-09-23": 6.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1634,12 +1671,12 @@
     },
     "00010018": {
       "overtime_hours": 3.83,
-      "worked_hours": 11.83,
+      "worked_hours": 18.83,
       "midnight_hours": 0.5,
       "daily": {
         "2026-09-21": 3.83,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1670,13 +1707,13 @@
       }
     },
     "00010019": {
-      "overtime_hours": 2,
-      "worked_hours": 19,
+      "overtime_hours": 3,
+      "worked_hours": 28.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1708,12 +1745,12 @@
     },
     "00010020": {
       "overtime_hours": 0.5,
-      "worked_hours": 9,
+      "worked_hours": 17.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1744,13 +1781,13 @@
       }
     },
     "00010021": {
-      "overtime_hours": 3.5,
-      "worked_hours": 20.5,
+      "overtime_hours": 5,
+      "worked_hours": 30.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1855,13 +1892,13 @@
       }
     },
     "00010024": {
-      "overtime_hours": 9.33,
-      "worked_hours": 26.33,
-      "midnight_hours": 0,
+      "overtime_hours": 15.17,
+      "worked_hours": 40.67,
+      "midnight_hours": 1,
       "daily": {
         "2026-09-21": 4.83,
         "2026-09-22": 4.5,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1929,13 +1966,13 @@
       }
     },
     "00010029": {
-      "overtime_hours": 0,
-      "worked_hours": 8.5,
+      "overtime_hours": 1,
+      "worked_hours": 18,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -1967,12 +2004,12 @@
     },
     "00010034": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2003,13 +2040,13 @@
       }
     },
     "00010043": {
-      "overtime_hours": 6,
-      "worked_hours": 23,
+      "overtime_hours": 8,
+      "worked_hours": 33.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 3,
         "2026-09-22": 3,
-        "2026-09-23": null,
+        "2026-09-23": 2,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2040,13 +2077,13 @@
       }
     },
     "00010045": {
-      "overtime_hours": 1.5,
-      "worked_hours": 18.5,
-      "midnight_hours": 0,
+      "overtime_hours": 6.33,
+      "worked_hours": 31.83,
+      "midnight_hours": 1,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2077,13 +2114,13 @@
       }
     },
     "00010048": {
-      "overtime_hours": 13.67,
-      "worked_hours": 22.67,
-      "midnight_hours": 6,
+      "overtime_hours": 21,
+      "worked_hours": 32.5,
+      "midnight_hours": 9.5,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2115,12 +2152,12 @@
     },
     "00010052": {
       "overtime_hours": 0,
-      "worked_hours": 4,
+      "worked_hours": 12.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2151,13 +2188,13 @@
       }
     },
     "00010056": {
-      "overtime_hours": 2.5,
-      "worked_hours": 19.5,
+      "overtime_hours": 3.5,
+      "worked_hours": 29,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2188,13 +2225,13 @@
       }
     },
     "00010059": {
-      "overtime_hours": 5.5,
-      "worked_hours": 22.5,
+      "overtime_hours": 8.5,
+      "worked_hours": 34,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 3,
         "2026-09-22": 2.5,
-        "2026-09-23": null,
+        "2026-09-23": 3,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2263,12 +2300,12 @@
     },
     "00010061": {
       "overtime_hours": 1,
-      "worked_hours": 18,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2299,13 +2336,13 @@
       }
     },
     "00010062": {
-      "overtime_hours": 0,
-      "worked_hours": 12.5,
+      "overtime_hours": 3.83,
+      "worked_hours": 24.83,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 3.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2336,13 +2373,13 @@
       }
     },
     "00010063": {
-      "overtime_hours": 1.5,
-      "worked_hours": 18.5,
-      "midnight_hours": 0,
+      "overtime_hours": 6.83,
+      "worked_hours": 32.33,
+      "midnight_hours": 1.5,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2373,13 +2410,13 @@
       }
     },
     "00010065": {
-      "overtime_hours": 7.5,
-      "worked_hours": 24.5,
+      "overtime_hours": 13.5,
+      "worked_hours": 39,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 3,
         "2026-09-22": 4.5,
-        "2026-09-23": null,
+        "2026-09-23": 6,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2410,13 +2447,13 @@
       }
     },
     "00010067": {
-      "overtime_hours": 1,
-      "worked_hours": 16,
+      "overtime_hours": 2,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2522,12 +2559,12 @@
     },
     "00030003": {
       "overtime_hours": 0,
-      "worked_hours": 8.5,
+      "worked_hours": 17,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2558,13 +2595,13 @@
       }
     },
     "00030004": {
-      "overtime_hours": 11.67,
-      "worked_hours": 24.67,
-      "midnight_hours": 6,
+      "overtime_hours": 19.5,
+      "worked_hours": 37,
+      "midnight_hours": 11,
       "daily": {
         "2026-09-21": 4.83,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 7.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2595,13 +2632,13 @@
       }
     },
     "00030005": {
-      "overtime_hours": 2.5,
-      "worked_hours": 11,
+      "overtime_hours": 5,
+      "worked_hours": 22,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2.5,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 2.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2632,13 +2669,13 @@
       }
     },
     "00030006": {
-      "overtime_hours": 3.5,
-      "worked_hours": 18.5,
+      "overtime_hours": 5.5,
+      "worked_hours": 28,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2.5,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 2,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2669,13 +2706,13 @@
       }
     },
     "00030007": {
-      "overtime_hours": 7.33,
-      "worked_hours": 24.33,
-      "midnight_hours": 1,
+      "overtime_hours": 13.67,
+      "worked_hours": 39.17,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 2.5,
         "2026-09-22": 4.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2743,13 +2780,13 @@
       }
     },
     "00030009": {
-      "overtime_hours": 5.33,
-      "worked_hours": 22.33,
+      "overtime_hours": 7.33,
+      "worked_hours": 32.83,
       "midnight_hours": 1,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 3.83,
-        "2026-09-23": null,
+        "2026-09-23": 2,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2780,13 +2817,13 @@
       }
     },
     "00030010": {
-      "overtime_hours": 3,
-      "worked_hours": 16,
+      "overtime_hours": 3.5,
+      "worked_hours": 25,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2818,12 +2855,12 @@
     },
     "00030011": {
       "overtime_hours": 11.67,
-      "worked_hours": 26.67,
+      "worked_hours": 29.67,
       "midnight_hours": 4,
       "daily": {
         "2026-09-21": 3.83,
         "2026-09-22": 7.83,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2854,13 +2891,13 @@
       }
     },
     "00030012": {
-      "overtime_hours": 1.5,
-      "worked_hours": 18.5,
+      "overtime_hours": 2.5,
+      "worked_hours": 28,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2891,13 +2928,13 @@
       }
     },
     "00030013": {
-      "overtime_hours": 2,
-      "worked_hours": 19,
+      "overtime_hours": 4.83,
+      "worked_hours": 30.33,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 2.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2928,13 +2965,13 @@
       }
     },
     "00030014": {
-      "overtime_hours": 0,
-      "worked_hours": 4,
+      "overtime_hours": 1,
+      "worked_hours": 13.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -2965,13 +3002,13 @@
       }
     },
     "00030015": {
-      "overtime_hours": 6.67,
-      "worked_hours": 20.67,
-      "midnight_hours": 1,
+      "overtime_hours": 11,
+      "worked_hours": 32,
+      "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 2.83,
         "2026-09-22": 3.83,
-        "2026-09-23": null,
+        "2026-09-23": 4.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3003,12 +3040,12 @@
     },
     "00100001": {
       "overtime_hours": 0,
-      "worked_hours": 8.5,
+      "worked_hours": 17,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3039,13 +3076,13 @@
       }
     },
     "00100002": {
-      "overtime_hours": 0.5,
-      "worked_hours": 17.5,
+      "overtime_hours": 1.5,
+      "worked_hours": 27,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3076,13 +3113,13 @@
       }
     },
     "00110001": {
-      "overtime_hours": 1.5,
-      "worked_hours": 18.5,
+      "overtime_hours": 5,
+      "worked_hours": 30.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 3.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3114,12 +3151,12 @@
     },
     "00110002": {
       "overtime_hours": 0,
-      "worked_hours": 11.5,
+      "worked_hours": 20,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3150,13 +3187,13 @@
       }
     },
     "00110003": {
-      "overtime_hours": 0.5,
-      "worked_hours": 17.5,
+      "overtime_hours": 2,
+      "worked_hours": 27.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3188,12 +3225,12 @@
     },
     "00110004": {
       "overtime_hours": 0,
-      "worked_hours": 8.5,
+      "worked_hours": 17,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3224,13 +3261,13 @@
       }
     },
     "00110006": {
-      "overtime_hours": 0,
-      "worked_hours": 0,
+      "overtime_hours": 1,
+      "worked_hours": 9.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3261,13 +3298,13 @@
       }
     },
     "00110007": {
-      "overtime_hours": 0,
-      "worked_hours": 17,
+      "overtime_hours": 1.5,
+      "worked_hours": 27,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3298,13 +3335,13 @@
       }
     },
     "00110008": {
-      "overtime_hours": 0.5,
-      "worked_hours": 17.5,
+      "overtime_hours": 1.5,
+      "worked_hours": 27,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3409,13 +3446,13 @@
       }
     },
     "00200002": {
-      "overtime_hours": 3.5,
-      "worked_hours": 20.5,
+      "overtime_hours": 4,
+      "worked_hours": 29.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1,
         "2026-09-22": 2.5,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3446,13 +3483,13 @@
       }
     },
     "00210001": {
-      "overtime_hours": 0,
-      "worked_hours": 4,
+      "overtime_hours": 1,
+      "worked_hours": 13.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3484,12 +3521,12 @@
     },
     "00210003": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3520,13 +3557,13 @@
       }
     },
     "00210005": {
-      "overtime_hours": 0,
-      "worked_hours": 17,
+      "overtime_hours": 1,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3557,13 +3594,13 @@
       }
     },
     "00230001": {
-      "overtime_hours": 1.5,
-      "worked_hours": 17.5,
+      "overtime_hours": 2,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3595,12 +3632,12 @@
     },
     "00300002": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3669,12 +3706,12 @@
     },
     "00400001": {
       "overtime_hours": 0,
-      "worked_hours": 0,
+      "worked_hours": 8.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3706,12 +3743,12 @@
     },
     "00400002": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3780,12 +3817,12 @@
     },
     "00400007": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3817,12 +3854,12 @@
     },
     "00410001": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3853,13 +3890,13 @@
       }
     },
     "00430001": {
-      "overtime_hours": 0.5,
-      "worked_hours": 17.5,
+      "overtime_hours": 1.5,
+      "worked_hours": 27,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3891,12 +3928,12 @@
     },
     "00430002": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3928,12 +3965,12 @@
     },
     "00500002": {
       "overtime_hours": 0,
-      "worked_hours": 8.5,
+      "worked_hours": 17,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -3965,12 +4002,12 @@
     },
     "00500003": {
       "overtime_hours": 1,
-      "worked_hours": 18,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4001,13 +4038,13 @@
       }
     },
     "00510002": {
-      "overtime_hours": 0,
-      "worked_hours": 17,
+      "overtime_hours": 0.5,
+      "worked_hours": 26,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4038,13 +4075,13 @@
       }
     },
     "00510003": {
-      "overtime_hours": 13.67,
-      "worked_hours": 22.67,
-      "midnight_hours": 6,
+      "overtime_hours": 21,
+      "worked_hours": 32.5,
+      "midnight_hours": 9.5,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4076,12 +4113,12 @@
     },
     "00510004": {
       "overtime_hours": 0,
-      "worked_hours": 8.5,
+      "worked_hours": 17,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4112,13 +4149,13 @@
       }
     },
     "02000002": {
-      "overtime_hours": 4.17,
-      "worked_hours": 20.17,
+      "overtime_hours": 7,
+      "worked_hours": 31,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2.33,
         "2026-09-22": 1.83,
-        "2026-09-23": null,
+        "2026-09-23": 2.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4187,12 +4224,12 @@
     },
     "02000006": {
       "overtime_hours": 0,
-      "worked_hours": 15,
+      "worked_hours": 22.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4223,13 +4260,13 @@
       }
     },
     "02000008": {
-      "overtime_hours": 0.67,
-      "worked_hours": 16.67,
+      "overtime_hours": 1,
+      "worked_hours": 25,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.33,
         "2026-09-22": 0.33,
-        "2026-09-23": null,
+        "2026-09-23": 0.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4260,13 +4297,13 @@
       }
     },
     "02000011": {
-      "overtime_hours": 0.67,
-      "worked_hours": 16.67,
+      "overtime_hours": 1,
+      "worked_hours": 25,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.33,
         "2026-09-22": 0.33,
-        "2026-09-23": null,
+        "2026-09-23": 0.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4335,12 +4372,12 @@
     },
     "02000015": {
       "overtime_hours": 0,
-      "worked_hours": 5,
+      "worked_hours": 10.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4372,12 +4409,12 @@
     },
     "02010001": {
       "overtime_hours": 1.33,
-      "worked_hours": 16.33,
+      "worked_hours": 24.33,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 1.33,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4408,13 +4445,13 @@
       }
     },
     "02010005": {
-      "overtime_hours": 1.67,
-      "worked_hours": 17.67,
+      "overtime_hours": 2.5,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.33,
         "2026-09-22": 1.33,
-        "2026-09-23": null,
+        "2026-09-23": 0.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4445,13 +4482,13 @@
       }
     },
     "02010008": {
-      "overtime_hours": 2.17,
-      "worked_hours": 18.17,
+      "overtime_hours": 4,
+      "worked_hours": 28,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.83,
         "2026-09-22": 0.33,
-        "2026-09-23": null,
+        "2026-09-23": 1.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4482,13 +4519,13 @@
       }
     },
     "02010009": {
-      "overtime_hours": 1.67,
-      "worked_hours": 17.67,
+      "overtime_hours": 2.5,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.33,
         "2026-09-22": 1.33,
-        "2026-09-23": null,
+        "2026-09-23": 0.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4519,13 +4556,13 @@
       }
     },
     "04000001": {
-      "overtime_hours": 0.67,
-      "worked_hours": 16.67,
+      "overtime_hours": 2.5,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.33,
         "2026-09-22": 0.33,
-        "2026-09-23": null,
+        "2026-09-23": 1.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4631,12 +4668,12 @@
     },
     "05000003": {
       "overtime_hours": 0,
-      "worked_hours": 17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4667,13 +4704,13 @@
       }
     },
     "05000004": {
-      "overtime_hours": 2,
-      "worked_hours": 18,
+      "overtime_hours": 2.5,
+      "worked_hours": 26.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 0.5,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4815,13 +4852,13 @@
       }
     },
     "05010004": {
-      "overtime_hours": 3.5,
-      "worked_hours": 19.5,
+      "overtime_hours": 5,
+      "worked_hours": 29,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4852,13 +4889,13 @@
       }
     },
     "05010005": {
-      "overtime_hours": 0.5,
-      "worked_hours": 8.5,
+      "overtime_hours": 1.5,
+      "worked_hours": 17.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4889,13 +4926,13 @@
       }
     },
     "05010007": {
-      "overtime_hours": 0,
-      "worked_hours": 16,
+      "overtime_hours": 0.5,
+      "worked_hours": 24.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4926,13 +4963,13 @@
       }
     },
     "06036001": {
-      "overtime_hours": 3,
-      "worked_hours": 19.67,
+      "overtime_hours": 4.5,
+      "worked_hours": 29.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -4963,13 +5000,13 @@
       }
     },
     "06036002": {
-      "overtime_hours": 4,
-      "worked_hours": 20.67,
+      "overtime_hours": 5.5,
+      "worked_hours": 30.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2,
         "2026-09-22": 2,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5000,13 +5037,13 @@
       }
     },
     "06036003": {
-      "overtime_hours": 3.83,
-      "worked_hours": 20.5,
+      "overtime_hours": 4.83,
+      "worked_hours": 29.83,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 3.33,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5037,13 +5074,13 @@
       }
     },
     "06036004": {
-      "overtime_hours": 3.5,
-      "worked_hours": 20.17,
+      "overtime_hours": 5.5,
+      "worked_hours": 30.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 2,
-        "2026-09-23": null,
+        "2026-09-23": 2,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5074,13 +5111,13 @@
       }
     },
     "06036005": {
-      "overtime_hours": 3,
-      "worked_hours": 19.67,
+      "overtime_hours": 4.5,
+      "worked_hours": 29.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5111,13 +5148,13 @@
       }
     },
     "06036006": {
-      "overtime_hours": 3.83,
-      "worked_hours": 20.5,
+      "overtime_hours": 4.83,
+      "worked_hours": 29.83,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 3.33,
-        "2026-09-23": null,
+        "2026-09-23": 1,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5185,13 +5222,13 @@
       }
     },
     "06036008": {
-      "overtime_hours": 3.83,
-      "worked_hours": 19.5,
+      "overtime_hours": 7.17,
+      "worked_hours": 31.17,
       "midnight_hours": 0.5,
       "daily": {
         "2026-09-21": 3.83,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 3.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5259,18 +5296,18 @@
       }
     },
     "07001613": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 4,
+      "overtime_hours": 18.99,
+      "worked_hours": 44,
+      "midnight_hours": 5.5,
       "daily": {
         "2026-09-21": 6.83,
         "2026-09-22": 6.33,
-        "2026-09-23": null,
-        "2026-09-24": null,
-        "2026-09-25": null,
-        "2026-09-26": null,
+        "2026-09-23": 5.83,
+        "2026-09-24": 0,
+        "2026-09-25": 0,
+        "2026-09-26": 0,
         "2026-09-27": null,
-        "2026-09-28": null,
+        "2026-09-28": 0,
         "2026-09-29": null,
         "2026-09-30": null,
         "2026-10-01": null,
@@ -5296,13 +5333,13 @@
       }
     },
     "07001614": {
-      "overtime_hours": 7.83,
-      "worked_hours": 15.17,
-      "midnight_hours": 3.5,
+      "overtime_hours": 15.67,
+      "worked_hours": 30.33,
+      "midnight_hours": 7,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 7.83,
-        "2026-09-23": null,
+        "2026-09-23": 7.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5333,13 +5370,13 @@
       }
     },
     "07001615": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 18,
+      "worked_hours": 43,
+      "midnight_hours": 5,
       "daily": {
         "2026-09-21": 6.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5370,13 +5407,13 @@
       }
     },
     "07001616": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 18,
+      "worked_hours": 43,
+      "midnight_hours": 4.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 6.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5407,13 +5444,13 @@
       }
     },
     "07001619": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 18,
+      "worked_hours": 43,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 7.83,
         "2026-09-22": 4.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5444,13 +5481,13 @@
       }
     },
     "07001620": {
-      "overtime_hours": 13.67,
-      "worked_hours": 30.33,
-      "midnight_hours": 4,
+      "overtime_hours": 19,
+      "worked_hours": 44,
+      "midnight_hours": 5,
       "daily": {
         "2026-09-21": 6.83,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5481,13 +5518,13 @@
       }
     },
     "07001622": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 17.5,
+      "worked_hours": 42.5,
+      "midnight_hours": 4.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5518,13 +5555,13 @@
       }
     },
     "07001623": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 18,
+      "worked_hours": 43,
+      "midnight_hours": 5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5555,13 +5592,13 @@
       }
     },
     "07001624": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 17.5,
+      "worked_hours": 38.5,
+      "midnight_hours": 4.5,
       "daily": {
         "2026-09-21": 6.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5592,13 +5629,13 @@
       }
     },
     "07001625": {
-      "overtime_hours": 12.17,
-      "worked_hours": 26.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 15.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 4.5,
       "daily": {
-        "2026-09-21": 6.83,
+        "2026-09-21": 4.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5629,13 +5666,13 @@
       }
     },
     "07001628": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 17.5,
+      "worked_hours": 42.5,
+      "midnight_hours": 4.5,
       "daily": {
         "2026-09-21": 6.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5666,13 +5703,13 @@
       }
     },
     "07001629": {
-      "overtime_hours": 6.83,
-      "worked_hours": 23.5,
-      "midnight_hours": 1.5,
+      "overtime_hours": 12.67,
+      "worked_hours": 37.67,
+      "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 6.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5740,13 +5777,13 @@
       }
     },
     "07001631": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5777,13 +5814,13 @@
       }
     },
     "07007601": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 17.5,
+      "worked_hours": 42.5,
+      "midnight_hours": 4.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5814,13 +5851,13 @@
       }
     },
     "07007602": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 17.5,
+      "worked_hours": 42.5,
+      "midnight_hours": 4.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5851,13 +5888,13 @@
       }
     },
     "07007603": {
-      "overtime_hours": 5.33,
-      "worked_hours": 13.67,
-      "midnight_hours": 1,
+      "overtime_hours": 11.17,
+      "worked_hours": 27.83,
+      "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5925,13 +5962,13 @@
       }
     },
     "07007605": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 18,
+      "worked_hours": 43,
+      "midnight_hours": 5,
       "daily": {
         "2026-09-21": 6.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -5962,13 +5999,13 @@
       }
     },
     "07007606": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6000,12 +6037,12 @@
     },
     "07007700": {
       "overtime_hours": 0.5,
-      "worked_hours": 17.17,
+      "worked_hours": 25.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6036,13 +6073,13 @@
       }
     },
     "07007701": {
-      "overtime_hours": 12.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 3.5,
+      "overtime_hours": 18,
+      "worked_hours": 43,
+      "midnight_hours": 5,
       "daily": {
         "2026-09-21": 6.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6073,13 +6110,13 @@
       }
     },
     "07011609": {
-      "overtime_hours": 1.5,
-      "worked_hours": 9.83,
+      "overtime_hours": 3,
+      "worked_hours": 19.67,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6110,13 +6147,13 @@
       }
     },
     "07011610": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6147,13 +6184,13 @@
       }
     },
     "07011614": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6184,13 +6221,13 @@
       }
     },
     "07013601": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6221,13 +6258,13 @@
       }
     },
     "07013614": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6258,13 +6295,13 @@
       }
     },
     "07013615": {
-      "overtime_hours": 6.83,
-      "worked_hours": 23.5,
-      "midnight_hours": 1.5,
+      "overtime_hours": 12.17,
+      "worked_hours": 37.17,
+      "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6295,13 +6332,13 @@
       }
     },
     "07013621": {
-      "overtime_hours": 10.17,
-      "worked_hours": 26.83,
-      "midnight_hours": 1.5,
+      "overtime_hours": 15,
+      "worked_hours": 40,
+      "midnight_hours": 2,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 4.83,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6332,13 +6369,13 @@
       }
     },
     "07013625": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6369,13 +6406,13 @@
       }
     },
     "07013629": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6406,13 +6443,13 @@
       }
     },
     "07013630": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6443,13 +6480,13 @@
       }
     },
     "07013631": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6480,13 +6517,13 @@
       }
     },
     "07013632": {
-      "overtime_hours": 3,
-      "worked_hours": 19.67,
+      "overtime_hours": 4.5,
+      "worked_hours": 29.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6517,13 +6554,13 @@
       }
     },
     "07013634": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17.5,
+      "worked_hours": 42.5,
+      "midnight_hours": 4.5,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 6.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6554,13 +6591,13 @@
       }
     },
     "07013637": {
-      "overtime_hours": 13.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 4.5,
+      "overtime_hours": 20.17,
+      "worked_hours": 35.83,
+      "midnight_hours": 7.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 7,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6591,13 +6628,13 @@
       }
     },
     "07013639": {
-      "overtime_hours": 10.17,
-      "worked_hours": 26.83,
-      "midnight_hours": 1.5,
+      "overtime_hours": 15,
+      "worked_hours": 40,
+      "midnight_hours": 2,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 4.83,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6628,13 +6665,13 @@
       }
     },
     "07013641": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6665,13 +6702,13 @@
       }
     },
     "07013643": {
-      "overtime_hours": 14.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 5.5,
+      "overtime_hours": 21.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 8.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6702,13 +6739,13 @@
       }
     },
     "07013645": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6739,13 +6776,13 @@
       }
     },
     "07013648": {
-      "overtime_hours": 0,
-      "worked_hours": 8.33,
-      "midnight_hours": 0,
+      "overtime_hours": 5.33,
+      "worked_hours": 22,
+      "midnight_hours": 1,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6776,13 +6813,13 @@
       }
     },
     "07013650": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6813,13 +6850,13 @@
       }
     },
     "07013652": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6850,13 +6887,13 @@
       }
     },
     "07013653": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6887,13 +6924,13 @@
       }
     },
     "07013656": {
-      "overtime_hours": 14.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 5.5,
+      "overtime_hours": 21.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 8.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6924,13 +6961,13 @@
       }
     },
     "07013657": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
+      "overtime_hours": 15.5,
+      "worked_hours": 40.5,
       "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 4.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6961,13 +6998,13 @@
       }
     },
     "07013659": {
-      "overtime_hours": 7.33,
-      "worked_hours": 24,
+      "overtime_hours": 8.83,
+      "worked_hours": 33.83,
       "midnight_hours": 1.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -6998,13 +7035,13 @@
       }
     },
     "07013660": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7035,13 +7072,13 @@
       }
     },
     "07013661": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7109,13 +7146,13 @@
       }
     },
     "07013665": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7146,13 +7183,13 @@
       }
     },
     "07013667": {
-      "overtime_hours": 5.33,
-      "worked_hours": 13.67,
-      "midnight_hours": 1,
+      "overtime_hours": 10.67,
+      "worked_hours": 27.33,
+      "midnight_hours": 2,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7183,13 +7220,13 @@
       }
     },
     "07013671": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7220,13 +7257,13 @@
       }
     },
     "07013672": {
-      "overtime_hours": 14.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 5.5,
+      "overtime_hours": 21.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 8.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7257,13 +7294,13 @@
       }
     },
     "07013675": {
-      "overtime_hours": 0.5,
-      "worked_hours": 17.17,
+      "overtime_hours": 1,
+      "worked_hours": 26,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0.5,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 0.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7294,13 +7331,13 @@
       }
     },
     "07013676": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7331,13 +7368,13 @@
       }
     },
     "07013677": {
-      "overtime_hours": 8.33,
-      "worked_hours": 25,
-      "midnight_hours": 1.5,
+      "overtime_hours": 13.17,
+      "worked_hours": 38.17,
+      "midnight_hours": 2,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 2.5,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7368,13 +7405,13 @@
       }
     },
     "07013678": {
-      "overtime_hours": 7.33,
-      "worked_hours": 24,
-      "midnight_hours": 1.5,
+      "overtime_hours": 12.67,
+      "worked_hours": 37.67,
+      "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7405,13 +7442,13 @@
       }
     },
     "07013687": {
-      "overtime_hours": 3,
-      "worked_hours": 19.67,
+      "overtime_hours": 4.5,
+      "worked_hours": 29.5,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7442,13 +7479,13 @@
       }
     },
     "07013688": {
-      "overtime_hours": 13.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 4.5,
+      "overtime_hours": 20.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 7.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7479,13 +7516,13 @@
       }
     },
     "07013689": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7516,13 +7553,13 @@
       }
     },
     "07013690": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7553,13 +7590,13 @@
       }
     },
     "07017600": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7590,13 +7627,13 @@
       }
     },
     "07017601": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7627,13 +7664,13 @@
       }
     },
     "07017700": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7664,13 +7701,13 @@
       }
     },
     "07017703": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7701,13 +7738,13 @@
       }
     },
     "07018601": {
-      "overtime_hours": 11.17,
-      "worked_hours": 26.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7738,13 +7775,13 @@
       }
     },
     "07018604": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7775,13 +7812,13 @@
       }
     },
     "07018605": {
-      "overtime_hours": 10.17,
-      "worked_hours": 26.83,
-      "midnight_hours": 1.5,
+      "overtime_hours": 15.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 4.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7812,13 +7849,13 @@
       }
     },
     "07018606": {
-      "overtime_hours": 13.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 4.5,
+      "overtime_hours": 20.5,
+      "worked_hours": 43,
+      "midnight_hours": 7.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7849,13 +7886,13 @@
       }
     },
     "07018607": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7886,13 +7923,13 @@
       }
     },
     "07018608": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7923,13 +7960,13 @@
       }
     },
     "07018610": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7960,13 +7997,13 @@
       }
     },
     "07018611": {
-      "overtime_hours": 13.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 4.5,
+      "overtime_hours": 20.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 7.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -7997,13 +8034,13 @@
       }
     },
     "07018612": {
-      "overtime_hours": 14.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 5.5,
+      "overtime_hours": 21.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 8.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8034,13 +8071,13 @@
       }
     },
     "07018613": {
-      "overtime_hours": 14.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 5.5,
+      "overtime_hours": 21.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 8.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8071,13 +8108,13 @@
       }
     },
     "07018614": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8108,13 +8145,13 @@
       }
     },
     "07018616": {
-      "overtime_hours": 13.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 4.5,
+      "overtime_hours": 20.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 7.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8145,13 +8182,13 @@
       }
     },
     "07018617": {
-      "overtime_hours": 14.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 5.5,
+      "overtime_hours": 21.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 8.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8182,13 +8219,13 @@
       }
     },
     "07018618": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8219,13 +8256,13 @@
       }
     },
     "07018620": {
-      "overtime_hours": 13.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 4.5,
+      "overtime_hours": 20.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 7.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8256,13 +8293,13 @@
       }
     },
     "07018623": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 4.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8330,13 +8367,13 @@
       }
     },
     "07018625": {
-      "overtime_hours": 5.33,
-      "worked_hours": 13.67,
+      "overtime_hours": 9.67,
+      "worked_hours": 26.33,
       "midnight_hours": 1,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 4.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8367,13 +8404,13 @@
       }
     },
     "07018627": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
+      "overtime_hours": 12.67,
+      "worked_hours": 37.67,
       "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8404,13 +8441,13 @@
       }
     },
     "07018628": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8441,13 +8478,13 @@
       }
     },
     "07018631": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8478,13 +8515,13 @@
       }
     },
     "07018632": {
-      "overtime_hours": 5.83,
-      "worked_hours": 14.17,
-      "midnight_hours": 1.5,
+      "overtime_hours": 11.17,
+      "worked_hours": 27.83,
+      "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8515,13 +8552,13 @@
       }
     },
     "07018634": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8552,13 +8589,13 @@
       }
     },
     "07018635": {
-      "overtime_hours": 9.83,
-      "worked_hours": 24.5,
-      "midnight_hours": 4,
+      "overtime_hours": 17.17,
+      "worked_hours": 36.17,
+      "midnight_hours": 7,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 8.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8589,13 +8626,13 @@
       }
     },
     "07018638": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8626,13 +8663,13 @@
       }
     },
     "07018639": {
-      "overtime_hours": 13.17,
-      "worked_hours": 28.83,
-      "midnight_hours": 4.5,
+      "overtime_hours": 20.5,
+      "worked_hours": 40.5,
+      "midnight_hours": 7.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8663,13 +8700,13 @@
       }
     },
     "07018640": {
-      "overtime_hours": 10.17,
-      "worked_hours": 26.83,
-      "midnight_hours": 1.5,
+      "overtime_hours": 15,
+      "worked_hours": 40,
+      "midnight_hours": 2,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 4.83,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8700,13 +8737,13 @@
       }
     },
     "07018641": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8737,13 +8774,13 @@
       }
     },
     "07018642": {
-      "overtime_hours": 0,
-      "worked_hours": 16.67,
-      "midnight_hours": 0,
+      "overtime_hours": 4.83,
+      "worked_hours": 29.83,
+      "midnight_hours": 0.5,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 4.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8811,13 +8848,13 @@
       }
     },
     "07018644": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8848,13 +8885,13 @@
       }
     },
     "07018645": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8885,13 +8922,13 @@
       }
     },
     "07018646": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8922,13 +8959,13 @@
       }
     },
     "07018647": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8959,13 +8996,13 @@
       }
     },
     "07018648": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -8996,13 +9033,13 @@
       }
     },
     "07018649": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9033,13 +9070,13 @@
       }
     },
     "07018650": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9070,13 +9107,13 @@
       }
     },
     "07037600": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9107,13 +9144,13 @@
       }
     },
     "07037601": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9144,13 +9181,13 @@
       }
     },
     "07037602": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9181,13 +9218,13 @@
       }
     },
     "07037603": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9218,13 +9255,13 @@
       }
     },
     "07037604": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9255,13 +9292,13 @@
       }
     },
     "07037605": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9292,13 +9329,13 @@
       }
     },
     "07037606": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9329,13 +9366,13 @@
       }
     },
     "07037607": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 19.5,
+      "worked_hours": 44.5,
+      "midnight_hours": 9.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9366,13 +9403,13 @@
       }
     },
     "07037608": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9440,13 +9477,13 @@
       }
     },
     "07037610": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9477,13 +9514,13 @@
       }
     },
     "07037611": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9551,13 +9588,13 @@
       }
     },
     "07037613": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9588,13 +9625,13 @@
       }
     },
     "07037614": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9625,13 +9662,13 @@
       }
     },
     "07037615": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9662,13 +9699,13 @@
       }
     },
     "07038600": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9699,13 +9736,13 @@
       }
     },
     "07038601": {
-      "overtime_hours": 12.67,
-      "worked_hours": 29.33,
-      "midnight_hours": 6,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9736,13 +9773,13 @@
       }
     },
     "07038602": {
-      "overtime_hours": 8.67,
-      "worked_hours": 25.33,
+      "overtime_hours": 10.17,
+      "worked_hours": 35.17,
       "midnight_hours": 2,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 3.33,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9773,13 +9810,13 @@
       }
     },
     "07038603": {
-      "overtime_hours": 5.33,
-      "worked_hours": 22,
+      "overtime_hours": 7.83,
+      "worked_hours": 32.83,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 2,
         "2026-09-22": 3.33,
-        "2026-09-23": null,
+        "2026-09-23": 2.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9810,13 +9847,13 @@
       }
     },
     "07038604": {
-      "overtime_hours": 13.67,
-      "worked_hours": 30.33,
-      "midnight_hours": 7,
+      "overtime_hours": 20.5,
+      "worked_hours": 45.5,
+      "midnight_hours": 10.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9884,13 +9921,13 @@
       }
     },
     "07038606": {
-      "overtime_hours": 2.5,
-      "worked_hours": 19.17,
+      "overtime_hours": 4,
+      "worked_hours": 29,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 1,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9921,13 +9958,13 @@
       }
     },
     "07038607": {
-      "overtime_hours": 2.5,
-      "worked_hours": 19.17,
+      "overtime_hours": 4,
+      "worked_hours": 29,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 1,
         "2026-09-22": 1.5,
-        "2026-09-23": null,
+        "2026-09-23": 1.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9958,13 +9995,13 @@
       }
     },
     "07038608": {
-      "overtime_hours": 10.17,
-      "worked_hours": 26.83,
+      "overtime_hours": 13.17,
+      "worked_hours": 38.17,
       "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 4.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 3,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -9995,13 +10032,13 @@
       }
     },
     "07038609": {
-      "overtime_hours": 12.67,
-      "worked_hours": 29.33,
-      "midnight_hours": 6,
+      "overtime_hours": 19.5,
+      "worked_hours": 44.5,
+      "midnight_hours": 9.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10032,13 +10069,13 @@
       }
     },
     "07038610": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10069,13 +10106,13 @@
       }
     },
     "07038611": {
-      "overtime_hours": 13.67,
-      "worked_hours": 30.33,
-      "midnight_hours": 7,
+      "overtime_hours": 20.5,
+      "worked_hours": 45.5,
+      "midnight_hours": 10.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10106,13 +10143,13 @@
       }
     },
     "07038612": {
-      "overtime_hours": 6.33,
-      "worked_hours": 23,
-      "midnight_hours": 3,
+      "overtime_hours": 13.17,
+      "worked_hours": 38.17,
+      "midnight_hours": 6.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 0,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10143,13 +10180,13 @@
       }
     },
     "07038613": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10180,13 +10217,13 @@
       }
     },
     "07038614": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10217,13 +10254,13 @@
       }
     },
     "07038615": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10254,13 +10291,13 @@
       }
     },
     "07038616": {
-      "overtime_hours": 13.67,
-      "worked_hours": 30.33,
-      "midnight_hours": 7,
+      "overtime_hours": 20.5,
+      "worked_hours": 45.5,
+      "midnight_hours": 10.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10291,13 +10328,13 @@
       }
     },
     "07038617": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10328,13 +10365,13 @@
       }
     },
     "07038618": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20.5,
+      "worked_hours": 45.5,
+      "midnight_hours": 10.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10365,13 +10402,13 @@
       }
     },
     "07038619": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10402,13 +10439,13 @@
       }
     },
     "07038620": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10439,13 +10476,13 @@
       }
     },
     "07038621": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10476,13 +10513,13 @@
       }
     },
     "07038622": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10513,13 +10550,13 @@
       }
     },
     "07038623": {
-      "overtime_hours": 12.67,
-      "worked_hours": 29.33,
-      "midnight_hours": 6,
+      "overtime_hours": 19.5,
+      "worked_hours": 44.5,
+      "midnight_hours": 9.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10550,13 +10587,13 @@
       }
     },
     "07038624": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10624,13 +10661,13 @@
       }
     },
     "07038626": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10661,13 +10698,13 @@
       }
     },
     "07038627": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10698,13 +10735,13 @@
       }
     },
     "07038628": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10735,13 +10772,13 @@
       }
     },
     "07038629": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10772,13 +10809,13 @@
       }
     },
     "07038630": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10809,13 +10846,13 @@
       }
     },
     "07038631": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10846,13 +10883,13 @@
       }
     },
     "07038632": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10883,13 +10920,13 @@
       }
     },
     "07038633": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10920,13 +10957,13 @@
       }
     },
     "07038634": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -10994,13 +11031,13 @@
       }
     },
     "07038636": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11031,13 +11068,13 @@
       }
     },
     "07038637": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11068,13 +11105,13 @@
       }
     },
     "07038638": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11105,13 +11142,13 @@
       }
     },
     "07038639": {
-      "overtime_hours": 8.33,
-      "worked_hours": 25,
-      "midnight_hours": 3.5,
+      "overtime_hours": 15.17,
+      "worked_hours": 40.17,
+      "midnight_hours": 7,
       "daily": {
         "2026-09-21": 1.5,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11142,13 +11179,13 @@
       }
     },
     "07038640": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
+      "overtime_hours": 16.17,
+      "worked_hours": 41.17,
       "midnight_hours": 6.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 3,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11179,13 +11216,13 @@
       }
     },
     "07038641": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 4.5,
+      "overtime_hours": 18,
+      "worked_hours": 43,
+      "midnight_hours": 8,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 4.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11216,13 +11253,13 @@
       }
     },
     "07038642": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11253,13 +11290,13 @@
       }
     },
     "07038643": {
-      "overtime_hours": 12.67,
-      "worked_hours": 29.33,
-      "midnight_hours": 6,
+      "overtime_hours": 19.5,
+      "worked_hours": 44.5,
+      "midnight_hours": 9.5,
       "daily": {
         "2026-09-21": 5.83,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11290,13 +11327,13 @@
       }
     },
     "07038644": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11327,13 +11364,13 @@
       }
     },
     "07038645": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11401,13 +11438,13 @@
       }
     },
     "07038647": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11438,13 +11475,13 @@
       }
     },
     "07038648": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11475,13 +11512,13 @@
       }
     },
     "07038649": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11512,13 +11549,13 @@
       }
     },
     "07038650": {
-      "overtime_hours": 0,
-      "worked_hours": 0,
-      "midnight_hours": 0,
+      "overtime_hours": 6.83,
+      "worked_hours": 15.17,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": null,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11549,13 +11586,13 @@
       }
     },
     "07038651": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11586,13 +11623,13 @@
       }
     },
     "07038652": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11623,13 +11660,13 @@
       }
     },
     "07038653": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11660,13 +11697,13 @@
       }
     },
     "07038654": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11697,13 +11734,13 @@
       }
     },
     "07038655": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11734,13 +11771,13 @@
       }
     },
     "07038656": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11771,13 +11808,13 @@
       }
     },
     "07038657": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11808,13 +11845,13 @@
       }
     },
     "07038658": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11845,13 +11882,13 @@
       }
     },
     "07038659": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11882,13 +11919,13 @@
       }
     },
     "07038660": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11919,13 +11956,13 @@
       }
     },
     "07038661": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11956,13 +11993,13 @@
       }
     },
     "07038700": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -11993,13 +12030,13 @@
       }
     },
     "07038701": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
-      "midnight_hours": 6.5,
+      "overtime_hours": 20,
+      "worked_hours": 45,
+      "midnight_hours": 10,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 6.83,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12030,13 +12067,13 @@
       }
     },
     "07038702": {
-      "overtime_hours": 13.67,
-      "worked_hours": 30.33,
-      "midnight_hours": 7,
+      "overtime_hours": 21,
+      "worked_hours": 46,
+      "midnight_hours": 11,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 7.33,
-        "2026-09-23": null,
+        "2026-09-23": 7.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12067,13 +12104,13 @@
       }
     },
     "07038703": {
-      "overtime_hours": 13.17,
-      "worked_hours": 29.83,
+      "overtime_hours": 15.67,
+      "worked_hours": 40.67,
       "midnight_hours": 6.5,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 6.83,
-        "2026-09-23": null,
+        "2026-09-23": 2.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12104,13 +12141,13 @@
       }
     },
     "08001401": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17,
+      "worked_hours": 38,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12142,12 +12179,12 @@
     },
     "08001402": {
       "overtime_hours": 0,
-      "worked_hours": 8.33,
+      "worked_hours": 16.67,
       "midnight_hours": 0,
       "daily": {
         "2026-09-21": 0,
         "2026-09-22": null,
-        "2026-09-23": null,
+        "2026-09-23": 0,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12178,13 +12215,13 @@
       }
     },
     "08001403": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
-      "midnight_hours": 2.5,
+      "overtime_hours": 16.5,
+      "worked_hours": 41.5,
+      "midnight_hours": 3.5,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12215,13 +12252,13 @@
       }
     },
     "08001404": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12252,13 +12289,13 @@
       }
     },
     "08001405": {
-      "overtime_hours": 10.67,
-      "worked_hours": 27.33,
-      "midnight_hours": 2,
+      "overtime_hours": 16,
+      "worked_hours": 41,
+      "midnight_hours": 3,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12289,13 +12326,13 @@
       }
     },
     "08001406": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12363,13 +12400,13 @@
       }
     },
     "08004407": {
-      "overtime_hours": 11.17,
-      "worked_hours": 27.83,
+      "overtime_hours": 14.67,
+      "worked_hours": 39.67,
       "midnight_hours": 2.5,
       "daily": {
         "2026-09-21": 5.33,
         "2026-09-22": 5.83,
-        "2026-09-23": null,
+        "2026-09-23": 3.5,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12400,13 +12437,13 @@
       }
     },
     "08004408": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
-      "midnight_hours": 3,
+      "overtime_hours": 17,
+      "worked_hours": 42,
+      "midnight_hours": 4,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 5.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
@@ -12437,13 +12474,13 @@
       }
     },
     "08004409": {
-      "overtime_hours": 11.67,
-      "worked_hours": 28.33,
+      "overtime_hours": 16,
+      "worked_hours": 41,
       "midnight_hours": 3,
       "daily": {
         "2026-09-21": 6.33,
         "2026-09-22": 5.33,
-        "2026-09-23": null,
+        "2026-09-23": 4.33,
         "2026-09-24": null,
         "2026-09-25": null,
         "2026-09-26": null,
