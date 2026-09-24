@@ -11,26 +11,12 @@ import {
   overtimeAlertShort,
 } from "@/lib/overtime";
 import type { OvertimeAlert } from "@/lib/types";
-import overtimeReal04 from "@/lib/data/overtime_2026_04.json";
-import overtimeReal05 from "@/lib/data/overtime_2026_05.json";
-import overtimeReal06 from "@/lib/data/overtime_2026_06.json";
-import overtimeReal07 from "@/lib/data/overtime_2026_07.json";
-import overtimeReal08 from "@/lib/data/overtime_2026_08.json";
+import { allDailyData, allOvertimeSources, latestOvertimePrintDate } from "@/lib/overtime-data";
 
 export const dynamic = "force-dynamic";
 
-// 全overtimeデータから日別マップを構築
-const allDailyData: Record<string, Record<string, number>> = {};
-for (const src of [overtimeReal04, overtimeReal05, overtimeReal06, overtimeReal07, overtimeReal08] as any[]) {
-  for (const [code, val] of Object.entries(src.data as Record<string, any>)) {
-    if (!allDailyData[code]) allDailyData[code] = {};
-    if (val.daily) Object.assign(allDailyData[code], val.daily);
-  }
-}
-
 // 最新のJSONのprint_dateを基準日にする（例: "2026/07/15 08:08"）
-const latestSrc = [overtimeReal08, overtimeReal07, overtimeReal06, overtimeReal05, overtimeReal04].find((s) => (s as any).print_date) as any;
-const printDateFull: string = latestSrc?.print_date ?? ""; // "2026/07/15 08:08"
+const printDateFull: string = latestOvertimePrintDate; // "2026/07/15 08:08"
 const printDateStr: string = printDateFull
   ? printDateFull.slice(0, 10).replace(/\//g, "-")  // "2026-07-15"
   : new Date().toISOString().slice(0, 10);
@@ -71,11 +57,7 @@ const periodDate = now.getDate() <= 20
   ? new Date(now.getFullYear(), now.getMonth() - 1, 1)
   : new Date(now.getFullYear(), now.getMonth(), 1);
 const thisMonthKey = `${periodDate.getFullYear()}-${String(periodDate.getMonth() + 1).padStart(2, "0")}-01`;
-const allOvertimeSrcs = [overtimeReal04, overtimeReal05, overtimeReal06, overtimeReal07, overtimeReal08] as Array<{
-  month_start: string;
-  data: Record<string, { overtime_hours: number }>;
-}>;
-const currentOvertimeData = allOvertimeSrcs.find((s) => s.month_start === thisMonthKey)?.data ?? {};
+const currentOvertimeData = allOvertimeSources.find((s) => s.month_start === thisMonthKey)?.data ?? {};
 
 function getOvertime(employeeCode: string): number {
   const codes = employeeCode.split("\n").map((c) => c.trim());

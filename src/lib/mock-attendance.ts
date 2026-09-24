@@ -2,11 +2,7 @@
 
 import { getAllEmployeesAsSummary } from "./excel-data";
 import type { AttendanceDay, AttendanceMonthly, OvertimeAlert } from "./types";
-import overtimeReal04 from "./data/overtime_2026_04.json";
-import overtimeReal05 from "./data/overtime_2026_05.json";
-import overtimeReal06 from "./data/overtime_2026_06.json";
-import overtimeReal07 from "./data/overtime_2026_07.json";
-import overtimeReal08 from "./data/overtime_2026_08.json";
+import { realDataByMonth, latestOvertimePrintDate as _latestOvertimePrintDate } from "./overtime-data";
 
 const employeesMock = getAllEmployeesAsSummary();
 
@@ -54,20 +50,9 @@ type RealEntry = {
   overtime_hours: number;
   midnight_hours: number;
 };
-// 実績データ: month_start → { code → RealEntry }
-const realDataByMonth: Record<string, Record<string, RealEntry>> = {};
-for (const src of [overtimeReal04, overtimeReal05, overtimeReal06, overtimeReal07, overtimeReal08] as any[]) {
-  const monthStart: string = src.month_start;
-  const map: Record<string, RealEntry> = {};
-  for (const [code, val] of Object.entries(src.data as Record<string, RealEntry>)) {
-    map[code] = val;
-  }
-  realDataByMonth[monthStart] = map;
-}
 
 // 最新の残業取込日時（print_date）
-export const latestOvertimePrintDate: string =
-  ([overtimeReal08, overtimeReal07, overtimeReal06, overtimeReal05, overtimeReal04] as any[]).find((s) => s.print_date)?.print_date ?? "";
+export const latestOvertimePrintDate: string = _latestOvertimePrintDate;
 
 // 管理表の社員コードが「旧\n新」の形式の場合、両方で検索
 function findOvertime(employeeCode: string, monthStart: string): RealEntry | undefined {
