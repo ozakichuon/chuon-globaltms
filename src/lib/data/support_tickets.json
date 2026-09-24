@@ -9824,5 +9824,35 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "296",
+    "seq": 296,
+    "date": "2026/09/24",
+    "time": "9:57:48",
+    "recorder": "丹下",
+    "target_employee_code": "07038639",
+    "target_employee_id": "07038639",
+    "place": null,
+    "kind": null,
+    "status": "対応中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": null,
+    "responses": [
+      {
+        "date": "2026/09/24",
+        "time": "9:58:00",
+        "responder": "丹下",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "日本にきてから左膝の痛みがある。時間がたって腫れて内出血あり。病院の診察後、MRI検査を受けるよう言われたため紹介状書いてもらった。"
+      }
+    ],
+    "overall_note": null
   }
 ]

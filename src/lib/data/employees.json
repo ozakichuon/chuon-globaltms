@@ -458,8 +458,8 @@
     "address_jp": "和泉北1-20-28アトムスカイマンション305",
     "room_type": "夫婦",
     "rent_burden": null,
-    "residence_card_no": "UH54552117PC",
-    "residence_card_expires_at": "2026/09/29",
+    "residence_card_no": "LJ35278188PC",
+    "residence_card_expires_at": "2029/06/29",
     "employment_insurance_no": null,
     "jlpt_level": "N4\n2024/07/07",
     "department_head": null,
@@ -489,7 +489,7 @@
     "doc_jlpt_pass": null,
     "doc_ss2_pass": null,
     "doc_license": null,
-    "doc_other1_photo": null,
+    "doc_other1_photo": "https://drive.google.com/thumbnail?id=1Sy3WodL4T9yXHvbTc-3cbxO9hP13dLyu&sz=w800",
     "doc_other2_photo": null,
     "doc_other1_file": null,
     "doc_other2_file": null
@@ -975,7 +975,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=1YnjBz87HTrMtQgTckYpLoERRfaueO6BO&sz=w800",
     "section": "四課",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "入管提出",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1kWyhH53gvQnLHER3MYscQ-m-MlhRolSf&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -1030,7 +1030,7 @@
     "photo_url": null,
     "section": "子供",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "入管提出",
     "doc_residence_card": null,
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -1910,7 +1910,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=1usO9MIthjFe-sLVpfD38h5gZ383AHuxj&sz=w800",
     "section": "製造一課",
     "workplace": "本社",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1UykIKbuO754sHi_5q-icUDyaMzLyXezf&sz=w800",
     "doc_passport": "https://drive.google.com/thumbnail?id=1kZs01HubOcD4lVGPirtqbEpumGUIKnGz&sz=w800",
     "doc_insurance_policy": null,
@@ -5760,7 +5760,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=1i7LbrzOEyez-yYXJPcCB9tu92sGKFJxi&sz=w800",
     "section": "四課",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1gvJDB30LV-JNPG7ZsfYXyaFTgmQ8At34&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -5815,7 +5815,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=1hCA4fSsdiRBZ4RDy_FIudYtP9eQiiR1h&sz=w800",
     "section": "二課",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1_dBchJVGyZU7BAKM-3i926jzC9Vf3YOR&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -5980,7 +5980,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=1pme7P9NvzDwnBylilNsii8-L5BqdXWu4&sz=w800",
     "section": "四課",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=16b_UQyE1IvIyczEV1ul9DjpSTOQfayem&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -6035,7 +6035,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=13CeeDJ6YDrz14gc6bXrfNjfmDO8DsoQg&sz=w800",
     "section": "二課",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1SXZQ9_r8ue8_0L9_-REchD2Cp1G7e6UD&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -6145,7 +6145,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=1To-3iRU9VTWLdsjS5hFVIS6QmBNaTGtw&sz=w800",
     "section": "箱入れ",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1t21rV9ok5msAdmpG-PoWt5FdURZGeQtm&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -6200,7 +6200,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=19FHSFp3MxL7OyQSma7JkmYFkXdn8mfAu&sz=w800",
     "section": "四課",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1-1NfjjNVOJSqf3PCVVecZ-E6i31LT3Wr&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -6255,7 +6255,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=1byTK8fzdhDmskAmXH1oHdNb0NqBMOe29&sz=w800",
     "section": "四課",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=1jdEAnhgwphEZhLYrerzBjpHXHoejUqwR&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -6310,7 +6310,7 @@
     "photo_url": "https://drive.google.com/thumbnail?id=1WiB9gUPHaagw4slYJj_miMvUr3GtbiWm&sz=w800",
     "section": "四課",
     "workplace": "津吉",
-    "residence_card_procedure": "",
+    "residence_card_procedure": "作成中",
     "doc_residence_card": "https://drive.google.com/thumbnail?id=19wkfeLCjeVE-V3jt5BVWXIZFg4sLwHCe&sz=w800",
     "doc_passport": null,
     "doc_insurance_policy": null,
@@ -15235,8 +15235,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999983",
-    "employee_code": "99999983",
+    "id": "07038665",
+    "employee_code": "07038665",
     "display_name": "NADIATUL HUSNA HANIFAH",
     "furigana": "ナディアトゥル フスナ ハニファー",
     "nickname": "ナディア",
@@ -15290,8 +15290,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999982",
-    "employee_code": "99999982",
+    "id": "07018651",
+    "employee_code": "07018651",
     "display_name": "MUHAMMAD IBNU ABDIL JADID ARIFIN",
     "furigana": "ムハンマド イブヌ アブディル ジャディド アリフィン",
     "nickname": "イブヌ",
@@ -15327,7 +15327,7 @@
     "salary_account": null,
     "note": null,
     "photo_path": null,
-    "photo_url": null,
+    "photo_url": "https://drive.google.com/thumbnail?id=1EBrrKHvBdnRfNjZ5sJDNr5XbV9TBboLi&sz=w800",
     "section": "9/22入国",
     "workplace": "津吉",
     "residence_card_procedure": "",
@@ -15345,8 +15345,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999981",
-    "employee_code": "99999981",
+    "id": "07018652",
+    "employee_code": "07018652",
     "display_name": "AFRIZAL",
     "furigana": "アフリザル",
     "nickname": null,
@@ -15382,7 +15382,7 @@
     "salary_account": null,
     "note": null,
     "photo_path": null,
-    "photo_url": null,
+    "photo_url": "https://drive.google.com/thumbnail?id=1OGK4h6g-cWDRz5dhRwmMUw9-PlYUFUmk&sz=w800",
     "section": "9/22入国",
     "workplace": "津吉",
     "residence_card_procedure": "",
@@ -15400,8 +15400,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999980",
-    "employee_code": "99999980",
+    "id": "07018653",
+    "employee_code": "07018653",
     "display_name": "RONI NURHADI",
     "furigana": "ロニ ヌルハディ",
     "nickname": null,
@@ -15437,7 +15437,7 @@
     "salary_account": null,
     "note": null,
     "photo_path": null,
-    "photo_url": null,
+    "photo_url": "https://drive.google.com/thumbnail?id=1uVYdLew9uhXq0IR2ebWeF9pwyBKUwWOg&sz=w800",
     "section": "9/22入国",
     "workplace": "津吉",
     "residence_card_procedure": "",
@@ -15455,8 +15455,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999979",
-    "employee_code": "99999979",
+    "id": "07038662",
+    "employee_code": "07038662",
     "display_name": "MUHAMAD YUNUS",
     "furigana": "ムハマド ユヌス",
     "nickname": "ユヌス",
@@ -15510,8 +15510,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999978",
-    "employee_code": "99999978",
+    "id": "07038666",
+    "employee_code": "07038666",
     "display_name": "NUR ZIYADATUN NIKMAH",
     "furigana": "ヌル ジヤダトゥン ニクマー",
     "nickname": "ジヤ",
@@ -15565,8 +15565,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999977",
-    "employee_code": "99999977",
+    "id": "07038667",
+    "employee_code": "07038667",
     "display_name": "LINIA RAHAYU SETIAWATI",
     "furigana": "リニア ラハユ セティアワティ",
     "nickname": "リニア",
@@ -15620,8 +15620,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999976",
-    "employee_code": "99999976",
+    "id": "07038668",
+    "employee_code": "07038668",
     "display_name": " SULIS YANA",
     "furigana": "スリス ヤナ",
     "nickname": "スリス",
@@ -15675,8 +15675,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999975",
-    "employee_code": "99999975",
+    "id": "07038669",
+    "employee_code": "07038669",
     "display_name": "TUTIK RAHMA SOLIHAH",
     "furigana": "トゥティク ラーマ ソリハ",
     "nickname": "ラーマ",
@@ -15730,8 +15730,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999974",
-    "employee_code": "99999974",
+    "id": "07038670",
+    "employee_code": "07038670",
     "display_name": "AFIQOH QORIATUL HANIM",
     "furigana": "アフィコ コリアトゥル ハニム",
     "nickname": "アフィコ",
@@ -15785,8 +15785,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999973",
-    "employee_code": "99999973",
+    "id": "07038671",
+    "employee_code": "07038671",
     "display_name": "ICA WIJAYANTI",
     "furigana": "イチャ ウィジャヤンティ",
     "nickname": "イチャ",
@@ -15840,8 +15840,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999972",
-    "employee_code": "99999972",
+    "id": "07038663",
+    "employee_code": "07038663",
     "display_name": "ILHAM ALFARIZZI",
     "furigana": "イルハム アルファリッチ",
     "nickname": "イルハム",
@@ -15895,8 +15895,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999971",
-    "employee_code": "99999971",
+    "id": "07038672",
+    "employee_code": "07038672",
     "display_name": "NABILA FIAMAILLAH RACHMAN",
     "furigana": "ナビラ フィアマニッラ ラーマン ",
     "nickname": "ナビラ",
@@ -15950,8 +15950,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999970",
-    "employee_code": "99999970",
+    "id": "07038664",
+    "employee_code": "07038664",
     "display_name": "AJI TRIANSYAH",
     "furigana": "アジ　トリアンシャー",
     "nickname": null,
@@ -16005,8 +16005,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999969",
-    "employee_code": "99999969",
+    "id": "07038673",
+    "employee_code": "07038673",
     "display_name": "ESTRI AYU MUKTISARI",
     "furigana": "エストリ　アユ　ムクティサリ",
     "nickname": null,
@@ -17655,8 +17655,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999952",
-    "employee_code": "99999952",
+    "id": "07038646",
+    "employee_code": "07038646",
     "display_name": "NUR AFIT MUSTAQIM",
     "furigana": "ヌル　アフィット　ムスタッキム",
     "nickname": null,
@@ -17710,8 +17710,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999951",
-    "employee_code": "99999951",
+    "id": "07038652",
+    "employee_code": "07038652",
     "display_name": "SAFITROH",
     "furigana": "サフィトロ",
     "nickname": null,
@@ -17765,8 +17765,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999950",
-    "employee_code": "99999950",
+    "id": "07038647",
+    "employee_code": "07038647",
     "display_name": "SAEFUR ROKMAN",
     "furigana": "サエフル　ロクマン",
     "nickname": null,
@@ -17820,8 +17820,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999949",
-    "employee_code": "99999949",
+    "id": "07038653",
+    "employee_code": "07038653",
     "display_name": "DINI SURYANINGRUM",
     "furigana": "ディニスリャニンルム",
     "nickname": null,
@@ -17875,8 +17875,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999948",
-    "employee_code": "99999948",
+    "id": "07038654",
+    "employee_code": "07038654",
     "display_name": "FERRA SUJANI",
     "furigana": "フェッラ　スジャニ",
     "nickname": null,
@@ -17930,8 +17930,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999947",
-    "employee_code": "99999947",
+    "id": "07038655",
+    "employee_code": "07038655",
     "display_name": "ALIFIA ANGGITA MUKTI",
     "furigana": "アリフィア　アンギタ　ムクティ",
     "nickname": null,
@@ -17985,8 +17985,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999946",
-    "employee_code": "99999946",
+    "id": "07038656",
+    "employee_code": "07038656",
     "display_name": "JOSLIN AGUS TRIANI",
     "furigana": "ジョスリン　アグス　トリアニ",
     "nickname": null,
@@ -18040,8 +18040,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999945",
-    "employee_code": "99999945",
+    "id": "07038657",
+    "employee_code": "07038657",
     "display_name": "MITA NUR HARYANI",
     "furigana": "ミタ　ヌル　ハルヤ二",
     "nickname": null,
@@ -18095,8 +18095,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999944",
-    "employee_code": "99999944",
+    "id": "07038658",
+    "employee_code": "07038658",
     "display_name": "NUR AINI KHASANAH",
     "furigana": "ヌル　アイ二　カサナ",
     "nickname": null,
@@ -18150,8 +18150,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999943",
-    "employee_code": "99999943",
+    "id": "07038648",
+    "employee_code": "07038648",
     "display_name": "MOH TAUFIQURROHMAN",
     "furigana": "モー  タウフィク  ロフマン",
     "nickname": null,
@@ -18205,8 +18205,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999942",
-    "employee_code": "99999942",
+    "id": "07038649",
+    "employee_code": "07038649",
     "display_name": "ANDIKO NURDIYANTO",
     "furigana": "アンディコ　ヌルディヤント",
     "nickname": null,
@@ -18260,8 +18260,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999941",
-    "employee_code": "99999941",
+    "id": "07038659",
+    "employee_code": "07038659",
     "display_name": "PINKY ANDIN AUDIA",
     "furigana": "ピンキー　アンディン　アウディア",
     "nickname": null,
@@ -18315,8 +18315,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999940",
-    "employee_code": "99999940",
+    "id": "07038650",
+    "employee_code": "07038650",
     "display_name": "MOCHAMMAD ALIF SUBCHAN",
     "furigana": "モハマド　アリフ　スブチャン",
     "nickname": null,
@@ -18370,8 +18370,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999939",
-    "employee_code": "99999939",
+    "id": "07038660",
+    "employee_code": "07038660",
     "display_name": "MIKE ALVIONITA",
     "furigana": "ミケ　アルヴィオニタ",
     "nickname": null,
@@ -18425,8 +18425,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999938",
-    "employee_code": "99999938",
+    "id": "07038661",
+    "employee_code": "07038661",
     "display_name": "SANDEWI HAMSA",
     "furigana": "サンデウィ　ハムサ",
     "nickname": null,
@@ -18480,8 +18480,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999937",
-    "employee_code": "99999937",
+    "id": "07038651",
+    "employee_code": "07038651",
     "display_name": "DIKA DWI PUTRA",
     "furigana": "ディカ ドウィ プトラ",
     "nickname": "ディカ",
@@ -18535,8 +18535,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999922",
-    "employee_code": "99999922",
+    "id": "07037614",
+    "employee_code": "07037614",
     "display_name": "NGUYEN THI KIM THOA",
     "furigana": "グエン ティ キム トア",
     "nickname": "トア",
@@ -18590,8 +18590,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999921",
-    "employee_code": "99999921",
+    "id": "07037615",
+    "employee_code": "07037615",
     "display_name": "HO THI HAN",
     "furigana": "ホー ティ ハン",
     "nickname": "ハン",
@@ -18645,8 +18645,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999936",
-    "employee_code": "99999936",
+    "id": "07038674",
+    "employee_code": "07038674",
     "display_name": "RIVO DHARMAZAL",
     "furigana": "リヴォ デャルマザル",
     "nickname": "リヴォ",
@@ -18700,8 +18700,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999935",
-    "employee_code": "99999935",
+    "id": "07018654",
+    "employee_code": "07018654",
     "display_name": "ARDIANUS BAWAMENEWI",
     "furigana": "アルディアヌス バワメネウィ",
     "nickname": "アルディ",
@@ -18755,8 +18755,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999934",
-    "employee_code": "99999934",
+    "id": "07018655",
+    "employee_code": "07018655",
     "display_name": "M. FIKRI IKHSAN",
     "furigana": "エム フィクリ イクサン",
     "nickname": "フィクリ",
@@ -18810,8 +18810,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999933",
-    "employee_code": "99999933",
+    "id": "07038677",
+    "employee_code": "07038677",
     "display_name": "FERNA MARYANI",
     "furigana": "フェルナ マルヤニ",
     "nickname": "フェルナ",
@@ -18865,8 +18865,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999932",
-    "employee_code": "99999932",
+    "id": "07038678",
+    "employee_code": "07038678",
     "display_name": "ELA MARLIANA RIYANTI",
     "furigana": "エラ マルリアナ リヤンティ",
     "nickname": "エラ",
@@ -18920,8 +18920,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999931",
-    "employee_code": "99999931",
+    "id": "07038679",
+    "employee_code": "07038679",
     "display_name": "FANNY YOLANDA",
     "furigana": "ファンニ ヨランダ",
     "nickname": "ファンニ",
@@ -18975,8 +18975,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999930",
-    "employee_code": "99999930",
+    "id": "07038680",
+    "employee_code": "07038680",
     "display_name": "LIDYA AFIZA",
     "furigana": "リディア アフィザ",
     "nickname": "リディア",
@@ -19030,8 +19030,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999929",
-    "employee_code": "99999929",
+    "id": "07038681",
+    "employee_code": "07038681",
     "display_name": "SEPTI EKA DWIJAYANTI",
     "furigana": "セプティ エカ ドウィジャヤンティ",
     "nickname": "エカ",
@@ -19085,8 +19085,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999928",
-    "employee_code": "99999928",
+    "id": "07038682",
+    "employee_code": "07038682",
     "display_name": "DEVIANA RETNOWATI",
     "furigana": "デフィアナ レトノワティ",
     "nickname": "レトノ",
@@ -19140,8 +19140,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999927",
-    "employee_code": "99999927",
+    "id": "07038675",
+    "employee_code": "07038675",
     "display_name": "MUHAMMAD BAYU ASSEGAF",
     "furigana": "ムハマド バユ アセガフ",
     "nickname": "バユ",
@@ -19195,8 +19195,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999926",
-    "employee_code": "99999926",
+    "id": "07018656",
+    "employee_code": "07018656",
     "display_name": "ADI PRATAMA MAULUDY",
     "furigana": "アディ プラタマ マウルディ",
     "nickname": "アディ",
@@ -19250,8 +19250,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999925",
-    "employee_code": "99999925",
+    "id": "07038676",
+    "employee_code": "07038676",
     "display_name": "FIRSAN ANUGRAH",
     "furigana": "フィルサン アヌグラー",
     "nickname": "フィルサン",
@@ -19305,8 +19305,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999924",
-    "employee_code": "99999924",
+    "id": "07018657",
+    "employee_code": "07018657",
     "display_name": "SURYA ANGGA JATISAPUTRA",
     "furigana": "スルヤ アンガ ジャテサプトラ",
     "nickname": "アンガ",
@@ -19360,8 +19360,8 @@
     "doc_other2_file": null
   },
   {
-    "id": "99999923",
-    "employee_code": "99999923",
+    "id": "07018658",
+    "employee_code": "07018658",
     "display_name": "RAHMAD GUNAWAN",
     "furigana": "ラフマド グナワン",
     "nickname": "ラフマド",
