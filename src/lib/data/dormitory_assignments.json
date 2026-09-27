@@ -1168,22 +1168,6 @@
     "gender": "男"
   },
   {
-    "id": "999e8821-999e-599e-999e88-999e8821999e",
-    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
-    "dormitory_name": "ビレッジハウス松山上野",
-    "room_id": "988830b8-9888-5888-988830-988830b89888",
-    "room_no": "1-507",
-    "resident_name": "リザル ムハマド フィルダウス",
-    "employee_id": "999e8821-999e-599e-999e88-999e8821999e",
-    "employee_code": "07013680",
-    "photo_url": "https://drive.google.com/thumbnail?id=1udU0d7DDZGSJff58Apbte5bj0uBTypDP&sz=w800",
-    "rent_burden": null,
-    "workplace": "津吉",
-    "nationality": "インドネシア",
-    "visa_type": "特定技能１号",
-    "gender": "男"
-  },
-  {
     "id": "0d1e9708-0d1e-5d1e-8d1e97-0d1e97080d1e",
     "dormitory_id": "55b291e2-adb1-49e2-bc5e-292e22ea5f12",
     "dormitory_name": "コーポ津吉",
@@ -3736,7 +3720,7 @@
     "resident_name": "エム フィクリ イクサン",
     "employee_id": "ac122e85-ac12-5c12-ac122e-ac122e85ac12",
     "employee_code": "07018655",
-    "photo_url": null,
+    "photo_url": "https://drive.google.com/thumbnail?id=1raofFCCmWOf9UYCnip0ChK7InI1jwBoT&sz=w800",
     "rent_burden": null,
     "workplace": "津吉",
     "nationality": "インドネシア",
@@ -3918,5 +3902,21 @@
     "nationality": "インドネシア",
     "visa_type": "特定技能１号",
     "gender": "男"
+  },
+  {
+    "id": "a05bc034-a05b-505b-a05bc0-a05bc034a05b",
+    "dormitory_id": "2544426f-6562-43e5-9784-e8afd065171f",
+    "dormitory_name": "HAPPINESS",
+    "room_id": "11e37f3b-11e3-51e3-91e37f-11e37f3b11e3",
+    "room_no": "E101",
+    "resident_name": "チャン ティ ホア",
+    "employee_id": "a05bc034-a05b-505b-a05bc0-a05bc034a05b",
+    "employee_code": "07037617",
+    "photo_url": null,
+    "rent_burden": null,
+    "workplace": "西条",
+    "nationality": "ベトナム",
+    "visa_type": "特定技能１号",
+    "gender": "女"
   }
 ]
