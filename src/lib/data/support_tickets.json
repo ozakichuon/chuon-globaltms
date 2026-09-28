@@ -9884,5 +9884,24 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "298",
+    "seq": 298,
+    "date": "2026/09/28",
+    "time": "12:42:06",
+    "recorder": null,
+    "target_employee_code": "07013616",
+    "target_employee_id": "07013616",
+    "place": null,
+    "kind": "問合せ",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/298.登録画像１－１.034334.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=17Ggmw_BMjylGFX0u-rmaEdwgwWlF2EVu&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "ユニアニと、実務経験証明書が欲しいと連絡",
+    "responses": [],
+    "overall_note": null
   }
 ]
