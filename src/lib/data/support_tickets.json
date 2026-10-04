@@ -9903,5 +9903,24 @@
     "request_note": "ユニアニと、実務経験証明書が欲しいと連絡",
     "responses": [],
     "overall_note": null
+  },
+  {
+    "id": "299",
+    "seq": 299,
+    "date": "2026/10/02",
+    "time": "11:31:22",
+    "recorder": "池内",
+    "target_employee_code": "07013612",
+    "target_employee_id": "07013612",
+    "place": null,
+    "kind": "修理 , 結婚",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/299.登録画像１－１.023215.jpg",
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "LEDがつかない",
+    "responses": [],
+    "overall_note": null
   }
 ]
