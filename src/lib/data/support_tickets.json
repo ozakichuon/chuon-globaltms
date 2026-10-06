@@ -9922,5 +9922,24 @@
     "request_note": "LEDがつかない",
     "responses": [],
     "overall_note": null
+  },
+  {
+    "id": "300",
+    "seq": 300,
+    "date": "2026/10/06",
+    "time": "19:42:12",
+    "recorder": "尾崎",
+    "target_employee_code": "07011609",
+    "target_employee_id": "07011609",
+    "place": null,
+    "kind": "一時帰国",
+    "status": "申請中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "1/28～2/27まで一時帰国申し出。大西工場長代理に了承を得てくださいと伝える",
+    "responses": [],
+    "overall_note": null
   }
 ]
