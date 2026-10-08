@@ -9941,5 +9941,75 @@
     "request_note": "1/28～2/27まで一時帰国申し出。大西工場長代理に了承を得てくださいと伝える",
     "responses": [],
     "overall_note": null
+  },
+  {
+    "id": "301",
+    "seq": 301,
+    "date": "2026/10/08",
+    "time": "15:02:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07018601",
+    "target_employee_id": "07018601",
+    "place": "ビレッジ4-504",
+    "kind": "修理",
+    "status": "対応中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "冷蔵庫冷えない",
+    "responses": [
+      {
+        "date": "2026/10/08",
+        "time": "16:59:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/301.対応画像１ー１.080126.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1gG4ZNY1M1T9iNK1sGzJTIfGESp683gCQ&sz=w800",
+        "img2": "/appsheet/rireki_photo/301.対応画像１－２.080126.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1uwz9Mb-LN9eu0s9EUE8936BRcB96E8FS&sz=w800",
+        "note": "2014年製造、２日前から全てが冷えない"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "302",
+    "seq": 302,
+    "date": "2026/10/07",
+    "time": "20:02:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07007602",
+    "target_employee_id": "07007602",
+    "place": "アトム605",
+    "kind": "修理",
+    "status": "対応中",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "冷凍庫が冷えない",
+    "responses": [
+      {
+        "date": "2026/10/07",
+        "time": "20:37:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "ハイアールに修理衣良"
+      },
+      {
+        "date": "2026/10/08",
+        "time": "16:37:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "10/9の14時に訪問予定"
+      }
+    ],
+    "overall_note": null
   }
 ]
