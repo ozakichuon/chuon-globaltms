@@ -10015,11 +10015,70 @@
         "responder": "尾崎",
         "img1": "/appsheet/rireki_photo/302.対応画像３ー１.084552.jpg",
         "img1_url": "https://drive.google.com/thumbnail?id=1VaSeiFyWPhRf6416nS5Z8hVnOJCZWxQc&sz=w800",
-        "img2": null,
-        "img2_url": null,
+        "img2": "/appsheet/rireki_photo/302.対応画像３－２.050127.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1ZkX7FsbVw6-JaaMOmmd740aNCh1hwMVD&sz=w800",
         "note": "冷媒不良により交換　担当薦田さん07015415014"
+      },
+      {
+        "date": "2026/10/10",
+        "time": "12:59:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/302.対応画像４ー１.050127.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1NU32vvkRme5x1p7Zb-huwOzRt4_ko-LO&sz=w800",
+        "img2": "/appsheet/rireki_photo/302.対応画像４－２.050127.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1TGhYHpUKOG3Qui_BR-QSRVtF_o9h7SJa&sz=w800",
+        "note": "アクア新規購入分を設置、交換分は８０６予定"
       }
     ],
+    "overall_note": null
+  },
+  {
+    "id": "303",
+    "seq": 303,
+    "date": "2026/10/08",
+    "time": "10:22:17",
+    "recorder": "尾崎",
+    "target_employee_code": "07013688",
+    "target_employee_id": "07013688",
+    "place": "中野３",
+    "kind": "修理",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/303.登録画像１－１.013451.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1phRSACAd9U_oU0VAfT8AW9DAj3-wTb21&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車をDCM重信から持って帰りたい。修理が難しいと言われた。",
+    "responses": [
+      {
+        "date": "2026/10/10",
+        "time": "9:34:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/303.対応画像１ー１.013451.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1pQ8trCpF9z_kQfZBQDn1c0zvqIKJLPRD&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "自転車を自宅まで移動"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "304",
+    "seq": 304,
+    "date": "2026/10/10",
+    "time": "10:34:46",
+    "recorder": "尾崎",
+    "target_employee_code": "07013688",
+    "target_employee_id": "07013688",
+    "place": "中野３",
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/304.登録画像１－１.013618.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1aAjzPM0V_T1EIVRfINxVtCdIu-_qMD6J&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "洗面台の電気がつかない",
+    "responses": [],
     "overall_note": null
   }
 ]
