@@ -9913,7 +9913,7 @@
     "target_employee_code": "07013612",
     "target_employee_id": "07013612",
     "place": null,
-    "kind": "修理 , 結婚",
+    "kind": "修理",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/299.登録画像１－１.023215.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1izk_j-gf5ElebU0JpmbSMN80F-k-ZLoc&sz=w800",
@@ -10072,12 +10072,42 @@
     "target_employee_id": "07013688",
     "place": "中野３",
     "kind": "修理",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/304.登録画像１－１.013618.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1aAjzPM0V_T1EIVRfINxVtCdIu-_qMD6J&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "洗面台の電気がつかない",
+    "responses": [
+      {
+        "date": "2026/10/12",
+        "time": "9:33:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/304.対応画像１－２.003418.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1U7PEQ4z56Sa4jzqOzl5KycYs3fT5Izk1&sz=w800",
+        "note": "電球交換"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "305",
+    "seq": 305,
+    "date": "2026/10/12",
+    "time": "8:50:13",
+    "recorder": "池内",
+    "target_employee_code": "07013656",
+    "target_employee_id": "07013656",
+    "place": null,
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/305.登録画像１－１.235103.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1WkJmS2BrVJUiWUROvm5vj90oeNSkQ0ji&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車パンク修理依頼",
     "responses": [],
     "overall_note": null
   }
