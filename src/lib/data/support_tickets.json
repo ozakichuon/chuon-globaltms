@@ -10153,7 +10153,7 @@
     "target_employee_id": "07038685",
     "place": "西条寮",
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/306.登録画像１－１.160418.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1eKwmuQeQ9ixqN5C89UoEzx7qF3hjfHqa&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/306.登録画像１－２.160418.jpg",
@@ -10179,6 +10179,16 @@
         "img2": null,
         "img2_url": null,
         "note": "10/16金曜日、10～12時修理業者が訪問、５分前連絡依頼"
+      },
+      {
+        "date": "2026/10/16",
+        "time": "10:17:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "山内さんに依頼し立ち会い対応"
       }
     ],
     "overall_note": null
