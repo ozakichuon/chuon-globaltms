@@ -10260,5 +10260,73 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "310",
+    "seq": 310,
+    "date": "2026/10/17",
+    "time": "21:48:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07038607",
+    "target_employee_id": "07038607",
+    "place": "西条寮",
+    "kind": null,
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/310.登録画像１－１.234908.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1kcAiDhGZqYDeXhM4CkCOtR6gj65X6YPQ&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "E206の鍵が故障",
+    "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "311",
+    "seq": 311,
+    "date": "2026/10/18",
+    "time": "11:42:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013653",
+    "target_employee_id": "07013653",
+    "place": "牛渕２",
+    "kind": "修理",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/311.登録画像１－１.211629.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1_DkIi6bOPtkbQXXhhQKq7wxgkNyCHh39&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車の空気が入らない",
+    "responses": [
+      {
+        "date": "2026/10/18",
+        "time": "15:15:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "ゴム交換しました"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "312",
+    "seq": 312,
+    "date": "2026/10/18",
+    "time": "21:16:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013687",
+    "target_employee_id": "07013687",
+    "place": null,
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/312.登録画像１－１.211827.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1qFf9IqLoocmMJRwrh3bxG_P5mCU4Zbrq&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車修理依頼",
+    "responses": [],
+    "overall_note": null
   }
 ]
