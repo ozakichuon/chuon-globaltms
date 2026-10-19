@@ -10203,13 +10203,24 @@
     "target_employee_id": "07018638",
     "place": null,
     "kind": "妊娠",
-    "status": "申請中",
+    "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/307.登録画像１－１.055826.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1KGM9FNJh1bbm3Rli6BtQJg1upXgq-zkU&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "アルムより、妊娠したと報告を受けた。すでに病院（つばきウィメンズ）で確認済。大西さんにも報告をしており残業に配慮していただいているとのこと。おそらく6月頃出産予定。本人の意向としては2月頃退職し、インドネシアで出産したい。体調と相談しながら退職時期は決める",
-    "responses": [],
+    "responses": [
+      {
+        "date": null,
+        "time": null,
+        "responder": null,
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "妊娠5週くらい。つわり症状が出ており、吐き気がつらく食事もとれないため体重減少。病院受診し母子健康連絡カードをもらい11/7まで13:00～定時までの時短勤務とする"
+      }
+    ],
     "overall_note": null
   },
   {
