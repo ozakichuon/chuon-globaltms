@@ -10252,7 +10252,7 @@
     "target_employee_id": "07018624",
     "place": null,
     "kind": "修理",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/309.登録画像１－１.040104.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1rwo294b-FG2UzUoXRADIfm6OxsAw7r-J&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/309.登録画像１－２.040104.jpg",
@@ -10288,7 +10288,18 @@
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "E206の鍵が故障",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/10/20",
+        "time": "10:40:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/310.対応画像１ー１.074400.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=12HvhVROztqan25Xio1jhAdtHKWPfdNjr&sz=w800",
+        "img2": "/appsheet/rireki_photo/310.対応画像１－２.074400.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=15JkmHmqo9iZw6JPxfCCaDe7BgfNGUD9S&sz=w800",
+        "note": "シンガー調整すれば、鍵が動くがぐらぐらのため、ドア内部がだめのようなので、大東建託に連絡。10/23、10時対応予定"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -10331,13 +10342,24 @@
     "target_employee_id": "07013687",
     "place": null,
     "kind": "修理",
-    "status": "申請中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/312.登録画像１－１.211827.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1qFf9IqLoocmMJRwrh3bxG_P5mCU4Zbrq&sz=w800",
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "自転車修理依頼",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/10/20",
+        "time": "9:39:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/312.対応画像１ー１.074000.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1-XA80Gs0x8O2MMgqgU3Ik3jdBlMwiEEN&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "ダナンが修理済み"
+      }
+    ],
     "overall_note": null
   }
 ]
