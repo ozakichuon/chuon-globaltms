@@ -117,9 +117,13 @@ export default async function EmployeeDetailPage({
             <span className="font-mono text-xs text-slate-500">
               {emp.employee_code}
             </span>
-            <Badge className={careerLevelBadge(emp.career_level)}>
-              Lv{emp.career_level} {emp.career_level_name_ja}
-            </Badge>
+            {emp.status === "child" ? (
+              <Badge className="bg-pink-50 text-pink-700 border border-pink-200">子供</Badge>
+            ) : (
+              <Badge className={careerLevelBadge(emp.career_level)}>
+                Lv{emp.career_level} {emp.career_level_name_ja}
+              </Badge>
+            )}
           </div>
           {emp.last_name_native && (
             <div className="text-sm text-slate-500 mt-1">

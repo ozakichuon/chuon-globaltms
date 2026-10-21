@@ -217,7 +217,7 @@ export function getAllEmployeesAsSummary(): EmployeeSummary[] {
       native_language: nat === "ID" ? "id" : nat === "VN" ? "vi" : "ja",
       preferred_language: nat === "ID" ? "id" : nat === "VN" ? "vi" : "ja",
       employment_type: employmentType,
-      status: e.retired ? "retired" : (e.section === "子供" && e.visa_type_jp === "特定活動") ? "child" : "active",
+      status: e.retired ? "retired" : (e.section === "子供" && (e.visa_type_jp === "特定活動" || e.visa_type_jp === "家族滞在")) ? "child" : "active",
       hired_at: e.hired_at ?? "",
       jlpt_level: jlpt,
       career_level: level,

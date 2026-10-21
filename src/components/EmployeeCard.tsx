@@ -69,12 +69,18 @@ export function EmployeeCard({ e }: { e: EmployeeSummary }) {
         </div>
       )}
       <div className={`flex flex-wrap gap-1.5 items-center ${hasVisaBadge && e.residence_card_procedure ? "mt-1" : "mt-4"}`}>
-        <Badge className={careerLevelBadge(e.career_level)}>
-          Lv{e.career_level} {e.career_level_name_ja}
-        </Badge>
-        <Badge className="bg-slate-100 text-slate-700 border border-slate-200">
-          {employmentTypeLabel(e.employment_type)}
-        </Badge>
+        {e.status === "child" ? (
+          <Badge className="bg-pink-50 text-pink-700 border border-pink-200">子供</Badge>
+        ) : (
+          <>
+            <Badge className={careerLevelBadge(e.career_level)}>
+              Lv{e.career_level} {e.career_level_name_ja}
+            </Badge>
+            <Badge className="bg-slate-100 text-slate-700 border border-slate-200">
+              {employmentTypeLabel(e.employment_type)}
+            </Badge>
+          </>
+        )}
         {e.jlpt_level !== "none" && (
           <Badge className="bg-slate-100 text-slate-700 border border-slate-200">
             {e.jlpt_level}

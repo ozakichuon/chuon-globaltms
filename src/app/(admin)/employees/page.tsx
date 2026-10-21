@@ -283,15 +283,19 @@ export default async function EmployeesPage({
                       <span className="text-xs">{e.nationality}</span>
                     </td>
                     <td className="py-3 px-4 text-xs">
-                      {employmentTypeLabel(e.employment_type)}
+                      {e.status === "child" ? "子供" : employmentTypeLabel(e.employment_type)}
                     </td>
                     <td className="py-3 px-4 text-xs">
                       {e.organization_name ?? "—"}
                     </td>
                     <td className="py-3 px-4">
-                      <Badge className={careerLevelBadge(e.career_level)}>
-                        Lv{e.career_level} {e.career_level_name_ja}
-                      </Badge>
+                      {e.status === "child" ? (
+                        "—"
+                      ) : (
+                        <Badge className={careerLevelBadge(e.career_level)}>
+                          Lv{e.career_level} {e.career_level_name_ja}
+                        </Badge>
+                      )}
                     </td>
                     <td className="py-3 px-4 text-xs">{e.jlpt_level}</td>
                     <td className="py-3 px-4 text-xs">
