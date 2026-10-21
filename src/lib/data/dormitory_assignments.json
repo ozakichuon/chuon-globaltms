@@ -128,6 +128,22 @@
     "gender": "女"
   },
   {
+    "id": "491ef8dd-491e-591e-891ef8-491ef8dd491e",
+    "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
+    "dormitory_name": "ビレッジハウス松山上野",
+    "room_id": "af3c7419-af3c-5f3c-af3c74-af3c7419af3c",
+    "room_no": "2-507",
+    "resident_name": "ブイ カイン リン",
+    "employee_id": "491ef8dd-491e-591e-891ef8-491ef8dd491e",
+    "employee_code": "07017701-1",
+    "photo_url": null,
+    "rent_burden": null,
+    "workplace": "津吉",
+    "nationality": "ベトナム",
+    "visa_type": "特定活動",
+    "gender": "女"
+  },
+  {
     "id": "d5f6f4bc-d5f6-55f6-95f6f4-d5f6f4bcd5f6",
     "dormitory_id": "5a232eb8-ad12-4afc-8918-0bb0a954941e",
     "dormitory_name": "ビレッジハウス松山上野",
