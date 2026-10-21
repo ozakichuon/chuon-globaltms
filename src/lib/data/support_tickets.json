@@ -10281,7 +10281,7 @@
     "target_employee_code": "07038607",
     "target_employee_id": "07038607",
     "place": "西条寮",
-    "kind": null,
+    "kind": "修理",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/310.登録画像１－１.234908.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1kcAiDhGZqYDeXhM4CkCOtR6gj65X6YPQ&sz=w800",
@@ -10358,6 +10358,36 @@
         "img2": null,
         "img2_url": null,
         "note": "ダナンが修理済み"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "313",
+    "seq": 313,
+    "date": "2026/10/17",
+    "time": "10:22:35",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "アトム402",
+    "kind": "修理",
+    "status": "対応中",
+    "reg_img1": "/appsheet/rireki_photo/313.登録画像１－１.012449.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1k-NUkVR20xl2Lbt-p74wpl3HoPXdfb-j&sz=w800",
+    "reg_img2": "/appsheet/rireki_photo/313.登録画像１－２.012449.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1BSOte6W7mIDBtm9cldnnM9trSaw2PJFw&sz=w800",
+    "request_note": "宮内工場長より、Wifi修理依頼",
+    "responses": [
+      {
+        "date": "2026/10/21",
+        "time": "9:23:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "光ケーブル断線のため、修理対応"
       }
     ],
     "overall_note": null
