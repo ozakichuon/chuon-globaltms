@@ -18,6 +18,7 @@ import Link from "next/link";
 import { Clock, AlertTriangle, TrendingUp, CalendarRange } from "lucide-react";
 import type { OvertimeAlert } from "@/lib/types";
 import { allDailyData, latestOvertimePrintDate } from "@/lib/overtime-data";
+import { ExcelExportButton } from "@/components/ExcelExportButton";
 
 export const dynamic = "force-dynamic";
 
@@ -79,9 +80,14 @@ function orgMatches(orgName: string | null | undefined, site: string): boolean {
 export default async function AttendancePage({
   searchParams,
 }: {
-  searchParams: Promise<{ site?: string }>;
+  searchParams: Promise<{ site?: string; order?: string }>;
 }) {
   const params = await searchParams;
+  const order = params.order === "asc" ? "asc" : "desc";
+  const hrefWith = (site: string, ord: string) => {
+    const qs = [site ? `site=${site}` : "", ord === "asc" ? "order=asc" : ""].filter(Boolean).join("&");
+    return qs ? `/attendance?${qs}` : "/attendance";
+  };
   const [allMonthly, employees] = await Promise.all([
     getAttendanceMonthlyAll(),
     getEmployees(),
@@ -106,10 +112,34 @@ export default async function AttendancePage({
 
   const currentMonth = filteredMonthly.filter((r) => r.month_start === thisMonth);
 
-  // 当月ランキング（残業時間降順、上位40名）
-  const filteredTop = [...currentMonth]
-    .sort((a, b) => b.overtime_hours - a.overtime_hours)
-    .slice(0, 40);
+  // 当月ランキング（残業時間の降順/昇順。画面表示は上位40名、Excelは全員）
+  const rankedAll = [...currentMonth].sort((a, b) =>
+    order === "asc" ? a.overtime_hours - b.overtime_hours : b.overtime_hours - a.overtime_hours
+  );
+  const filteredTop = rankedAll.slice(0, 40);
+
+  const exportHeaders = [
+    "順位", "社員番号", "氏名", "組織", "雇用形態",
+    "残業時間(h)", "残業時間(HH:MM)", "内深夜(HH:MM)", "2ヶ月平均(HH:MM)", "判定",
+    ...recent3Dates,
+  ];
+  const exportRows = rankedAll.map((r, i) => {
+    const daily = allDailyData[r.employee_id] ?? {};
+    return [
+      i + 1,
+      r.employee_code,
+      r.display_name,
+      orgByEmpId.get(r.employee_id) ?? "",
+      employmentTypeLabel(r.employment_type),
+      Math.round(r.overtime_hours * 100) / 100,
+      hoursToHHMM(r.overtime_hours),
+      hoursToHHMM(r.late_night_hours),
+      r.overtime_hours_3m_avg !== null ? hoursToHHMM(r.overtime_hours_3m_avg) : "",
+      overtimeAlertLabel(r.alert_level),
+      ...recent3Dates.map((d) => dailyHHMM(daily[d] as number | null)),
+    ];
+  });
+  const exportFilename = `残業ランキング_${thisMonth.slice(0, 7)}${params.site ? `_${params.site}` : ""}_${order === "asc" ? "昇順" : "降順"}.xlsx`;
 
   // 集計
   const counts: Record<OvertimeAlert, number> = {
@@ -163,7 +193,7 @@ export default async function AttendancePage({
       {/* 工場タブ */}
       <div className="flex gap-1 border-b border-slate-200">
         {SITE_TABS.map((tab) => {
-          const href = tab.key ? `/attendance?site=${tab.key}` : "/attendance";
+          const href = hrefWith(tab.key, order);
           const active = (params.site ?? "") === tab.key;
           return (
             <Link
@@ -335,12 +365,36 @@ export default async function AttendancePage({
               赤・橙ゾーンの従業員は業務分担の見直しを推奨
             </p>
           </div>
-          {printDateFull && (
-            <div className="text-right shrink-0">
-              <div className="text-xs text-slate-500">残業取込</div>
-              <div className="font-bold text-sm">{printDateFull}</div>
+          <div className="flex items-start gap-4 shrink-0">
+            <div className="flex items-center gap-2">
+              <div className="inline-flex rounded border border-slate-300 overflow-hidden text-xs">
+                {(["desc", "asc"] as const).map((o) => (
+                  <Link
+                    key={o}
+                    href={hrefWith(params.site ?? "", o)}
+                    className={cn(
+                      "px-2.5 py-1.5 transition-colors",
+                      order === o ? "bg-brand-600 text-white" : "text-slate-600 hover:bg-slate-50"
+                    )}
+                  >
+                    {o === "desc" ? "降順" : "昇順"}
+                  </Link>
+                ))}
+              </div>
+              <ExcelExportButton
+                headers={exportHeaders}
+                rows={exportRows}
+                filename={exportFilename}
+                sheetName="残業ランキング"
+              />
             </div>
-          )}
+            {printDateFull && (
+              <div className="text-right">
+                <div className="text-xs text-slate-500">残業取込</div>
+                <div className="font-bold text-sm">{printDateFull}</div>
+              </div>
+            )}
+          </div>
         </div>
         {/* 日付ヘッダー行 */}
         {recent3Dates.length > 0 && (

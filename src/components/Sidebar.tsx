@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { Users, FileWarning, TrendingUp, LayoutDashboard, UserCircle2, Settings, Clock, Home, FileHeart, UserPlus, Award, MessageCircle, ListChecks, PlaneTakeoff, Building2, LogOut } from "lucide-react";
+import { Users, FileWarning, TrendingUp, LayoutDashboard, UserCircle2, Settings, Clock, Home, FileHeart, UserPlus, Award, PlaneTakeoff, Building2, LogOut } from "lucide-react";
 
 const nav = [
   { href: "/", label: "ダッシュボード", icon: LayoutDashboard },
@@ -11,8 +11,6 @@ const nav = [
   { href: "/departures", label: "帰国・退職予定", icon: PlaneTakeoff },
   { href: "/career", label: "キャリアラダー", icon: TrendingUp },
   { href: "/certifications", label: "資格管理", icon: Award },
-  { href: "/one-on-ones", label: "1on1 面談", icon: MessageCircle },
-  { href: "/one-on-ones/concerns", label: "悩み集約ボード", icon: ListChecks },
   { href: "/workplace", label: "作業区管理", icon: Building2 },
   { href: "/dormitories", label: "寮管理", icon: Home },
   { href: "/support", label: "生活サポート", icon: FileHeart },

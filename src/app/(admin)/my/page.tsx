@@ -1,12 +1,10 @@
 import { Badge } from "@/components/Badge";
 import { Avatar } from "@/components/Avatar";
 import { getCareerLevels, getEmployeeById, getEmployees } from "@/lib/data";
-import { getEmployeeOneOnOneRequests, getEmployeeOneOnOnes } from "@/lib/excel-data";
-import { REQUEST_STATUS_LABEL, REQUEST_STATUS_STYLE } from "@/lib/one-on-one-labels";
-import { careerLevelBadge, formatDate, tenureString } from "@/lib/utils";
+import { careerLevelBadge, tenureString } from "@/lib/utils";
 import { visaLabel } from "@/lib/labels";
 import Link from "next/link";
-import { Smile, Meh, Frown, AlertCircle, Globe2, MessageCircle, Clock } from "lucide-react";
+import { Smile, Meh, Frown, AlertCircle, Globe2 } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
@@ -38,13 +36,6 @@ export default async function MyPage({
   if (!emp) {
     return <div className="p-8">従業員が見つかりません</div>;
   }
-
-  // 自分の1on1履歴・依頼履歴
-  const mySessions = getEmployeeOneOnOnes(empId);
-  const myRequests = getEmployeeOneOnOneRequests(empId);
-  const activeRequest = myRequests.find(
-    (r) => r.status === "pending" || r.status === "accepted" || r.status === "scheduled"
-  );
 
   const curLv = levels.find((l) => l.level === emp.career_level);
   const nextLv = levels.find((l) => l.level === emp.career_level + 1);
@@ -105,62 +96,6 @@ export default async function MyPage({
           <ConditionBtn icon={<Frown />} label={L.tired} color="bg-amber-50" />
           <ConditionBtn icon={<AlertCircle />} label={L.bad} color="bg-red-50" />
         </div>
-      </div>
-
-      {/* 1on1 面談依頼ボタン（現在進行中ならステータス表示） */}
-      <div className="card">
-        <div className="flex items-start justify-between gap-3">
-          <div>
-            <h2 className="font-bold flex items-center gap-2">
-              <MessageCircle size={18} /> {L.oneOnOne.title}
-            </h2>
-            <p className="text-xs text-slate-500 mt-1">{L.oneOnOne.subtitle}</p>
-          </div>
-        </div>
-        {activeRequest ? (
-          <div className="mt-3 bg-amber-50 border border-amber-200 rounded-xl p-3">
-            <div className="flex items-center justify-between">
-              <Badge className={REQUEST_STATUS_STYLE[activeRequest.status]}>
-                {REQUEST_STATUS_LABEL[activeRequest.status]}
-              </Badge>
-              <span className="text-xs text-slate-500">
-                {formatDate(activeRequest.requested_at.slice(0, 10))} 申請
-              </span>
-            </div>
-            <div className="mt-2 text-sm font-medium">
-              {activeRequest.topic_label}
-            </div>
-            {activeRequest.scheduled_at && (
-              <div className="mt-2 text-sm text-amber-700 flex items-center gap-1">
-                <Clock size={14} /> {L.oneOnOne.scheduledAt}: <b>{formatDate(activeRequest.scheduled_at)}</b>
-                {activeRequest.assigned_mentor && ` / ${activeRequest.assigned_mentor}`}
-              </div>
-            )}
-          </div>
-        ) : (
-          <button className="mt-3 w-full bg-gradient-to-r from-brand-500 to-brand-700 text-white rounded-xl py-3 font-bold text-base hover:scale-[1.02] transition-transform">
-            💬 {L.oneOnOne.requestCta}
-          </button>
-        )}
-
-        {mySessions.length > 0 && (
-          <div className="mt-4 pt-3 border-t">
-            <div className="text-xs text-slate-500 mb-2">{L.oneOnOne.history}</div>
-            <div className="space-y-1">
-              {mySessions.slice(0, 3).map((s) => (
-                <div
-                  key={s.id}
-                  className="flex items-center justify-between text-xs py-1"
-                >
-                  <span>
-                    {formatDate(s.meeting_date)} / {s.mentor_name}
-                  </span>
-                  <span className="text-slate-400">{s.duration_min}分</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
 
       {/* キャリア進捗 */}
@@ -310,13 +245,6 @@ function rankJlpt(l: string): number {
 const texts = {
   ja: {
     hello: "おはようございます。",
-    oneOnOne: {
-      title: "1on1 面談",
-      subtitle: "困ったことがあれば気軽に相談を。",
-      requestCta: "面談をリクエスト",
-      scheduledAt: "予定日",
-      history: "過去の面談",
-    },
     conditionQuestion: "今日の調子は？",
     great: "絶好調",
     ok: "普通",
@@ -342,13 +270,6 @@ const texts = {
   },
   id: {
     hello: "Selamat pagi!",
-    oneOnOne: {
-      title: "Sesi 1on1",
-      subtitle: "Ada kesulitan? Jangan ragu untuk konsultasi.",
-      requestCta: "Minta sesi 1on1",
-      scheduledAt: "Jadwal",
-      history: "Riwayat sesi",
-    },
     conditionQuestion: "Bagaimana kondisi Anda hari ini?",
     great: "Sangat baik",
     ok: "Biasa",
@@ -374,13 +295,6 @@ const texts = {
   },
   vi: {
     hello: "Chào buổi sáng!",
-    oneOnOne: {
-      title: "1on1",
-      subtitle: "Có khó khăn? Hãy thoải mái trao đổi.",
-      requestCta: "Yêu cầu 1on1",
-      scheduledAt: "Lịch hẹn",
-      history: "Lịch sử 1on1",
-    },
     conditionQuestion: "Hôm nay bạn thế nào?",
     great: "Rất tốt",
     ok: "Bình thường",

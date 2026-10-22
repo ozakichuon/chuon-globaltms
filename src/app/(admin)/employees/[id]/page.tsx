@@ -9,11 +9,8 @@ import {
   findEmployeeById,
   getEmployeeAssignments,
   getEmployeeCertifications,
-  getEmployeeOneOnOneRequests,
-  getEmployeeOneOnOnes,
   getEmployeeSupportTickets,
 } from "@/lib/excel-data";
-import { MOOD_EMOJI, REQUEST_STATUS_LABEL, REQUEST_STATUS_STYLE } from "@/lib/one-on-one-labels";
 import {
   ageAt,
   alertColor,
@@ -64,8 +61,6 @@ export default async function EmployeeDetailPage({
   const supportTickets = getEmployeeSupportTickets(id);
   const myCerts = getEmployeeCertifications(id);
   const dormAssigns = getEmployeeAssignments(id);
-  const oneOnOnes = getEmployeeOneOnOnes(id);
-  const oneOnOneRequests = getEmployeeOneOnOneRequests(id);
 
   const myAttendance = attendance
     .filter((a) => a.employee_id === id)
@@ -326,48 +321,6 @@ export default async function EmployeeDetailPage({
                     </span>
                   </div>
                 ))}
-              </div>
-            </section>
-          )}
-
-          {/* 1on1履歴 */}
-          {(oneOnOnes.length > 0 || oneOnOneRequests.length > 0) && (
-            <section className="card">
-              <h3 className="font-bold flex items-center gap-2">
-                1on1 面談 ({oneOnOnes.length})
-              </h3>
-              {oneOnOneRequests.filter((r) => r.status !== "completed" && r.status !== "cancelled").slice(0, 2).map((r) => (
-                <div key={r.id} className="mt-3 bg-amber-50 border border-amber-200 rounded-lg p-2 text-xs">
-                  <div className="flex items-center justify-between">
-                    <span className="font-medium">📩 依頼中</span>
-                    <Badge className={REQUEST_STATUS_STYLE[r.status]}>
-                      {REQUEST_STATUS_LABEL[r.status]}
-                    </Badge>
-                  </div>
-                  <div className="mt-1 text-slate-700">{r.topic_label}</div>
-                </div>
-              ))}
-              <div className="mt-3 space-y-2">
-                {oneOnOnes.slice(0, 3).map((s) => (
-                  <Link
-                    key={s.id}
-                    href={`/one-on-ones/${s.id}`}
-                    className="block bg-slate-50 hover:bg-slate-100 rounded-lg p-2 text-xs transition-colors"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="font-medium">
-                        {formatDate(s.meeting_date)} × {s.mentor_name}
-                      </span>
-                      <span>{MOOD_EMOJI[s.mood]}</span>
-                    </div>
-                    <div className="mt-0.5 text-slate-600 truncate">{s.summary}</div>
-                  </Link>
-                ))}
-                {oneOnOnes.length > 3 && (
-                  <div className="text-xs text-slate-500 text-center">
-                    他 {oneOnOnes.length - 3} 回
-                  </div>
-                )}
               </div>
             </section>
           )}

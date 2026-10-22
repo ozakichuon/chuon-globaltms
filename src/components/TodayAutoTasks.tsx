@@ -1,5 +1,5 @@
 import { getVisaAlerts, getTopOvertimeCurrentMonth } from "@/lib/data";
-import { excelSupportTickets, excelOneOnOneRequests } from "@/lib/excel-data";
+import { excelSupportTickets } from "@/lib/excel-data";
 import { CheckCircle2, AlertCircle, Clock, MessageSquare, FileWarning } from "lucide-react";
 import Link from "next/link";
 
@@ -109,23 +109,6 @@ export async function TodayAutoTasks() {
           未対応のサポートチケットが{" "}
           <Link href="/support" className="underline hover:text-amber-800">
             {notStarted.length}件
-          </Link>
-        </>
-      ),
-    });
-  }
-
-  // 1on1リクエスト未対応
-  const pendingOnOnOne = excelOneOnOneRequests.filter((r) => r.status === "pending");
-  if (pendingOnOnOne.length > 0) {
-    tasks.push({
-      level: "info",
-      icon: <MessageSquare size={15} />,
-      text: (
-        <>
-          1on1リクエストが未対応{" "}
-          <Link href="/one-on-ones" className="underline hover:text-blue-800">
-            {pendingOnOnOne.length}件
           </Link>
         </>
       ),
