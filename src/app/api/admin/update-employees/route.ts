@@ -239,6 +239,17 @@ export async function POST(req: Request) {
       });
     }
 
+    // 管理表にフィルターが掛かっていると表示行だけが返り、退職者などが消えるため上書きを中止する
+    try {
+      const existingCount = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src/lib/data/employees.json"), "utf-8")).length;
+      if (existingCount >= 50 && employees.length < existingCount * 0.9) {
+        return NextResponse.json(
+          { error: `管理表の行数が${existingCount}件→${employees.length}件に大幅減少したため更新を中止しました。スプレッドシートのフィルターを解除してください` },
+          { status: 409 }
+        );
+      }
+    } catch {}
+
     const now = new Date().toISOString();
     if (process.env.VERCEL) {
       await commitFilesToGitHub([
