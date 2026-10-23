@@ -10298,6 +10298,16 @@
         "img2": "/appsheet/rireki_photo/310.対応画像１－２.074400.jpg",
         "img2_url": "https://drive.google.com/thumbnail?id=15JkmHmqo9iZw6JPxfCCaDe7BgfNGUD9S&sz=w800",
         "note": "シンガー調整すれば、鍵が動くがぐらぐらのため、ドア内部がだめのようなので、大東建託に連絡。10/23、10時対応予定"
+      },
+      {
+        "date": "2026/10/23",
+        "time": "11:50:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "ドア内部を修理し完了。大東建託岡崎、業者にて対応"
       }
     ],
     "overall_note": null
@@ -10372,7 +10382,7 @@
     "target_employee_id": null,
     "place": "アトム402",
     "kind": "修理",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/313.登録画像１－１.012449.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1k-NUkVR20xl2Lbt-p74wpl3HoPXdfb-j&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/313.登録画像１－２.012449.jpg",
@@ -10388,6 +10398,16 @@
         "img2": null,
         "img2_url": null,
         "note": "光ケーブル断線のため、修理対応"
+      },
+      {
+        "date": "2026/10/21",
+        "time": "10:29:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/313.対応画像２ー１.213115.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1Ew4Y6khsBGAq1rJTHus_tK_ZIQ6subrn&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "７０４、８０５設置時に依頼し、無償で対応していただいた"
       }
     ],
     "overall_note": null
