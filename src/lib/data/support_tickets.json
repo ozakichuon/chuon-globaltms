@@ -9745,7 +9745,7 @@
     "target_employee_id": "07018633",
     "place": "西条寮",
     "kind": "病院",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": "/appsheet/rireki_photo/294.登録画像１－１.015319.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1Z1MUBmkyA0knbESNBKGgaWSjJDStDWkK&sz=w800",
     "reg_img2": null,
@@ -9785,7 +9785,7 @@
     "target_employee_id": "07018605",
     "place": null,
     "kind": "病院",
-    "status": "対応中",
+    "status": "完了",
     "reg_img1": null,
     "reg_img1_url": null,
     "reg_img2": null,
@@ -10408,6 +10408,36 @@
         "img2": null,
         "img2_url": null,
         "note": "７０４、８０５設置時に依頼し、無償で対応していただいた"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "314",
+    "seq": 314,
+    "date": "2026/10/24",
+    "time": "14:21:27",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": null,
+    "kind": "購入",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/314.登録画像１－１.052244.jpg",
+    "reg_img1_url": null,
+    "reg_img2": "/appsheet/rireki_photo/314.登録画像１－２.052244.jpg",
+    "reg_img2_url": null,
+    "request_note": null,
+    "responses": [
+      {
+        "date": null,
+        "time": null,
+        "responder": null,
+        "img1": "/appsheet/rireki_photo/314.対応画像２ー１.052251.jpg",
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "携帯"
       }
     ],
     "overall_note": null
