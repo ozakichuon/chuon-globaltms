@@ -10441,5 +10441,24 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "315",
+    "seq": 315,
+    "date": "2026/10/27",
+    "time": "7:01:04",
+    "recorder": "尾崎",
+    "target_employee_code": "07018659",
+    "target_employee_id": "07018659",
+    "place": "中野２",
+    "kind": "修理",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/315.登録画像１－１.220241.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1WL0_hJXGfE7NNOoOLUFwgoU2H-poa3yK&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "サニアより、中野２のIHが使用できないと申し出あり",
+    "responses": [],
+    "overall_note": null
   }
 ]
