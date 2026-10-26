@@ -10424,9 +10424,9 @@
     "kind": "購入",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/314.登録画像１－１.052244.jpg",
-    "reg_img1_url": null,
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1OoIh6mQhQzrMg4gz0xY64oOhNk9QUadu&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/314.登録画像１－２.052244.jpg",
-    "reg_img2_url": null,
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1SkaYZrurCjSsCz8ojE-Q1dYGbNdc7aDM&sz=w800",
     "request_note": null,
     "responses": [
       {
@@ -10434,7 +10434,7 @@
         "time": null,
         "responder": null,
         "img1": "/appsheet/rireki_photo/314.対応画像２ー１.052251.jpg",
-        "img1_url": null,
+        "img1_url": "https://drive.google.com/thumbnail?id=17HDO07iUc0j2BFjP27Wl627lRlYmLOEc&sz=w800",
         "img2": null,
         "img2_url": null,
         "note": "携帯"
