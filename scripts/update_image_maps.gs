@@ -66,7 +66,7 @@ function updateImageMaps_(full) {
   }
   const kanriData = kanriSheet.getDataRange().getValues();
 
-  // support_img_map 対象: 列 AS〜BH (0-indexed: 44〜55)
+  // support_img_map 対象: 列 AU〜BF (0-indexed: 46〜57)
   const supportFilenames = new Set();
   // photo_map 対象: 列 F (0-indexed: 5)
   const photoFilenames = new Set();
@@ -76,7 +76,7 @@ function updateImageMaps_(full) {
     // 写真列 (photo_map)
     extractFilename(row[5], photoFilenames);
     // 書類列 (support_img_map)
-    for (let j = 44; j <= 55; j++) {
+    for (let j = 46; j <= 57; j++) {
       extractFilename(row[j], supportFilenames);
     }
   }
