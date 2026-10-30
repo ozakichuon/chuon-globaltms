@@ -4,6 +4,14 @@ import { useRef, useState } from "react";
 
 type Status = "idle" | "loading" | "ok" | "error";
 
+async function readJson(res: Response) {
+  try {
+    return await res.json();
+  } catch {
+    return { error: res.status === 413 ? "ファイルが大きすぎます（上限約4.5MB）" : `サーバーエラー (${res.status})` };
+  }
+}
+
 function EmployeesUpdateButton() {
   const [status, setStatus] = useState<Status>("idle");
   const [message, setMessage] = useState("");
@@ -13,7 +21,7 @@ function EmployeesUpdateButton() {
     setMessage("");
     try {
       const res = await fetch("/api/admin/update-employees", { method: "POST" });
-      const data = await res.json();
+      const data = await readJson(res);
       if (!res.ok || data.error) {
         setStatus("error");
         setMessage(data.error ?? "エラーが発生しました");
@@ -71,7 +79,7 @@ function OvertimeUpdateButton() {
       const formData = new FormData();
       formData.append("pdf", file);
       const res = await fetch("/api/admin/update-overtime", { method: "POST", body: formData });
-      const data = await res.json();
+      const data = await readJson(res);
       if (!res.ok || data.error) {
         setStatus("error");
         setMessage(data.error ?? "エラーが発生しました");
@@ -130,7 +138,7 @@ function DeployButton() {
     setMessage("");
     try {
       const res = await fetch("/api/admin/deploy", { method: "POST" });
-      const data = await res.json();
+      const data = await readJson(res);
       if (!res.ok || data.error) {
         setStatus("error");
         setMessage(data.error ?? "エラーが発生しました");
