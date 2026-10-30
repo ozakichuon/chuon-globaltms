@@ -1296,22 +1296,6 @@
     "gender": "男"
   },
   {
-    "id": "19559400-1955-5955-995594-195594001955",
-    "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
-    "dormitory_name": "アトム",
-    "room_id": "6c325eea-6c32-5c32-ac325e-6c325eea6c32",
-    "room_no": "402",
-    "resident_name": "ファム ヒュー タン",
-    "employee_id": "19559400-1955-5955-995594-195594001955",
-    "employee_code": "08001402",
-    "photo_url": "https://drive.google.com/thumbnail?id=18cCOYVjHy9DaFmEObKm4hn6QyutLYBEi&sz=w800",
-    "rent_burden": null,
-    "workplace": "本社",
-    "nationality": "ベトナム",
-    "visa_type": "技能実習2号",
-    "gender": "男"
-  },
-  {
     "id": "a809a044-a809-5809-a809a0-a809a044a809",
     "dormitory_id": "025736f7-85cb-427e-8699-f58a9f2b4f54",
     "dormitory_name": "アトム",
