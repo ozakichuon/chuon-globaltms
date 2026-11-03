@@ -10427,7 +10427,7 @@
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1OoIh6mQhQzrMg4gz0xY64oOhNk9QUadu&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/314.登録画像１－２.052244.jpg",
     "reg_img2_url": "https://drive.google.com/thumbnail?id=1SkaYZrurCjSsCz8ojE-Q1dYGbNdc7aDM&sz=w800",
-    "request_note": null,
+    "request_note": "ロニ、ラフマド、アルディ、アディ",
     "responses": [
       {
         "date": null,
@@ -10507,7 +10507,18 @@
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "夫が仙波組で特定技能生として就職している。仙波組様のご厚意により、アパートを借りてもらえたので夫と住みたいとのこと。詳しい引越日などは仙波組　上岡様と協議する",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/11/02",
+        "time": null,
+        "responder": "池内",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "11/7引越し"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -10565,6 +10576,36 @@
     "reg_img2_url": null,
     "request_note": "手の診断書による相談",
     "responses": [],
+    "overall_note": null
+  },
+  {
+    "id": "321",
+    "seq": 321,
+    "date": "2026/11/02",
+    "time": "17:00:00",
+    "recorder": "尾崎",
+    "target_employee_code": null,
+    "target_employee_id": null,
+    "place": "西条寮",
+    "kind": "購入",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/321.登録画像１－１.080138.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1hg8qTJveevifcqDrTVjl-wwrzFpZBnkS&sz=w800",
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "布団、40組購入",
+    "responses": [
+      {
+        "date": "2026/11/02",
+        "time": "10:00:00",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "11/14土曜日13:30西条納品"
+      }
+    ],
     "overall_note": null
   }
 ]
