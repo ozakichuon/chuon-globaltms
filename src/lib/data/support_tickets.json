@@ -10550,13 +10550,34 @@
     "target_employee_id": "07018640",
     "place": null,
     "kind": "紛失",
-    "status": "申請中",
-    "reg_img1": "/appsheet/rireki_photo/319.登録画像１－１.101739.jpg",
-    "reg_img1_url": "https://drive.google.com/thumbnail?id=1Kce5Qd1IdrfJmN8ujgtFxREZhUjaxpSS&sz=w800",
+    "status": "完了",
+    "reg_img1": "/appsheet/rireki_photo/319.登録画像１－１.013408.jpg",
+    "reg_img1_url": null,
     "reg_img2": null,
     "reg_img2_url": null,
     "request_note": "ヒクマル自転車盗難。11/1 12:30頃に牛渕団地駅に施錠せずに停めた。19:00頃に戻ってきたら自転車が無くなっていた。警察にはまだ届けていないとのこと",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/11/02",
+        "time": null,
+        "responder": "池内",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "11/2　東温市役所の近くの重信交番にて被害届提出。"
+      },
+      {
+        "date": "2026/11/04",
+        "time": null,
+        "responder": "池内",
+        "img1": "/appsheet/rireki_photo/319.対応画像２ー１.013408.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/319.対応画像２－２.013408.jpg",
+        "img2_url": null,
+        "note": "11/2　18：30～19:00頃、ヒクマルとイルハムが自転車を探しに牛渕団地前駅へ向かう道中に乗り捨てられているヒクマルの自転車を発見した。11/4に南署にて車体番号の照合をしたところヒクマルの自転車と一致。再度、重信交番にて手続き済。防犯登録番号は削らている。荷台折り曲げ。鍵は根元から折られていてかなり悪質"
+      }
+    ],
     "overall_note": null
   },
   {
@@ -10644,6 +10665,96 @@
         "img2": null,
         "img2_url": null,
         "note": "自宅へ"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "323",
+    "seq": 323,
+    "date": "2026/10/09",
+    "time": "16:10:10",
+    "recorder": "丹下",
+    "target_employee_code": "07038700",
+    "target_employee_id": "07038700",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": null,
+    "responses": [
+      {
+        "date": "2026/10/09",
+        "time": "11:00:00",
+        "responder": "丹下",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "妊娠キットで陽性が出たため、病院へ診察"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "324",
+    "seq": 324,
+    "date": "2026/09/29",
+    "time": "16:17:51",
+    "recorder": "丹下",
+    "target_employee_code": "07038603",
+    "target_employee_id": "07038603",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": null,
+    "responses": [
+      {
+        "date": "2026/09/29",
+        "time": "9:00:00",
+        "responder": "丹下",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "前日にめまい、吐き気、頭痛がするため診察。診察後、めまい症"
+      }
+    ],
+    "overall_note": null
+  },
+  {
+    "id": "325",
+    "seq": 325,
+    "date": "2026/11/04",
+    "time": "16:19:58",
+    "recorder": "丹下",
+    "target_employee_code": "07038603",
+    "target_employee_id": "07038603",
+    "place": null,
+    "kind": "病院",
+    "status": "完了",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": null,
+    "responses": [
+      {
+        "date": "2026/11/04",
+        "time": "15:30:00",
+        "responder": "丹下",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "目が痛い頭痛がするため病院へ。診察後、コンタクトがあっていないと診察された。度数をさげるなど提案された。"
       }
     ],
     "overall_note": null
