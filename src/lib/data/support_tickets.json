@@ -10905,5 +10905,24 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "332",
+    "seq": 332,
+    "date": "2026/11/07",
+    "time": "13:39:31",
+    "recorder": "尾崎",
+    "target_employee_code": "07013615",
+    "target_employee_id": "07013615",
+    "place": null,
+    "kind": "妊娠",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/332.登録画像１－１.044114.jpg",
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1XB7GpSOgHgfrGN8YRY9KQjprz4B7BsTQ&sz=w800",
+    "reg_img2": "/appsheet/rireki_photo/332.登録画像１－２.044114.jpg",
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1nicOK2Rz9YauLsKMNCIAEFR_-94sBera&sz=w800",
+    "request_note": "妊娠陽性の連絡あり。14日に産婦人科行く予定。大西さんにLINE済",
+    "responses": [],
+    "overall_note": null
   }
 ]
