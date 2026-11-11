@@ -10943,5 +10943,35 @@
     "request_note": "マシトより妊娠したとの報告。今後について話す予定",
     "responses": [],
     "overall_note": null
+  },
+  {
+    "id": "334",
+    "seq": 334,
+    "date": "2026/11/11",
+    "time": "14:24:23",
+    "recorder": "尾崎",
+    "target_employee_code": "07018658",
+    "target_employee_id": "07018658",
+    "place": null,
+    "kind": "問合せ",
+    "status": "完了",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "10/2の出勤について問い合わせについて問い合わせあり。出勤も退勤も打こくがないので、誰か証明する必要がある。",
+    "responses": [
+      {
+        "date": "2026/11/11",
+        "time": "14:27:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/334.対応画像１ー１.052901.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=12yiebrT9KsxcgNX1cqxDSawCFXNPIcyF&sz=w800",
+        "img2": null,
+        "img2_url": null,
+        "note": "大西さんより連絡があり、10/24で、8-17時にて通常出勤にて処理"
+      }
+    ],
+    "overall_note": null
   }
 ]
