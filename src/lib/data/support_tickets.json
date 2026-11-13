@@ -10916,13 +10916,24 @@
     "target_employee_id": "07013615",
     "place": null,
     "kind": "妊娠",
-    "status": "申請中",
+    "status": "対応中",
     "reg_img1": "/appsheet/rireki_photo/332.登録画像１－１.044114.jpg",
     "reg_img1_url": "https://drive.google.com/thumbnail?id=1XB7GpSOgHgfrGN8YRY9KQjprz4B7BsTQ&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/332.登録画像１－２.044114.jpg",
     "reg_img2_url": "https://drive.google.com/thumbnail?id=1nicOK2Rz9YauLsKMNCIAEFR_-94sBera&sz=w800",
     "request_note": "妊娠陽性の連絡あり。14日に産婦人科行く予定。大西さんにLINE済",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/11/12",
+        "time": "12:11:06",
+        "responder": "尾崎",
+        "img1": null,
+        "img1_url": null,
+        "img2": null,
+        "img2_url": null,
+        "note": "子供は帰国して産む予定。３月頃退職して帰国予定。夫はそのまま、中温で働くとのこと"
+      }
+    ],
     "overall_note": null
   },
   {
