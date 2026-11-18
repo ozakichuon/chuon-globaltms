@@ -114,43 +114,47 @@ export default async function DeparturesPage({
     }));
   }
 
-  function hasActiveTrip(from: string | null, to: string | null): boolean {
-    const trips = parseTripDates(from, to);
-    return trips.some(({ from: f, to: t }) => {
-      const toDate = t ? new Date(t.replace(/\//g, "-")) : null;
-      const fromDate = f ? new Date(f.replace(/\//g, "-")) : null;
-      if (toDate) return toDate >= threeDaysAgo;
-      if (fromDate) return fromDate >= threeDaysAgo;
-      return false;
-    });
+  const toDateObj = (s: string | null) => (s ? new Date(s.replace(/\//g, "-")) : null);
+
+  // 予定=出発前 / 帰国中=出発後〜帰任日 / 帰国確認=帰任日から3日間 / 済=それ以降
+  type TripStatus = "予定" | "帰国中" | "帰国確認" | "済";
+  function tripStatus(f: string | null, t: string | null): TripStatus {
+    const fromDate = toDateObj(f);
+    const toDate = toDateObj(t);
+    if (fromDate && fromDate > now) return "予定";
+    if (!toDate || toDate >= now) return "帰国中";
+    if (toDate >= threeDaysAgo) return "帰国確認";
+    return "済";
   }
 
+  const TRIP_STATUS_STYLE: Record<TripStatus, string> = {
+    予定: "bg-sky-100 text-sky-700 border border-sky-200",
+    帰国中: "bg-amber-100 text-amber-700 border border-amber-200",
+    帰国確認: "bg-violet-100 text-violet-700 border border-violet-200",
+    済: "bg-emerald-100 text-emerald-700 border border-emerald-200",
+  };
+
+  // 一時帰国（直近12ヶ月＋今後の予定）。出発日の新しい順
+  const tripSortKey = (t: { from: string | null; to: string | null }) =>
+    (toDateObj(t.from) ?? toDateObj(t.to))?.getTime() ?? 0;
+
   const tempReturns = excelEmployees
-    .filter((e) => !e.retired && matchSite(e.workplace, site) && hasActiveTrip(e.temporary_return_from, e.temporary_return_to))
-    .sort((a, b) => {
-      const aTrips = parseTripDates(a.temporary_return_from, a.temporary_return_to);
-      const bTrips = parseTripDates(b.temporary_return_from, b.temporary_return_to);
-      const aFirst = aTrips[0]?.from ?? "";
-      const bFirst = bTrips[0]?.from ?? "";
-      return aFirst.localeCompare(bFirst);
-    });
-
-  // 帰国中（fromDate <= now && toDate >= now）の人数
-  const ongoingCount = tempReturns.filter((e) =>
-    parseTripDates(e.temporary_return_from, e.temporary_return_to).some(({ from: f, to: t }) => {
-      const fromDate = f ? new Date(f.replace(/\//g, "-")) : null;
-      const toDate = t ? new Date(t.replace(/\//g, "-")) : null;
-      return fromDate && fromDate <= now && (!toDate || toDate >= now);
+    .filter((e) => !e.retired && matchSite(e.workplace, site))
+    .map((e) => {
+      const trips = parseTripDates(e.temporary_return_from, e.temporary_return_to)
+        .filter((t) => t.from || t.to)
+        .filter((t) => {
+          const d = toDateObj(t.to) ?? toDateObj(t.from);
+          return d !== null && d >= oneYearAgo;
+        })
+        .sort((a, b) => tripSortKey(b) - tripSortKey(a));
+      return { e, trips };
     })
-  ).length;
+    .filter((x) => x.trips.length > 0)
+    .sort((a, b) => tripSortKey(b.trips[0]) - tripSortKey(a.trips[0]));
 
-  // 一時帰国予定（fromDate > now）の人数
-  const upcomingCount = tempReturns.filter((e) =>
-    parseTripDates(e.temporary_return_from, e.temporary_return_to).some(({ from: f }) => {
-      const fromDate = f ? new Date(f.replace(/\//g, "-")) : null;
-      return fromDate && fromDate > now;
-    })
-  ).length;
+  const ongoingCount = tempReturns.filter(({ trips }) => trips.some((t) => tripStatus(t.from, t.to) === "帰国中")).length;
+  const upcomingCount = tempReturns.filter(({ trips }) => trips.some((t) => tripStatus(t.from, t.to) === "予定")).length;
 
   return (
     <div className="space-y-8">
@@ -347,7 +351,7 @@ export default async function DeparturesPage({
         <section className="card">
           <h2 className="font-bold flex items-center gap-2">
             <CalendarClock size={16} className="text-indigo-500" />
-            一時帰国
+            一時帰国（直近12ヶ月）
             <span className="text-sm text-slate-500 font-normal">{tempReturns.length}名</span>
           </h2>
           <div className="mt-4 overflow-x-auto">
@@ -364,8 +368,7 @@ export default async function DeparturesPage({
                 </tr>
               </thead>
               <tbody>
-                {tempReturns.map((e) => {
-                  const trips = parseTripDates(e.temporary_return_from, e.temporary_return_to);
+                {tempReturns.map(({ e, trips }) => {
                   return (
                     <tr key={e.id} className="border-b last:border-0 hover:bg-slate-50">
                       <td className="py-2.5 px-2 font-mono text-xs">{e.employee_code}</td>
@@ -394,19 +397,10 @@ export default async function DeparturesPage({
                       <td className="py-2.5 px-2">
                         <div className="flex flex-col gap-1">
                           {trips.map((t, i) => {
-                            const fromDate = t.from ? new Date(t.from.replace(/\//g, "-")) : null;
-                            const toDate = t.to ? new Date(t.to.replace(/\//g, "-")) : null;
-                            const isOngoing = fromDate && fromDate <= now && (!toDate || toDate >= now);
-                            const isUpcoming = fromDate && fromDate > now;
+                            const st = tripStatus(t.from, t.to);
                             return (
                               <span key={i}>
-                                {isOngoing ? (
-                                  <Badge className="bg-indigo-100 text-indigo-700 border border-indigo-200">帰国中</Badge>
-                                ) : isUpcoming ? (
-                                  <Badge className="bg-sky-100 text-sky-700 border border-sky-200">予定</Badge>
-                                ) : (
-                                  <Badge className="bg-slate-100 text-slate-500 border border-slate-200">完了</Badge>
-                                )}
+                                <Badge className={TRIP_STATUS_STYLE[st]}>{st}</Badge>
                               </span>
                             );
                           })}
