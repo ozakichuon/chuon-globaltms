@@ -23,6 +23,52 @@ function fetchGviz(sheetName: string): Promise<any> {
   });
 }
 
+const KANRI_GID = "1010236679";
+
+function parseCsv(text: string): string[][] {
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let cur = "";
+  let quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (quoted) {
+      if (ch === '"') {
+        if (text[i + 1] === '"') { cur += '"'; i++; } else quoted = false;
+      } else cur += ch;
+    } else if (ch === '"') quoted = true;
+    else if (ch === ",") { row.push(cur); cur = ""; }
+    else if (ch === "\n" || ch === "\r") {
+      if (ch === "\r" && text[i + 1] === "\n") i++;
+      row.push(cur); rows.push(row); row = []; cur = "";
+    } else cur += ch;
+  }
+  if (cur !== "" || row.length) { row.push(cur); rows.push(row); }
+  return rows;
+}
+
+// gvizは日付型の列で複数行（改行区切りの複数日付）のセルを空にして返すため、一時帰国From/Toだけシート書き出しのCSVから取得する
+async function fetchTripsByCode(): Promise<Record<string, { from: string; to: string }>> {
+  try {
+    const res = await fetch(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${KANRI_GID}`);
+    if (!res.ok) return {};
+    const rows = parseCsv((await res.text()).replace(/^﻿/, ""));
+    const header = rows[0] ?? [];
+    const iCode = header.indexOf("社員コード");
+    const iFrom = header.indexOf("一時帰国From");
+    const iTo = header.indexOf("一時帰国To");
+    if (iCode < 0 || iFrom < 0 || iTo < 0) return {};
+    const map: Record<string, { from: string; to: string }> = {};
+    for (const r of rows.slice(1)) {
+      const code = (r[iCode] ?? "").trim();
+      if (code) map[code] = { from: (r[iFrom] ?? "").trim(), to: (r[iTo] ?? "").trim() };
+    }
+    return map;
+  } catch {
+    return {};
+  }
+}
+
 function v(cell: any) { return cell ? (cell.v !== undefined && cell.v !== null ? cell.v : "") : ""; }
 function s(cell: any) { return cell ? (cell.f || String(cell.v ?? "")) : ""; }
 function imgUrl(p: string | null, driveMap: Record<string, string>): string | null {
@@ -105,11 +151,12 @@ export async function POST(req: Request) {
   }
 
   try {
-    const [empTable, photoTable, imgMapTable, tickTable] = await Promise.all([
+    const [empTable, photoTable, imgMapTable, tickTable, tripsByCode] = await Promise.all([
       fetchGviz("管理表"),
       fetchGviz("photo_map"),
       fetchGviz("support_img_map"),
       fetchGviz("履歴"),
+      fetchTripsByCode(),
     ]);
 
     // support_img_map
@@ -158,8 +205,8 @@ export async function POST(req: Request) {
         residence_card_no: s(c[23]) || null, residence_card_expires_at: s(c[21]) || null,
         employment_insurance_no: null, jlpt_level: s(c[29]) || null, department_head: null,
         temporary_retirement_date: s(c[31]) || null,
-        temporary_return_from: s(c[32]) || null,
-        temporary_return_to: s(c[33]) || null,
+        temporary_return_from: tripsByCode[code]?.from || s(c[32]) || null,
+        temporary_return_to: tripsByCode[code]?.to || s(c[33]) || null,
         rejoined: s(c[34]) || null,
         retired: retireStatus.trim() === "退職", retired_mark: retireStatus || null,
         retired_at: s(c[36]) || null, return_cost: null, ss1_insurance: null,

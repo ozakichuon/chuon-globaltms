@@ -4,6 +4,7 @@ import { Badge } from "@/components/Badge";
 import { formatDate, tenureString, nationalityFlag } from "@/lib/utils";
 import { visaLabel } from "@/lib/labels";
 import Link from "next/link";
+import { TripSortSelect } from "@/components/TripSortSelect";
 import { PlaneTakeoff, LogOut, Clock, CalendarClock } from "lucide-react";
 
 export const dynamic = "force-dynamic";
@@ -56,10 +57,11 @@ function matchSite(workplace: string | null | undefined, site: string): boolean 
 export default async function DeparturesPage({
   searchParams,
 }: {
-  searchParams?: Promise<{ site?: string }>;
+  searchParams?: Promise<{ site?: string; tripSort?: string }>;
 }) {
   const params = await searchParams;
   const site = params?.site ?? "";
+  const tripSort = ["from_desc", "from_asc", "to_desc", "to_asc"].includes(params?.tripSort ?? "") ? params!.tripSort! : "from_desc";
   const now = new Date();
   const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
 
@@ -134,9 +136,11 @@ export default async function DeparturesPage({
     済: "bg-emerald-100 text-emerald-700 border border-emerald-200",
   };
 
-  // 一時帰国（直近12ヶ月＋今後の予定）。出発日の新しい順
+  // 一時帰国（直近12ヶ月＋今後の予定）。出発/帰任の昇順・降順をプルダウンで切替
+  const [sortField, sortDir] = tripSort.split("_") as ["from" | "to", "asc" | "desc"];
+  const dirMul = sortDir === "asc" ? 1 : -1;
   const tripSortKey = (t: { from: string | null; to: string | null }) =>
-    (toDateObj(t.from) ?? toDateObj(t.to))?.getTime() ?? 0;
+    (sortField === "to" ? toDateObj(t.to) ?? toDateObj(t.from) : toDateObj(t.from) ?? toDateObj(t.to))?.getTime() ?? 0;
 
   const tempReturns = excelEmployees
     .filter((e) => !e.retired && matchSite(e.workplace, site))
@@ -147,11 +151,11 @@ export default async function DeparturesPage({
           const d = toDateObj(t.to) ?? toDateObj(t.from);
           return d !== null && d >= oneYearAgo;
         })
-        .sort((a, b) => tripSortKey(b) - tripSortKey(a));
+        .sort((a, b) => dirMul * (tripSortKey(a) - tripSortKey(b)));
       return { e, trips };
     })
     .filter((x) => x.trips.length > 0)
-    .sort((a, b) => tripSortKey(b.trips[0]) - tripSortKey(a.trips[0]));
+    .sort((a, b) => dirMul * (tripSortKey(a.trips[0]) - tripSortKey(b.trips[0])));
 
   const ongoingCount = tempReturns.filter(({ trips }) => trips.some((t) => tripStatus(t.from, t.to) === "帰国中")).length;
   const upcomingCount = tempReturns.filter(({ trips }) => trips.some((t) => tripStatus(t.from, t.to) === "予定")).length;
@@ -349,11 +353,14 @@ export default async function DeparturesPage({
       {/* 一時帰国 */}
       {tempReturns.length > 0 && (
         <section className="card">
-          <h2 className="font-bold flex items-center gap-2">
-            <CalendarClock size={16} className="text-indigo-500" />
-            一時帰国（直近12ヶ月）
-            <span className="text-sm text-slate-500 font-normal">{tempReturns.length}名</span>
-          </h2>
+          <div className="flex items-center justify-between gap-3">
+            <h2 className="font-bold flex items-center gap-2">
+              <CalendarClock size={16} className="text-indigo-500" />
+              一時帰国（直近12ヶ月）
+              <span className="text-sm text-slate-500 font-normal">{tempReturns.length}名</span>
+            </h2>
+            <TripSortSelect value={tripSort} />
+          </div>
           <div className="mt-4 overflow-x-auto">
             <table className="w-full text-sm">
               <thead>

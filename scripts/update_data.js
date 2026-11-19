@@ -30,6 +30,45 @@ function fetchGviz(sheetName) {
   });
 }
 
+const KANRI_GID = '1010236679';
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [], cur = '', quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (quoted) {
+      if (ch === '"') { if (text[i + 1] === '"') { cur += '"'; i++; } else quoted = false; }
+      else cur += ch;
+    } else if (ch === '"') quoted = true;
+    else if (ch === ',') { row.push(cur); cur = ''; }
+    else if (ch === '\n' || ch === '\r') {
+      if (ch === '\r' && text[i + 1] === '\n') i++;
+      row.push(cur); rows.push(row); row = []; cur = '';
+    } else cur += ch;
+  }
+  if (cur !== '' || row.length) { row.push(cur); rows.push(row); }
+  return rows;
+}
+
+// gvizは日付型の列で複数行（改行区切りの複数日付）のセルを空にして返すため、一時帰国From/Toだけシート書き出しのCSVから取得する
+async function fetchTripsByCode() {
+  try {
+    const res = await fetch(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${KANRI_GID}`);
+    if (!res.ok) return {};
+    const rows = parseCsv((await res.text()).replace(/^﻿/, ''));
+    const header = rows[0] || [];
+    const iCode = header.indexOf('社員コード'), iFrom = header.indexOf('一時帰国From'), iTo = header.indexOf('一時帰国To');
+    if (iCode < 0 || iFrom < 0 || iTo < 0) return {};
+    const map = {};
+    for (const r of rows.slice(1)) {
+      const code = (r[iCode] || '').trim();
+      if (code) map[code] = { from: (r[iFrom] || '').trim(), to: (r[iTo] || '').trim() };
+    }
+    return map;
+  } catch { return {}; }
+}
+
 function v(cell) { return cell ? (cell.v !== undefined && cell.v !== null ? cell.v : '') : ''; }
 function s(cell) { return cell ? (cell.f || String(cell.v ?? '')) : ''; }
 
@@ -130,6 +169,7 @@ async function main() {
   // === 管理表 → employees.json ===
   console.log('管理表を取得中...');
   const empTable = await fetchGviz('管理表');
+  const tripsByCode = await fetchTripsByCode();
   const rows = empTable.rows;
 
   // photo_map シートから最新のphoto_urlを取得
@@ -181,8 +221,8 @@ async function main() {
       jlpt_level: s(c[29]) || null,
       department_head: null,
       temporary_retirement_date: s(c[31]) || null,
-      temporary_return_from: s(c[32]) || null,
-      temporary_return_to: s(c[33]) || null,
+      temporary_return_from: (tripsByCode[code] && tripsByCode[code].from) || s(c[32]) || null,
+      temporary_return_to: (tripsByCode[code] && tripsByCode[code].to) || s(c[33]) || null,
       rejoined: s(c[34]) || null,
       // 「退職」のみ退職扱い。一時退職・退職予定・一時帰国等はすべて在籍中(false)
       retired: retireStatus.trim() === '退職',
