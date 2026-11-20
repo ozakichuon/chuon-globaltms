@@ -11063,5 +11063,35 @@
     "request_note": null,
     "responses": [],
     "overall_note": null
+  },
+  {
+    "id": "337",
+    "seq": 337,
+    "date": "2026/11/20",
+    "time": "12:20:00",
+    "recorder": "尾崎",
+    "target_employee_code": "07013671",
+    "target_employee_id": "07013671",
+    "place": null,
+    "kind": "修理",
+    "status": "完了",
+    "reg_img1": null,
+    "reg_img1_url": null,
+    "reg_img2": null,
+    "reg_img2_url": null,
+    "request_note": "自転車の鍵が折れて取れない",
+    "responses": [
+      {
+        "date": "2026/11/20",
+        "time": "13:23:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/337.対応画像１ー１.072456.jpg",
+        "img1_url": "https://drive.google.com/thumbnail?id=1ACVvBY9_KPSYZapmINv-DK38ta78Sq9g&sz=w800",
+        "img2": "/appsheet/rireki_photo/337.対応画像１－２.072634.jpg",
+        "img2_url": "https://drive.google.com/thumbnail?id=1ulQ3Cr1ZtfFsq2kdwT-tN53QvEiwDQZW&sz=w800",
+        "note": "会社で購入した分の鍵（688円）と交換し、700円徴収"
+      }
+    ],
+    "overall_note": null
   }
 ]
