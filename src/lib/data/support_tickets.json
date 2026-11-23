@@ -11093,5 +11093,24 @@
       }
     ],
     "overall_note": null
+  },
+  {
+    "id": "338",
+    "seq": 338,
+    "date": "2026/11/23",
+    "time": "18:52:17",
+    "recorder": "尾崎",
+    "target_employee_code": "07018620",
+    "target_employee_id": "07018620",
+    "place": null,
+    "kind": "病院",
+    "status": "申請中",
+    "reg_img1": "/appsheet/rireki_photo/338.登録画像１－１.095337.jpg",
+    "reg_img1_url": null,
+    "reg_img2": "/appsheet/rireki_photo/338.登録画像１－２.095337.jpg",
+    "reg_img2_url": null,
+    "request_note": "手がいたく、病院へ行きたい",
+    "responses": [],
+    "overall_note": null
   }
 ]
