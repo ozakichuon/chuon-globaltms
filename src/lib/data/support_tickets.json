@@ -11106,11 +11106,22 @@
     "kind": "病院",
     "status": "申請中",
     "reg_img1": "/appsheet/rireki_photo/338.登録画像１－１.095337.jpg",
-    "reg_img1_url": null,
+    "reg_img1_url": "https://drive.google.com/thumbnail?id=1-wNBJ7ZzozWkXcPsswYSmz7AkLcxhZJb&sz=w800",
     "reg_img2": "/appsheet/rireki_photo/338.登録画像１－２.095337.jpg",
-    "reg_img2_url": null,
+    "reg_img2_url": "https://drive.google.com/thumbnail?id=1ssx0tpgZy05px24XbVlmZs76TBjCxp9y&sz=w800",
     "request_note": "手がいたく、病院へ行きたい",
-    "responses": [],
+    "responses": [
+      {
+        "date": "2026/11/24",
+        "time": "9:32:00",
+        "responder": "尾崎",
+        "img1": "/appsheet/rireki_photo/338.対応画像１ー１.003723.jpg",
+        "img1_url": null,
+        "img2": "/appsheet/rireki_photo/338.対応画像１－２.003723.jpg",
+        "img2_url": null,
+        "note": "バネ指とのこと。仕事を続けてもいいが、毎日、リハビリに18:30までに来るようにとのこと。痛み止と湿布を処方。１週間後に再度診察。"
+      }
+    ],
     "overall_note": null
   }
 ]
